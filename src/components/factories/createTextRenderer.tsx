@@ -8,7 +8,14 @@ const createTextRenderer = (
 
     return (
       <div className={className}>
-        {node.properties.content as string || ""}
+        {(node.properties.content as string || "").split('\n').flatMap((text, index) => {
+          if (index % 2 === 0) return text;
+
+          return [
+            <br />,
+            text
+          ]
+        })}
       </div>
     )
   }

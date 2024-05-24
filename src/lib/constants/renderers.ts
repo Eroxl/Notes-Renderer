@@ -1,6 +1,7 @@
 import createTextRenderer from "src/components/factories/createTextRenderer";
 import TextNode from "../types/TextNode";
 import Callout from "src/components/Callout";
+import Math from "src/components/Math";
 
 const renderers = {
   text: createTextRenderer('my-4'),
@@ -14,6 +15,8 @@ const renderers = {
   
   quote: createTextRenderer('border-l-2 border-nord-3 pl-3'),
   callout: Callout,
+
+  math: Math,
 } as Record<string, React.FC<{ node: TextNode }>>
 
 export default renderers;

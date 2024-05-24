@@ -16,7 +16,7 @@
     "dotenv": "^16.4.5",
     "front-matter": "^4.0.2",
     "lucide-react": "^0.379.0",
-    "mathjax-node": "^2.1.1",
+    "mathjax-full": "^3.2.2",
     "next": "^14.2.3",
     "postcss": "^8.4.38",
     "react": "^18.3.1",
@@ -26,7 +26,6 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "@types/mathjax-node": "^2.1.0",
     "@types/node": "^20.12.12",
     "@types/react": "18.3.3"
   }
