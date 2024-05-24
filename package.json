@@ -15,6 +15,7 @@
     "autoprefixer": "^10.4.19",
     "dotenv": "^16.4.5",
     "front-matter": "^4.0.2",
+    "lucide-react": "^0.379.0",
     "mathjax-node": "^2.1.1",
     "next": "^14.2.3",
     "postcss": "^8.4.38",
