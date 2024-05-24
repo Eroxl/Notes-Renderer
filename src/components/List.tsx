@@ -1,5 +1,6 @@
 import React from 'react';
 import TextNode from 'src/lib/types/TextNode';
+import Content from './Content';
 
 type ListProps = {
   node: TextNode,
@@ -9,16 +10,22 @@ const List: React.FC<ListProps> = (props) => {
   const { node } = props;
 
   return (
-    <ul>
+    <ul
+      className="list-disc list-inside pl-4 marker:text-[#4c566a]"
+    >
       <li>
-        {node.properties['content'] as string}
+        <Content textContent={node.properties['content'] as string} />;
       </li>
 
-      {
-        node.properties['subNodes'] && (node.properties['subNodes'] as TextNode[])?.map((subNode) => (
-          <List node={subNode} />
-        ))
-      }
+      <div
+        className="pl-4 ml-[0.23rem] w-min border-l border-[#4c566a]"
+      >
+        {
+          node.properties['subNodes'] && (node.properties['subNodes'] as TextNode[])?.map((subNode) => (
+            <List node={subNode} />
+          ))
+        }
+      </div>
     </ul>
   )
 };

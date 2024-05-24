@@ -17,12 +17,16 @@ const getEncompassingLinesLength = (
 ): number => {
   if (!lines[offset] || !lines[offset].length) return 0;
 
-  if (getIndentationLevel(lines[offset]) < indentationLevel) return 0;
+  if (getIndentationLevel(lines[offset]) <= indentationLevel) return 0;
 
   return getEncompassingLinesLength(lines, indentationLevel, offset + 1) + 1;
 }
 
-const getOffsetsOnNextIndentationLevel = (lines: string[], indentationLevel: number, offset: number): number[] => {
+const getOffsetsOnNextIndentationLevel = (
+  lines: string[],
+  indentationLevel: number,
+  offset: number=0
+): number[] => {
   if (!lines[offset] || !lines[offset].length) return [];
 
   if (getIndentationLevel(lines[offset]) !== indentationLevel) {
@@ -50,10 +54,10 @@ const parseListElement = (lines: string[], offset: number = 0): TextNode => {
   const encompassedLinesLength = getEncompassingLinesLength(lines, indentationLevel, offset + 1) + 1
 
   const childNodesOffsets = getOffsetsOnNextIndentationLevel(
-    lines.slice(offset, encompassedLinesLength),
+    lines.slice(offset+1, offset + encompassedLinesLength),
     getIndentationLevel(lines[offset + 1]),
-    offset+1,
-  );
+  )
+    .map((childOffset) => childOffset + offset + 1)
 
   return {
     properties: {
@@ -68,7 +72,7 @@ const parseList: Parser = (lines) => {
   if (!lines[0].startsWith("-")) return;
 
   const listLength = getContinousLines([/^\s+-/], lines, 1) + 1;
-
+  
   return {
     consumedLines: listLength,
     node: parseListElement(lines.slice(0, listLength)) as TextNode,

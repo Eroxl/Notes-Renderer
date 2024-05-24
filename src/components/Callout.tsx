@@ -1,5 +1,6 @@
 import TextNode from "src/lib/types/TextNode";
 import { LucideProps, Pencil, AlertTriangle } from 'lucide-react';
+import Content from "./Content";
 
 const calloutStyles = {
   note: {
@@ -38,7 +39,7 @@ const Callout: React.FC<{ node: TextNode}> = (props) => {
       </div>
 
       <div>
-        {node.properties['content'] as string}
+        <Content textContent={node.properties['content'] as string} />;
       </div>
     </div>
   )

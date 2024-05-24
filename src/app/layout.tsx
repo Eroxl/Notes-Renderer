@@ -12,7 +12,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
       <div className="bg-nord-1 w-64 h-screen">
         {/* TODO Navigation Bar */}
       </div>
-      <div className="w-full h-screen p-10 overflow-clip">
+      <div className="w-full h-screen p-10 overflow-hidden">
         {children}
       </div>
     </body>
