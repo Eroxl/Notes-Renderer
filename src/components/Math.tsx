@@ -23,7 +23,6 @@ const Math: React.FC<{ node: TextNode }> = async (props) => {
   const nodeDisplay = html.convert(`${mathJAXPreamble} ${node.properties.content as string}` || '', { display: true });
   const svgCode = adaptor.outerHTML(nodeDisplay);
 
-
   return (
     <div
       dangerouslySetInnerHTML={{ __html: svgCode }}

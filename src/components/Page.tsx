@@ -1,14 +1,16 @@
 import React from "react";
 import TextNode from "src/lib/types/TextNode";
 import TextBlock from "./TextBlock";
+import PageMetadata from "./PageMetadata";
 
 type PageProps = {
   title: string;
   content: TextNode[];
+  metadata?: Record<string, unknown>,
 };
 
 const Page: React.FC<PageProps> = (props) => {
-  const { title, content } = props;
+  const { title, content, metadata } = props;
 
   return (
     <div
@@ -19,6 +21,9 @@ const Page: React.FC<PageProps> = (props) => {
       >
         {title}
       </div>
+
+      {metadata && <PageMetadata metadata={metadata} />}
+
       <div className="pb-[200px]">
         {content.map((textNode) => (
           <TextBlock node={textNode} />

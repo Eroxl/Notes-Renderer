@@ -1,4 +1,4 @@
-import { getContinousLines } from "../getContinousLines";
+import getContinousLines from "../getContinousLines";
 import type Parser from "../types/Parser";
 
 const getCalloutMetadata = (header: string) => {

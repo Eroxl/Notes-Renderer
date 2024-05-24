@@ -31,11 +31,14 @@ const Note = ({ params }: { params: { pageName: string } }) => {
       />
     );
   }
+  
+  const [pageContent, pageMetadata] = getNoteContent(pagePath);
 
   return (
     <Page
       title={pageName.replaceAll('%20', ' ')}
-      content={getNoteContent(pagePath)}
+      content={pageContent}
+      metadata={pageMetadata}
     />
   );
 }

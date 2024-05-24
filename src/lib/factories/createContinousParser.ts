@@ -1,5 +1,5 @@
 import Parser from "../types/Parser";
-import { getContinousLines } from "../getContinousLines";
+import getContinousLines from "../getContinousLines";
 
 const createContinousParser = (
   allowedLines: RegExp[],

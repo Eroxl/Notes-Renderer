@@ -1,4 +1,4 @@
-export const getContinousLines = (
+const getContinousLines = (
   allowedLines: RegExp[],
   lines: string[],
   offset = 0
@@ -10,3 +10,5 @@ export const getContinousLines = (
 
   return 0;
 };
+
+export default getContinousLines;

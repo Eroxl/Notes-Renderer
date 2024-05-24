@@ -1,4 +1,5 @@
 import fs from 'fs';
+import fm from 'front-matter';
 
 import TextNode from "./types/TextNode";
 import Parser from './types/Parser';
@@ -6,6 +7,7 @@ import createSingleLineParser from './factories/createSingleLineParser';
 import createContinousParser from './factories/createContinousParser';
 import parseCallout from './parsers/parseCallout';
 import parseMath from './parsers/parseMath';
+import parseList from './parsers/parseList';
 
 const parsers: Parser[] = [
   createSingleLineParser(/^# /, 'h1'),
@@ -16,22 +18,27 @@ const parsers: Parser[] = [
   createSingleLineParser(/^###### /, 'h6'),
 
   createSingleLineParser(/^\%\%/, 'comment'),
+  createSingleLineParser(/^\^/, 'comment'),
 
   parseCallout,
   createContinousParser([/^>/], 'quote', 2),
 
   parseMath,
+  parseList,
 ];
 
-const getNoteContent = (notePath: string): TextNode[] => {
-  const content = fs.readFileSync(notePath)
-    .toString()
-    .split('\n');
+const getNoteContent = (notePath: string): [TextNode[], Record<string, unknown>] => {
+  const { attributes: metadata, body: content } = fm(
+    fs.readFileSync(notePath)
+      .toString()
+  );
+
+  const contentByLines = content.split('\n');
   
   const output: TextNode[] = []
 
-  for (let lineIndex = 0; lineIndex < content.length; lineIndex++) {
-    const availableContent = content.slice(lineIndex);
+  for (let lineIndex = 0; lineIndex < contentByLines.length; lineIndex++) {
+    const availableContent = contentByLines.slice(lineIndex);
     let didFindParser = false;
 
     for (let i = 0; i < parsers.length; i++) {
@@ -59,7 +66,10 @@ const getNoteContent = (notePath: string): TextNode[] => {
     })
   }
 
-  return output;
+  return [
+    output,
+    metadata as Record<string, unknown>
+  ];
 };
 
 export default getNoteContent;
