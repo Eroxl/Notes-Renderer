@@ -39,7 +39,7 @@ const Callout: React.FC<{ node: TextNode}> = (props) => {
       </div>
 
       <div>
-        <Content textContent={node.properties['content'] as string} />;
+        <Content textContent={node.properties['content'] as string} />
       </div>
     </div>
   )

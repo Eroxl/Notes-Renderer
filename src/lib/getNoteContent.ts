@@ -8,6 +8,7 @@ import createContinousParser from './factories/createContinousParser';
 import parseCallout from './parsers/parseCallout';
 import parseMath from './parsers/parseMath';
 import parseList from './parsers/parseList';
+import parseCodeblock from './parsers/parseCodeblock';
 
 const parsers: Parser[] = [
   createSingleLineParser(/^# /, 'h1'),
@@ -25,6 +26,7 @@ const parsers: Parser[] = [
 
   parseMath,
   parseList,
+  parseCodeblock,
 ];
 
 const getNoteContent = (notePath: string): [TextNode[], Record<string, unknown>] => {

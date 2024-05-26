@@ -14,7 +14,7 @@ const List: React.FC<ListProps> = (props) => {
       className="list-disc list-inside pl-4 marker:text-[#4c566a]"
     >
       <li>
-        <Content textContent={node.properties['content'] as string} />;
+        <Content textContent={node.properties['content'] as string} />
       </li>
 
       <div

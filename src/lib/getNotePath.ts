@@ -8,7 +8,7 @@ const pathCache = Object.fromEntries(
 );
 
 const getNotePath = (noteName: string): string | undefined => {
-  return pathCache[noteName.toLowerCase().replace('%20', ' ')];
+  return pathCache[noteName.toLowerCase().replaceAll('%20', ' ')];
 };
 
 export default getNotePath;

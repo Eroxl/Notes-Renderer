@@ -3,6 +3,7 @@ import TextNode from "../types/TextNode";
 import Callout from "src/components/Callout";
 import Math from "src/components/Math";
 import List from "src/components/List";
+import CodeBlock from "src/components/CodeBlock";
 
 const renderers = {
   text: createTextRenderer('my-4'),
@@ -14,11 +15,13 @@ const renderers = {
   h5: createTextRenderer('my-4 text-nord-9 font-semibold text-[0.875rem]'),
   h6: createTextRenderer('my-4 text-nord-15 text-[0.85rem]'),
   
-  quote: createTextRenderer('border-l-2 border-nord-3 pl-3'),
+  quote: createTextRenderer('border-l-2 border-nord-3 pl-3 text-[#9eafcc]'),
   callout: Callout,
 
   math: Math,
   list: List,
+
+  codeblock: CodeBlock,
 } as Record<string, React.FC<{ node: TextNode }>>
 
 export default renderers;

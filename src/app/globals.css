@@ -10,3 +10,9 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.MathJax {
+  vertical-align: -0.05em;
+  display: inline-block;
+  line-height: 0;
+}
