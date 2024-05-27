@@ -1,3 +1,4 @@
+import parseNodes from "../parseNodes";
 import Parser from "../types/Parser";
 
 export const getEncompassingCodeblockLines = (
@@ -23,6 +24,10 @@ const parseCodeblock: Parser = (lines: string[]) => {
 
   const codeBlockLength = getEncompassingCodeblockLines(lines, codeBlockTypeLength+1, 1) + 1;
 
+  const codeBlockContent = lines
+    .slice(1, codeBlockLength - 1)
+    .join('\n') 
+
   if (codeBlockTypeLength === 2) {
     return {
       consumedLines: codeBlockLength,
@@ -30,15 +35,22 @@ const parseCodeblock: Parser = (lines: string[]) => {
         type: 'codeblock',
         properties: {
           type: codeBlockType,
-          content: lines
-            .slice(1, codeBlockLength - 1)
-            .join('\n')
+          subNodes: [codeBlockContent]
         }
       }
     }
   }
 
-  return undefined;
+  return {
+    consumedLines: codeBlockLength,
+    node: {
+      type: 'codeblock',
+      properties: {
+        type: codeBlockType,
+        subNodes: parseNodes(codeBlockContent)
+      }
+    }
+  }
 };
 
 export default parseCodeblock;

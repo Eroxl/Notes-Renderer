@@ -1,7 +1,7 @@
 import React from 'react';
 import TextNode from 'src/lib/types/TextNode';
-import Content from './Content';
 import DesmosGraph from './codeBlockRenderers/DesmosGraph';
+import Column from './codeBlockRenderers/Column';
 
 type CodeBlockProps = {
   node: TextNode,
@@ -11,6 +11,8 @@ const codeBlockRenderers: Record<string, React.FC<{
   node: TextNode;
 }>> = {
   'desmos-graph': DesmosGraph,
+  'col': Column,
+  'col-md': Column,
 };
 
 const CodeBlock: React.FC<CodeBlockProps> = (props) => {
@@ -23,8 +25,6 @@ const CodeBlock: React.FC<CodeBlockProps> = (props) => {
       node={node}
     />
   )
-
-  return node.properties['content'] as string;
 };
 
 export default CodeBlock;

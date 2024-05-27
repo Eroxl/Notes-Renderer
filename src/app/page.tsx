@@ -6,65 +6,69 @@ const HomePage: React.FC = () => (
     title='Home'
     content={[
       {
-        type: "h1",
+        type: 'h1',
         properties: {
-          content: "H1",
-        },
-      },
-      {
-        type: "h2",
-        properties: {
-          content: "H2",
-        },
-      },
-      {
-        type: "h3",
-        properties: {
-          content: "H3",
-        },
-      },
-      {
-        type: "h4",
-        properties: {
-          content: "H4",
-        },
-      },
-      {
-        type: "h5",
-        properties: {
-          content: "H5",
-        },
-      },
-      {
-        type: "h6",
-        properties: {
-          content: "H6",
-        },
-      },
-      {
-        type: "quote",
-        properties: {
-          content: "Quote"
+          content: 'Welcome to My Notes Vault',
         }
       },
       {
-        type: "callout",
+        type: 'text',
         properties: {
-          type: "Note",
-          content: "Note Callout"
+          content: 'Welcome to my collection of notes on various topics. This site serves as an organized repository of all my notes. These notes are converted from **Markdown** to **HTML** and hosted here for easy access and reference.'
         }
       },
       {
-        type: "callout",
+        type: 'h2',
         properties: {
-          type: "Warning",
-          content: "Warning Callout"
+          content: 'About This Site'
         }
       },
       {
-        type: "text",
+        type: 'text',
         properties: {
-          content: "Welcome to my vault"
+          content: 'This site is built using **Markdown** files stored in an [Obsidian vault](https://obsidian.md/.md). The notes are converted to **HTML** using a [custom renderer](https://github.com/eroxl/notes-renderer.md) I developed. The purpose of this site is to provide an easy-to-navigate and visually appealing way to review and study my notes.'
+        }
+      },
+      {
+        type: 'h2',
+        properties: {
+          content: 'How to Use This Site'
+        }
+      },
+      {
+        type: 'text',
+        properties: {
+          content: "Navigating through this site is designed to be intuitive and straightforward. You can use the sidebar to navigate different subjects and pages and use the links between documents to view related materials.",
+        }
+      },
+      {
+        type: 'h2',
+        properties: {
+          content: 'Contact'
+        }
+      },
+      {
+        type: 'text',
+        properties: {
+          content: 'For any inquiries or feedback, please reach out to me at:'
+        }
+      },
+      {
+        type: 'list',
+        properties: {
+          content: '**Email**: evan@erox.one'
+        }
+      },
+      {
+        type: 'list',
+        properties: {
+          content: '**Github**: [[https://github.com/Eroxl]]'
+        }
+      },
+      {
+        type: 'text',
+        properties: {
+          content: 'Thank you for visiting, and happy studying!',
         }
       }
     ]}

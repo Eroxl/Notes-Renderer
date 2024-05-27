@@ -1,7 +1,7 @@
 import React from "react";
 import fs from "fs";
 
-import calculateHash from "src/lib/parsers/calculateHash";
+import calculateHash from "src/lib/desmosGraph/calculateHash";
 import TextNode from "src/lib/types/TextNode";
 
 const DESMOS_CACHE_LOCATION = process.env['DESMOS_CACHE_PATH'];
@@ -9,7 +9,7 @@ const DESMOS_CACHE_LOCATION = process.env['DESMOS_CACHE_PATH'];
 const DesmosGraph: React.FC<{ node: TextNode }> = (props) => {
   const { node } = props;
 
-  const hash = calculateHash(node.properties['content'] as string);
+  const hash = calculateHash(node.properties['subNodes'][0] as string);
 
   const graphData = fs.readFileSync(`${DESMOS_CACHE_LOCATION}/desmos-graph-${hash}.svg`).toString();
 
