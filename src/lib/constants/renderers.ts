@@ -4,6 +4,7 @@ import Callout from "src/components/Callout";
 import Math from "src/components/Math";
 import List from "src/components/List";
 import CodeBlock from "src/components/CodeBlock";
+import Embed from "src/components/Embed";
 
 const renderers = {
   text: createTextRenderer('my-4'),
@@ -22,6 +23,7 @@ const renderers = {
   list: List,
 
   codeblock: CodeBlock,
+  embed: Embed
 } as Record<string, React.FC<{ node: TextNode }>>
 
 export default renderers;

@@ -16,3 +16,11 @@
   display: inline-block;
   line-height: 0;
 }
+
+.excalidraw-image > svg {
+  max-width: 100%;
+  height: min-content;
+
+  margin-left: auto;
+  margin-right: auto;
+}
