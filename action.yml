@@ -1,0 +1,70 @@
+name: 'Obsidian Renderer'
+description: 'Crudely render an obsidian vault to Github pages'
+author: 'Eroxl'
+branding:
+  icon: file-text
+  color: green
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub Auth Token.'
+    required: true
+  NOTES_ROOT_DIR:
+    description: 'Location to obsidian vault'
+    required: true
+    default: './'
+  PREAMBLE_PATH:
+    description: 'Location to LaTeX preamble'
+    required: true
+    default: './preamble.sty' 
+  DESMOS_CACHE_PATH:
+    description: 'Location of the cached desmos graphs' 
+    required: true
+    default: './desmos-cache/'
+
+runs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'yarn'
+
+      - name: Cache Dependencies
+        id: cache_dependencies
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Dependencies
+        shell: bash
+        if: steps.cache_dependencies.outputs.cache-hit != 'true'
+        run: yarn install --immutable
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+          static_site_generator: next
+        
+      - name: Build with NextJS
+        run: yarn build
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Publish to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
