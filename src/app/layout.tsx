@@ -4,19 +4,19 @@ import './globals.css'
 
 interface RootLayoutProps {
   children: React.ReactNode;
+  params: {
+    pageName: string,
+  }
 }
 
-const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
-  <html lang="en">
-    <body className="bg-nord-0 flex flex-row">
-      <div className="bg-nord-1 w-64 h-screen">
-        {/* TODO Navigation Bar */}
-      </div>
-      <div className="w-full h-screen p-10 overflow-hidden">
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+  return (
+    <html lang="en">
+      <body className="bg-nord-0">
         {children}
-      </div>
-    </body>
-  </html>
-);
+      </body>
+    </html>
+  );
+}
 
 export default RootLayout;
