@@ -49,7 +49,7 @@ const generateStaticParams = async (): Promise<{ pageName: string }[]> => {
   if (!notesPath) throw new Error("No notes path provided");
 
   return getValidNotes(notesPath)
-    .map((path) => ({pageName: path.name}))
+    .map((path) => ({pageName: path.name.replaceAll(' ', '%20')}))
 }
 
 export { generateStaticParams };

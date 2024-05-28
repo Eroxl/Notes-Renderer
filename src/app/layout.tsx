@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './globals.css'
+import './globals.css';
+import FileExplorer from 'src/components/FileExplorer';
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -11,9 +12,12 @@ interface RootLayoutProps {
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
-    <html lang="en">
-      <body className="bg-nord-0">
-        {children}
+    <html>
+      <body className="bg-nord-0 flex flex-row">
+        <FileExplorer />
+        <div className="w-full h-screen p-10 overflow-hidden">
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { usePathname } from 'next/navigation';
 import { FolderTreeEntry } from "./FileExplorer";
 import Link from "next/link";
 
@@ -17,15 +17,10 @@ const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
     indentation
   } = props;
 
-  const [isActiveFile, setIsActiveFile] = useState(false);
+  const pathname = usePathname();
+  const isActiveFile = entry.name === pathname.slice(pathname.lastIndexOf('/')+1).replaceAll('%20', ' ')
 
   const hasNote = entry.hasNote;
-
-  useEffect(() => {
-    setIsActiveFile(
-      entry.name === document.URL.slice(document.URL.lastIndexOf('/')+1).replaceAll('%20', ' ')
-    );
-  }, [document.URL])
 
   return (
     <div
