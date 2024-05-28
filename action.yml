@@ -25,6 +25,7 @@ inputs:
     default: './desmos-cache/'
 
 runs:
+  using: "composite"
   build:
     runs-on: ubuntu-latest
     steps:
