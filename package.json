@@ -1,24 +1,34 @@
 {
   "name": "notes-renderer",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/Eroxl/Notes-Renderer.git",
   "author": "Eroxl <InfinityWaffles@outlook.com>",
+  "module": "index.ts",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node ./dist",
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --watch ./src/styles.css src/index.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "dotenv": "^16.4.5",
     "front-matter": "^4.0.2",
-    "mathjax-node": "^2.1.1",
-    "ts-node-dev": "^2.0.0",
+    "lucide-react": "^0.379.0",
+    "mathjax-full": "^3.2.2",
+    "mathjs": "^12.4.2",
+    "next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-nord": "^1.3.0",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "@types/mathjax-node": "^2.1.0",
-    "@types/node": "^20.12.12"
+    "@types/mathjs": "^9.4.2",
+    "@types/node": "^20.12.12",
+    "@types/react": "18.3.3"
   }
 }
