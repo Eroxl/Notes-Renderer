@@ -47,7 +47,7 @@ const getFolderTree = (
   }
 }
 
-const fileTree = getFolderTree(process.env['NOTES_ROOT_PATH'] as string);
+const fileTree = getFolderTree(process.env['INPUT_NOTES_ROOT_PATH'] as string);
 
 const FileExplorer: React.FC = () => (
   <div

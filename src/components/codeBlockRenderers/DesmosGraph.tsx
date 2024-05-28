@@ -4,7 +4,7 @@ import fs from "fs";
 import calculateHash from "src/lib/desmosGraph/calculateHash";
 import TextNode from "src/lib/types/TextNode";
 
-const DESMOS_CACHE_LOCATION = process.env['DESMOS_CACHE_PATH'];
+const DESMOS_CACHE_LOCATION = process.env['INPUT_DESMOS_CACHE_PATH'];
 
 const DesmosGraph: React.FC<{ node: TextNode }> = (props) => {
   const { node } = props;

@@ -44,7 +44,7 @@ const Note = ({ params }: { params: { pageName: string } }) => {
 }
 
 const generateStaticParams = async (): Promise<{ pageName: string }[]> => {
-  const notesPath = process.env['NOTES_ROOT_PATH']
+  const notesPath = process.env['INPUT_NOTES_ROOT_PATH']
 
   if (!notesPath) throw new Error("No notes path provided");
 

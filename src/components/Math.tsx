@@ -8,7 +8,7 @@ import { AllPackages } from 'mathjax-full/js/input/tex/AllPackages.js';
 import TextNode from "src/lib/types/TextNode";
 import fs from 'fs';
 
-const mathJAXPreamble = fs.readFileSync(process.env['PREAMBLE_PATH']).toString();
+const mathJAXPreamble = fs.readFileSync(process.env['INPUT_PREAMBLE_PATH']).toString();
 
 const Math: React.FC<{ node: TextNode }> = async (props) => {
   const { node } = props;

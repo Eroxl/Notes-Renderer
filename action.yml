@@ -5,10 +5,12 @@ branding:
   icon: file-text
   color: green
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 inputs:
-  GITHUB_TOKEN:
-    description: 'GitHub Auth Token.'
-    required: true
   NOTES_ROOT_DIR:
     description: 'Location to obsidian vault'
     required: true
