@@ -22,10 +22,14 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Checkout repository
+    - name: Checkout files
+        uses: actions/checkout@v3
+
+    - name: Checkout renderer
       uses: actions/checkout@v3
       with:
         name: eroxl/Notes-Renderer
+        path: 'renderer'
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -35,7 +39,7 @@ runs:
 
     - name: Install Dependencies
       shell: bash
-      run: yarn install --immutable
+      run: cd ./renderer/ && yarn install --immutable
 
     - name: Setup Pages
       uses: actions/configure-pages@v5
@@ -44,12 +48,12 @@ runs:
 
     - name: Build with NextJS
       shell: bash
-      run: yarn build
+      run: cd ./renderer/ &&  yarn build
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: ./out
+        path: ./renderer/out
 
     - name: Publish
       id: deployment
