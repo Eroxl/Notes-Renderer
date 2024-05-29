@@ -34,20 +34,12 @@ jobs:
           node-version: 20
           cache: 'yarn'
 
-      - name: Cache Dependencies
-        id: cache_dependencies
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
       - name: Install Dependencies
         shell: bash
-        if: steps.cache_dependencies.outputs.cache-hit != 'true'
         run: yarn install --immutable
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
         with:
           static_site_generator: next
         
@@ -58,6 +50,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+
   deploy:
     environment:
       name: github-pages
