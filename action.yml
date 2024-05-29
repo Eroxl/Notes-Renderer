@@ -45,7 +45,8 @@ runs:
     - name: Setup Pages
       uses: actions/configure-pages@v5
       with:
-        static_site_generator: next 
+        static_site_generator: next
+        generator_config_file: renderer/next.config.js
 
     - name: Build with NextJS
       shell: bash
@@ -63,9 +64,6 @@ runs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
-      environment:
-        name: github-pages
-        url: ${{ steps.deployment.outputs.page_url }}
 
 
 permissions:
