@@ -41,8 +41,6 @@ runs:
     - name: Install Dependencies
       shell: bash
       run: cd ./renderer/ && yarn install --immutable
-      with:
-        working-directory: ./renderer
 
     - name: Setup Pages
       uses: actions/configure-pages@v5
@@ -52,9 +50,7 @@ runs:
 
     - name: Build with NextJS
       shell: bash
-      run: yarn build
-      with:
-        working-directory: ./renderer
+      run: cd ./renderer/ && yarn build
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
