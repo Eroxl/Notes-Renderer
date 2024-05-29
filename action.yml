@@ -56,7 +56,7 @@ runs:
         INPUT_DESMOS_CACHE_PATH: ${{ inputs.DESMOS_CACHE_PATH }}
 
     - name: Upload Artifact
-      uses: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@v3
       with:
         path: renderer/out
 
