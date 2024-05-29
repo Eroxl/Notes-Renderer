@@ -23,7 +23,7 @@ runs:
   using: 'composite'
   steps:
     - name: Checkout files
-        uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Checkout renderer
       uses: actions/checkout@v3
