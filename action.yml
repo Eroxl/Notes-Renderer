@@ -58,7 +58,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ INPUT_ROOT_PATH }}
+      url: ${{ env.INPUT_ROOT_PATH }}
 
     runs-on: ubuntu-latest
     needs: build
