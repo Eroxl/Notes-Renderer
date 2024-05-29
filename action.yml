@@ -23,6 +23,10 @@ inputs:
     description: 'Location of the cached desmos graphs' 
     required: true
     default: './desmos-cache/'
+  ROOT_PATH:
+    description: 'The root path where the files are hosted' 
+    required: true
+    default: '/'
 
 jobs:
   build:
@@ -54,7 +58,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ ROOT_PATH }}
 
     runs-on: ubuntu-latest
     needs: build
