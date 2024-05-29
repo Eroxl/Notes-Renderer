@@ -46,7 +46,6 @@ runs:
       uses: actions/configure-pages@v5
       with:
         static_site_generator: next 
-        working-directory: ./renderer 
 
     - name: Build with NextJS
       shell: bash
@@ -60,7 +59,6 @@ runs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: ./out
-        working-directory: ./renderer
 
 
 permissions:
