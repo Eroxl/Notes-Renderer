@@ -6,7 +6,7 @@ branding:
   color: green
 
 inputs:
-  NOTES_ROOT_DIR:
+  NOTES_ROOT_PATH:
     description: 'Location to obsidian vault'
     required: true
     default: './'
@@ -52,7 +52,7 @@ runs:
       shell: bash
       run: cd ./renderer/ && yarn build
       env:
-        INPUT_NOTES_ROOT_DIR: ${{ inputs.NOTES_ROOT_DIR }}
+        INPUT_NOTES_ROOT_PATH: ${{ inputs.NOTES_ROOT_PATH }}
         INPUT_PREAMBLE_PATH: ${{ inputs.PREAMBLE_PATH }}
         INPUT_DESMOS_CACHE_PATH: ${{ inputs.DESMOS_CACHE_PATH }}
 
