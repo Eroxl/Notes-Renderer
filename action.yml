@@ -52,9 +52,9 @@ runs:
       shell: bash
       run: cd ./renderer/ && yarn build
       env:
-        NOTES_ROOT_DIR: ${{ inputs.NOTES_ROOT_DIR }}
-        PREAMBLE_PATH: ${{ inputs.PREAMBLE_PATH }}
-        DESMOS_CACHE_PATH: ${{ inputs.DESMOS_CACHE_PATH }}
+        INPUT_NOTES_ROOT_DIR: ${{ inputs.NOTES_ROOT_DIR }}
+        INPUT_PREAMBLE_PATH: ${{ inputs.PREAMBLE_PATH }}
+        INPUT_DESMOS_CACHE_PATH: ${{ inputs.DESMOS_CACHE_PATH }}
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
