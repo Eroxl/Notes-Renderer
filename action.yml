@@ -32,8 +32,8 @@ runs:
         path: 'renderer'
 
     - name: Setup Node.js
-      working-directory: ./renderer
       uses: actions/setup-node@v4
+      working-directory: ./renderer
       with:
         node-version: 20
         cache: 'yarn'
