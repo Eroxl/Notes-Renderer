@@ -60,6 +60,10 @@ runs:
       with:
         path: renderer/out
 
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+
 
 permissions:
   contents: read
