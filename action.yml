@@ -41,6 +41,7 @@ runs:
         static_site_generator: next 
 
     - name: Build with NextJS
+      shell: bash
       run: yarn build
 
     - name: Upload Artifact
