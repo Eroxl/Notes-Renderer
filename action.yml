@@ -51,6 +51,10 @@ runs:
     - name: Build with NextJS
       shell: bash
       run: cd ./renderer/ && yarn build
+      env:
+        NOTES_ROOT_DIR: ${{ inputs.NOTES_ROOT_DIR }}
+        PREAMBLE_PATH: ${{ inputs.PREAMBLE_PATH }}
+        DESMOS_CACHE_PATH: ${{ inputs.DESMOS_CACHE_PATH }}
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
