@@ -32,6 +32,7 @@ runs:
         path: 'renderer'
 
     - name: Setup Node.js
+      working-directory: ./renderer
       uses: actions/setup-node@v4
       with:
         node-version: 20
@@ -39,21 +40,25 @@ runs:
 
     - name: Install Dependencies
       shell: bash
+      working-directory: ./renderer
       run: cd ./renderer/ && yarn install --immutable
 
     - name: Setup Pages
       uses: actions/configure-pages@v5
+      working-directory: ./renderer
       with:
         static_site_generator: next 
 
     - name: Build with NextJS
       shell: bash
-      run: cd ./renderer/ &&  yarn build
+      working-directory: ./renderer
+      run: yarn build
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
+      working-directory: ./renderer
       with:
-        path: ./renderer/out
+        path: ./out
 
     - name: Publish
       id: deployment
