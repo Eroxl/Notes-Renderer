@@ -14,9 +14,12 @@ const getFolderTree = (
   path: string,
 ): FolderTreeEntry => {
   const isFile = fs.lstatSync(path).isFile();
+
+  const hasFileExtension = path.slice(path.lastIndexOf('/')+1).lastIndexOf('.') !== -1;
+
   const fileName = path.slice(
     path.lastIndexOf('/')+1,
-    path.lastIndexOf('.') === -1 ? undefined : path.lastIndexOf('.') 
+    hasFileExtension ? path.lastIndexOf('.') : undefined
   ) 
 
   if (isFile) {
@@ -32,11 +35,12 @@ const getFolderTree = (
     return { name: fileName, hasNote: true }
   }
   
+  
   const subFiles = fs
-    .readdirSync(path)
-    .map((subFile) => getFolderTree(`${path}/${subFile}`))
-    .filter((subFile) => subFile !== undefined);
-
+  .readdirSync(path)
+  .map((subFile) => getFolderTree(`${path}/${subFile}`))
+  .filter((subFile) => subFile !== undefined);
+  
   const isFolderNote = subFiles.some((subFile) => subFile['name'] === fileName && subFile['hasNote'])
 
   return {
