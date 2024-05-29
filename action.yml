@@ -36,7 +36,7 @@ runs:
       with:
         node-version: 20
         cache: 'yarn'
-        working-directory: ./renderer
+        cache-dependency-path: ./renderer/yarn.lock
 
     - name: Install Dependencies
       shell: bash
