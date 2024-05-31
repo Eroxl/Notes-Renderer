@@ -16,7 +16,7 @@ const renderers = {
   h5: createTextRenderer('my-4 text-nord-9 font-semibold text-[0.875rem]'),
   h6: createTextRenderer('my-4 text-nord-15 text-[0.85rem]'),
   
-  quote: createTextRenderer('border-l-2 border-nord-3 pl-3 text-[#9eafcc]'),
+  quote: createTextRenderer('border-l-2 border-nord-3 pl-3 text-[#9eafcc] my-4'),
   callout: Callout,
 
   math: Math,

@@ -26,7 +26,7 @@ const Math: React.FC<{ node: TextNode }> = async (props) => {
   return (
     <div
       dangerouslySetInnerHTML={{ __html: svgCode }}
-      className="mx-auto w-min"
+      className="mx-auto w-min my-4"
     />
   )
 };

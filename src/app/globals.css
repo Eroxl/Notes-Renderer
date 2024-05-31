@@ -11,12 +11,6 @@
   scrollbar-width: none;
 }
 
-.MathJax {
-  vertical-align: -0.05em;
-  display: inline-block;
-  line-height: 0;
-}
-
 .excalidraw-image > svg {
   max-width: 100%;
   height: min-content;

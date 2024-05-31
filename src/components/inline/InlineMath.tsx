@@ -11,7 +11,7 @@ const mathJAXPreamble = fs.readFileSync(process.env['INPUT_PREAMBLE_PATH']).toSt
 
 const aligner = `
 <span
-  style="display: inline-block; width: 0;"
+  style="display: inline-block; width: 0; height: 100%; vertical-align: middle;"
 >
   \u200b
 </span>
@@ -27,13 +27,13 @@ const InlineMath: React.FC<{ content: string }> = async (props) => {
   const svg = new SVG();
   const html = mathjax.document('', { InputJax: tex, OutputJax: svg });
 
-  const nodeDisplay = html.convert(`${mathJAXPreamble} ${content}` || '', { display: false });
-  const svgCode = adaptor.outerHTML(nodeDisplay);
+  const nodeDisplay = html.convert(`${mathJAXPreamble} ${content}` || '', { display: false, displayAlign: 'center' });
+  const svgCode = adaptor.innerHTML(nodeDisplay);
 
   return (
-    <div
-      dangerouslySetInnerHTML={{ __html: `${svgCode}\n ${aligner}` }}
-      className="w-min inline-block"
+    <span
+      dangerouslySetInnerHTML={{ __html: `${svgCode} ${aligner}` }}
+      className="inline-flex flex-row w-min text-center justify-center items-center m-0 p-0"
     />
   )
 };

@@ -107,20 +107,6 @@ const Content: React.FC<ContentProps> = (props) => {
       return out;      
     })
   }, [textContent]);
-
-  // return (
-  //   parseOnRegex(textContent, "**", Bold)
-  //     .flatMap((node) => {
-  //       if (typeof node === 'string') return parseOnRegex(node, "*", Italic)
-
-  //       return node;
-  //     })
-  //     .flatMap((node) => {
-  //       if (typeof node === 'string') return parseOnRegex(node, "$", InlineMath)
-
-  //       return node;
-  //     })
-  // )
 }
 
 export default Content;
