@@ -5,6 +5,7 @@ import Math from "src/components/Math";
 import List from "src/components/List";
 import CodeBlock from "src/components/CodeBlock";
 import Embed from "src/components/Embed";
+import Table from "src/components/Table";
 
 const renderers = {
   text: createTextRenderer('my-4'),
@@ -23,7 +24,8 @@ const renderers = {
   list: List,
 
   codeblock: CodeBlock,
-  embed: Embed
+  embed: Embed,
+  table: Table,
 } as Record<string, React.FC<{ node: TextNode }>>
 
 export default renderers;

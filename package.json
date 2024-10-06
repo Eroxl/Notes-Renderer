@@ -19,6 +19,7 @@
     "mathjax-full": "^3.2.2",
     "mathjs": "^12.4.2",
     "next": "^14.2.3",
+    "parse-markdown-table": "^0.0.6",
     "postcss": "^8.4.38",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

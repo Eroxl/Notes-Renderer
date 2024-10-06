@@ -14,7 +14,7 @@ const Page: React.FC<PageProps> = (props) => {
 
   return (
     <div
-      className="max-w-2xl w-full mx-auto text-nord-4 overflow-scroll h-screen no-scrollbar"
+      className="max-w-2xl w-full mx-auto text-nord-4 overflow-y-scroll overflow-x-hidden h-screen no-scrollbar"
     >
       <div
         className="font-bold text-4xl pb-6 pt-12"

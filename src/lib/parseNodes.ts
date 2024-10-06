@@ -7,6 +7,7 @@ import parseList from "./parsers/parseList";
 import parseMath from "./parsers/parseMath";
 import TextNode from "./types/TextNode";
 import parseEmbed from "./parsers/parseEmbed";
+import parseTable from "./parsers/parseTable";
 
 const parsers: Parser[] = [
   createSingleLineParser(/^# /, 'h1'),
@@ -26,9 +27,11 @@ const parsers: Parser[] = [
   parseList,
   parseCodeblock,
   parseEmbed,
+
+  parseTable,
 ];
 
-const parseNodes = (content: string) => {
+const parseNodes = async (content: string) => {
   const contentByLines = content.split('\n');
   
   const output: TextNode[] = []
@@ -40,7 +43,7 @@ const parseNodes = (content: string) => {
     for (let i = 0; i < parsers.length; i++) {
       const parser = parsers[i];
       
-      const parserResponse = parser(availableContent);
+      const parserResponse = await parser(availableContent);
   
       if (!parserResponse) continue;
   

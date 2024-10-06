@@ -11,7 +11,7 @@ type Note = {
   pageContent: TextNode[],
 }
 
-const Note = ({ params }: { params: { pageName: string } }) => {  
+const Note = async ({ params }: { params: { pageName: string } }) => {  
   const { pageName } = params;
 
   const pagePath = getNotePath(pageName)
@@ -32,7 +32,7 @@ const Note = ({ params }: { params: { pageName: string } }) => {
     );
   }
   
-  const [pageContent, pageMetadata] = getNoteContent(pagePath);
+  const [pageContent, pageMetadata] = await getNoteContent(pagePath);
 
   return (
     <Page

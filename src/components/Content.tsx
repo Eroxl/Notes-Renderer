@@ -3,6 +3,7 @@ import Bold from "./inline/Bold";
 import Italic from "./inline/Italic";
 import InlineMath from "./inline/InlineMath";
 import Link from "next/link";
+import InlineCode from "./inline/InlineCode";
 
 type ContentProps = {
   textContent: string
@@ -37,6 +38,11 @@ const renderers = [
   {
     regex: '$',
     renderer: InlineMath,
+    parseOnSplit: true,
+  },
+  {
+    regex: '`',
+    renderer: InlineCode,
     parseOnSplit: true,
   },
   {
