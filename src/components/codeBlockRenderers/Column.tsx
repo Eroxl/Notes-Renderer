@@ -4,7 +4,7 @@ import TextNode from "src/lib/types/TextNode";
 import TextBlock from "../TextBlock";
 import parseNodes from "src/lib/parseNodes";
 
-const Column: React.FC<{ node: TextNode }> = (props) => {
+const Column: React.FC<{ node: TextNode }> = async (props) => {
   const { node } = props;
 
   const subNodes = node['properties']['subNodes'] as TextNode[];
@@ -15,16 +15,16 @@ const Column: React.FC<{ node: TextNode }> = (props) => {
     <div 
       className={`flex gap-4 ${node['properties'['type'] === 'col-md' && 'flex-col']}`}
     >
-      {subNodes.map((subNode) => (
+      {await Promise.all(subNodes.map(async (subNode) => (
         <div
           style={{
             width: `${100 / subNodes.length}%`
           }}
         >
-          {(() => {
+          {await (async () => {
             if (typeof subNode === 'string') {
-              return parseNodes(subNode)
-                .map((node) => <TextBlock node={node} />)
+              return ((await parseNodes(subNode))
+                .map((node) => <TextBlock node={node} />))
             }
     
             return (
@@ -34,7 +34,7 @@ const Column: React.FC<{ node: TextNode }> = (props) => {
             );
           })()}
         </div>
-      ))}
+      )))}
     </div>
   );
 };

@@ -13,7 +13,7 @@ export const getEncompassingCodeblockLines = (
   return getEncompassingCodeblockLines(lines, delineatorLength, offset + 1) + 1;
 }
 
-const parseCodeblock: Parser = (lines: string[]) => {
+const parseCodeblock: Parser = async (lines: string[]) => {
   if (!lines.length) return;
 
   if (!lines[0].startsWith('```')) return;
@@ -47,7 +47,7 @@ const parseCodeblock: Parser = (lines: string[]) => {
       type: 'codeblock',
       properties: {
         type: codeBlockType,
-        subNodes: parseNodes(codeBlockContent)
+        subNodes: await parseNodes(codeBlockContent)
       }
     }
   }

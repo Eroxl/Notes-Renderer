@@ -59,7 +59,9 @@ runs:
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: renderer/out
+        path: |
+          renderer/out
+          renderer/static
 
     - name: Deploy to GitHub Pages
       id: deployment

@@ -5,7 +5,7 @@ import getNoteContent from "src/lib/getNoteContent";
 import getNotePath from "src/lib/getNotePath";
 import TextBlock from "./TextBlock";
 
-const Embed: React.FC<{ node: TextNode}> = (props) => {
+const Embed: React.FC<{ node: TextNode}> = async (props) => {
   const { node } = props;
 
   const {
@@ -31,7 +31,7 @@ const Embed: React.FC<{ node: TextNode}> = (props) => {
     )
   }
 
-  const [pageContent, pageMetadata] = getNoteContent(getNotePath(url as string));
+  const [pageContent, pageMetadata] = await getNoteContent(getNotePath(url as string));
 
   if (pageMetadata['excalidraw-plugin'] === 'parsed') {
     const notePath = getNotePath(url as string);
