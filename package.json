@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.19",
+    "d3": "^7.9.0",
     "dotenv": "^16.4.5",
     "front-matter": "^4.0.2",
     "lucide-react": "^0.379.0",
@@ -28,6 +29,7 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
+    "@types/d3": "^7.4.3",
     "@types/mathjs": "^9.4.2",
     "@types/node": "^20.12.12",
     "@types/react": "18.3.3"

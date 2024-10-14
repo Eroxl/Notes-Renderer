@@ -14,7 +14,7 @@ type Note = {
 const Note = async ({ params }: { params: { pageName: string } }) => {  
   const { pageName } = params;
 
-  const pagePath = getNotePath(pageName)
+  const pagePath = getNotePath(decodeURI(pageName))
 
   if (!pagePath) {
     return (
@@ -36,7 +36,7 @@ const Note = async ({ params }: { params: { pageName: string } }) => {
 
   return (
     <Page
-      title={pageName.replaceAll('%20', ' ')}
+      title={decodeURI(pageName)}
       content={pageContent}
       metadata={pageMetadata}
     />
@@ -49,7 +49,10 @@ const generateStaticParams = async (): Promise<{ pageName: string }[]> => {
   if (!notesPath) throw new Error("No notes path provided");
 
   return getValidNotes(notesPath)
-    .map((path) => ({pageName: path.name}))
+    .flatMap((path) => ([
+      {pageName: encodeURI(path.name)},
+      {pageName: path.name}
+    ]))
 }
 
 export { generateStaticParams };

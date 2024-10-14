@@ -9,7 +9,7 @@ const Tikz: React.FC<{ node: TextNode }> = async (props) => {
     .join('');
 
   return (
-    <div className="invert flex flex-row justify-center"
+    <div className="invert flex flex-row justify-center tikz-drawing"
       dangerouslySetInnerHTML={{
         __html: (
           `<script type="text/tikz">

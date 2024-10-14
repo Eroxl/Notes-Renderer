@@ -19,7 +19,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       </head>
       <body className="bg-nord-0 flex flex-row">
         <FileExplorer />
-        <div className="w-full h-screen p-10 overflow-hidden">
+        <div className="w-full h-screen overflow-hidden">
           {children}
         </div>
       </body>
