@@ -197,7 +197,7 @@ const NodeGraph: React.FC<{
       if (!currentlyHoveredNode.current) return;
 
       
-      router.push(`../${currentlyHoveredNode.current.id}`)
+      router.push(`${currentlyHoveredNode.current.id}`)
     })
 
     simulation
