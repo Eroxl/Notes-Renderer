@@ -4,7 +4,7 @@ import fm from "front-matter";
 const getLinks = (content: string): string[] => {
   const links = [];
 
-  const markdownLinks = content.matchAll(/\[\[(.*?)\]\]/g);
+  const markdownLinks = Array.from(content.matchAll(/\[\[(.*?)\]\]/g));
 
   markdownLinks.forEach((a) => {
     const pageName = a[1].split('#')[0];
@@ -17,7 +17,7 @@ const getLinks = (content: string): string[] => {
     links.push(a[1].split('#')[0].split('|')[0]);
   })
 
-  const wikiLinks = content.matchAll(/\[(.*?)\]\(([^)]*)\)/g);
+  const wikiLinks = Array.from(content.matchAll(/\[(.*?)\]\(([^)]*)\)/g));
 
   wikiLinks.forEach((a) => {
     links.push(decodeURI(a[2].split('.')[0]))

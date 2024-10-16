@@ -27,7 +27,7 @@ const InlineMath: React.FC<{ content: string }> = async (props) => {
   const svg = new SVG();
   const html = mathjax.document('', { InputJax: tex, OutputJax: svg });
 
-  const nodeDisplay = html.convert(`${mathJAXPreamble} ${content}` || '', { display: false, displayAlign: 'center' });
+  const nodeDisplay = html.convert(`${mathJAXPreamble} ${content}` || '', { display: false });
   const svgCode = adaptor.innerHTML(nodeDisplay);
 
   return (
