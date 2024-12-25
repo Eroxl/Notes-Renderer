@@ -6,6 +6,7 @@ import List from "src/components/List";
 import CodeBlock from "src/components/CodeBlock";
 import Embed from "src/components/Embed";
 import Table from "src/components/Table";
+import Quote from "src/components/Quote";
 
 const renderers = {
   text: createTextRenderer('my-4'),
@@ -17,7 +18,7 @@ const renderers = {
   h5: createTextRenderer('my-4 text-nord-9 font-semibold text-[0.875rem]'),
   h6: createTextRenderer('my-4 text-nord-15 text-[0.85rem]'),
   
-  quote: createTextRenderer('border-l-2 border-nord-3 pl-3 text-[#9eafcc] my-4'),
+  quote: Quote,
   callout: Callout,
 
   math: Math,
