@@ -2,7 +2,7 @@ type PageMetadataProps = {
   metadata: Record<string, unknown>,
 };
 
-const PageMetadataEntry: React.FC<{value: unknown}> = (props) => {
+const PageMetadataEntry: React.FC<{ value: unknown }> = (props) => {
   const { value } = props;
 
   if (!Array.isArray(value)) {

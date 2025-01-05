@@ -1,0 +1,52 @@
+.desmos-graph > svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  opacity: 0.7;
+}
+
+.desmos-graph > svg {
+  border: 2px solid white;
+}
+
+.desmos-graph > svg > g > g > rect {
+  fill: none;
+}
+
+.desmos-graph {
+  opacity: var(--image-muted);
+}
+
+.desmos-graph g[id^=xaxis] > path {
+  stroke: rgba(255, 255, 255, 0.5);
+}
+
+.desmos-graph g[id^=yaxis] > path {
+  stroke: rgba(255, 255, 255, 0.5);
+}
+
+.desmos-graph text {
+  stroke: none;
+  fill: white;
+  font-family: 'CMU Serif Bold';
+}
+
+.desmos-graph .dcg-svg-label * {
+  stroke: none;
+  fill: white;
+  font-family: 'CMU Serif';
+}
+
+.desmos-graph .dcg-svg-axis-value text {
+  font-family: unset !important;
+}
+
+.desmos-graph .dcg-svg-minor-gridline {
+  stroke: rgba(255, 255, 255, 0.25);
+}
+
+.desmos-graph .dcg-svg-major-gridline {
+  stroke: rgba(255, 255, 255, 0.30);
+}
+

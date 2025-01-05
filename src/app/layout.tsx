@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './globals.css';
+import './desmosGraph.css';
 import FileExplorer from 'src/components/FileExplorer';
 
 interface RootLayoutProps {
@@ -19,7 +20,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       </head>
       <body className="bg-nord-0 flex flex-row">
         <FileExplorer />
-        <div className="w-full h-screen overflow-hidden">
+        <div className="w-full h-screen overflow-hidden print:h-full print:overflow-visible">
           {children}
         </div>
       </body>
