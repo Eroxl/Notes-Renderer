@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  --h1-size: 1.125em;
+  --h2-size: 1.05em;
+  --h3-size: 1em;
+  --h4-size: 0.90em;
+  --h5-size: 0.85em;
+  --h6-size: 0.85em;
+
+  --h1-weight: 600;
+  --h2-weight: 600;
+  --h3-weight: 500;
+  --h4-weight: 500;
+  --h5-weight: 500;
+  --h6-weight: 400;
+
+  --callout-border-width: 0px;
+  --callout-border-opacity: 0.25;
+  --callout-padding: 24px 12px 6px 24px;
+  --callout-radius: 4px;
+  --callout-blend-mode: lighten;
+  --callout-title-color: inherit;
+  --callout-title-padding: 0;
+  --callout-title-weight: 600;
+  --callout-content-padding: 0;
+  --callout-content-background: transparent;
+
+  --callout-color: 129, 161, 193;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -11,14 +40,129 @@
   scrollbar-width: none;
 }
 
-.excalidraw-image > svg {
-  max-width: 100%;
-  height: min-content;
-
-  margin-left: auto;
-  margin-right: auto;
+.page ul > li {
+  @apply list-disc list-inside pl-4 w-full marker:text-[#4c566a] pt-2;
 }
 
-.tikz-drawing > svg {
-  overflow: visible;
+.page ol > li {
+  @apply list-decimal list-inside pl-4 w-full marker:text-[#4c566a] pt-2;
+}
+
+.page td {
+  @apply border-nord1 border pl-3;
+}
+
+.page th {
+  @apply border-nord1 border pl-3 text-left;
+}
+
+.page a {
+  @apply text-nord14 underline;
+}
+
+.page h1 {
+  font-size: var(--h1-size);
+  font-weight: var(--h1-weight);
+
+  @apply text-nord-11;
+}
+
+.page h2 {
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
+  
+  @apply text-nord-12;
+}
+
+.page h3 {
+  font-size: var(--h3-size);
+  font-weight: var(--h3-weight);
+
+  @apply text-nord-13;
+}
+
+.page h4 {
+  font-size: var(--h4-size);
+  font-weight: var(--h4-weight);
+  
+  @apply text-nord-14;
+}
+
+.page h5 {
+  font-size: var(--h5-size);
+  font-weight: var(--h5-weight);
+
+  @apply text-nord-8;
+}
+
+.page h6 {
+  font-size: var(--h6-size);
+  font-weight: var(--h6-weight);
+
+  @apply text-nord-15;
+}
+
+.callout[data-callout="warning"], .callout[data-callout="caution"], .callout[data-callout="attention"] {
+  --callout-color: 208, 138, 112;
+}
+
+.callout {
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(var(--callout-color), var(--callout-border-opacity));
+  border-width: var(--callout-border-width);
+  border-radius: var(--callout-radius);
+  margin: 1em 0;
+  mix-blend-mode: var(--callout-blend-mode);
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-padding);
+}
+
+.callout-title {
+  padding: var(--callout-title-padding);
+  display: flex;
+  gap: 4px;
+  color: rgb(var(--callout-color));
+  line-height: var(--line-height-tight);
+  align-items: flex-start;
+}
+
+.callout-title-inner {
+  font-weight: var(--callout-title-weight);
+  padding-left: 2px;
+}
+
+.callout-content {
+  @apply py-6;
+    
+  overflow-x: auto;
+  background-coor: var(--callout-content-background);
+}
+
+.col {
+  @apply flex flex-row justify-evenly *:flex-grow;
+}
+
+.tikz {
+  @apply fill-current overflow-visible invert py-8;
+}
+
+blockquote {
+  @apply border-l-nord3 border-l pl-4 text-[#9eafcc];
+}
+
+.embed {
+  @apply border-l-nord10 border-l-2 pl-4;
+}
+
+.embed-page {
+  @apply font-bold text-lg;
+}
+
+.embed-content {
+  @apply -mt-16 flex flex-col gap-4;
+}
+
+.image-embed {
+  @apply mx-auto max-w-full flex flex-row;
 }

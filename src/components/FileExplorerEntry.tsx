@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import { FolderTreeEntry } from "./FileExplorer";
 import Link from "next/link";
 import { useState } from 'react';
-import { ChevronDown, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 type FileExplorerEntryProps = {
   entry: FolderTreeEntry,
@@ -20,7 +20,7 @@ const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
   } = props;
 
   const pathname = usePathname();
-  const isActiveFile = entry.name === pathname.slice(pathname.lastIndexOf('/')+1).replaceAll('%20', ' ')
+  const isActiveFile = entry.name === pathname.slice(pathname.lastIndexOf('/') + 1).replaceAll('%20', ' ')
 
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -43,7 +43,7 @@ const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
         onClick={() => {
           if (hasNote) return;
 
-          setIsExpanded(!isExpanded) 
+          setIsExpanded(!isExpanded)
         }}
       >
         {

@@ -1,46 +1,46 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-import Page from '../../components/Page';
-import getValidNotes from 'src/lib/getValidNotes';
-import TextNode from 'src/lib/types/TextNode';
-import getNotePath from 'src/lib/getNotePath';
-import getNoteContent from 'src/lib/getNoteContent';
+import getNotePath from '../../lib/getNotePath';
+import getNoteContent from '../../lib/getNoteContent';
+import renderContent from '../../lib/renderContent';
+import getValidNotes from '../../lib/getValidNotes';
+import PageMetadata from 'src/components/PageMetadata';
 
-type Note = {
-  pageName: string,
-  pageContent: TextNode[],
-}
-
-const Note = async ({ params }: { params: { pageName: string } }) => {  
-  const { pageName } = params;
+const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
+  const { pageName } = await params;
 
   const pagePath = getNotePath(decodeURI(pageName))
 
-  if (!pagePath) {
-    return (
-      <Page
-        title="404"
-        content={[{
-          type: "callout",
-          properties: {
-            type: "Warning",
-            title: "404",
-            content: "Sorry, this page doesn't exist yet :("
-          }
-        }]}
-      />
-    );
-  }
-  
-  const [pageContent, pageMetadata] = await getNoteContent(pagePath);
+  const {
+    content,
+    metadata
+  } = await getNoteContent(pagePath);
+
+  const {
+    html,
+    style
+  } = renderContent(content);
 
   return (
-    <Page
-      title={decodeURI(pageName)}
-      content={pageContent}
-      metadata={pageMetadata}
-    />
-  );
+    <div className="overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0">
+      <div
+        className="font-bold text-4xl pt-12"
+      >
+        {decodeURI(pageName)}
+      </div>
+      <PageMetadata metadata={metadata} />
+
+      <style>
+        {style}
+      </style>
+      <div
+        className="flex flex-col gap-4 -mt-8"
+        dangerouslySetInnerHTML={{
+          __html: html
+        }}
+      />
+    </div>
+  )
 }
 
 const generateStaticParams = async (): Promise<{ pageName: string }[]> => {
@@ -50,8 +50,8 @@ const generateStaticParams = async (): Promise<{ pageName: string }[]> => {
 
   return getValidNotes(notesPath)
     .flatMap((path) => ([
-      {pageName: encodeURI(path.name)},
-      {pageName: path.name}
+      { pageName: encodeURI(path.name) },
+      { pageName: path.name }
     ]))
 }
 

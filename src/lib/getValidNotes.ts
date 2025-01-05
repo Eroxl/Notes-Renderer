@@ -14,9 +14,8 @@ const getValidNotes = (
 
   return [
     ...children
-      .filter((child) => child.endsWith('.md'))
       .map((child) => ({
-        name: child.replace('.md', ''),
+        name: child.split('.')[0],
         path: `${path}/${child}`,
       }))
     ,

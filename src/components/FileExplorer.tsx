@@ -17,12 +17,12 @@ const getFolderTree = (
 ): FolderTreeEntry => {
   const isFile = fs.lstatSync(path).isFile();
 
-  const hasFileExtension = path.slice(path.lastIndexOf('/')+1).lastIndexOf('.') !== -1;
+  const hasFileExtension = path.slice(path.lastIndexOf('/') + 1).lastIndexOf('.') !== -1;
 
   const fileName = path.slice(
-    path.lastIndexOf('/')+1,
+    path.lastIndexOf('/') + 1,
     hasFileExtension ? path.lastIndexOf('.') : undefined
-  ) 
+  )
 
   if (isFile) {
     if (!path.endsWith('.md')) return;
@@ -36,13 +36,13 @@ const getFolderTree = (
 
     return { name: fileName, hasNote: true }
   }
-  
-  
+
+
   const subFiles = fs
-  .readdirSync(path)
-  .map((subFile) => getFolderTree(`${path}/${subFile}`))
-  .filter((subFile) => subFile !== undefined);
-  
+    .readdirSync(path)
+    .map((subFile) => getFolderTree(`${path}/${subFile}`))
+    .filter((subFile) => subFile !== undefined);
+
   const isFolderNote = subFiles.some((subFile) => subFile['name'] === fileName && subFile['hasNote'])
 
   return {
@@ -56,7 +56,7 @@ const getFolderTree = (
 const fileTree = getFolderTree(process.env['INPUT_NOTES_ROOT_PATH'] as string);
 
 const FileExplorer: React.FC = () => (
-  <div className="w-96 h-screen flex flex-col bg-nord-1">
+  <div className="w-96 h-screen flex flex-col bg-nord-1 print:hidden">
     <div className="flex flex-col gap-2 px-2 mt-5">
       <Link href="/" >
         <span className="h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded">

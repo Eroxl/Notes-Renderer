@@ -1,12 +1,9 @@
 import fs from 'fs';
 import fm from 'front-matter';
 
-import TextNode from "./types/TextNode";
-import parseNodes from './parseNodes';
-
 const contentCache = {};
 
-const getNoteContent = async (notePath: string): Promise<[TextNode[], Record<string, unknown>]> => {
+const getNoteContent = (notePath: string): { content: string, metadata: Record<string, unknown> } => {
   if (contentCache[notePath]) return contentCache[notePath];
 
   const { attributes: metadata, body: content } = fm(
@@ -14,17 +11,12 @@ const getNoteContent = async (notePath: string): Promise<[TextNode[], Record<str
       .toString()
   );
 
-  const output = await parseNodes(content);
-
-  contentCache[notePath] = [
-    output,
+  contentCache[notePath] = {
+    content,
     metadata
-  ]
+  }
 
-  return [
-    output,
-    metadata as Record<string, unknown>
-  ];
+  return contentCache[notePath]
 };
 
 export default getNoteContent;
