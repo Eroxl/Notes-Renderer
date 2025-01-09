@@ -6,12 +6,11 @@ import FileExplorer from 'src/components/FileExplorer';
 
 interface RootLayoutProps {
   children: React.ReactNode;
-  params: {
-    pageName: string,
-  }
 }
 
-const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+const RootLayout = async (props: RootLayoutProps) => {
+  const { children } = props;
+
   return (
     <html>
       <head>

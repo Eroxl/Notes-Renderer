@@ -1,8 +1,6 @@
 import Token from "markdown-it/lib/token.mjs";
 
-const tikz = (tokens: Token[], index: number) => {
-  const content = tokens[index + 1].content;
-
+const tikz = (content: string) => {
   const parsedContent = content
     .replaceAll("&nbsp;", "")
     .split("\n")
