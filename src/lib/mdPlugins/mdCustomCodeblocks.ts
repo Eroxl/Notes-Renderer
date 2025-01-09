@@ -6,11 +6,7 @@ import type Token from "markdown-it/lib/token.mjs";
 type CustomCodeblocksOpts = {
   renderers: {
     [type: string]: (
-      tokens: Token[],
-      index: number,
-      options: Options,
-      env: unknown,
-      slf: Renderer,
+      content: string,
     ) => string
   }
 };
@@ -32,13 +28,6 @@ const captureCustomCodeblock = (state: StateBlock, startLine: number, endLine: n
 
   const type = state.src.slice(start).match(`${marker}(\\S*)`)?.[1] || ''
 
-  const token_o = state.push('custom_fence_open', 'div', 1)
-  token_o.markup = marker;
-  token_o.block = true;
-  token_o.info = type;
-
-  let contentStart = start + marker.length + type.length + 1;
-
   for (; ;) {
     nextLine++;
 
@@ -48,32 +37,18 @@ const captureCustomCodeblock = (state: StateBlock, startLine: number, endLine: n
 
     const closingMarker = /^((?:`{3})+)/.exec(state.src.slice(start))?.[0];
 
-    if (closingMarker === undefined) continue;
-
     if (closingMarker === marker) break;
-
-    // ~ Nested Code Block
-    const token_i = state.push('custom_fence_content', '', 0);
-    token_i.content = state.src.slice(
-      contentStart,
-      start
-    )
-    token_i.children = []
-    token_i.map = [startLine, nextLine]
-
-
-    captureCustomCodeblock(state, nextLine, endLine, false);
-
-    nextLine = state.line
-
-    contentStart = state.bMarks[state.line + 1] + state.tShift[state.line + 1];
   }
 
+  const token_o = state.push('custom_fence_open', 'div', 1)
+  token_o.markup = marker;
+  token_o.block = true;
+  token_o.info = type;
   token_o.map = [startLine, nextLine]
 
   const token_i = state.push('custom_fence_content', '', 0)
   token_i.content = state.src.slice(
-    contentStart,
+    state.bMarks[startLine] + state.tShift[startLine] + marker.length + type.length + 1,
     start
   )
 
@@ -92,28 +67,24 @@ const captureCustomCodeblock = (state: StateBlock, startLine: number, endLine: n
   state.line = nextLine + 1;
 
   return true;
-
 };
 
 const mdCustomCodeblocks = (md: MarkdownIt, opts: CustomCodeblocksOpts) => {
   const renderCodeblockOpen = (
     tokens: Token[],
     index: number,
-    options: Options,
-    env: unknown,
-    slf: Renderer,
   ): string => {
     const renderer = opts.renderers[tokens[index].info]
 
     if (!renderer) return `<div type="${tokens[index].info}">`;
 
-    return `<div type="${tokens[index].info}">${renderer(tokens, index, options, env, slf)}`
+    return renderer(tokens[index + 1].content);
   }
 
   md.block.ruler.before('fence', 'custom_fence', captureCustomCodeblock);
 
   md.renderer.rules['custom_fence_open'] = renderCodeblockOpen;
-  md.renderer.rules['custom_fence_close'] = () => '</div>';
+  md.renderer.rules['custom_fence_close'] = () => '';
 
   md.renderer.rules['custom_fence_content'] = () => '';
 }

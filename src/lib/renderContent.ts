@@ -16,13 +16,35 @@ const md = markdownit({ linkify: false })
   .use(mdCallouts)
   .use(mdCustomCodeblocks, {
     renderers: {
-      'col': () => {
-        return '<div class="col">'
-      },
-      'col-md': (tokens: Token[], index: number) => {
-        tokens[index + 1].type = 'inline';
+      'col': (content: string) => {
+        const {
+          html,
+          style
+        } = renderContent(content);
 
-        return `<div>${md.render(tokens[index + 1].content)}</div>`
+        return `
+          <style>
+            ${style}
+          </style>
+          <div class="col">
+            ${html}
+          </div>
+        `;
+      },
+      'col-md': (content: string) => {
+        const {
+          html,
+          style
+        } = renderContent(content);
+
+        return `
+          <style>
+            ${style}
+          </style>
+          <div class="col-md">
+            ${html}
+          </div>
+        `;
       },
       tikz,
       'desmos-graph': desmosGraph

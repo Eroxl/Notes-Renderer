@@ -140,8 +140,17 @@ body {
 }
 
 .col {
-  @apply flex flex-row justify-evenly *:flex-grow;
+  @apply flex flex-row justify-evenly *:flex-grow gap-6 px-4;
 }
+
+.col-md {
+  @apply flex flex-col justify-evenly;
+}
+
+.col-md > *:first-child, .col > *:first-child {
+    display: none;
+}
+
 
 .tikz {
   @apply fill-current overflow-visible invert py-8;

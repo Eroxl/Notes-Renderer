@@ -14,6 +14,7 @@ const getValidNotes = (
 
   return [
     ...children
+      .filter((child) => fs.lstatSync(`${path}/${child}`).isFile())
       .map((child) => ({
         name: child.split('.')[0],
         path: `${path}/${child}`,

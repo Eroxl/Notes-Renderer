@@ -4,17 +4,17 @@ import getNotePath from '../../lib/getNotePath';
 import getNoteContent from '../../lib/getNoteContent';
 import renderContent from '../../lib/renderContent';
 import getValidNotes from '../../lib/getValidNotes';
-import PageMetadata from 'src/components/PageMetadata';
+import PageMetadata from '../../components/PageMetadata';
 
 const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   const { pageName } = await params;
 
-  const pagePath = getNotePath(decodeURI(pageName))
+  const pagePath = getNotePath(decodeURI(decodeURI(pageName)));
 
   const {
     content,
     metadata
-  } = await getNoteContent(pagePath);
+  } = getNoteContent(pagePath);
 
   const {
     html,
@@ -43,10 +43,11 @@ const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   )
 }
 
-const generateStaticParams = async (): Promise<{ pageName: string }[]> => {
+const generateStaticParams = (): { pageName: string }[] => {
   const notesPath = process.env['INPUT_NOTES_ROOT_PATH']
 
   if (!notesPath) throw new Error("No notes path provided");
+
 
   return getValidNotes(notesPath)
     .flatMap((path) => ([
