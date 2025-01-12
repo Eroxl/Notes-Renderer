@@ -16,6 +16,9 @@ const RootLayout = async (props: RootLayoutProps) => {
       <head>
         <link rel="stylesheet" type="text/css" href="https://bill-ion.github.io/tikzjax-live/dist/fonts.css" />
         <script defer src="https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js" />
+
+        <link href="https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
       </head>
       <body className="bg-nord-0 flex flex-row">
         <FileExplorer />

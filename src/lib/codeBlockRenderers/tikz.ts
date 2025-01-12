@@ -10,7 +10,7 @@ const tikz = (content: string) => {
 
 
   return (
-    `<div class="tikz col">
+    `<div class="tikz">
       <script type="text/tikz">
         ${parsedContent}
       </script>

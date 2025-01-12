@@ -1,0 +1,4391 @@
+1:"$Sreact.fragment"
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/0af4a0f616ff4b2b.css","style"]
+0:{"P":null,"b":"Cp2j9OGCngB6xJc7_pN7q","p":"","c":["","Package%2520Relationship%2520Diagram"],"i":false,"f":[[["",{"children":[["pageName","Package%2520Relationship%2520Diagram","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0af4a0f616ff4b2b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["pageName","Package%2520Relationship%2520Diagram","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$0:f:0:1:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","mH7M-VGF5nXVIYYzUrcPT",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:I[8173,["177","static/chunks/app/layout-eabb9cd2a142b429.js"],""]
+e:I[8352,["177","static/chunks/app/layout-eabb9cd2a142b429.js"],"default"]
+2:["$","html",null,{"children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","type":"text/css","href":"https://bill-ion.github.io/tikzjax-live/dist/fonts.css"}],["$","script",null,{"defer":true,"src":"https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js"}],["$","link",null,{"href":"https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css","rel":"stylesheet","type":"text/css"}],["$","script",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"}]]}],["$","body",null,{"className":"bg-nord-0 flex flex-row","children":[["$","div",null,{"className":"w-96 h-screen flex flex-col bg-nord-1 print:hidden","children":[["$","div",null,{"className":"flex flex-col gap-2 px-2 mt-5","children":[["$","$Ld",null,{"href":"/","children":["$","span",null,{"className":"h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded","children":"Eroxl's Notes"}]}],["$","$Ld",null,{"href":"/graph","className":"flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chart-scatter h-5 w-5 aspect-square","children":[["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],["$","circle","lysivs",{"cx":"18.5","cy":"5.5","r":".5","fill":"currentColor"}],["$","circle","byv1b8",{"cx":"11.5","cy":"11.5","r":".5","fill":"currentColor"}],["$","circle","nkw3mc",{"cx":"7.5","cy":"16.5","r":".5","fill":"currentColor"}],["$","circle","1gjh6j",{"cx":"17.5","cy":"14.5","r":".5","fill":"currentColor"}],["$","path","c24i48",{"d":"M3 3v16a2 2 0 0 0 2 2h16"}],"$undefined"]}],["$","span",null,{"className":"lex flex-row justify-center text-md font-bold","children":"Graph"}]]}],["$","div",null,{"className":"w-full h-0.5 rounded-full mt-2 bg-white/20"}]]}],["$","div",null,{"className":"h-full overflow-y-scroll p-4 no-scrollbar relative","id":"nav-bar","children":[["$","$Le","00 - Machine Learning",{"entry":{"name":"00 - Machine Learning","hasNote":false,"subFiles":[{"name":"Learning Types","hasNote":false,"subFiles":[{"name":"Supervised Learning","hasNote":true,"subFiles":[{"name":"Features","hasNote":true},{"name":"Problem Types","hasNote":false,"subFiles":[{"name":"Classification","hasNote":true},{"name":"Regression","hasNote":true}]}]},{"name":"Unsupervised Learning","hasNote":true}]},{"name":"Neural Networks","hasNote":false,"subFiles":[{"name":"Activation Functions","hasNote":true,"subFiles":[{"name":"Leaky ReLU Function","hasNote":true},{"name":"Parametric ReLU Function","hasNote":true},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Exploding Gradient Problem","hasNote":true},{"name":"Vanishing Gradient Problem","hasNote":true}]},{"name":"Rectified Linear (ReLU) Function","hasNote":true,"subFiles":[{"name":"Dying RELU Problem","hasNote":true}]},{"name":"Sigmoid Function","hasNote":true,"subFiles":[{"name":"Logistic Function","hasNote":true}]},{"name":"Softmax","hasNote":true},{"name":"Step Function","hasNote":true}]},{"name":"Convolutional Neural Network","hasNote":true},{"name":"Deep Neural Network","hasNote":true},{"name":"Feedforward Neural Network","hasNote":true},{"name":"Layer Types","hasNote":true,"subFiles":[{"name":"Convolutional Layer","hasNote":true,"subFiles":[{"name":"Kernel","hasNote":true}]},{"name":"Dense Layer","hasNote":true,"subFiles":[{"name":"Definition of a Layer of Dense Neurones","hasNote":true},{"name":"Definition of a Single Dense Neurone","hasNote":true}]},{"name":"Dropout Layer","hasNote":true},{"name":"Hidden Layer","hasNote":true}]}]},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Overfitting","hasNote":true},{"name":"Underfitting","hasNote":true}]},{"name":"Pre Processing","hasNote":false,"subFiles":[{"name":"Normalization","hasNote":true,"subFiles":[{"name":"Min-Max Scaling","hasNote":true},{"name":"One Hot Encoding","hasNote":true},{"name":"Z-Score Normalization","hasNote":true}]}]},{"name":"Training","hasNote":false,"subFiles":[{"name":"Backpropagation","hasNote":true,"subFiles":[{"name":"Backpropagation Example with One Neurone","hasNote":true}]},{"name":"Batching","hasNote":true},{"name":"Cost Function","hasNote":true,"subFiles":[{"name":"Categorical Cross-Entropy Loss","hasNote":true}]},{"name":"Feature Set","hasNote":true},{"name":"Optimization","hasNote":true,"subFiles":[{"name":"Gradient Descent","hasNote":true,"subFiles":[{"name":"AdaGrad","hasNote":true},{"name":"Adam","hasNote":true},{"name":"Batch Gradient Descent","hasNote":true},{"name":"Gradient Descent with Momentum","hasNote":true},{"name":"Learning Rate","hasNote":true,"subFiles":[{"name":"Learning Rate Decay","hasNote":true,"subFiles":[{"name":"Exponential Learning Rate Decay","hasNote":true},{"name":"Step Based Learning Rate Decay","hasNote":true},{"name":"Time Based Learning Rate Decay","hasNote":true}]},{"name":"Learning Rate Scheduling","hasNote":true}]},{"name":"Mini-Batch Gradient Descent","hasNote":true},{"name":"RMSProp","hasNote":true},{"name":"Stochastic Gradient Descent","hasNote":true}]}]},{"name":"Penalties","hasNote":true,"subFiles":[{"name":"L1 Regularization","hasNote":true},{"name":"L2 Regularization","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","01 - Linear Algebra",{"entry":{"name":"01 - Linear Algebra","hasNote":false,"subFiles":[{"name":"Elementary Row Operations","hasNote":true},{"name":"Gaussian Elimination","hasNote":true},{"name":"Linear Equation","hasNote":true},{"name":"Linear System","hasNote":true},{"name":"Matrix","hasNote":true,"subFiles":[{"name":"Matrix Operations","hasNote":true,"subFiles":[{"name":"Adjugate Matrix","hasNote":true},{"name":"Cofactor Matrix","hasNote":true},{"name":"Hadamard Product","hasNote":true},{"name":"Matrix Cofactor","hasNote":true},{"name":"Matrix Determinant","hasNote":true,"subFiles":[{"name":"Laplace Expansion","hasNote":true}]},{"name":"Matrix Diagonal Operator","hasNote":true},{"name":"Matrix Inversion","hasNote":true},{"name":"Matrix Minor","hasNote":true},{"name":"Matrix Product","hasNote":true},{"name":"Matrix Transposition","hasNote":true}]},{"name":"Matrix Subtypes","hasNote":true,"subFiles":[{"name":"Column Vector","hasNote":true},{"name":"Identity Matrix","hasNote":true},{"name":"Row Vector","hasNote":true},{"name":"Square Matrix","hasNote":true}]}]},{"name":"Scalar","hasNote":true},{"name":"Vector","hasNote":true,"subFiles":[{"name":"Vector Notation","hasNote":true,"subFiles":[{"name":"Matrix Notation","hasNote":true},{"name":"Point Notation","hasNote":true},{"name":"Unit Vector Notation","hasNote":true}]},{"name":"Vector Operations","hasNote":true,"subFiles":[{"name":"Cross Product","hasNote":true,"subFiles":[{"name":"Right Hand Rule","hasNote":true}]},{"name":"Dot Product","hasNote":true},{"name":"Scalar Multiplication","hasNote":true},{"name":"Triple Product","hasNote":true},{"name":"Vector Addition","hasNote":true,"subFiles":[]},{"name":"Vector Subtraction","hasNote":true}]},{"name":"Vector Properties","hasNote":true,"subFiles":[{"name":"Vector Magnitude","hasNote":true},{"name":"Vector Orientation","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","02 - Calculus",{"entry":{"name":"02 - Calculus","hasNote":false,"subFiles":[{"name":"Average Rate of Change","hasNote":true},{"name":"Continuous Function","hasNote":true},{"name":"Critical Point","hasNote":true},{"name":"Derivative","hasNote":true,"subFiles":[{"name":"Concavity","hasNote":true},{"name":"Differentiable Function","hasNote":true},{"name":"Differentiation Rules","hasNote":true,"subFiles":[{"name":"Chain Rule","hasNote":true},{"name":"Constant Multiples Rule","hasNote":true},{"name":"Constant Rule","hasNote":true},{"name":"Inverse Function Rule","hasNote":true},{"name":"Power Rule","hasNote":true},{"name":"Product Rule","hasNote":true},{"name":"Quotient Rule","hasNote":true},{"name":"Sum Rule","hasNote":true}]},{"name":"First Derivative Test","hasNote":true},{"name":"Higher Order Derivatives","hasNote":true},{"name":"Notation","hasNote":false,"subFiles":[{"name":"Lagrange's Notation","hasNote":true},{"name":"Leibniz's Notation","hasNote":true}]},{"name":"Optimization Using Derivatives","hasNote":true},{"name":"Second Derivative Test","hasNote":true}]},{"name":"Discontinuity","hasNote":true,"subFiles":[{"name":"Essential Discontinuity","hasNote":true},{"name":"Jump Discontinuity","hasNote":true},{"name":"Removable Discontinuity","hasNote":true}]},{"name":"Extrema","hasNote":false,"subFiles":[{"name":"Absolute Extrema","hasNote":true,"subFiles":[{"name":"Absolute Maximum","hasNote":true},{"name":"Absolute Minimum","hasNote":true}]},{"name":"Local Extrema","hasNote":true,"subFiles":[{"name":"Local Maximum","hasNote":true},{"name":"Local Minimum","hasNote":true}]}]},{"name":"Horizontal Asymptote","hasNote":true},{"name":"Inflection Point","hasNote":true},{"name":"Integral","hasNote":true,"subFiles":[{"name":"Antiderivative Rules","hasNote":true},{"name":"Antiderivative Techniques","hasNote":true,"subFiles":[{"name":"Integration by Partial Fractions","hasNote":true},{"name":"Integration by Substitution","hasNote":true}]},{"name":"Antiderivative","hasNote":true},{"name":"Approximations","hasNote":false,"subFiles":[{"name":"Riemann Sum","hasNote":true,"subFiles":[{"name":"Examples","hasNote":false,"subFiles":[]}]}]}]},{"name":"Intermediate Value Theorem","hasNote":true},{"name":"Interval","hasNote":true,"subFiles":[{"name":"Closed Interval","hasNote":true},{"name":"Half-Open Interval","hasNote":true},{"name":"Interval Notation","hasNote":true},{"name":"Open Interval","hasNote":true}]},{"name":"Limit","hasNote":true,"subFiles":[{"name":"Indeterminate Form","hasNote":true},{"name":"L'Hôpital's Rule","hasNote":true},{"name":"One-Sided Limits","hasNote":true},{"name":"Squeeze Theorem","hasNote":true}]},{"name":"Linearization","hasNote":true},{"name":"Mean Value Theorem","hasNote":false,"subFiles":[{"name":"Mean Value Theorem for Derivatives","hasNote":true}]},{"name":"Normal Line","hasNote":true},{"name":"Rate of Change","hasNote":true},{"name":"Secant Line","hasNote":true},{"name":"Solid of Revolution","hasNote":true,"subFiles":[{"name":"Disc Integration","hasNote":true},{"name":"Washer Integration","hasNote":true}]},{"name":"Tangent Line","hasNote":true},{"name":"Taylor Series","hasNote":true},{"name":"The Fundamental Theorem of Calculus","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","03 - Multivariable Calculus",{"entry":{"name":"03 - Multivariable Calculus","hasNote":false,"subFiles":[{"name":"Gradient","hasNote":true},{"name":"Jacobian Matrix","hasNote":true},{"name":"Multivariable Function","hasNote":true},{"name":"Partial Derivative","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","04 - Physics",{"entry":{"name":"04 - Physics","hasNote":false,"subFiles":[{"name":"Electric Circuits","hasNote":false,"subFiles":[{"name":"Ammeter","hasNote":true},{"name":"Battery","hasNote":true},{"name":"Capacitance","hasNote":true},{"name":"Capacitor","hasNote":true},{"name":"Conductance","hasNote":true},{"name":"Current","hasNote":true},{"name":"Electrical Power","hasNote":true},{"name":"Kirchhoff's Current Law","hasNote":true},{"name":"Kirchhoff's Voltage Law","hasNote":true},{"name":"Ohm's Law","hasNote":true},{"name":"Parallel","hasNote":true},{"name":"Resistance","hasNote":true},{"name":"Resistor","hasNote":true},{"name":"Series","hasNote":true},{"name":"Voltmeter","hasNote":true}]},{"name":"Electromagnetics","hasNote":false,"subFiles":[{"name":"Electromagnetic Radiation","hasNote":true},{"name":"Light","hasNote":true},{"name":"Photon","hasNote":true}]},{"name":"Electrostatics","hasNote":false,"subFiles":[{"name":"Charged Particle","hasNote":true},{"name":"Coulombs Constant","hasNote":true},{"name":"Coulombs Law","hasNote":true},{"name":"Electric Field","hasNote":true,"subFiles":[{"name":"Uniform Electric Field","hasNote":true}]},{"name":"Electric Field Lines","hasNote":true,"subFiles":[]},{"name":"Electric Potential Difference","hasNote":true,"subFiles":[]},{"name":"Electric Potential Energy","hasNote":true},{"name":"Electric Potential","hasNote":true},{"name":"Elementary Charge","hasNote":true},{"name":"Parallel Plates","hasNote":true}]},{"name":"Geometrical Optics","hasNote":true,"subFiles":[{"name":"Lenses","hasNote":true,"subFiles":[{"name":"Focal Length","hasNote":true},{"name":"Image Point","hasNote":true},{"name":"Real Image","hasNote":true},{"name":"Thin Concave Lens","hasNote":true,"subFiles":[]},{"name":"Thin Convex Lens","hasNote":true,"subFiles":[]},{"name":"Virtual Image","hasNote":true}]},{"name":"Light Ray","hasNote":true},{"name":"Optical Medium","hasNote":true},{"name":"Refractive Index","hasNote":true},{"name":"Snell's Law","hasNote":true,"subFiles":[]},{"name":"Vergence","hasNote":true}]},{"name":"International System of Units","hasNote":true,"subFiles":[{"name":"Electricity","hasNote":false,"subFiles":[{"name":"Ampere","hasNote":true},{"name":"Coulomb","hasNote":true},{"name":"Farad","hasNote":true},{"name":"Volt","hasNote":true}]},{"name":"Energy","hasNote":false,"subFiles":[{"name":"Joule","hasNote":true}]},{"name":"SI Base Units","hasNote":true}]},{"name":"Particle Physics","hasNote":false,"subFiles":[{"name":"Electron","hasNote":true},{"name":"Elementary Particle","hasNote":true},{"name":"Fermion","hasNote":true},{"name":"Lepton","hasNote":true},{"name":"Proton","hasNote":true}]},{"name":"Physical Constants","hasNote":false,"subFiles":[{"name":"Permeability of Free Space","hasNote":true},{"name":"Permittivity of Free Space","hasNote":true},{"name":"Planck's Constant","hasNote":true},{"name":"Speed of Light","hasNote":true}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","05 - Algebra",{"entry":{"name":"05 - Algebra","hasNote":false,"subFiles":[{"name":"Empty Product","hasNote":true},{"name":"Euclidean Division","hasNote":true},{"name":"Even Function","hasNote":true},{"name":"Factorial","hasNote":true},{"name":"Function","hasNote":true},{"name":"Integer","hasNote":true},{"name":"Monomial","hasNote":true},{"name":"Natural Number","hasNote":true},{"name":"Odd Function","hasNote":true},{"name":"Polynomial Degree","hasNote":true},{"name":"Polynomial","hasNote":true},{"name":"Proper Fraction","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","06 - Discrete Mathematics",{"entry":{"name":"06 - Discrete Mathematics","hasNote":false,"subFiles":[{"name":"Argument","hasNote":true,"subFiles":[{"name":"Common Rules of Inference","hasNote":false,"subFiles":[{"name":"Contradiction Rule","hasNote":true},{"name":"Division into Cases","hasNote":true},{"name":"Elimination","hasNote":true},{"name":"Generalization","hasNote":true},{"name":"Modus Ponens","hasNote":true},{"name":"Modus Tollens","hasNote":true},{"name":"Specialization","hasNote":true},{"name":"Transivity","hasNote":true}]},{"name":"Fallacy","hasNote":true,"subFiles":[]},{"name":"Quantified Rules of Inference","hasNote":false,"subFiles":[{"name":"Universal Instantiation","hasNote":true},{"name":"Universal Modus Ponens","hasNote":true},{"name":"Universal Modus Tollens","hasNote":true}]},{"name":"Rule of Inference","hasNote":true},{"name":"Syllogism","hasNote":true}]},{"name":"Big-O Notation","hasNote":true},{"name":"Character Encoding","hasNote":false,"subFiles":[{"name":"ASCII","hasNote":true}]},{"name":"Common Circuits","hasNote":false,"subFiles":[{"name":"Full Adder","hasNote":true},{"name":"Half Adder","hasNote":true}]},{"name":"Common Logical Equivalences","hasNote":true,"subFiles":[{"name":"Absorption Laws","hasNote":true},{"name":"Associative Laws","hasNote":true},{"name":"Commutative Laws","hasNote":true},{"name":"De Morgan's Laws","hasNote":true},{"name":"Distributive Laws","hasNote":true},{"name":"Domination Laws","hasNote":true},{"name":"Idempotent Laws","hasNote":true},{"name":"Identity Laws","hasNote":true}]},{"name":"Compound Statements","hasNote":true},{"name":"Contradiction","hasNote":true},{"name":"Creating a Statement from Truth Tables","hasNote":true},{"name":"Formal Language","hasNote":true,"subFiles":[]},{"name":"Logic Gate","hasNote":true,"subFiles":[{"name":"AND Gate","hasNote":true},{"name":"NAND Gate","hasNote":true},{"name":"NOR Gate","hasNote":true},{"name":"NOT Gate","hasNote":true},{"name":"OR Gate","hasNote":true},{"name":"XNOR Gate","hasNote":true},{"name":"XOR Gate","hasNote":true}]},{"name":"Logical Equivalence","hasNote":true},{"name":"Logical Operator","hasNote":true,"subFiles":[{"name":"Biconditional","hasNote":true},{"name":"Conditional","hasNote":true},{"name":"Conjunction","hasNote":true},{"name":"Disjunction","hasNote":true},{"name":"Exclusive Disjunction","hasNote":true},{"name":"Negation","hasNote":true}]},{"name":"Mathematical Proof","hasNote":true,"subFiles":[{"name":"Direct Proof","hasNote":true},{"name":"Mathematical Induction","hasNote":true,"subFiles":[{"name":"Strong Mathematical Induction","hasNote":true}]}]},{"name":"Modular Arithmetic","hasNote":true},{"name":"Modulo","hasNote":true},{"name":"Numeral System","hasNote":true,"subFiles":[{"name":"Binary Number","hasNote":true,"subFiles":[{"name":"Bit","hasNote":true},{"name":"Floating Point Number","hasNote":true},{"name":"Two's Complement","hasNote":true}]},{"name":"Decimal Number","hasNote":true},{"name":"Hexadecimal Number","hasNote":true},{"name":"Numerical Digit","hasNote":true},{"name":"Radix","hasNote":true}]},{"name":"Predicate","hasNote":true,"subFiles":[{"name":"Truth Set","hasNote":true}]},{"name":"Quantifier","hasNote":true,"subFiles":[{"name":"Existential Quantifier","hasNote":true},{"name":"Universal Quantifier","hasNote":true,"subFiles":[{"name":"Universal Conditional Statements","hasNote":true}]}]},{"name":"Sequence","hasNote":true},{"name":"Simplifying Statement Forms","hasNote":true},{"name":"Statement","hasNote":true},{"name":"Tautology","hasNote":true},{"name":"Truth Table","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","07 - Set Theory",{"entry":{"name":"07 - Set Theory","hasNote":false,"subFiles":[{"name":"Empty Set","hasNote":true},{"name":"Euler Diagram","hasNote":true,"subFiles":[]},{"name":"Power Set","hasNote":true},{"name":"Set","hasNote":true,"subFiles":[{"name":"Element","hasNote":true},{"name":"Operations","hasNote":false,"subFiles":[{"name":"Complement","hasNote":true,"subFiles":[]},{"name":"Intersection","hasNote":true,"subFiles":[]},{"name":"Set Difference","hasNote":true,"subFiles":[]},{"name":"Set Equality","hasNote":true},{"name":"Subset","hasNote":true},{"name":"Union","hasNote":true,"subFiles":[]}]}]},{"name":"Set Builder Notation","hasNote":true},{"name":"Universal Set","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","08 - Chemistry",{"entry":{"name":"08 - Chemistry","hasNote":false,"subFiles":[{"name":"Atom","hasNote":true},{"name":"Chemical Formula","hasNote":true},{"name":"Ion","hasNote":true},{"name":"Periodic Table","hasNote":true},{"name":"Structural Chemistry","hasNote":false,"subFiles":[{"name":"Atomic Orbital","hasNote":true},{"name":"Effective Nuclear Charge","hasNote":true},{"name":"Electron Shell","hasNote":true},{"name":"Ionization Energy","hasNote":true},{"name":"Lewis Structure","hasNote":true}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","09 - Computer Science",{"entry":{"name":"09 - Computer Science","hasNote":false,"subFiles":[{"name":"Algorithms","hasNote":false,"subFiles":[]},{"name":"Paradigms","hasNote":false,"subFiles":[{"name":"Object Oriented","hasNote":false,"subFiles":[{"name":"Call Graph","hasNote":true,"subFiles":[]},{"name":"Class","hasNote":true},{"name":"Constructor","hasNote":true},{"name":"Method","hasNote":true},{"name":"Package Relationship Diagram","hasNote":true,"subFiles":[]},{"name":"Package","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}]]}]]}],["$","div",null,{"className":"w-full h-screen overflow-hidden print:h-full print:overflow-visible","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
+f:T43a4,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c58::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "X";
+}
+
+mjx-c.mjx-c27F6::before {
+  padding: 0.511em 1.638em 0.011em 0;
+  content: "\27F6";
+}
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c1D43C.TEX-I::before {
+  padding: 0.683em 0.504em 0 0;
+  content: "I";
+}
+
+mjx-c.mjx-c2248::before {
+  padding: 0.483em 0.778em 0 0;
+  content: "\2248";
+}
+
+
+
+mjx-c.mjx-c1D438.TEX-I::before {
+  padding: 0.68em 0.764em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c1D445.TEX-I::before {
+  padding: 0.683em 0.759em 0.021em 0;
+  content: "R";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+mjx-c.mjx-c74::before {
+  padding: 0.615em 0.389em 0.01em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c68::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "h";
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D44D.TEX-I::before {
+  padding: 0.683em 0.723em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c.mjx-c2113::before {
+  padding: 0.705em 0.417em 0.02em 0;
+  content: "\2113";
+}
+
+mjx-c.mjx-c1D460.TEX-I::before {
+  padding: 0.442em 0.469em 0.01em 0;
+  content: "s";
+}
+
+
+
+
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mpadded {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-rbox {
+  display: inline-block;
+  position: relative;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c48::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "H";
+}
+
+mjx-c.mjx-c4E::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "N";
+}
+
+mjx-c.mjx-c4F::before {
+  padding: 0.705em 0.778em 0.022em 0;
+  content: "O";
+}
+
+mjx-c.mjx-c43::before {
+  padding: 0.705em 0.722em 0.021em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+
+
+mjx-c.mjx-c222A::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\222A";
+}
+
+mjx-c.mjx-c2228::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2228";
+}
+
+
+
+
+
+mjx-c.mjx-c2229::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2229";
+}
+
+
+
+
+
+mjx-c.mjx-cAC::before {
+  padding: 0.356em 0.667em 0 0;
+  content: "\AC";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c7C::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "|";
+}
+
+
+
+
+
+mjx-c.mjx-c2286::before {
+  padding: 0.636em 0.778em 0.138em 0;
+  content: "\2286";
+}
+
+mjx-c.mjx-c2192::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c2288.TEX-A::before {
+  padding: 0.801em 0.778em 0.303em 0;
+  content: "\2288";
+}
+
+mjx-c.mjx-c2282::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "\2282";
+}
+
+mjx-c.mjx-c1D466.TEX-I::before {
+  padding: 0.442em 0.49em 0.205em 0;
+  content: "y";
+}
+
+
+
+mjx-c.mjx-c2200::before {
+  padding: 0.694em 0.556em 0.022em 0;
+  content: "\2200";
+}
+
+mjx-c.mjx-c2194::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2194";
+}
+
+mjx-c.mjx-c2260::before {
+  padding: 0.716em 0.778em 0.215em 0;
+  content: "\2260";
+}
+
+mjx-c.mjx-c1D447.TEX-I::before {
+  padding: 0.677em 0.704em 0 0;
+  content: "T";
+}
+
+mjx-c.mjx-c1D45D.TEX-I::before {
+  padding: 0.442em 0.503em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c210E.TEX-I::before {
+  padding: 0.694em 0.576em 0.011em 0;
+  content: "h";
+}
+
+mjx-c.mjx-c1D446.TEX-I::before {
+  padding: 0.705em 0.645em 0.022em 0;
+  content: "S";
+}
+
+mjx-c.mjx-c2209::before {
+  padding: 0.716em 0.667em 0.215em 0;
+  content: "\2209";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+
+
+
+
+
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+
+
+mjx-c.mjx-c1D448.TEX-I::before {
+  padding: 0.683em 0.767em 0.022em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c55.TEX-C::before {
+  padding: 0.683em 0.687em 0.028em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c2026::before {
+  padding: 0.12em 1.172em 0 0;
+  content: "\2026";
+}
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c2223::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "\2223";
+}
+
+mjx-c.mjx-c7B::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "{";
+}
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c1D443.TEX-I::before {
+  padding: 0.683em 0.751em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c7D::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "}";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c1D437.TEX-I::before {
+  padding: 0.683em 0.828em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c2227::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2227";
+}
+
+mjx-c.mjx-c2203::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "\2203";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c2124.TEX-A::before {
+  padding: 0.683em 0.667em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+10:T1c316,<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<p>A Package relationship diagram is a type of diagram that shows the structure and dependencies of different <a href="Package">packages</a>.</p>
+<h1>Example</h1>
+<p>Consider the following simplified code</p>
+<h2>Packages</h2>
+<h3>UI</h3>
+<pre><code><span class="hljs-keyword">package</span> ui;
+
+<span class="hljs-keyword">import</span> travellers.Nomad;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WinterWonderland</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        <span class="hljs-type">Nomad</span> <span class="hljs-variable">nomad</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Nomad</span>();
+    }
+}
+</code></pre><h3>Travellers</h3>
+<pre><code><span class="hljs-keyword">package</span> travellers;
+
+<span class="hljs-keyword">import</span> places.FrostyForest;
+<span class="hljs-keyword">import</span> places.HuddledHill;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Nomad</span> {
+    <span class="hljs-keyword">private</span> FrostyForest frostyForest;
+    <span class="hljs-keyword">private</span> HuddledHill huddledHill;
+}
+</code></pre><pre><code><span class="hljs-keyword">package</span> travellers;
+
+<span class="hljs-keyword">import</span> places.ShiveringSea;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Tourist</span> {
+    <span class="hljs-keyword">private</span> ShiveringSea shiveringSea;
+}
+</code></pre><h3>Places</h3>
+
+          <style>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c58::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "X";
+}
+
+mjx-c.mjx-c27F6::before {
+  padding: 0.511em 1.638em 0.011em 0;
+  content: "\27F6";
+}
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c1D43C.TEX-I::before {
+  padding: 0.683em 0.504em 0 0;
+  content: "I";
+}
+
+mjx-c.mjx-c2248::before {
+  padding: 0.483em 0.778em 0 0;
+  content: "\2248";
+}
+
+
+
+mjx-c.mjx-c1D438.TEX-I::before {
+  padding: 0.68em 0.764em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c1D445.TEX-I::before {
+  padding: 0.683em 0.759em 0.021em 0;
+  content: "R";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+mjx-c.mjx-c74::before {
+  padding: 0.615em 0.389em 0.01em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c68::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "h";
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D44D.TEX-I::before {
+  padding: 0.683em 0.723em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c.mjx-c2113::before {
+  padding: 0.705em 0.417em 0.02em 0;
+  content: "\2113";
+}
+
+mjx-c.mjx-c1D460.TEX-I::before {
+  padding: 0.442em 0.469em 0.01em 0;
+  content: "s";
+}
+
+
+
+
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mpadded {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-rbox {
+  display: inline-block;
+  position: relative;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c48::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "H";
+}
+
+mjx-c.mjx-c4E::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "N";
+}
+
+mjx-c.mjx-c4F::before {
+  padding: 0.705em 0.778em 0.022em 0;
+  content: "O";
+}
+
+mjx-c.mjx-c43::before {
+  padding: 0.705em 0.722em 0.021em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+
+
+mjx-c.mjx-c222A::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\222A";
+}
+
+mjx-c.mjx-c2228::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2228";
+}
+
+
+
+
+
+mjx-c.mjx-c2229::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2229";
+}
+
+
+
+
+
+mjx-c.mjx-cAC::before {
+  padding: 0.356em 0.667em 0 0;
+  content: "\AC";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c7C::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "|";
+}
+
+
+
+
+
+mjx-c.mjx-c2286::before {
+  padding: 0.636em 0.778em 0.138em 0;
+  content: "\2286";
+}
+
+mjx-c.mjx-c2192::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c2288.TEX-A::before {
+  padding: 0.801em 0.778em 0.303em 0;
+  content: "\2288";
+}
+
+mjx-c.mjx-c2282::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "\2282";
+}
+
+mjx-c.mjx-c1D466.TEX-I::before {
+  padding: 0.442em 0.49em 0.205em 0;
+  content: "y";
+}
+
+
+
+mjx-c.mjx-c2200::before {
+  padding: 0.694em 0.556em 0.022em 0;
+  content: "\2200";
+}
+
+mjx-c.mjx-c2194::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2194";
+}
+
+mjx-c.mjx-c2260::before {
+  padding: 0.716em 0.778em 0.215em 0;
+  content: "\2260";
+}
+
+mjx-c.mjx-c1D447.TEX-I::before {
+  padding: 0.677em 0.704em 0 0;
+  content: "T";
+}
+
+mjx-c.mjx-c1D45D.TEX-I::before {
+  padding: 0.442em 0.503em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c210E.TEX-I::before {
+  padding: 0.694em 0.576em 0.011em 0;
+  content: "h";
+}
+
+mjx-c.mjx-c1D446.TEX-I::before {
+  padding: 0.705em 0.645em 0.022em 0;
+  content: "S";
+}
+
+mjx-c.mjx-c2209::before {
+  padding: 0.716em 0.667em 0.215em 0;
+  content: "\2209";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+
+
+
+
+
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+
+
+mjx-c.mjx-c1D448.TEX-I::before {
+  padding: 0.683em 0.767em 0.022em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c55.TEX-C::before {
+  padding: 0.683em 0.687em 0.028em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c2026::before {
+  padding: 0.12em 1.172em 0 0;
+  content: "\2026";
+}
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c2223::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "\2223";
+}
+
+mjx-c.mjx-c7B::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "{";
+}
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c1D443.TEX-I::before {
+  padding: 0.683em 0.751em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c7D::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "}";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c1D437.TEX-I::before {
+  padding: 0.683em 0.828em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c2227::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2227";
+}
+
+mjx-c.mjx-c2203::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "\2203";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c2124.TEX-A::before {
+  padding: 0.683em 0.667em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+          </style>
+          <div class="col">
+            <p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+
+          <style>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c58::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "X";
+}
+
+mjx-c.mjx-c27F6::before {
+  padding: 0.511em 1.638em 0.011em 0;
+  content: "\27F6";
+}
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c1D43C.TEX-I::before {
+  padding: 0.683em 0.504em 0 0;
+  content: "I";
+}
+
+mjx-c.mjx-c2248::before {
+  padding: 0.483em 0.778em 0 0;
+  content: "\2248";
+}
+
+
+
+mjx-c.mjx-c1D438.TEX-I::before {
+  padding: 0.68em 0.764em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c1D445.TEX-I::before {
+  padding: 0.683em 0.759em 0.021em 0;
+  content: "R";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+mjx-c.mjx-c74::before {
+  padding: 0.615em 0.389em 0.01em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c68::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "h";
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D44D.TEX-I::before {
+  padding: 0.683em 0.723em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c.mjx-c2113::before {
+  padding: 0.705em 0.417em 0.02em 0;
+  content: "\2113";
+}
+
+mjx-c.mjx-c1D460.TEX-I::before {
+  padding: 0.442em 0.469em 0.01em 0;
+  content: "s";
+}
+
+
+
+
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mpadded {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-rbox {
+  display: inline-block;
+  position: relative;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c48::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "H";
+}
+
+mjx-c.mjx-c4E::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "N";
+}
+
+mjx-c.mjx-c4F::before {
+  padding: 0.705em 0.778em 0.022em 0;
+  content: "O";
+}
+
+mjx-c.mjx-c43::before {
+  padding: 0.705em 0.722em 0.021em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+
+
+mjx-c.mjx-c222A::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\222A";
+}
+
+mjx-c.mjx-c2228::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2228";
+}
+
+
+
+
+
+mjx-c.mjx-c2229::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2229";
+}
+
+
+
+
+
+mjx-c.mjx-cAC::before {
+  padding: 0.356em 0.667em 0 0;
+  content: "\AC";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c7C::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "|";
+}
+
+
+
+
+
+mjx-c.mjx-c2286::before {
+  padding: 0.636em 0.778em 0.138em 0;
+  content: "\2286";
+}
+
+mjx-c.mjx-c2192::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c2288.TEX-A::before {
+  padding: 0.801em 0.778em 0.303em 0;
+  content: "\2288";
+}
+
+mjx-c.mjx-c2282::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "\2282";
+}
+
+mjx-c.mjx-c1D466.TEX-I::before {
+  padding: 0.442em 0.49em 0.205em 0;
+  content: "y";
+}
+
+
+
+mjx-c.mjx-c2200::before {
+  padding: 0.694em 0.556em 0.022em 0;
+  content: "\2200";
+}
+
+mjx-c.mjx-c2194::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2194";
+}
+
+mjx-c.mjx-c2260::before {
+  padding: 0.716em 0.778em 0.215em 0;
+  content: "\2260";
+}
+
+mjx-c.mjx-c1D447.TEX-I::before {
+  padding: 0.677em 0.704em 0 0;
+  content: "T";
+}
+
+mjx-c.mjx-c1D45D.TEX-I::before {
+  padding: 0.442em 0.503em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c210E.TEX-I::before {
+  padding: 0.694em 0.576em 0.011em 0;
+  content: "h";
+}
+
+mjx-c.mjx-c1D446.TEX-I::before {
+  padding: 0.705em 0.645em 0.022em 0;
+  content: "S";
+}
+
+mjx-c.mjx-c2209::before {
+  padding: 0.716em 0.667em 0.215em 0;
+  content: "\2209";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+
+
+
+
+
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+
+
+mjx-c.mjx-c1D448.TEX-I::before {
+  padding: 0.683em 0.767em 0.022em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c55.TEX-C::before {
+  padding: 0.683em 0.687em 0.028em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c2026::before {
+  padding: 0.12em 1.172em 0 0;
+  content: "\2026";
+}
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c2223::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "\2223";
+}
+
+mjx-c.mjx-c7B::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "{";
+}
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c1D443.TEX-I::before {
+  padding: 0.683em 0.751em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c7D::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "}";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c1D437.TEX-I::before {
+  padding: 0.683em 0.828em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c2227::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2227";
+}
+
+mjx-c.mjx-c2203::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "\2203";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c2124.TEX-A::before {
+  padding: 0.683em 0.667em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+          </style>
+          <div class="col-md">
+            <p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<pre><code><span class="hljs-keyword">package</span> places;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">FrostyForest</span> {}
+</code></pre><p>&lt;br /&gt;</p>
+<pre><code><span class="hljs-keyword">package</span> places;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ShiveringSea</span> {}
+</code></pre>
+          </div>
+        
+          <style>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c58::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "X";
+}
+
+mjx-c.mjx-c27F6::before {
+  padding: 0.511em 1.638em 0.011em 0;
+  content: "\27F6";
+}
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c1D43C.TEX-I::before {
+  padding: 0.683em 0.504em 0 0;
+  content: "I";
+}
+
+mjx-c.mjx-c2248::before {
+  padding: 0.483em 0.778em 0 0;
+  content: "\2248";
+}
+
+
+
+mjx-c.mjx-c1D438.TEX-I::before {
+  padding: 0.68em 0.764em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c1D445.TEX-I::before {
+  padding: 0.683em 0.759em 0.021em 0;
+  content: "R";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+mjx-c.mjx-c74::before {
+  padding: 0.615em 0.389em 0.01em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c68::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "h";
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D44D.TEX-I::before {
+  padding: 0.683em 0.723em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c.mjx-c2113::before {
+  padding: 0.705em 0.417em 0.02em 0;
+  content: "\2113";
+}
+
+mjx-c.mjx-c1D460.TEX-I::before {
+  padding: 0.442em 0.469em 0.01em 0;
+  content: "s";
+}
+
+
+
+
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mpadded {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-rbox {
+  display: inline-block;
+  position: relative;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c48::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "H";
+}
+
+mjx-c.mjx-c4E::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "N";
+}
+
+mjx-c.mjx-c4F::before {
+  padding: 0.705em 0.778em 0.022em 0;
+  content: "O";
+}
+
+mjx-c.mjx-c43::before {
+  padding: 0.705em 0.722em 0.021em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+
+
+mjx-c.mjx-c222A::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\222A";
+}
+
+mjx-c.mjx-c2228::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2228";
+}
+
+
+
+
+
+mjx-c.mjx-c2229::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2229";
+}
+
+
+
+
+
+mjx-c.mjx-cAC::before {
+  padding: 0.356em 0.667em 0 0;
+  content: "\AC";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c7C::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "|";
+}
+
+
+
+
+
+mjx-c.mjx-c2286::before {
+  padding: 0.636em 0.778em 0.138em 0;
+  content: "\2286";
+}
+
+mjx-c.mjx-c2192::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c2288.TEX-A::before {
+  padding: 0.801em 0.778em 0.303em 0;
+  content: "\2288";
+}
+
+mjx-c.mjx-c2282::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "\2282";
+}
+
+mjx-c.mjx-c1D466.TEX-I::before {
+  padding: 0.442em 0.49em 0.205em 0;
+  content: "y";
+}
+
+
+
+mjx-c.mjx-c2200::before {
+  padding: 0.694em 0.556em 0.022em 0;
+  content: "\2200";
+}
+
+mjx-c.mjx-c2194::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2194";
+}
+
+mjx-c.mjx-c2260::before {
+  padding: 0.716em 0.778em 0.215em 0;
+  content: "\2260";
+}
+
+mjx-c.mjx-c1D447.TEX-I::before {
+  padding: 0.677em 0.704em 0 0;
+  content: "T";
+}
+
+mjx-c.mjx-c1D45D.TEX-I::before {
+  padding: 0.442em 0.503em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c210E.TEX-I::before {
+  padding: 0.694em 0.576em 0.011em 0;
+  content: "h";
+}
+
+mjx-c.mjx-c1D446.TEX-I::before {
+  padding: 0.705em 0.645em 0.022em 0;
+  content: "S";
+}
+
+mjx-c.mjx-c2209::before {
+  padding: 0.716em 0.667em 0.215em 0;
+  content: "\2209";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+
+
+
+
+
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+
+
+mjx-c.mjx-c1D448.TEX-I::before {
+  padding: 0.683em 0.767em 0.022em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c55.TEX-C::before {
+  padding: 0.683em 0.687em 0.028em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c2026::before {
+  padding: 0.12em 1.172em 0 0;
+  content: "\2026";
+}
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c2223::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "\2223";
+}
+
+mjx-c.mjx-c7B::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "{";
+}
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c1D443.TEX-I::before {
+  padding: 0.683em 0.751em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c7D::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "}";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c1D437.TEX-I::before {
+  padding: 0.683em 0.828em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c2227::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2227";
+}
+
+mjx-c.mjx-c2203::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "\2203";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c2124.TEX-A::before {
+  padding: 0.683em 0.667em 0 0;
+  content: "Z";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+          </style>
+          <div class="col-md">
+            <p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<pre><code><span class="hljs-keyword">package</span> places;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HuddledHill</span> {}
+</code></pre>
+          </div>
+        
+          </div>
+        <h2>Diagram</h2>
+<p>The class <code>WinterWonderland</code> requires <code>Nomad</code> so there is an arrow connecting them, additionally, <code>Nomad</code> requires both <code>FrostyForest</code> and <code>HuddledHill</code> so they both have arrows and <code>Tourist</code> just requires <code>ShiveringSea</code> so it also has an arrow connecting it.</p>
+<p>
+            <div class="image-embed">
+              <svg width="750" height="220" viewBox="0 0 750 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M748.233 1.31686H1.38385V218.174H748.233V1.31686Z" stroke="white"/>
+<path d="M212.518 17.0311H17.1402V120.745H212.518V17.0311Z" fill="#BF616A"/>
+<path d="M212.518 17.0311H17.1402V120.745H212.518V17.0311Z" stroke="white"/>
+<path d="M40.2613 57.4043C39.0681 57.4043 38.0009 57.1612 37.0596 56.6751C36.1354 56.1891 35.4043 55.4515 34.8664 54.4626C34.3286 53.4569 34.0596 52.1914 34.0596 50.666V39.5026H36.7319V50.8169C36.7319 52.1578 37.0513 53.1971 37.6899 53.9346C38.3286 54.6554 39.2025 55.0157 40.3117 55.0157C41.421 55.0157 42.295 54.6554 42.9336 53.9346C43.5723 53.1971 43.8916 52.1578 43.8916 50.8169V39.5026H46.5638V50.666C46.5638 52.1914 46.2865 53.4569 45.7319 54.4626C45.1773 55.4515 44.421 56.1891 43.463 56.6751C42.5219 57.1612 41.4547 57.4043 40.2613 57.4043ZM50.2599 57.1026V54.7391H54.0919V41.866H50.3104V39.5026H60.5457V41.866H56.7641V54.7391H60.5961V57.1026H50.2599Z" fill="white"/>
+<path d="M188.884 73.6026H40.7747V105.031H188.884V73.6026Z" fill="#DC7680"/>
+<path d="M188.884 73.6026H40.7747V105.031H188.884V73.6026Z" stroke="white"/>
+<path d="M49.2389 94.0311L47.8902 85.2311H48.9616L49.8566 92.0197L51.1045 85.2311H52.1885L53.4364 92.0197L54.3314 85.2311H55.4028L54.0541 94.0311H52.844L51.6465 87.2677L50.449 94.0311H49.2389ZM59.129 86.6894C58.8769 86.6894 58.6667 86.6057 58.4988 86.438C58.3306 86.2703 58.2467 86.0692 58.2467 85.8346C58.2467 85.5915 58.3306 85.3903 58.4988 85.2311C58.6667 85.0635 58.8769 84.9797 59.129 84.9797C59.3726 84.9797 59.5785 85.0635 59.7467 85.2311C59.9231 85.3903 60.0114 85.5915 60.0114 85.8346C60.0114 86.0692 59.9231 86.2703 59.7467 86.438C59.5785 86.6057 59.3726 86.6894 59.129 86.6894ZM56.6836 94.0311V93.126H58.6752V89.0151C58.6752 88.8057 58.5701 88.7008 58.3601 88.7008H56.8979V87.7957H58.6122C59.36 87.7957 59.7341 88.1686 59.7341 88.9146V93.126H61.7257V94.0311H56.6836ZM64.0904 94.0311V87.7957H64.9727L65.0862 88.7386H65.1492C65.3173 88.4369 65.582 88.1812 65.9433 87.9717C66.3047 87.7537 66.7207 87.6448 67.1912 87.6448C67.956 87.6448 68.5273 87.8711 68.9055 88.3237C69.2921 88.7763 69.4853 89.43 69.4853 90.2848V94.0311H68.4265V90.4106C68.4265 89.8574 68.3047 89.4257 68.0609 89.1157C67.8173 88.7972 67.4392 88.638 66.9265 88.638C66.4308 88.638 66.0106 88.8098 65.666 89.1534C65.3216 89.4886 65.1492 89.9748 65.1492 90.6117V94.0311H64.0904ZM74.9762 94.0311C74.4049 94.0311 73.9552 93.8929 73.6275 93.6163C73.2998 93.3397 73.1359 92.8411 73.1359 92.1203V88.7008H71.5477V87.7957H72.493C72.9216 87.7957 73.1696 87.5862 73.2367 87.1671L73.4132 86.1991H74.1947V87.7957H76.6905V88.7008H74.1947V92.1203C74.1947 92.4723 74.2746 92.7195 74.4342 92.862C74.6023 93.0045 74.888 93.0757 75.2914 93.0757H76.6905V94.0311H74.9762ZM81.9419 94.182C81.3537 94.182 80.8327 94.048 80.3789 93.7797C79.9335 93.5031 79.5805 93.1218 79.3201 92.6357C79.0596 92.1412 78.9293 91.5671 78.9293 90.9134C78.9293 90.2597 79.0554 89.6897 79.3075 89.2037C79.5679 88.7092 79.9251 88.3279 80.3789 88.0597C80.8327 87.7831 81.3621 87.6448 81.9671 87.6448C82.5722 87.6448 83.089 87.7831 83.5176 88.0597C83.9461 88.3279 84.2739 88.684 84.5008 89.1283C84.7276 89.5725 84.8411 90.0502 84.8411 90.5614C84.8411 90.6537 84.8368 90.7457 84.8285 90.838C84.8285 90.9302 84.8285 91.0349 84.8285 91.1523H79.9755C80.0008 91.6132 80.1059 91.9988 80.2907 92.3089C80.484 92.6106 80.7235 92.8368 81.0092 92.9877C81.3033 93.1386 81.6142 93.214 81.9419 93.214C82.4041 93.214 82.7655 93.1177 83.026 92.9248C83.2864 92.732 83.484 92.464 83.6184 92.1203H84.6646C84.5217 92.6986 84.2234 93.1888 83.7697 93.5911C83.3159 93.9851 82.7066 94.182 81.9419 94.182ZM81.9419 88.5877C81.4546 88.5877 81.026 88.7343 80.6562 89.0277C80.2949 89.3211 80.0721 89.7317 79.9882 90.2597H83.7949C83.7613 89.74 83.5722 89.3337 83.2276 89.0403C82.8916 88.7386 82.463 88.5877 81.9419 88.5877ZM86.7144 94.0311V93.126H88.3152V89.0151C88.3152 88.8057 88.2144 88.7008 88.0127 88.7008H86.8782V87.7957H88.4034C88.6807 87.7957 88.9034 87.8711 89.0715 88.022C89.2395 88.1728 89.3236 88.3949 89.3236 88.6883V88.9523H89.374C89.4749 88.5332 89.6639 88.2106 89.9412 87.9843C90.2269 87.758 90.6219 87.6448 91.1261 87.6448H92.2732V88.7637H90.9749C90.4622 88.7637 90.0673 88.9355 89.79 89.2791C89.5127 89.6143 89.374 90.046 89.374 90.574V93.126H91.3404V94.0311H86.7144ZM94.5875 94.0311L93.2387 85.2311H94.3102L95.2051 92.0197L96.453 85.2311H97.537L98.7849 92.0197L99.6799 85.2311H100.751L99.4026 94.0311H98.1925L96.995 87.2677L95.7976 94.0311H94.5875ZM104.553 94.182C103.965 94.182 103.444 94.048 102.99 93.7797C102.536 93.5115 102.179 93.1343 101.919 92.6483C101.658 92.1538 101.528 91.5755 101.528 90.9134C101.528 90.2514 101.658 89.6772 101.919 89.1911C102.179 88.6966 102.536 88.3154 102.99 88.0471C103.444 87.7789 103.965 87.6448 104.553 87.6448C105.142 87.6448 105.662 87.7789 106.116 88.0471C106.57 88.3154 106.927 88.6966 107.188 89.1911C107.448 89.6772 107.578 90.2514 107.578 90.9134C107.578 91.5755 107.448 92.1538 107.188 92.6483C106.927 93.1343 106.57 93.5115 106.116 93.7797C105.662 94.048 105.142 94.182 104.553 94.182ZM104.553 93.1763C104.915 93.1763 105.242 93.0966 105.536 92.9374C105.831 92.7782 106.062 92.5309 106.23 92.1957C106.406 91.8605 106.494 91.4331 106.494 90.9134C106.494 90.3938 106.406 89.9663 106.23 89.6311C106.062 89.2959 105.831 89.0486 105.536 88.8894C105.242 88.7302 104.915 88.6506 104.553 88.6506C104.2 88.6506 103.877 88.7302 103.583 88.8894C103.289 89.0486 103.053 89.2959 102.877 89.6311C102.7 89.9663 102.612 90.3938 102.612 90.9134C102.612 91.6929 102.801 92.2669 103.179 92.6357C103.557 92.996 104.015 93.1763 104.553 93.1763ZM109.439 94.0311V87.7957H110.321L110.435 88.7386H110.498C110.666 88.4369 110.931 88.1812 111.292 87.9717C111.653 87.7537 112.069 87.6448 112.54 87.6448C113.305 87.6448 113.876 87.8711 114.254 88.3237C114.641 88.7763 114.834 89.43 114.834 90.2848V94.0311H113.775V90.4106C113.775 89.8574 113.653 89.4257 113.41 89.1157C113.166 88.7972 112.788 88.638 112.275 88.638C111.779 88.638 111.359 88.8098 111.015 89.1534C110.67 89.4886 110.498 89.9748 110.498 90.6117V94.0311H109.439ZM119.455 94.182C118.926 94.182 118.451 94.0563 118.031 93.8049C117.619 93.5534 117.295 93.1846 117.06 92.6986C116.825 92.204 116.707 91.6049 116.707 90.9009C116.707 90.2052 116.825 89.6143 117.06 89.1283C117.295 88.6422 117.619 88.2734 118.031 88.022C118.451 87.7706 118.926 87.6448 119.455 87.6448C119.951 87.6448 120.358 87.7412 120.678 87.934C121.006 88.1268 121.249 88.3782 121.409 88.6883V84.9797H122.468V94.0311H121.598L121.485 93.0631H121.409C121.241 93.4068 120.993 93.6791 120.665 93.8803C120.338 94.0814 119.934 94.182 119.455 94.182ZM119.594 93.1763C120.123 93.1763 120.56 92.992 120.905 92.6231C121.249 92.246 121.422 91.676 121.422 90.9134C121.422 90.1508 121.249 89.5851 120.905 89.2163C120.56 88.8391 120.123 88.6506 119.594 88.6506C119.064 88.6506 118.627 88.8391 118.283 89.2163C117.947 89.5851 117.779 90.1508 117.779 90.9134C117.779 91.676 117.947 92.246 118.283 92.6231C118.627 92.992 119.064 93.1763 119.594 93.1763ZM127.29 94.182C126.702 94.182 126.181 94.048 125.727 93.7797C125.282 93.5031 124.929 93.1218 124.669 92.6357C124.408 92.1412 124.278 91.5671 124.278 90.9134C124.278 90.2597 124.404 89.6897 124.656 89.2037C124.917 88.7092 125.274 88.3279 125.727 88.0597C126.181 87.7831 126.711 87.6448 127.316 87.6448C127.921 87.6448 128.438 87.7831 128.866 88.0597C129.295 88.3279 129.622 88.684 129.849 89.1283C130.076 89.5725 130.19 90.0502 130.19 90.5614C130.19 90.6537 130.186 90.7457 130.177 90.838C130.177 90.9302 130.177 91.0349 130.177 91.1523H125.324C125.349 91.6132 125.454 91.9988 125.639 92.3089C125.833 92.6106 126.072 92.8368 126.358 92.9877C126.652 93.1386 126.963 93.214 127.29 93.214C127.753 93.214 128.114 93.1177 128.374 92.9248C128.635 92.732 128.833 92.464 128.967 92.1203H130.013C129.87 92.6986 129.572 93.1888 129.118 93.5911C128.664 93.9851 128.055 94.182 127.29 94.182ZM127.29 88.5877C126.803 88.5877 126.375 88.7343 126.005 89.0277C125.643 89.3211 125.421 89.7317 125.337 90.2597H129.143C129.11 89.74 128.921 89.3337 128.576 89.0403C128.24 88.7386 127.812 88.5877 127.29 88.5877ZM132.063 94.0311V93.126H133.664V89.0151C133.664 88.8057 133.563 88.7008 133.361 88.7008H132.227V87.7957H133.752C134.029 87.7957 134.252 87.8711 134.42 88.022C134.588 88.1728 134.672 88.3949 134.672 88.6883V88.9523H134.723C134.823 88.5332 135.012 88.2106 135.29 87.9843C135.576 87.758 135.97 87.6448 136.475 87.6448H137.622V88.7637H136.323C135.811 88.7637 135.416 88.9355 135.139 89.2791C134.861 89.6143 134.723 90.046 134.723 90.574V93.126H136.689V94.0311H132.063ZM139.508 94.0311V93.126H141.638V86.1991C141.638 85.9897 141.533 85.8848 141.323 85.8848H139.734V84.9797H141.575C141.936 84.9797 142.213 85.076 142.407 85.2689C142.6 85.4617 142.697 85.7382 142.697 86.0986V93.126H144.827V94.0311H139.508ZM149.372 94.182C148.877 94.182 148.465 94.094 148.137 93.918C147.809 93.742 147.566 93.5115 147.406 93.2266C147.246 92.9332 147.167 92.6148 147.167 92.2711C147.167 91.6342 147.398 91.1523 147.86 90.8254C148.33 90.4902 148.956 90.3226 149.738 90.3226H151.452V90.1968C151.452 89.1074 150.952 88.5626 149.952 88.5626C149.549 88.5626 149.209 88.6506 148.931 88.8266C148.662 89.0026 148.49 89.2791 148.414 89.6563H147.33C147.372 89.2372 147.511 88.8769 147.746 88.5751C147.99 88.2734 148.301 88.0429 148.679 87.8837C149.057 87.7245 149.482 87.6448 149.952 87.6448C150.843 87.6448 151.49 87.8795 151.893 88.3489C152.305 88.8098 152.511 89.4257 152.511 90.1968V94.0311H151.604L151.515 93.0631H151.427C151.242 93.3649 150.994 93.6289 150.683 93.8551C150.381 94.0731 149.944 94.182 149.372 94.182ZM149.562 93.2517C149.965 93.2517 150.305 93.1554 150.583 92.9626C150.868 92.7698 151.082 92.5142 151.225 92.1957C151.377 91.8772 151.452 91.5294 151.452 91.1523H149.826C149.255 91.1523 148.851 91.2486 148.616 91.4414C148.389 91.6342 148.276 91.8898 148.276 92.2083C148.276 92.5351 148.385 92.7908 148.604 92.9751C148.822 93.1595 149.141 93.2517 149.562 93.2517ZM154.788 94.0311V87.7957H155.67L155.783 88.7386H155.846C156.015 88.4369 156.279 88.1812 156.641 87.9717C157.002 87.7537 157.418 87.6448 157.889 87.6448C158.653 87.6448 159.225 87.8711 159.603 88.3237C159.99 88.7763 160.183 89.43 160.183 90.2848V94.0311H159.124V90.4106C159.124 89.8574 159.002 89.4257 158.759 89.1157C158.515 88.7972 158.137 88.638 157.624 88.638C157.128 88.638 156.708 88.8098 156.363 89.1534C156.019 89.4886 155.846 89.9748 155.846 90.6117V94.0311H154.788ZM164.803 94.182C164.274 94.182 163.799 94.0563 163.379 93.8049C162.967 93.5534 162.644 93.1846 162.408 92.6986C162.173 92.204 162.055 91.6049 162.055 90.9009C162.055 90.2052 162.173 89.6143 162.408 89.1283C162.644 88.6422 162.967 88.2734 163.379 88.022C163.799 87.7706 164.274 87.6448 164.803 87.6448C165.299 87.6448 165.707 87.7412 166.026 87.934C166.353 88.1268 166.598 88.3782 166.757 88.6883V84.9797H167.816V94.0311H166.946L166.832 93.0631H166.757C166.59 93.4068 166.341 93.6791 166.013 93.8803C165.685 94.0814 165.282 94.182 164.803 94.182ZM164.942 93.1763C165.471 93.1763 165.909 92.992 166.253 92.6231C166.598 92.246 166.769 91.676 166.769 90.9134C166.769 90.1508 166.598 89.5851 166.253 89.2163C165.909 88.8391 165.471 88.6506 164.942 88.6506C164.412 88.6506 163.976 88.8391 163.631 89.2163C163.295 89.5851 163.127 90.1508 163.127 90.9134C163.127 91.676 163.295 92.246 163.631 92.6231C163.976 92.992 164.412 93.1763 164.942 93.1763Z" fill="white"/>
+<path d="M472.497 17.0311H277.119V161.603H472.497V17.0311Z" fill="#BF616A"/>
+<path d="M472.497 17.0311H277.119V161.603H472.497V17.0311Z" stroke="white"/>
+<path d="M298.365 57.1026V41.8912H293.625V39.5026H305.776V41.8912H301.037V57.1026H298.365ZM309.194 57.1026V54.7894H312.244V47.7746C312.244 47.2214 311.976 46.9449 311.438 46.9449H309.446V44.6317H312.446C313.136 44.6317 313.699 44.8329 314.135 45.2352C314.573 45.6206 314.79 46.1654 314.79 46.8694V47.1712H314.917C315.102 46.2325 315.496 45.5285 316.101 45.0592C316.724 44.5731 317.623 44.33 318.799 44.33H320.74V47.146H318.017C317.026 47.146 316.262 47.4897 315.723 48.1769C315.186 48.8641 314.917 49.6854 314.917 50.6409V54.7894H318.799V57.1026H309.194ZM328.798 57.4043C327.807 57.4043 326.975 57.2366 326.302 56.9014C325.629 56.5494 325.125 56.0885 324.789 55.5186C324.454 54.932 324.285 54.2949 324.285 53.6077C324.285 52.384 324.731 51.4286 325.621 50.7414C326.529 50.0543 327.807 49.7106 329.453 49.7106H332.68V49.434C332.68 47.5566 331.806 46.618 330.058 46.618C329.335 46.618 328.722 46.7772 328.218 47.0957C327.731 47.3974 327.403 47.892 327.235 48.5792H324.563C324.696 47.2717 325.261 46.2409 326.252 45.4866C327.26 44.7155 328.528 44.33 330.058 44.33C331.907 44.33 333.252 44.7826 334.092 45.6877C334.932 46.5929 335.352 47.8417 335.352 49.434V57.1026H333.084L332.857 55.2671H332.68C332.31 55.8538 331.848 56.3566 331.294 56.7757C330.739 57.1948 329.907 57.4043 328.798 57.4043ZM329.302 55.1666C330.394 55.1666 331.21 54.8397 331.747 54.186C332.302 53.5155 332.605 52.6691 332.655 51.6466H329.731C328.773 51.6466 328.092 51.8058 327.689 52.1243C327.303 52.426 327.109 52.8534 327.109 53.4066C327.109 53.9597 327.303 54.3955 327.689 54.714C328.092 55.0157 328.629 55.1666 329.302 55.1666ZM343.435 57.1026L338.015 44.6317H341.04L345.049 54.2866L349.082 44.6317H352.082L346.637 57.1026H343.435ZM360.317 57.4043C359.107 57.4043 358.038 57.1361 357.115 56.5997C356.19 56.0466 355.467 55.284 354.947 54.3117C354.425 53.3395 354.165 52.2081 354.165 50.9174C354.165 49.61 354.418 48.4618 354.922 47.4729C355.442 46.484 356.165 45.7129 357.09 45.1597C358.03 44.6066 359.115 44.33 360.342 44.33C361.552 44.33 362.594 44.6066 363.468 45.1597C364.341 45.6961 365.014 46.4169 365.485 47.322C365.972 48.2272 366.216 49.2245 366.216 50.314C366.216 50.4817 366.216 50.666 366.216 50.8672C366.216 51.0515 366.206 51.2611 366.191 51.4957H356.787C356.871 52.6523 357.249 53.5323 357.922 54.1357C358.593 54.7223 359.384 55.0157 360.292 55.0157C361.081 55.0157 361.703 54.8565 362.157 54.538C362.627 54.2028 362.972 53.7503 363.191 53.1803H365.888C365.586 54.3703 364.955 55.3761 363.997 56.1974C363.039 57.002 361.812 57.4043 360.317 57.4043ZM360.317 46.6432C359.493 46.6432 358.762 46.8946 358.123 47.3974C357.484 47.8835 357.073 48.5708 356.888 49.4592H363.544C363.476 48.6211 363.148 47.9423 362.56 47.4226C361.971 46.9029 361.224 46.6432 360.317 46.6432ZM369.432 57.1026V54.7894H373.617V42.1426C373.617 41.5894 373.349 41.3129 372.81 41.3129H369.785V38.9997H373.289C374.264 38.9997 375.003 39.2595 375.507 39.7792C376.029 40.282 376.289 41.0195 376.289 41.9917V54.7894H380.499V57.1026H369.432ZM384.548 57.1026V54.7894H388.733V42.1426C388.733 41.5894 388.464 41.3129 387.926 41.3129H384.901V38.9997H388.405C389.381 38.9997 390.12 39.2595 390.624 39.7792C391.146 40.282 391.405 41.0195 391.405 41.9917V54.7894H395.616V57.1026H384.548ZM405.665 57.4043C404.455 57.4043 403.387 57.1361 402.463 56.5997C401.538 56.0466 400.815 55.284 400.295 54.3117C399.774 53.3395 399.514 52.2081 399.514 50.9174C399.514 49.61 399.766 48.4618 400.27 47.4729C400.79 46.484 401.513 45.7129 402.438 45.1597C403.379 44.6066 404.463 44.33 405.69 44.33C406.9 44.33 407.942 44.6066 408.816 45.1597C409.689 45.6961 410.362 46.4169 410.833 47.322C411.32 48.2272 411.564 49.2245 411.564 50.314C411.564 50.4817 411.564 50.666 411.564 50.8672C411.564 51.0515 411.555 51.2611 411.539 51.4957H402.136C402.219 52.6523 402.597 53.5323 403.27 54.1357C403.941 54.7223 404.732 55.0157 405.64 55.0157C406.429 55.0157 407.052 54.8565 407.505 54.538C407.975 54.2028 408.32 53.7503 408.539 53.1803H411.236C410.934 54.3703 410.304 55.3761 409.346 56.1974C408.388 57.002 407.16 57.4043 405.665 57.4043ZM405.665 46.6432C404.841 46.6432 404.11 46.8946 403.472 47.3974C402.832 47.8835 402.421 48.5708 402.236 49.4592H408.892C408.824 48.6211 408.496 47.9423 407.909 47.4226C407.319 46.9029 406.573 46.6432 405.665 46.6432ZM415.008 57.1026V54.7894H418.059V47.7746C418.059 47.2214 417.789 46.9449 417.252 46.9449H415.261V44.6317H418.261C418.949 44.6317 419.512 44.8329 419.95 45.2352C420.386 45.6206 420.605 46.1654 420.605 46.8694V47.1712H420.731C420.915 46.2325 421.311 45.5285 421.916 45.0592C422.537 44.5731 423.436 44.33 424.613 44.33H426.555V47.146H423.832C422.839 47.146 422.075 47.4897 421.538 48.1769C420.999 48.8641 420.731 49.6854 420.731 50.6409V54.7894H424.613V57.1026H415.008ZM435.846 57.4043C434.2 57.4043 432.889 57.0188 431.913 56.2477C430.94 55.4766 430.385 54.4543 430.25 53.1803H432.997C433.098 53.7669 433.393 54.2446 433.88 54.6134C434.384 54.9823 435.049 55.1666 435.871 55.1666C436.662 55.1666 437.267 55.0074 437.686 54.6889C438.125 54.3537 438.342 53.9681 438.342 53.5323C438.342 52.8954 438.082 52.4595 437.56 52.2249C437.056 51.9903 436.309 51.8143 435.317 51.6969C434.46 51.5963 433.678 51.4035 432.972 51.1186C432.284 50.8169 431.737 50.4146 431.334 49.9117C430.93 49.3921 430.728 48.7468 430.728 47.9757C430.728 46.8863 431.157 46.0063 432.014 45.3357C432.871 44.6652 434.066 44.33 435.594 44.33C437.124 44.33 438.309 44.6737 439.149 45.3609C439.99 46.0481 440.477 46.9868 440.611 48.1769H438.039C437.973 47.674 437.712 47.2801 437.258 46.9952C436.804 46.6934 436.242 46.5426 435.569 46.5426C434.88 46.5426 434.334 46.6766 433.93 46.9449C433.527 47.1963 433.325 47.5315 433.325 47.9506C433.325 48.8557 434.3 49.4089 436.249 49.61C437.174 49.7106 437.998 49.8866 438.72 50.138C439.443 50.3726 440.015 50.7498 440.434 51.2694C440.855 51.7723 441.065 52.4846 441.065 53.4066C441.082 54.1609 440.863 54.8397 440.409 55.4432C439.973 56.0466 439.36 56.5243 438.569 56.8763C437.797 57.2283 436.889 57.4043 435.846 57.4043Z" fill="white"/>
+<path d="M448.862 73.6026H300.753V105.031H448.862V73.6026Z" fill="#DC7680"/>
+<path d="M448.862 73.6026H300.753V105.031H448.862V73.6026Z" stroke="white"/>
+<path d="M308.562 94.0311V85.2311H309.646L313.654 92.1831V85.2311H314.701V94.0311H313.604L309.596 87.0791V94.0311H308.562ZM319.183 94.182C318.596 94.182 318.074 94.048 317.62 93.7797C317.166 93.5115 316.81 93.1343 316.549 92.6483C316.289 92.1538 316.158 91.5755 316.158 90.9134C316.158 90.2514 316.289 89.6772 316.549 89.1911C316.81 88.6966 317.166 88.3154 317.62 88.0471C318.074 87.7789 318.596 87.6448 319.183 87.6448C319.773 87.6448 320.293 87.7789 320.746 88.0471C321.2 88.3154 321.558 88.6966 321.818 89.1911C322.079 89.6772 322.209 90.2514 322.209 90.9134C322.209 91.5755 322.079 92.1538 321.818 92.6483C321.558 93.1343 321.2 93.5115 320.746 93.7797C320.293 94.048 319.773 94.182 319.183 94.182ZM319.183 93.1763C319.546 93.1763 319.873 93.0966 320.167 92.9374C320.461 92.7782 320.693 92.5309 320.86 92.1957C321.036 91.8605 321.124 91.4331 321.124 90.9134C321.124 90.3938 321.036 89.9663 320.86 89.6311C320.693 89.2959 320.461 89.0486 320.167 88.8894C319.873 88.7302 319.546 88.6506 319.183 88.6506C318.83 88.6506 318.507 88.7302 318.213 88.8894C317.92 89.0486 317.683 89.2959 317.507 89.6311C317.33 89.9663 317.242 90.3938 317.242 90.9134C317.242 91.6929 317.431 92.2669 317.809 92.6357C318.188 92.996 318.646 93.1763 319.183 93.1763ZM323.426 94.0311V87.7957H324.296L324.41 88.5248H324.473C324.581 88.2734 324.745 88.0639 324.964 87.8963C325.191 87.7286 325.464 87.6448 325.784 87.6448C326.103 87.6448 326.371 87.7245 326.59 87.8837C326.817 88.0346 326.981 88.2483 327.082 88.5248H327.132C327.241 88.2734 327.418 88.0639 327.662 87.8963C327.906 87.7286 328.199 87.6448 328.544 87.6448C329.023 87.6448 329.381 87.8083 329.616 88.1351C329.86 88.4537 329.981 88.8811 329.981 89.4174V94.0311H328.947V89.5809C328.947 89.2791 328.884 89.0403 328.758 88.8643C328.64 88.6883 328.448 88.6003 328.179 88.6003C327.901 88.6003 327.674 88.7051 327.498 88.9146C327.321 89.124 327.233 89.4217 327.233 89.8071V94.0311H326.187V89.5809C326.187 89.2791 326.129 89.0403 326.011 88.8643C325.892 88.6883 325.7 88.6003 325.431 88.6003C325.153 88.6003 324.922 88.7051 324.737 88.9146C324.561 89.124 324.473 89.4217 324.473 89.8071V94.0311H323.426ZM333.77 94.182C333.274 94.182 332.863 94.094 332.535 93.918C332.207 93.742 331.963 93.5115 331.804 93.2266C331.645 92.9332 331.565 92.6148 331.565 92.2711C331.565 91.6342 331.796 91.1523 332.258 90.8254C332.729 90.4902 333.355 90.3226 334.136 90.3226H335.85V90.1968C335.85 89.1074 335.351 88.5626 334.35 88.5626C333.947 88.5626 333.607 88.6506 333.329 88.8266C333.06 89.0026 332.888 89.2791 332.813 89.6563H331.728C331.771 89.2372 331.91 88.8769 332.144 88.5751C332.389 88.2734 332.699 88.0429 333.077 87.8837C333.455 87.7245 333.879 87.6448 334.35 87.6448C335.241 87.6448 335.888 87.8795 336.291 88.3489C336.703 88.8098 336.909 89.4257 336.909 90.1968V94.0311H336.002L335.913 93.0631H335.825C335.641 93.3649 335.392 93.6289 335.081 93.8551C334.779 94.0731 334.342 94.182 333.77 94.182ZM333.96 93.2517C334.363 93.2517 334.703 93.1554 334.981 92.9626C335.266 92.7698 335.48 92.5142 335.623 92.1957C335.775 91.8772 335.85 91.5294 335.85 91.1523H334.224C333.652 91.1523 333.249 91.2486 333.014 91.4414C332.787 91.6342 332.674 91.8898 332.674 92.2083C332.674 92.5351 332.783 92.7908 333.002 92.9751C333.221 93.1595 333.539 93.2517 333.96 93.2517ZM341.644 94.182C341.115 94.182 340.639 94.0563 340.22 93.8049C339.807 93.5534 339.484 93.1846 339.249 92.6986C339.013 92.204 338.896 91.6049 338.896 90.9009C338.896 90.2052 339.013 89.6143 339.249 89.1283C339.484 88.6422 339.807 88.2734 340.22 88.022C340.639 87.7706 341.115 87.6448 341.644 87.6448C342.139 87.6448 342.547 87.7412 342.867 87.934C343.194 88.1268 343.437 88.3782 343.598 88.6883V84.9797H344.657V94.0311H343.787L343.673 93.0631H343.598C343.429 93.4068 343.182 93.6791 342.854 93.8803C342.526 94.0814 342.123 94.182 341.644 94.182ZM341.783 93.1763C342.312 93.1763 342.748 92.992 343.093 92.6231C343.437 92.246 343.61 91.676 343.61 90.9134C343.61 90.1508 343.437 89.5851 343.093 89.2163C342.748 88.8391 342.312 88.6506 341.783 88.6506C341.253 88.6506 340.815 88.8391 340.472 89.2163C340.134 89.5851 339.967 90.1508 339.967 90.9134C339.967 91.676 340.134 92.246 340.472 92.6231C340.815 92.992 341.253 93.1763 341.783 93.1763Z" fill="white"/>
+<path d="M448.862 114.46H300.753V145.888H448.862V114.46Z" fill="#DC7680"/>
+<path d="M448.862 114.46H300.753V145.888H448.862V114.46Z" stroke="white"/>
+<path d="M311.096 134.888V127.044H308.726V126.088H314.524V127.044H312.154V134.888H311.096ZM319.183 135.039C318.596 135.039 318.074 134.905 317.62 134.637C317.166 134.369 316.81 133.991 316.549 133.505C316.289 133.011 316.158 132.433 316.158 131.771C316.158 131.109 316.289 130.534 316.549 130.048C316.81 129.554 317.166 129.173 317.62 128.904C318.074 128.636 318.596 128.502 319.183 128.502C319.773 128.502 320.293 128.636 320.746 128.904C321.2 129.173 321.558 129.554 321.818 130.048C322.079 130.534 322.209 131.109 322.209 131.771C322.209 132.433 322.079 133.011 321.818 133.505C321.558 133.991 321.2 134.369 320.746 134.637C320.293 134.905 319.773 135.039 319.183 135.039ZM319.183 134.033C319.546 134.033 319.873 133.954 320.167 133.795C320.461 133.635 320.693 133.388 320.86 133.053C321.036 132.718 321.124 132.29 321.124 131.771C321.124 131.251 321.036 130.823 320.86 130.488C320.693 130.153 320.461 129.906 320.167 129.747C319.873 129.587 319.546 129.508 319.183 129.508C318.83 129.508 318.507 129.587 318.213 129.747C317.92 129.906 317.683 130.153 317.507 130.488C317.33 130.823 317.242 131.251 317.242 131.771C317.242 132.55 317.431 133.124 317.809 133.493C318.188 133.853 318.646 134.033 319.183 134.033ZM326.3 135.039C325.544 135.039 324.972 134.813 324.586 134.36C324.2 133.908 324.006 133.254 324.006 132.399V128.653H325.065V132.273C325.065 132.827 325.186 133.262 325.431 133.581C325.683 133.891 326.061 134.046 326.565 134.046C327.069 134.046 327.493 133.878 327.838 133.543C328.183 133.199 328.355 132.709 328.355 132.072V128.653H329.414V134.888H328.532L328.418 133.945H328.355C328.186 134.247 327.922 134.507 327.561 134.725C327.2 134.934 326.779 135.039 326.3 135.039ZM331.577 134.888V133.983H333.178V129.872C333.178 129.663 333.077 129.558 332.876 129.558H331.741V128.653H333.266C333.544 128.653 333.766 128.728 333.934 128.879C334.103 129.03 334.186 129.252 334.186 129.545V129.809H334.237C334.338 129.39 334.527 129.068 334.804 128.841C335.089 128.615 335.485 128.502 335.989 128.502H337.136V129.621H335.838C335.326 129.621 334.93 129.793 334.653 130.136C334.376 130.471 334.237 130.903 334.237 131.431V133.983H336.203V134.888H331.577ZM341.783 127.547C341.53 127.547 341.319 127.463 341.152 127.295C340.984 127.127 340.9 126.926 340.9 126.692C340.9 126.449 340.984 126.247 341.152 126.088C341.319 125.921 341.53 125.837 341.783 125.837C342.025 125.837 342.232 125.921 342.4 126.088C342.577 126.247 342.665 126.449 342.665 126.692C342.665 126.926 342.577 127.127 342.4 127.295C342.232 127.463 342.025 127.547 341.783 127.547ZM339.337 134.888V133.983H341.329V129.872C341.329 129.663 341.223 129.558 341.014 129.558H339.551V128.653H341.266C342.013 128.653 342.388 129.026 342.388 129.772V133.983H344.379V134.888H339.337ZM349.48 135.039C348.681 135.039 348.033 134.855 347.538 134.486C347.05 134.109 346.777 133.593 346.719 132.94H347.816C347.866 133.283 348.033 133.564 348.32 133.782C348.613 134 349.008 134.109 349.505 134.109C349.974 134.109 350.324 134.008 350.551 133.807C350.786 133.606 350.904 133.375 350.904 133.116C350.904 132.764 350.765 132.525 350.488 132.399C350.211 132.265 349.795 132.165 349.24 132.097C348.575 132.022 348.025 131.842 347.589 131.557C347.151 131.272 346.933 130.845 346.933 130.275C346.933 129.763 347.148 129.34 347.576 129.005C348.005 128.67 348.588 128.502 349.328 128.502C350.059 128.502 350.634 128.67 351.055 129.005C351.474 129.332 351.714 129.801 351.774 130.413H350.727C350.702 130.111 350.554 129.872 350.286 129.696C350.025 129.512 349.697 129.42 349.303 129.42C348.89 129.42 348.572 129.499 348.345 129.659C348.118 129.809 348.005 130.011 348.005 130.262C348.005 130.513 348.131 130.723 348.383 130.891C348.643 131.05 349.051 131.155 349.606 131.205C350.042 131.255 350.441 131.339 350.803 131.456C351.164 131.574 351.449 131.758 351.66 132.009C351.878 132.261 351.988 132.613 351.988 133.065C351.996 133.443 351.89 133.782 351.673 134.084C351.462 134.377 351.169 134.612 350.79 134.788C350.412 134.955 349.974 135.039 349.48 135.039ZM357.63 134.888C357.058 134.888 356.609 134.75 356.282 134.473C355.954 134.197 355.79 133.698 355.79 132.977V129.558H354.202V128.653H355.147C355.576 128.653 355.823 128.443 355.891 128.024L356.067 127.056H356.849V128.653H359.345V129.558H356.849V132.977C356.849 133.329 356.928 133.577 357.088 133.719C357.255 133.862 357.542 133.933 357.945 133.933H359.345V134.888H357.63Z" fill="white"/>
+<path d="M732.476 17.0311H537.098V202.46H732.476V17.0311Z" fill="#BF616A"/>
+<path d="M732.476 17.0311H537.098V202.46H732.476V17.0311Z" stroke="white"/>
+<path d="M554.201 57.1026V39.5026H560.176C561.52 39.5026 562.629 39.7372 563.504 40.2066C564.378 40.6592 565.024 41.2877 565.445 42.0923C565.866 42.8969 566.075 43.8188 566.075 44.858C566.075 45.8972 565.866 46.8192 565.445 47.6237C565.024 48.4283 564.378 49.0652 563.504 49.5346C562.629 49.9872 561.52 50.2134 560.176 50.2134H556.873V57.1026H554.201ZM556.873 47.8249H560.05C561.192 47.8249 562.024 47.5566 562.546 47.0203C563.083 46.484 563.352 45.7632 563.352 44.858C563.352 43.9697 563.083 43.2572 562.546 42.7209C562.024 42.1677 561.192 41.8912 560.05 41.8912H556.873V47.8249ZM569.242 57.1026V54.7894H573.427V42.1426C573.427 41.5894 573.158 41.3129 572.62 41.3129H569.595V38.9997H573.099C574.073 38.9997 574.814 39.2595 575.318 39.7792C575.838 40.282 576.099 41.0195 576.099 41.9917V54.7894H580.309V57.1026H569.242ZM589.073 57.4043C588.08 57.4043 587.248 57.2366 586.577 56.9014C585.904 56.5494 585.4 56.0885 585.065 55.5186C584.727 54.932 584.56 54.2949 584.56 53.6077C584.56 52.384 585.005 51.4286 585.897 50.7414C586.804 50.0543 588.08 49.7106 589.728 49.7106H592.955V49.434C592.955 47.5566 592.081 46.618 590.334 46.618C589.61 46.618 588.997 46.7772 588.493 47.0957C588.005 47.3974 587.677 47.892 587.51 48.5792H584.838C584.972 47.2717 585.534 46.2409 586.527 45.4866C587.535 44.7155 588.804 44.33 590.334 44.33C592.182 44.33 593.526 44.7826 594.367 45.6877C595.207 46.5929 595.628 47.8417 595.628 49.434V57.1026H593.359L593.132 55.2671H592.955C592.585 55.8538 592.123 56.3566 591.569 56.7757C591.014 57.1948 590.182 57.4043 589.073 57.4043ZM589.577 55.1666C590.669 55.1666 591.484 54.8397 592.023 54.186C592.577 53.5155 592.88 52.6691 592.93 51.6466H590.006C589.048 51.6466 588.367 51.8058 587.964 52.1243C587.576 52.426 587.384 52.8534 587.384 53.4066C587.384 53.9597 587.576 54.3955 587.964 54.714C588.367 55.0157 588.904 55.1666 589.577 55.1666ZM605.499 57.4043C604.339 57.4043 603.298 57.1361 602.373 56.5997C601.465 56.0634 600.752 55.3091 600.23 54.3369C599.71 53.348 599.449 52.1914 599.449 50.8672C599.449 49.5429 599.71 48.3948 600.23 47.4226C600.769 46.4503 601.491 45.6961 602.398 45.1597C603.306 44.6066 604.339 44.33 605.499 44.33C607.097 44.33 608.382 44.7323 609.356 45.5369C610.349 46.3246 610.979 47.4143 611.247 48.8054H608.449C608.282 48.202 607.936 47.7243 607.415 47.3723C606.911 47.0203 606.265 46.8443 605.474 46.8443C604.903 46.8443 604.357 46.9952 603.835 47.2969C603.331 47.5986 602.92 48.0512 602.6 48.6546C602.297 49.2412 602.146 49.9788 602.146 50.8672C602.146 51.7388 602.297 52.4763 602.6 53.0797C602.92 53.6832 603.331 54.1441 603.835 54.4626C604.357 54.7643 604.903 54.9152 605.474 54.9152C606.28 54.9152 606.928 54.7392 607.415 54.3872C607.903 54.0352 608.247 53.5491 608.449 52.9289H611.247C610.911 54.3034 610.256 55.3929 609.28 56.1974C608.307 57.002 607.046 57.4043 605.499 57.4043ZM620.59 57.4043C619.38 57.4043 618.314 57.1361 617.389 56.5997C616.464 56.0466 615.742 55.284 615.221 54.3117C614.699 53.3395 614.439 52.2081 614.439 50.9174C614.439 49.61 614.691 48.4618 615.195 47.4729C615.717 46.484 616.439 45.7129 617.363 45.1597C618.304 44.6066 619.388 44.33 620.616 44.33C621.826 44.33 622.867 44.6066 623.742 45.1597C624.616 45.6961 625.287 46.4169 625.758 47.322C626.245 48.2272 626.49 49.2245 626.49 50.314C626.49 50.4817 626.49 50.666 626.49 50.8672C626.49 51.0515 626.482 51.2611 626.464 51.4957H617.061C617.144 52.6523 617.523 53.5323 618.195 54.1357C618.868 54.7223 619.658 55.0157 620.565 55.0157C621.355 55.0157 621.977 54.8565 622.431 54.538C622.902 54.2028 623.245 53.7503 623.464 53.1803H626.162C625.859 54.3703 625.229 55.3761 624.271 56.1974C623.313 57.002 622.086 57.4043 620.59 57.4043ZM620.59 46.6432C619.766 46.6432 619.035 46.8946 618.397 47.3974C617.759 47.8835 617.346 48.5708 617.162 49.4592H623.817C623.749 48.6211 623.422 47.9423 622.834 47.4226C622.246 46.9029 621.498 46.6432 620.59 46.6432ZM635.657 57.4043C634.008 57.4043 632.697 57.0188 631.724 56.2477C630.748 55.4766 630.194 54.4543 630.06 53.1803H632.808C632.909 53.7669 633.202 54.2446 633.69 54.6134C634.194 54.9823 634.858 55.1666 635.682 55.1666C636.471 55.1666 637.076 55.0074 637.497 54.6889C637.933 54.3537 638.152 53.9681 638.152 53.5323C638.152 52.8954 637.891 52.4595 637.371 52.2249C636.867 51.9903 636.118 51.8143 635.127 51.6969C634.27 51.5963 633.488 51.4035 632.783 51.1186C632.092 50.8169 631.547 50.4146 631.144 49.9117C630.741 49.3921 630.539 48.7468 630.539 47.9757C630.539 46.8863 630.967 46.0063 631.825 45.3357C632.682 44.6652 633.874 44.33 635.404 44.33C636.933 44.33 638.118 44.6737 638.959 45.3609C639.799 46.0481 640.286 46.9868 640.421 48.1769H637.85C637.782 47.674 637.522 47.2801 637.068 46.9952C636.614 46.6934 636.05 46.5426 635.379 46.5426C634.689 46.5426 634.144 46.6766 633.741 46.9449C633.337 47.1963 633.135 47.5315 633.135 47.9506C633.135 48.8557 634.109 49.4089 636.06 49.61C636.983 49.7106 637.807 49.8866 638.53 50.138C639.252 50.3726 639.824 50.7498 640.245 51.2694C640.664 51.7723 640.875 52.4846 640.875 53.4066C640.891 54.1609 640.673 54.8397 640.22 55.4432C639.782 56.0466 639.169 56.5243 638.379 56.8763C637.606 57.2283 636.698 57.4043 635.657 57.4043Z" fill="white"/>
+<path d="M708.841 73.6026H560.732V105.031H708.841V73.6026Z" fill="#DC7680"/>
+<path d="M708.841 73.6026H560.732V105.031H708.841V73.6026Z" stroke="white"/>
+<path d="M568.97 94.0311V85.2311H574.478V86.2117H570.028V89.2791H573.835V90.222H570.028V94.0311H568.97ZM576.44 94.0311V93.126H578.04V89.0151C578.04 88.8057 577.94 88.7009 577.738 88.7009H576.603V87.7957H578.129C578.406 87.7957 578.63 87.8711 578.797 88.022C578.965 88.1729 579.049 88.3949 579.049 88.6883V88.9523H579.099C579.2 88.5332 579.389 88.2106 579.666 87.9843C579.953 87.758 580.347 87.6449 580.851 87.6449H581.998V88.7637H580.7C580.188 88.7637 579.793 88.9355 579.515 89.2791C579.238 89.6143 579.099 90.046 579.099 90.574V93.126H581.066V94.0311H576.44ZM586.721 94.182C586.133 94.182 585.611 94.048 585.158 93.7797C584.704 93.5115 584.346 93.1343 584.086 92.6483C583.826 92.1538 583.695 91.5755 583.695 90.9134C583.695 90.2514 583.826 89.6772 584.086 89.1911C584.346 88.6966 584.704 88.3154 585.158 88.0471C585.611 87.7789 586.133 87.6449 586.721 87.6449C587.308 87.6449 587.83 87.7789 588.284 88.0471C588.737 88.3154 589.095 88.6966 589.355 89.1911C589.615 89.6772 589.746 90.2514 589.746 90.9134C589.746 91.5755 589.615 92.1538 589.355 92.6483C589.095 93.1343 588.737 93.5115 588.284 93.7797C587.83 94.048 587.308 94.182 586.721 94.182ZM586.721 93.1763C587.081 93.1763 587.409 93.0966 587.704 92.9374C587.998 92.7782 588.228 92.5309 588.397 92.1957C588.574 91.8605 588.662 91.4331 588.662 90.9134C588.662 90.3938 588.574 89.9663 588.397 89.6311C588.228 89.296 587.998 89.0486 587.704 88.8894C587.409 88.7302 587.081 88.6506 586.721 88.6506C586.368 88.6506 586.045 88.7302 585.75 88.8894C585.455 89.0486 585.221 89.296 585.044 89.6311C584.868 89.9663 584.779 90.3938 584.779 90.9134C584.779 91.6929 584.969 92.2669 585.347 92.6357C585.725 92.996 586.183 93.1763 586.721 93.1763ZM594.342 94.182C593.543 94.182 592.897 93.9977 592.401 93.6289C591.914 93.2517 591.64 92.7363 591.581 92.0826H592.678C592.729 92.4262 592.897 92.7069 593.182 92.9249C593.477 93.1428 593.871 93.2517 594.367 93.2517C594.838 93.2517 595.186 93.1511 595.413 92.95C595.648 92.7489 595.766 92.5183 595.766 92.2586C595.766 91.9066 595.628 91.6677 595.35 91.542C595.073 91.408 594.657 91.3074 594.102 91.2403C593.439 91.1649 592.888 90.9846 592.451 90.6997C592.015 90.4148 591.796 89.9874 591.796 89.4174C591.796 88.9062 592.01 88.4829 592.439 88.1477C592.867 87.8125 593.452 87.6449 594.191 87.6449C594.922 87.6449 595.497 87.8125 595.918 88.1477C596.338 88.4746 596.578 88.944 596.636 89.5557H595.59C595.565 89.254 595.418 89.0151 595.149 88.8391C594.889 88.6548 594.561 88.5626 594.165 88.5626C593.754 88.5626 593.434 88.6422 593.208 88.8014C592.981 88.9523 592.867 89.1534 592.867 89.4049C592.867 89.6563 592.993 89.8658 593.245 90.0334C593.505 90.1926 593.913 90.2974 594.468 90.3477C594.904 90.398 595.305 90.4818 595.665 90.5991C596.026 90.7165 596.313 90.9009 596.523 91.1523C596.742 91.4037 596.85 91.7557 596.85 92.2083C596.858 92.5854 596.754 92.9249 596.535 93.2266C596.326 93.52 596.031 93.7546 595.653 93.9306C595.275 94.0982 594.838 94.182 594.342 94.182ZM602.493 94.0311C601.921 94.0311 601.472 93.8929 601.144 93.6163C600.816 93.3397 600.652 92.8411 600.652 92.1203V88.7009H599.064V87.7957H600.009C600.438 87.7957 600.685 87.5862 600.753 87.1671L600.93 86.1991H601.711V87.7957H604.207V88.7009H601.711V92.1203C601.711 92.4723 601.79 92.7195 601.951 92.862C602.118 93.0045 602.404 93.0757 602.808 93.0757H604.207V94.0311H602.493ZM607.492 96.7969L609.03 93.4277H608.664L606.194 87.7957H607.341L609.396 92.6231L611.564 87.7957H612.673L608.601 96.7969H607.492ZM614.319 94.0311V85.2311H619.828V86.2117H615.378V89.2791H619.185V90.222H615.378V94.0311H614.319ZM624.511 94.182C623.923 94.182 623.401 94.048 622.948 93.7797C622.494 93.5115 622.138 93.1343 621.876 92.6483C621.616 92.1538 621.485 91.5755 621.485 90.9134C621.485 90.2514 621.616 89.6772 621.876 89.1911C622.138 88.6966 622.494 88.3154 622.948 88.0471C623.401 87.7789 623.923 87.6449 624.511 87.6449C625.1 87.6449 625.62 87.7789 626.074 88.0471C626.527 88.3154 626.885 88.6966 627.145 89.1911C627.407 89.6772 627.536 90.2514 627.536 90.9134C627.536 91.5755 627.407 92.1538 627.145 92.6483C626.885 93.1343 626.527 93.5115 626.074 93.7797C625.62 94.048 625.1 94.182 624.511 94.182ZM624.511 93.1763C624.873 93.1763 625.201 93.0966 625.494 92.9374C625.788 92.7782 626.02 92.5309 626.187 92.1957C626.363 91.8605 626.452 91.4331 626.452 90.9134C626.452 90.3938 626.363 89.9663 626.187 89.6311C626.02 89.296 625.788 89.0486 625.494 88.8894C625.201 88.7302 624.873 88.6506 624.511 88.6506C624.158 88.6506 623.835 88.7302 623.54 88.8894C623.247 89.0486 623.011 89.296 622.834 89.6311C622.658 89.9663 622.569 90.3938 622.569 90.9134C622.569 91.6929 622.758 92.2669 623.137 92.6357C623.515 92.996 623.973 93.1763 624.511 93.1763ZM629.346 94.0311V93.126H630.947V89.0151C630.947 88.8057 630.846 88.7009 630.644 88.7009H629.51V87.7957H631.035C631.313 87.7957 631.536 87.8711 631.703 88.022C631.872 88.1729 631.955 88.3949 631.955 88.6883V88.9523H632.006C632.107 88.5332 632.296 88.2106 632.573 87.9843C632.86 87.758 633.254 87.6449 633.758 87.6449H634.905V88.7637H633.607C633.095 88.7637 632.699 88.9355 632.422 89.2791C632.144 89.6143 632.006 90.046 632.006 90.574V93.126H633.972V94.0311H629.346ZM639.69 94.182C639.102 94.182 638.581 94.048 638.127 93.7797C637.683 93.5031 637.33 93.1218 637.068 92.6357C636.808 92.1412 636.678 91.5671 636.678 90.9134C636.678 90.2597 636.804 89.6898 637.056 89.2037C637.317 88.7092 637.673 88.328 638.127 88.0597C638.581 87.7831 639.11 87.6449 639.715 87.6449C640.32 87.6449 640.837 87.7831 641.266 88.0597C641.694 88.328 642.022 88.684 642.249 89.1283C642.476 89.5725 642.589 90.0502 642.589 90.5614C642.589 90.6537 642.586 90.7458 642.577 90.838C642.577 90.9302 642.577 91.0349 642.577 91.1523H637.724C637.749 91.6132 637.855 91.9988 638.039 92.3089C638.233 92.6106 638.472 92.8369 638.757 92.9877C639.052 93.1386 639.362 93.214 639.69 93.214C640.153 93.214 640.514 93.1177 640.774 92.9249C641.036 92.732 641.233 92.464 641.367 92.1203H642.413C642.271 92.6986 641.972 93.1889 641.518 93.5911C641.064 93.9851 640.456 94.182 639.69 94.182ZM639.69 88.5877C639.203 88.5877 638.775 88.7343 638.404 89.0277C638.044 89.3211 637.821 89.7317 637.736 90.2597H641.543C641.51 89.74 641.321 89.3337 640.976 89.0403C640.64 88.7386 640.212 88.5877 639.69 88.5877ZM647.248 94.182C646.45 94.182 645.804 93.9977 645.307 93.6289C644.82 93.2517 644.546 92.7363 644.488 92.0826H645.585C645.635 92.4262 645.804 92.7069 646.089 92.9249C646.383 93.1428 646.777 93.2517 647.274 93.2517C647.745 93.2517 648.093 93.1511 648.32 92.95C648.555 92.7489 648.673 92.5183 648.673 92.2586C648.673 91.9066 648.534 91.6677 648.257 91.542C647.98 91.408 647.564 91.3074 647.009 91.2403C646.346 91.1649 645.794 90.9846 645.358 90.6997C644.921 90.4148 644.702 89.9874 644.702 89.4174C644.702 88.9062 644.917 88.4829 645.345 88.1477C645.774 87.8125 646.358 87.6449 647.097 87.6449C647.828 87.6449 648.403 87.8125 648.824 88.1477C649.245 88.4746 649.484 88.944 649.543 89.5557H648.496C648.471 89.254 648.325 89.0151 648.055 88.8391C647.795 88.6548 647.467 88.5626 647.072 88.5626C646.661 88.5626 646.341 88.6422 646.114 88.8014C645.887 88.9523 645.774 89.1534 645.774 89.4049C645.774 89.6563 645.9 89.8658 646.152 90.0334C646.412 90.1926 646.82 90.2974 647.375 90.3477C647.811 90.398 648.211 90.4818 648.572 90.5991C648.933 90.7165 649.22 90.9009 649.429 91.1523C649.648 91.4037 649.757 91.7557 649.757 92.2083C649.765 92.5854 649.661 92.9249 649.442 93.2266C649.232 93.52 648.938 93.7546 648.559 93.9306C648.181 94.0982 647.745 94.182 647.248 94.182ZM655.399 94.0311C654.827 94.0311 654.378 93.8929 654.05 93.6163C653.723 93.3397 653.559 92.8411 653.559 92.1203V88.7009H651.971V87.7957H652.916C653.345 87.7957 653.592 87.5862 653.66 87.1671L653.836 86.1991H654.618V87.7957H657.113V88.7009H654.618V92.1203C654.618 92.4723 654.698 92.7195 654.857 92.862C655.026 93.0045 655.311 93.0757 655.714 93.0757H657.113V94.0311H655.399Z" fill="white"/>
+<path d="M708.841 114.46H560.732V145.888H708.841V114.46Z" fill="#DC7680"/>
+<path d="M708.841 114.46H560.732V145.888H708.841V114.46Z" stroke="white"/>
+<path d="M568.415 134.888V126.088H569.474V129.885H573.747V126.088H574.806V134.888H573.747V130.84H569.474V134.888H568.415ZM578.721 135.039C577.965 135.039 577.394 134.813 577.007 134.36C576.621 133.908 576.427 133.254 576.427 132.399V128.653H577.486V132.273C577.486 132.827 577.609 133.262 577.851 133.581C578.103 133.891 578.482 134.046 578.986 134.046C579.49 134.046 579.915 133.878 580.259 133.543C580.604 133.199 580.776 132.709 580.776 132.072V128.653H581.835V134.888H580.952L580.839 133.945H580.776C580.609 134.247 580.344 134.507 579.982 134.725C579.621 134.934 579.2 135.039 578.721 135.039ZM586.506 135.039C585.977 135.039 585.503 134.913 585.082 134.662C584.671 134.411 584.346 134.042 584.111 133.556C583.877 133.061 583.758 132.462 583.758 131.758C583.758 131.062 583.877 130.471 584.111 129.985C584.346 129.499 584.671 129.131 585.082 128.879C585.503 128.628 585.977 128.502 586.506 128.502C587.003 128.502 587.409 128.598 587.729 128.791C588.057 128.984 588.301 129.235 588.46 129.545V125.837H589.519V134.888H588.649L588.536 133.92H588.46C588.292 134.264 588.044 134.536 587.716 134.737C587.389 134.939 586.985 135.039 586.506 135.039ZM586.645 134.033C587.174 134.033 587.611 133.849 587.956 133.48C588.301 133.103 588.473 132.533 588.473 131.771C588.473 131.008 588.301 130.442 587.956 130.073C587.611 129.696 587.174 129.508 586.645 129.508C586.116 129.508 585.679 129.696 585.334 130.073C584.998 130.442 584.83 131.008 584.83 131.771C584.83 132.533 584.998 133.103 585.334 133.48C585.679 133.849 586.116 134.033 586.645 134.033ZM594.065 135.039C593.535 135.039 593.061 134.913 592.64 134.662C592.229 134.411 591.904 134.042 591.67 133.556C591.435 133.061 591.317 132.462 591.317 131.758C591.317 131.062 591.435 130.471 591.67 129.985C591.904 129.499 592.229 129.131 592.64 128.879C593.061 128.628 593.535 128.502 594.065 128.502C594.561 128.502 594.967 128.598 595.287 128.791C595.615 128.984 595.859 129.235 596.018 129.545V125.837H597.077V134.888H596.207L596.094 133.92H596.018C595.85 134.264 595.602 134.536 595.275 134.737C594.947 134.939 594.544 135.039 594.065 135.039ZM594.203 134.033C594.733 134.033 595.169 133.849 595.514 133.48C595.859 133.103 596.031 132.533 596.031 131.771C596.031 131.008 595.859 130.442 595.514 130.073C595.169 129.696 594.733 129.508 594.203 129.508C593.674 129.508 593.237 129.696 592.892 130.073C592.557 130.442 592.388 131.008 592.388 131.771C592.388 132.533 592.557 133.103 592.892 133.48C593.237 133.849 593.674 134.033 594.203 134.033ZM599.001 134.888V133.983H601.131V127.056C601.131 126.847 601.026 126.742 600.816 126.742H599.228V125.837H601.068C601.429 125.837 601.706 125.933 601.9 126.126C602.092 126.319 602.19 126.595 602.19 126.956V133.983H604.32V134.888H599.001ZM609.459 135.039C608.869 135.039 608.349 134.905 607.895 134.637C607.45 134.36 607.097 133.979 606.837 133.493C606.575 132.998 606.446 132.424 606.446 131.771C606.446 131.117 606.572 130.547 606.824 130.061C607.084 129.566 607.442 129.185 607.895 128.917C608.349 128.64 608.879 128.502 609.484 128.502C610.089 128.502 610.606 128.64 611.034 128.917C611.463 129.185 611.79 129.541 612.017 129.985C612.244 130.43 612.358 130.907 612.358 131.419C612.358 131.511 612.353 131.603 612.345 131.695C612.345 131.787 612.345 131.892 612.345 132.009H607.492C607.517 132.47 607.621 132.856 607.807 133.166C607.999 133.468 608.239 133.694 608.526 133.845C608.819 133.996 609.131 134.071 609.459 134.071C609.92 134.071 610.281 133.975 610.543 133.782C610.803 133.589 610.999 133.321 611.135 132.977H612.181C612.038 133.556 611.74 134.046 611.286 134.448C610.832 134.842 610.223 135.039 609.459 135.039ZM609.459 129.445C608.97 129.445 608.541 129.591 608.173 129.885C607.81 130.178 607.588 130.589 607.505 131.117H611.311C611.277 130.597 611.088 130.191 610.744 129.897C610.407 129.596 609.978 129.445 609.459 129.445ZM616.74 135.039C616.21 135.039 615.734 134.913 615.315 134.662C614.902 134.411 614.579 134.042 614.345 133.556C614.108 133.061 613.992 132.462 613.992 131.758C613.992 131.062 614.108 130.471 614.345 129.985C614.579 129.499 614.902 129.131 615.315 128.879C615.734 128.628 616.21 128.502 616.74 128.502C617.234 128.502 617.642 128.598 617.962 128.791C618.29 128.984 618.533 129.235 618.693 129.545V125.837H619.752V134.888H618.882L618.769 133.92H618.693C618.525 134.264 618.277 134.536 617.95 134.737C617.622 134.939 617.219 135.039 616.74 135.039ZM616.878 134.033C617.408 134.033 617.844 133.849 618.189 133.48C618.533 133.103 618.706 132.533 618.706 131.771C618.706 131.008 618.533 130.442 618.189 130.073C617.844 129.696 617.408 129.508 616.878 129.508C616.349 129.508 615.911 129.696 615.567 130.073C615.23 130.442 615.063 131.008 615.063 131.771C615.063 132.533 615.23 133.103 615.567 133.48C615.911 133.849 616.349 134.033 616.878 134.033ZM621.321 134.888V126.088H622.38V129.885H626.653V126.088H627.712V134.888H626.653V130.84H622.38V134.888H621.321ZM631.993 127.547C631.741 127.547 631.531 127.463 631.363 127.295C631.196 127.127 631.111 126.926 631.111 126.692C631.111 126.449 631.196 126.247 631.363 126.088C631.531 125.921 631.741 125.837 631.993 125.837C632.237 125.837 632.444 125.921 632.611 126.088C632.787 126.247 632.876 126.449 632.876 126.692C632.876 126.926 632.787 127.127 632.611 127.295C632.444 127.463 632.237 127.547 631.993 127.547ZM629.548 134.888V133.983H631.539V129.872C631.539 129.663 631.435 129.558 631.224 129.558H629.762V128.653H631.476C632.225 128.653 632.598 129.026 632.598 129.772V133.983H634.59V134.888H629.548ZM636.791 134.888V133.983H638.921V127.056C638.921 126.847 638.817 126.742 638.606 126.742H637.018V125.837H638.858C639.221 125.837 639.498 125.933 639.69 126.126C639.884 126.319 639.98 126.595 639.98 126.956V133.983H642.11V134.888H636.791ZM644.349 134.888V133.983H646.48V127.056C646.48 126.847 646.374 126.742 646.164 126.742H644.576V125.837H646.417C646.777 125.837 647.055 125.933 647.248 126.126C647.442 126.319 647.538 126.595 647.538 126.956V133.983H649.669V134.888H644.349Z" fill="white"/>
+<path d="M708.841 155.317H560.732V186.745H708.841V155.317Z" fill="#DC7680"/>
+<path d="M708.841 155.317H560.732V186.745H708.841V155.317Z" stroke="white"/>
+<path d="M571.692 175.896C571.071 175.896 570.529 175.778 570.066 175.544C569.612 175.31 569.259 174.983 569.007 174.564C568.765 174.144 568.639 173.654 568.629 173.093H569.738C569.748 173.596 569.915 174.031 570.243 174.4C570.58 174.76 571.062 174.941 571.692 174.941C572.272 174.941 572.718 174.803 573.028 174.526C573.348 174.242 573.507 173.902 573.507 173.508C573.507 173.181 573.432 172.909 573.28 172.691C573.129 172.464 572.882 172.268 572.537 172.1C572.201 171.924 571.747 171.743 571.175 171.559C570.369 171.316 569.781 170.986 569.411 170.566C569.042 170.146 568.856 169.628 568.856 169.007C568.856 168.588 568.966 168.21 569.184 167.876C569.403 167.541 569.718 167.277 570.129 167.084C570.542 166.89 571.041 166.795 571.629 166.795C572.184 166.795 572.668 166.9 573.079 167.109C573.499 167.31 573.822 167.594 574.049 167.964C574.286 168.333 574.402 168.756 574.402 169.233H573.293C573.293 168.999 573.23 168.768 573.104 168.542C572.978 168.316 572.789 168.127 572.537 167.976C572.285 167.825 571.966 167.75 571.579 167.75C571.117 167.75 570.731 167.863 570.419 168.089C570.109 168.308 569.953 168.61 569.953 168.995C569.953 169.288 570.02 169.535 570.154 169.736C570.298 169.937 570.529 170.121 570.848 170.289C571.168 170.448 571.601 170.621 572.146 170.805C572.66 170.973 573.096 171.169 573.457 171.396C573.827 171.614 574.109 171.886 574.301 172.213C574.503 172.54 574.604 172.947 574.604 173.432C574.604 173.91 574.483 174.333 574.238 174.702C573.996 175.071 573.655 175.364 573.217 175.582C572.781 175.791 572.272 175.896 571.692 175.896ZM576.427 175.745V166.694H577.486V170.453C577.654 170.134 577.932 169.875 578.318 169.673C578.705 169.464 579.129 169.359 579.591 169.359C580.357 169.359 580.936 169.59 581.33 170.051C581.734 170.511 581.935 171.157 581.935 171.987V175.745H580.877V172.125C580.877 171.564 580.738 171.127 580.461 170.817C580.193 170.508 579.815 170.352 579.326 170.352C578.991 170.352 578.683 170.428 578.406 170.579C578.129 170.729 577.906 170.951 577.738 171.245C577.571 171.539 577.486 171.899 577.486 172.326V175.745H576.427ZM586.645 168.404C586.393 168.404 586.183 168.32 586.015 168.152C585.846 167.984 585.763 167.783 585.763 167.549C585.763 167.305 585.846 167.104 586.015 166.945C586.183 166.777 586.393 166.694 586.645 166.694C586.889 166.694 587.094 166.777 587.263 166.945C587.439 167.104 587.527 167.305 587.527 167.549C587.527 167.783 587.439 167.984 587.263 168.152C587.094 168.32 586.889 168.404 586.645 168.404ZM584.2 175.745V174.84H586.191V170.729C586.191 170.52 586.086 170.415 585.876 170.415H584.414V169.51H586.128C586.877 169.51 587.25 169.882 587.25 170.629V174.84H589.242V175.745H584.2ZM593.661 175.745L590.913 169.51H592.123L594.279 174.589L596.447 169.51H597.644L594.884 175.745H593.661ZM601.9 175.896C601.311 175.896 600.791 175.763 600.337 175.494C599.891 175.217 599.538 174.836 599.278 174.35C599.017 173.855 598.888 173.281 598.888 172.628C598.888 171.974 599.014 171.404 599.266 170.918C599.526 170.423 599.883 170.043 600.337 169.774C600.791 169.497 601.32 169.359 601.925 169.359C602.53 169.359 603.047 169.497 603.476 169.774C603.904 170.043 604.232 170.398 604.459 170.843C604.686 171.287 604.799 171.765 604.799 172.276C604.799 172.368 604.795 172.46 604.787 172.552C604.787 172.645 604.787 172.749 604.787 172.867H599.934C599.959 173.327 600.063 173.714 600.249 174.023C600.441 174.325 600.681 174.551 600.967 174.702C601.26 174.853 601.572 174.928 601.9 174.928C602.362 174.928 602.723 174.832 602.984 174.639C603.244 174.446 603.441 174.179 603.577 173.835H604.623C604.48 174.413 604.182 174.903 603.728 175.305C603.274 175.7 602.664 175.896 601.9 175.896ZM601.9 170.302C601.412 170.302 600.983 170.448 600.614 170.742C600.252 171.036 600.03 171.446 599.946 171.974H603.753C603.718 171.454 603.529 171.048 603.186 170.755C602.849 170.453 602.42 170.302 601.9 170.302ZM606.673 175.745V174.84H608.274V170.729C608.274 170.52 608.173 170.415 607.971 170.415H606.837V169.51H608.362C608.639 169.51 608.861 169.585 609.03 169.736C609.197 169.887 609.282 170.109 609.282 170.403V170.667H609.332C609.433 170.247 609.622 169.925 609.9 169.699C610.185 169.472 610.58 169.359 611.085 169.359H612.232V170.478H610.933C610.42 170.478 610.026 170.649 609.748 170.993C609.471 171.328 609.332 171.76 609.332 172.288V174.84H611.299V175.745H606.673ZM616.878 168.404C616.626 168.404 616.415 168.32 616.248 168.152C616.079 167.984 615.996 167.783 615.996 167.549C615.996 167.305 616.079 167.104 616.248 166.945C616.415 166.777 616.626 166.694 616.878 166.694C617.121 166.694 617.327 166.777 617.496 166.945C617.672 167.104 617.76 167.305 617.76 167.549C617.76 167.783 617.672 167.984 617.496 168.152C617.327 168.32 617.121 168.404 616.878 168.404ZM614.433 175.745V174.84H616.424V170.729C616.424 170.52 616.319 170.415 616.109 170.415H614.647V169.51H616.361C617.108 169.51 617.483 169.882 617.483 170.629V174.84H619.475V175.745H614.433ZM621.838 175.745V169.51H622.721L622.834 170.453H622.897C623.066 170.151 623.33 169.895 623.691 169.686C624.054 169.468 624.47 169.359 624.939 169.359C625.705 169.359 626.275 169.585 626.653 170.038C627.041 170.491 627.233 171.144 627.233 171.999V175.745H626.174V172.125C626.174 171.572 626.053 171.14 625.809 170.83C625.566 170.511 625.188 170.352 624.674 170.352C624.18 170.352 623.759 170.524 623.414 170.868C623.07 171.202 622.897 171.69 622.897 172.326V175.745H621.838ZM631.955 173.91C631.519 173.91 631.128 173.83 630.783 173.671L630.355 174.187C630.263 174.312 630.238 174.438 630.279 174.564C630.329 174.682 630.452 174.74 630.644 174.74H632.296C633.044 174.74 633.649 174.886 634.111 175.18C634.574 175.464 634.804 175.921 634.804 176.55C634.804 176.927 634.708 177.274 634.514 177.593C634.322 177.912 634.015 178.167 633.594 178.36C633.183 178.561 632.641 178.662 631.968 178.662C631.095 178.662 630.392 178.499 629.863 178.172C629.333 177.845 629.069 177.347 629.069 176.676C629.069 176.432 629.129 176.206 629.245 175.997C629.371 175.796 629.527 175.615 629.712 175.456C629.469 175.305 629.318 175.079 629.258 174.777C629.207 174.476 629.3 174.179 629.535 173.885L630.102 173.181C629.699 172.761 629.497 172.246 629.497 171.635C629.497 171.232 629.595 170.86 629.787 170.516C629.981 170.164 630.258 169.882 630.619 169.673C630.989 169.464 631.435 169.359 631.955 169.359C632.293 169.359 632.603 169.409 632.888 169.51H635.233V170.302L634.06 170.34V170.428C634.279 170.788 634.388 171.19 634.388 171.635C634.388 172.037 634.292 172.414 634.098 172.766C633.914 173.11 633.637 173.387 633.266 173.596C632.905 173.805 632.469 173.91 631.955 173.91ZM631.955 173.005C632.368 173.005 632.704 172.884 632.964 172.64C633.233 172.397 633.367 172.062 633.367 171.635C633.367 171.207 633.233 170.876 632.964 170.641C632.704 170.398 632.368 170.277 631.955 170.277C631.536 170.277 631.191 170.398 630.922 170.641C630.654 170.876 630.518 171.207 630.518 171.635C630.518 172.062 630.654 172.397 630.922 172.64C631.191 172.884 631.536 173.005 631.955 173.005ZM630.115 176.638C630.115 177.007 630.288 177.284 630.632 177.468C630.977 177.652 631.423 177.744 631.968 177.744C632.497 177.744 632.926 177.639 633.254 177.43C633.591 177.221 633.758 176.94 633.758 176.588C633.758 176.311 633.641 176.077 633.405 175.884C633.17 175.7 632.737 175.607 632.107 175.607H630.682C630.304 175.884 630.115 176.228 630.115 176.638ZM639.715 175.896C639.095 175.896 638.553 175.778 638.089 175.544C637.635 175.31 637.283 174.983 637.03 174.564C636.788 174.144 636.662 173.654 636.652 173.093H637.762C637.771 173.596 637.938 174.031 638.266 174.4C638.603 174.76 639.085 174.941 639.715 174.941C640.295 174.941 640.741 174.803 641.051 174.526C641.371 174.242 641.53 173.902 641.53 173.508C641.53 173.181 641.455 172.909 641.304 172.691C641.152 172.464 640.905 172.268 640.56 172.1C640.224 171.924 639.77 171.743 639.199 171.559C638.392 171.316 637.804 170.986 637.434 170.566C637.065 170.146 636.879 169.628 636.879 169.007C636.879 168.588 636.989 168.21 637.207 167.876C637.426 167.541 637.741 167.277 638.152 167.084C638.565 166.89 639.065 166.795 639.652 166.795C640.207 166.795 640.691 166.9 641.102 167.109C641.523 167.31 641.846 167.594 642.072 167.964C642.309 168.333 642.425 168.756 642.425 169.233H641.316C641.316 168.999 641.253 168.768 641.127 168.542C641.001 168.316 640.812 168.127 640.56 167.976C640.308 167.825 639.989 167.75 639.602 167.75C639.14 167.75 638.754 167.863 638.442 168.089C638.132 168.308 637.976 168.61 637.976 168.995C637.976 169.288 638.044 169.535 638.178 169.736C638.321 169.937 638.553 170.121 638.871 170.289C639.191 170.448 639.624 170.621 640.169 170.805C640.683 170.973 641.119 171.169 641.48 171.396C641.85 171.614 642.132 171.886 642.325 172.213C642.526 172.54 642.627 172.947 642.627 173.432C642.627 173.91 642.506 174.333 642.262 174.702C642.019 175.071 641.679 175.364 641.241 175.582C640.804 175.791 640.295 175.896 639.715 175.896ZM647.248 175.896C646.661 175.896 646.139 175.763 645.685 175.494C645.24 175.217 644.887 174.836 644.627 174.35C644.367 173.855 644.236 173.281 644.236 172.628C644.236 171.974 644.362 171.404 644.614 170.918C644.874 170.423 645.232 170.043 645.685 169.774C646.139 169.497 646.669 169.359 647.274 169.359C647.879 169.359 648.395 169.497 648.824 169.774C649.253 170.043 649.58 170.398 649.807 170.843C650.034 171.287 650.148 171.765 650.148 172.276C650.148 172.368 650.143 172.46 650.135 172.552C650.135 172.645 650.135 172.749 650.135 172.867H645.282C645.307 173.327 645.413 173.714 645.597 174.023C645.791 174.325 646.03 174.551 646.316 174.702C646.61 174.853 646.921 174.928 647.248 174.928C647.71 174.928 648.072 174.832 648.332 174.639C648.592 174.446 648.791 174.179 648.925 173.835H649.971C649.828 174.413 649.53 174.903 649.076 175.305C648.622 175.7 648.013 175.896 647.248 175.896ZM647.248 170.302C646.762 170.302 646.333 170.448 645.963 170.742C645.602 171.036 645.378 171.446 645.295 171.974H649.101C649.068 171.454 648.879 171.048 648.534 170.755C648.199 170.453 647.77 170.302 647.248 170.302ZM654.214 175.896C653.718 175.896 653.307 175.808 652.979 175.632C652.651 175.456 652.407 175.225 652.248 174.941C652.089 174.647 652.008 174.33 652.008 173.985C652.008 173.349 652.24 172.867 652.702 172.54C653.173 172.205 653.798 172.037 654.58 172.037H656.294V171.911C656.294 170.822 655.795 170.277 654.794 170.277C654.391 170.277 654.05 170.365 653.773 170.541C653.504 170.717 653.332 170.993 653.256 171.371H652.172C652.215 170.951 652.353 170.591 652.588 170.289C652.832 169.988 653.143 169.757 653.521 169.598C653.899 169.439 654.323 169.359 654.794 169.359C655.684 169.359 656.332 169.593 656.735 170.063C657.147 170.524 657.353 171.14 657.353 171.911V175.745H656.445L656.357 174.777H656.269C656.085 175.079 655.836 175.343 655.525 175.569C655.223 175.788 654.786 175.896 654.214 175.896ZM654.403 174.966C654.807 174.966 655.147 174.87 655.424 174.677C655.71 174.484 655.924 174.229 656.067 173.91C656.218 173.591 656.294 173.244 656.294 172.867H654.668C654.096 172.867 653.693 172.962 653.458 173.156C653.231 173.349 653.118 173.604 653.118 173.923C653.118 174.249 653.226 174.506 653.445 174.689C653.664 174.873 653.983 174.966 654.403 174.966Z" fill="white"/>
+<path d="M298.866 89.3414C299.173 89.0345 299.173 88.537 298.866 88.2302L293.852 83.2299C293.543 82.923 293.045 82.923 292.738 83.2299C292.429 83.5367 292.429 84.0342 292.738 84.3411L297.194 88.7857L292.738 93.2303C292.429 93.5372 292.429 94.0348 292.738 94.3415C293.045 94.6484 293.543 94.6484 293.852 94.3415L298.866 89.3414ZM191.037 89.5714H298.308V88H191.037V89.5714Z" fill="white"/>
+<path d="M558.202 89.3414C558.51 89.0345 558.51 88.537 558.202 88.2301L553.188 83.2299C552.881 82.923 552.381 82.923 552.074 83.2299C551.767 83.5367 551.767 84.0342 552.074 84.3411L556.532 88.7857L552.074 93.2303C551.767 93.5372 551.767 94.0348 552.074 94.3415C552.381 94.6484 552.881 94.6484 553.188 94.3415L558.202 89.3414ZM451.197 89.5714H557.645V88H451.197V89.5714Z" fill="white"/>
+<path d="M558.561 131.261C558.87 130.954 558.87 130.456 558.561 130.149L553.547 125.149C553.24 124.842 552.742 124.842 552.433 125.149C552.126 125.456 552.126 125.953 552.433 126.26L556.891 130.705L552.433 135.15C552.126 135.457 552.126 135.954 552.433 136.261C552.742 136.568 553.24 136.568 553.547 136.261L558.561 131.261ZM451.201 89.5711L508.702 89.5714V88L451.201 87.9997V89.5711ZM520.519 101.357V118.134H522.095V101.357H520.519ZM533.912 131.491H558.005V129.919H533.912V131.491ZM520.519 118.134C520.519 125.51 526.514 131.491 533.912 131.491V129.919C527.385 129.919 522.095 124.643 522.095 118.134H520.519ZM508.702 89.5714C515.228 89.5714 520.519 94.848 520.519 101.357H522.095C522.095 93.9801 516.098 88 508.702 88V89.5714Z" fill="white"/>
+<path d="M557.513 173.181C557.822 172.873 557.822 172.376 557.513 172.068L552.499 167.068C552.192 166.762 551.694 166.762 551.386 167.068C551.078 167.376 551.078 167.873 551.386 168.181L555.843 172.625L551.386 177.069C551.078 177.377 551.078 177.873 551.386 178.181C551.694 178.488 552.192 178.488 552.499 178.181L557.513 173.181ZM451.197 131.491H492.195V129.919H451.197V131.491ZM504.013 143.277V160.053H505.588V143.277H504.013ZM517.405 173.41H556.957V171.839H517.405V173.41ZM504.013 160.053C504.013 167.429 510.009 173.41 517.405 173.41V171.839C510.879 171.839 505.588 166.562 505.588 160.053H504.013ZM492.195 131.491C498.722 131.491 504.013 136.768 504.013 143.277H505.588C505.588 135.9 499.591 129.919 492.195 129.919V131.491Z" fill="white"/>
+</svg>
+
+            </div></p>
+5:["$","div",null,{"className":"overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0","children":[["$","div",null,{"className":"font-bold text-4xl pt-12","children":"Package%20Relationship%20Diagram"}],["$","div",null,{"children":[]}],["$","style",null,{"children":"$f"}],["$","div",null,{"className":"flex flex-col gap-4 -mt-8","dangerouslySetInnerHTML":{"__html":"$10"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}]]
+7:null

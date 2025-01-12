@@ -1,7 +1,10 @@
 import MarkdownIt, { Options } from 'markdown-it';
 import StateBlock from 'markdown-it/lib/rules_block/state_block.mjs';
-import type Renderer from "markdown-it/lib/renderer.mjs";
+import hljs from 'highlight.js/lib/core';
 import type Token from "markdown-it/lib/token.mjs";
+import java from 'highlight.js/lib/languages/java';
+
+hljs.registerLanguage('java', java);
 
 type CustomCodeblocksOpts = {
   renderers: {
@@ -76,7 +79,14 @@ const mdCustomCodeblocks = (md: MarkdownIt, opts: CustomCodeblocksOpts) => {
   ): string => {
     const renderer = opts.renderers[tokens[index].info]
 
-    if (!renderer) return `<div type="${tokens[index].info}">`;
+    if (!renderer) {
+      const highlightedCode = hljs.highlight(
+        tokens[index + 1].content,
+        { language: tokens[index].info }
+      ).value
+
+      return `<pre><code>${highlightedCode}</code></pre>`;
+    }
 
     return renderer(tokens[index + 1].content);
   }

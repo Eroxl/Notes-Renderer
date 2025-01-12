@@ -153,7 +153,11 @@ body {
 
 
 .tikz {
-  @apply fill-current overflow-visible invert py-8;
+  @apply fill-current overflow-visible invert py-8 flex justify-evenly; 
+}
+
+.tikz > svg {
+  @apply overflow-visible;
 }
 
 blockquote {
@@ -174,4 +178,12 @@ blockquote {
 
 .image-embed {
   @apply mx-auto max-w-full flex flex-row;
+}
+
+pre {
+  @apply p-4;
+}
+
+code, pre {
+  @apply bg-nord1 rounded !important;
 }

@@ -16,6 +16,8 @@ const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
     metadata
   } = getNoteContent(pagePath);
 
+  if (metadata['excalidraw-plugin'] !== undefined) return '';
+
   const {
     html,
     style
@@ -50,6 +52,7 @@ const generateStaticParams = (): { pageName: string }[] => {
 
 
   return getValidNotes(notesPath)
+    .filter((path) => path.path.endsWith('.md'))
     .flatMap((path) => ([
       { pageName: encodeURI(path.name) },
       { pageName: path.name }

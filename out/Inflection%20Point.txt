@@ -1,0 +1,1347 @@
+1:"$Sreact.fragment"
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/0af4a0f616ff4b2b.css","style"]
+0:{"P":null,"b":"Cp2j9OGCngB6xJc7_pN7q","p":"","c":["","Inflection%2520Point"],"i":false,"f":[[["",{"children":[["pageName","Inflection%2520Point","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0af4a0f616ff4b2b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["pageName","Inflection%2520Point","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$0:f:0:1:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","l5ZE7MGugSBspeJZfUxEV",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:I[8173,["177","static/chunks/app/layout-eabb9cd2a142b429.js"],""]
+e:I[8352,["177","static/chunks/app/layout-eabb9cd2a142b429.js"],"default"]
+2:["$","html",null,{"children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","type":"text/css","href":"https://bill-ion.github.io/tikzjax-live/dist/fonts.css"}],["$","script",null,{"defer":true,"src":"https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js"}],["$","link",null,{"href":"https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css","rel":"stylesheet","type":"text/css"}],["$","script",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"}]]}],["$","body",null,{"className":"bg-nord-0 flex flex-row","children":[["$","div",null,{"className":"w-96 h-screen flex flex-col bg-nord-1 print:hidden","children":[["$","div",null,{"className":"flex flex-col gap-2 px-2 mt-5","children":[["$","$Ld",null,{"href":"/","children":["$","span",null,{"className":"h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded","children":"Eroxl's Notes"}]}],["$","$Ld",null,{"href":"/graph","className":"flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chart-scatter h-5 w-5 aspect-square","children":[["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],["$","circle","lysivs",{"cx":"18.5","cy":"5.5","r":".5","fill":"currentColor"}],["$","circle","byv1b8",{"cx":"11.5","cy":"11.5","r":".5","fill":"currentColor"}],["$","circle","nkw3mc",{"cx":"7.5","cy":"16.5","r":".5","fill":"currentColor"}],["$","circle","1gjh6j",{"cx":"17.5","cy":"14.5","r":".5","fill":"currentColor"}],["$","path","c24i48",{"d":"M3 3v16a2 2 0 0 0 2 2h16"}],"$undefined"]}],["$","span",null,{"className":"lex flex-row justify-center text-md font-bold","children":"Graph"}]]}],["$","div",null,{"className":"w-full h-0.5 rounded-full mt-2 bg-white/20"}]]}],["$","div",null,{"className":"h-full overflow-y-scroll p-4 no-scrollbar relative","id":"nav-bar","children":[["$","$Le","00 - Machine Learning",{"entry":{"name":"00 - Machine Learning","hasNote":false,"subFiles":[{"name":"Learning Types","hasNote":false,"subFiles":[{"name":"Supervised Learning","hasNote":true,"subFiles":[{"name":"Features","hasNote":true},{"name":"Problem Types","hasNote":false,"subFiles":[{"name":"Classification","hasNote":true},{"name":"Regression","hasNote":true}]}]},{"name":"Unsupervised Learning","hasNote":true}]},{"name":"Neural Networks","hasNote":false,"subFiles":[{"name":"Activation Functions","hasNote":true,"subFiles":[{"name":"Leaky ReLU Function","hasNote":true},{"name":"Parametric ReLU Function","hasNote":true},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Exploding Gradient Problem","hasNote":true},{"name":"Vanishing Gradient Problem","hasNote":true}]},{"name":"Rectified Linear (ReLU) Function","hasNote":true,"subFiles":[{"name":"Dying RELU Problem","hasNote":true}]},{"name":"Sigmoid Function","hasNote":true,"subFiles":[{"name":"Logistic Function","hasNote":true}]},{"name":"Softmax","hasNote":true},{"name":"Step Function","hasNote":true}]},{"name":"Convolutional Neural Network","hasNote":true},{"name":"Deep Neural Network","hasNote":true},{"name":"Feedforward Neural Network","hasNote":true},{"name":"Layer Types","hasNote":true,"subFiles":[{"name":"Convolutional Layer","hasNote":true,"subFiles":[{"name":"Kernel","hasNote":true}]},{"name":"Dense Layer","hasNote":true,"subFiles":[{"name":"Definition of a Layer of Dense Neurones","hasNote":true},{"name":"Definition of a Single Dense Neurone","hasNote":true}]},{"name":"Dropout Layer","hasNote":true},{"name":"Hidden Layer","hasNote":true}]}]},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Overfitting","hasNote":true},{"name":"Underfitting","hasNote":true}]},{"name":"Pre Processing","hasNote":false,"subFiles":[{"name":"Normalization","hasNote":true,"subFiles":[{"name":"Min-Max Scaling","hasNote":true},{"name":"One Hot Encoding","hasNote":true},{"name":"Z-Score Normalization","hasNote":true}]}]},{"name":"Training","hasNote":false,"subFiles":[{"name":"Backpropagation","hasNote":true,"subFiles":[{"name":"Backpropagation Example with One Neurone","hasNote":true}]},{"name":"Batching","hasNote":true},{"name":"Cost Function","hasNote":true,"subFiles":[{"name":"Categorical Cross-Entropy Loss","hasNote":true}]},{"name":"Feature Set","hasNote":true},{"name":"Optimization","hasNote":true,"subFiles":[{"name":"Gradient Descent","hasNote":true,"subFiles":[{"name":"AdaGrad","hasNote":true},{"name":"Adam","hasNote":true},{"name":"Batch Gradient Descent","hasNote":true},{"name":"Gradient Descent with Momentum","hasNote":true},{"name":"Learning Rate","hasNote":true,"subFiles":[{"name":"Learning Rate Decay","hasNote":true,"subFiles":[{"name":"Exponential Learning Rate Decay","hasNote":true},{"name":"Step Based Learning Rate Decay","hasNote":true},{"name":"Time Based Learning Rate Decay","hasNote":true}]},{"name":"Learning Rate Scheduling","hasNote":true}]},{"name":"Mini-Batch Gradient Descent","hasNote":true},{"name":"RMSProp","hasNote":true},{"name":"Stochastic Gradient Descent","hasNote":true}]}]},{"name":"Penalties","hasNote":true,"subFiles":[{"name":"L1 Regularization","hasNote":true},{"name":"L2 Regularization","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","01 - Linear Algebra",{"entry":{"name":"01 - Linear Algebra","hasNote":false,"subFiles":[{"name":"Elementary Row Operations","hasNote":true},{"name":"Gaussian Elimination","hasNote":true},{"name":"Linear Equation","hasNote":true},{"name":"Linear System","hasNote":true},{"name":"Matrix","hasNote":true,"subFiles":[{"name":"Matrix Operations","hasNote":true,"subFiles":[{"name":"Adjugate Matrix","hasNote":true},{"name":"Cofactor Matrix","hasNote":true},{"name":"Hadamard Product","hasNote":true},{"name":"Matrix Cofactor","hasNote":true},{"name":"Matrix Determinant","hasNote":true,"subFiles":[{"name":"Laplace Expansion","hasNote":true}]},{"name":"Matrix Diagonal Operator","hasNote":true},{"name":"Matrix Inversion","hasNote":true},{"name":"Matrix Minor","hasNote":true},{"name":"Matrix Product","hasNote":true},{"name":"Matrix Transposition","hasNote":true}]},{"name":"Matrix Subtypes","hasNote":true,"subFiles":[{"name":"Column Vector","hasNote":true},{"name":"Identity Matrix","hasNote":true},{"name":"Row Vector","hasNote":true},{"name":"Square Matrix","hasNote":true}]}]},{"name":"Scalar","hasNote":true},{"name":"Vector","hasNote":true,"subFiles":[{"name":"Vector Notation","hasNote":true,"subFiles":[{"name":"Matrix Notation","hasNote":true},{"name":"Point Notation","hasNote":true},{"name":"Unit Vector Notation","hasNote":true}]},{"name":"Vector Operations","hasNote":true,"subFiles":[{"name":"Cross Product","hasNote":true,"subFiles":[{"name":"Right Hand Rule","hasNote":true}]},{"name":"Dot Product","hasNote":true},{"name":"Scalar Multiplication","hasNote":true},{"name":"Triple Product","hasNote":true},{"name":"Vector Addition","hasNote":true,"subFiles":[]},{"name":"Vector Subtraction","hasNote":true}]},{"name":"Vector Properties","hasNote":true,"subFiles":[{"name":"Vector Magnitude","hasNote":true},{"name":"Vector Orientation","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","02 - Calculus",{"entry":{"name":"02 - Calculus","hasNote":false,"subFiles":[{"name":"Average Rate of Change","hasNote":true},{"name":"Continuous Function","hasNote":true},{"name":"Critical Point","hasNote":true},{"name":"Derivative","hasNote":true,"subFiles":[{"name":"Concavity","hasNote":true},{"name":"Differentiable Function","hasNote":true},{"name":"Differentiation Rules","hasNote":true,"subFiles":[{"name":"Chain Rule","hasNote":true},{"name":"Constant Multiples Rule","hasNote":true},{"name":"Constant Rule","hasNote":true},{"name":"Inverse Function Rule","hasNote":true},{"name":"Power Rule","hasNote":true},{"name":"Product Rule","hasNote":true},{"name":"Quotient Rule","hasNote":true},{"name":"Sum Rule","hasNote":true}]},{"name":"First Derivative Test","hasNote":true},{"name":"Higher Order Derivatives","hasNote":true},{"name":"Notation","hasNote":false,"subFiles":[{"name":"Lagrange's Notation","hasNote":true},{"name":"Leibniz's Notation","hasNote":true}]},{"name":"Optimization Using Derivatives","hasNote":true},{"name":"Second Derivative Test","hasNote":true}]},{"name":"Discontinuity","hasNote":true,"subFiles":[{"name":"Essential Discontinuity","hasNote":true},{"name":"Jump Discontinuity","hasNote":true},{"name":"Removable Discontinuity","hasNote":true}]},{"name":"Extrema","hasNote":false,"subFiles":[{"name":"Absolute Extrema","hasNote":true,"subFiles":[{"name":"Absolute Maximum","hasNote":true},{"name":"Absolute Minimum","hasNote":true}]},{"name":"Local Extrema","hasNote":true,"subFiles":[{"name":"Local Maximum","hasNote":true},{"name":"Local Minimum","hasNote":true}]}]},{"name":"Horizontal Asymptote","hasNote":true},{"name":"Inflection Point","hasNote":true},{"name":"Integral","hasNote":true,"subFiles":[{"name":"Antiderivative Rules","hasNote":true},{"name":"Antiderivative Techniques","hasNote":true,"subFiles":[{"name":"Integration by Partial Fractions","hasNote":true},{"name":"Integration by Substitution","hasNote":true}]},{"name":"Antiderivative","hasNote":true},{"name":"Approximations","hasNote":false,"subFiles":[{"name":"Riemann Sum","hasNote":true,"subFiles":[{"name":"Examples","hasNote":false,"subFiles":[]}]}]}]},{"name":"Intermediate Value Theorem","hasNote":true},{"name":"Interval","hasNote":true,"subFiles":[{"name":"Closed Interval","hasNote":true},{"name":"Half-Open Interval","hasNote":true},{"name":"Interval Notation","hasNote":true},{"name":"Open Interval","hasNote":true}]},{"name":"Limit","hasNote":true,"subFiles":[{"name":"Indeterminate Form","hasNote":true},{"name":"L'Hôpital's Rule","hasNote":true},{"name":"One-Sided Limits","hasNote":true},{"name":"Squeeze Theorem","hasNote":true}]},{"name":"Linearization","hasNote":true},{"name":"Mean Value Theorem","hasNote":false,"subFiles":[{"name":"Mean Value Theorem for Derivatives","hasNote":true}]},{"name":"Normal Line","hasNote":true},{"name":"Rate of Change","hasNote":true},{"name":"Secant Line","hasNote":true},{"name":"Solid of Revolution","hasNote":true,"subFiles":[{"name":"Disc Integration","hasNote":true},{"name":"Washer Integration","hasNote":true}]},{"name":"Tangent Line","hasNote":true},{"name":"Taylor Series","hasNote":true},{"name":"The Fundamental Theorem of Calculus","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","03 - Multivariable Calculus",{"entry":{"name":"03 - Multivariable Calculus","hasNote":false,"subFiles":[{"name":"Gradient","hasNote":true},{"name":"Jacobian Matrix","hasNote":true},{"name":"Multivariable Function","hasNote":true},{"name":"Partial Derivative","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","04 - Physics",{"entry":{"name":"04 - Physics","hasNote":false,"subFiles":[{"name":"Electric Circuits","hasNote":false,"subFiles":[{"name":"Ammeter","hasNote":true},{"name":"Battery","hasNote":true},{"name":"Capacitance","hasNote":true},{"name":"Capacitor","hasNote":true},{"name":"Conductance","hasNote":true},{"name":"Current","hasNote":true},{"name":"Electrical Power","hasNote":true},{"name":"Kirchhoff's Current Law","hasNote":true},{"name":"Kirchhoff's Voltage Law","hasNote":true},{"name":"Ohm's Law","hasNote":true},{"name":"Parallel","hasNote":true},{"name":"Resistance","hasNote":true},{"name":"Resistor","hasNote":true},{"name":"Series","hasNote":true},{"name":"Voltmeter","hasNote":true}]},{"name":"Electromagnetics","hasNote":false,"subFiles":[{"name":"Electromagnetic Radiation","hasNote":true},{"name":"Light","hasNote":true},{"name":"Photon","hasNote":true}]},{"name":"Electrostatics","hasNote":false,"subFiles":[{"name":"Charged Particle","hasNote":true},{"name":"Coulombs Constant","hasNote":true},{"name":"Coulombs Law","hasNote":true},{"name":"Electric Field","hasNote":true,"subFiles":[{"name":"Uniform Electric Field","hasNote":true}]},{"name":"Electric Field Lines","hasNote":true,"subFiles":[]},{"name":"Electric Potential Difference","hasNote":true,"subFiles":[]},{"name":"Electric Potential Energy","hasNote":true},{"name":"Electric Potential","hasNote":true},{"name":"Elementary Charge","hasNote":true},{"name":"Parallel Plates","hasNote":true}]},{"name":"Geometrical Optics","hasNote":true,"subFiles":[{"name":"Lenses","hasNote":true,"subFiles":[{"name":"Focal Length","hasNote":true},{"name":"Image Point","hasNote":true},{"name":"Real Image","hasNote":true},{"name":"Thin Concave Lens","hasNote":true,"subFiles":[]},{"name":"Thin Convex Lens","hasNote":true,"subFiles":[]},{"name":"Virtual Image","hasNote":true}]},{"name":"Light Ray","hasNote":true},{"name":"Optical Medium","hasNote":true},{"name":"Refractive Index","hasNote":true},{"name":"Snell's Law","hasNote":true,"subFiles":[]},{"name":"Vergence","hasNote":true}]},{"name":"International System of Units","hasNote":true,"subFiles":[{"name":"Electricity","hasNote":false,"subFiles":[{"name":"Ampere","hasNote":true},{"name":"Coulomb","hasNote":true},{"name":"Farad","hasNote":true},{"name":"Volt","hasNote":true}]},{"name":"Energy","hasNote":false,"subFiles":[{"name":"Joule","hasNote":true}]},{"name":"SI Base Units","hasNote":true}]},{"name":"Particle Physics","hasNote":false,"subFiles":[{"name":"Electron","hasNote":true},{"name":"Elementary Particle","hasNote":true},{"name":"Fermion","hasNote":true},{"name":"Lepton","hasNote":true},{"name":"Proton","hasNote":true}]},{"name":"Physical Constants","hasNote":false,"subFiles":[{"name":"Permeability of Free Space","hasNote":true},{"name":"Permittivity of Free Space","hasNote":true},{"name":"Planck's Constant","hasNote":true},{"name":"Speed of Light","hasNote":true}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","05 - Algebra",{"entry":{"name":"05 - Algebra","hasNote":false,"subFiles":[{"name":"Empty Product","hasNote":true},{"name":"Euclidean Division","hasNote":true},{"name":"Even Function","hasNote":true},{"name":"Factorial","hasNote":true},{"name":"Function","hasNote":true},{"name":"Integer","hasNote":true},{"name":"Monomial","hasNote":true},{"name":"Natural Number","hasNote":true},{"name":"Odd Function","hasNote":true},{"name":"Polynomial Degree","hasNote":true},{"name":"Polynomial","hasNote":true},{"name":"Proper Fraction","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","06 - Discrete Mathematics",{"entry":{"name":"06 - Discrete Mathematics","hasNote":false,"subFiles":[{"name":"Argument","hasNote":true,"subFiles":[{"name":"Common Rules of Inference","hasNote":false,"subFiles":[{"name":"Contradiction Rule","hasNote":true},{"name":"Division into Cases","hasNote":true},{"name":"Elimination","hasNote":true},{"name":"Generalization","hasNote":true},{"name":"Modus Ponens","hasNote":true},{"name":"Modus Tollens","hasNote":true},{"name":"Specialization","hasNote":true},{"name":"Transivity","hasNote":true}]},{"name":"Fallacy","hasNote":true,"subFiles":[]},{"name":"Quantified Rules of Inference","hasNote":false,"subFiles":[{"name":"Universal Instantiation","hasNote":true},{"name":"Universal Modus Ponens","hasNote":true},{"name":"Universal Modus Tollens","hasNote":true}]},{"name":"Rule of Inference","hasNote":true},{"name":"Syllogism","hasNote":true}]},{"name":"Big-O Notation","hasNote":true},{"name":"Character Encoding","hasNote":false,"subFiles":[{"name":"ASCII","hasNote":true}]},{"name":"Common Circuits","hasNote":false,"subFiles":[{"name":"Full Adder","hasNote":true},{"name":"Half Adder","hasNote":true}]},{"name":"Common Logical Equivalences","hasNote":true,"subFiles":[{"name":"Absorption Laws","hasNote":true},{"name":"Associative Laws","hasNote":true},{"name":"Commutative Laws","hasNote":true},{"name":"De Morgan's Laws","hasNote":true},{"name":"Distributive Laws","hasNote":true},{"name":"Domination Laws","hasNote":true},{"name":"Idempotent Laws","hasNote":true},{"name":"Identity Laws","hasNote":true}]},{"name":"Compound Statements","hasNote":true},{"name":"Contradiction","hasNote":true},{"name":"Creating a Statement from Truth Tables","hasNote":true},{"name":"Formal Language","hasNote":true,"subFiles":[]},{"name":"Logic Gate","hasNote":true,"subFiles":[{"name":"AND Gate","hasNote":true},{"name":"NAND Gate","hasNote":true},{"name":"NOR Gate","hasNote":true},{"name":"NOT Gate","hasNote":true},{"name":"OR Gate","hasNote":true},{"name":"XNOR Gate","hasNote":true},{"name":"XOR Gate","hasNote":true}]},{"name":"Logical Equivalence","hasNote":true},{"name":"Logical Operator","hasNote":true,"subFiles":[{"name":"Biconditional","hasNote":true},{"name":"Conditional","hasNote":true},{"name":"Conjunction","hasNote":true},{"name":"Disjunction","hasNote":true},{"name":"Exclusive Disjunction","hasNote":true},{"name":"Negation","hasNote":true}]},{"name":"Mathematical Proof","hasNote":true,"subFiles":[{"name":"Direct Proof","hasNote":true},{"name":"Mathematical Induction","hasNote":true,"subFiles":[{"name":"Strong Mathematical Induction","hasNote":true}]}]},{"name":"Modular Arithmetic","hasNote":true},{"name":"Modulo","hasNote":true},{"name":"Numeral System","hasNote":true,"subFiles":[{"name":"Binary Number","hasNote":true,"subFiles":[{"name":"Bit","hasNote":true},{"name":"Floating Point Number","hasNote":true},{"name":"Two's Complement","hasNote":true}]},{"name":"Decimal Number","hasNote":true},{"name":"Hexadecimal Number","hasNote":true},{"name":"Numerical Digit","hasNote":true},{"name":"Radix","hasNote":true}]},{"name":"Predicate","hasNote":true,"subFiles":[{"name":"Truth Set","hasNote":true}]},{"name":"Quantifier","hasNote":true,"subFiles":[{"name":"Existential Quantifier","hasNote":true},{"name":"Universal Quantifier","hasNote":true,"subFiles":[{"name":"Universal Conditional Statements","hasNote":true}]}]},{"name":"Sequence","hasNote":true},{"name":"Simplifying Statement Forms","hasNote":true},{"name":"Statement","hasNote":true},{"name":"Tautology","hasNote":true},{"name":"Truth Table","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","07 - Set Theory",{"entry":{"name":"07 - Set Theory","hasNote":false,"subFiles":[{"name":"Empty Set","hasNote":true},{"name":"Euler Diagram","hasNote":true,"subFiles":[]},{"name":"Power Set","hasNote":true},{"name":"Set","hasNote":true,"subFiles":[{"name":"Element","hasNote":true},{"name":"Operations","hasNote":false,"subFiles":[{"name":"Complement","hasNote":true,"subFiles":[]},{"name":"Intersection","hasNote":true,"subFiles":[]},{"name":"Set Difference","hasNote":true,"subFiles":[]},{"name":"Set Equality","hasNote":true},{"name":"Subset","hasNote":true},{"name":"Union","hasNote":true,"subFiles":[]}]}]},{"name":"Set Builder Notation","hasNote":true},{"name":"Universal Set","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","08 - Chemistry",{"entry":{"name":"08 - Chemistry","hasNote":false,"subFiles":[{"name":"Atom","hasNote":true},{"name":"Chemical Formula","hasNote":true},{"name":"Ion","hasNote":true},{"name":"Periodic Table","hasNote":true},{"name":"Structural Chemistry","hasNote":false,"subFiles":[{"name":"Atomic Orbital","hasNote":true},{"name":"Effective Nuclear Charge","hasNote":true},{"name":"Electron Shell","hasNote":true},{"name":"Ionization Energy","hasNote":true},{"name":"Lewis Structure","hasNote":true}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","09 - Computer Science",{"entry":{"name":"09 - Computer Science","hasNote":false,"subFiles":[{"name":"Algorithms","hasNote":false,"subFiles":[]},{"name":"Paradigms","hasNote":false,"subFiles":[{"name":"Object Oriented","hasNote":false,"subFiles":[{"name":"Call Graph","hasNote":true,"subFiles":[]},{"name":"Class","hasNote":true},{"name":"Constructor","hasNote":true},{"name":"Method","hasNote":true},{"name":"Package Relationship Diagram","hasNote":true,"subFiles":[]},{"name":"Package","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}]]}]]}],["$","div",null,{"className":"w-full h-screen overflow-hidden print:h-full print:overflow-visible","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
+f:T504d,mjx-c.mjx-c2033::before {
+  padding: 0.56em 0.55em 0 0;
+  content: "\2032\2032";
+}
+
+mjx-c.mjx-c38::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "8";
+}
+
+mjx-c.mjx-c28.TEX-S3::before {
+  padding: 1.45em 0.736em 0.949em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c2E::before {
+  padding: 0.12em 0.278em 0 0;
+  content: ".";
+}
+
+mjx-c.mjx-c29.TEX-S3::before {
+  padding: 1.45em 0.736em 0.949em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+mjx-c.mjx-c3C::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "<";
+}
+
+mjx-c.mjx-c3E::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: ">";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c30::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "0";
+}
+
+mjx-c.mjx-c75::before {
+  padding: 0.442em 0.556em 0.011em 0;
+  content: "u";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c2032::before {
+  padding: 0.56em 0.275em 0 0;
+  content: "\2032";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+mjx-c.mjx-c39::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "9";
+}
+
+mjx-c.mjx-cA0::before {
+  padding: 0 0.25em 0 0;
+  content: "\A0";
+}
+
+mjx-c.mjx-c44::before {
+  padding: 0.683em 0.764em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c4E::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "N";
+}
+
+mjx-c.mjx-c45::before {
+  padding: 0.68em 0.681em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c40::before {
+  padding: 0.705em 0.778em 0.011em 0;
+  content: "@";
+}
+
+mjx-munder {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-over {
+  text-align: left;
+}
+
+mjx-munder:not([limits="false"]) {
+  display: inline-table;
+}
+
+mjx-munder > mjx-row {
+  text-align: left;
+}
+
+mjx-under {
+  padding-bottom: .1em;
+}
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c2192::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c2260::before {
+  padding: 0.716em 0.778em 0.215em 0;
+  content: "\2260";
+}
+
+
+
+
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c1D453.TEX-I::before {
+  padding: 0.705em 0.55em 0.205em 0;
+  content: "f";
+}
+
+
+
+
+
+
+
+
+
+mjx-msqrt {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-root {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+mjx-surd {
+  display: inline-block;
+  vertical-align: top;
+}
+
+mjx-sqrt {
+  display: inline-block;
+  padding-top: .07em;
+}
+
+mjx-sqrt > mjx-box {
+  border-top: .07em solid;
+}
+
+mjx-sqrt.mjx-tall > mjx-box {
+  padding-left: .3em;
+  margin-left: -.3em;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c1D449.TEX-I::before {
+  padding: 0.683em 0.769em 0.022em 0;
+  content: "V";
+}
+
+mjx-c.mjx-c221A.TEX-S2::before {
+  padding: 1.15em 1.02em 0.65em 0;
+  content: "\221A";
+}
+
+mjx-c.mjx-c1D463.TEX-I::before {
+  padding: 0.443em 0.485em 0.011em 0;
+  content: "v";
+}
+
+mjx-c.mjx-c22EF::before {
+  padding: 0.31em 1.172em 0 0;
+  content: "\22EF";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-mtable {
+  display: inline-block;
+  text-align: center;
+  vertical-align: .25em;
+  position: relative;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+mjx-mstyle[size="s"] mjx-mtable {
+  vertical-align: .354em;
+}
+
+mjx-labels {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+mjx-table {
+  display: inline-block;
+  vertical-align: -.5ex;
+  box-sizing: border-box;
+}
+
+mjx-table > mjx-itable {
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+mjx-labels > mjx-itable {
+  position: absolute;
+  top: 0;
+}
+
+mjx-mtable[justify="left"] {
+  text-align: left;
+}
+
+mjx-mtable[justify="right"] {
+  text-align: right;
+}
+
+mjx-mtable[justify="left"][side="left"] {
+  padding-right: 0 ! important;
+}
+
+mjx-mtable[justify="left"][side="right"] {
+  padding-left: 0 ! important;
+}
+
+mjx-mtable[justify="right"][side="left"] {
+  padding-right: 0 ! important;
+}
+
+mjx-mtable[justify="right"][side="right"] {
+  padding-left: 0 ! important;
+}
+
+mjx-mtable[align] {
+  vertical-align: baseline;
+}
+
+mjx-mtable[align="top"] > mjx-table {
+  vertical-align: top;
+}
+
+mjx-mtable[align="bottom"] > mjx-table {
+  vertical-align: bottom;
+}
+
+mjx-mtable[side="right"] mjx-labels {
+  min-width: 100%;
+}
+
+mjx-mtr {
+  display: table-row;
+  text-align: left;
+}
+
+mjx-mtr[rowalign="top"] > mjx-mtd {
+  vertical-align: top;
+}
+
+mjx-mtr[rowalign="center"] > mjx-mtd {
+  vertical-align: middle;
+}
+
+mjx-mtr[rowalign="bottom"] > mjx-mtd {
+  vertical-align: bottom;
+}
+
+mjx-mtr[rowalign="baseline"] > mjx-mtd {
+  vertical-align: baseline;
+}
+
+mjx-mtr[rowalign="axis"] > mjx-mtd {
+  vertical-align: .25em;
+}
+
+mjx-mtd {
+  display: table-cell;
+  text-align: center;
+  padding: .215em .4em;
+}
+
+mjx-mtd:first-child {
+  padding-left: 0;
+}
+
+mjx-mtd:last-child {
+  padding-right: 0;
+}
+
+mjx-mtable > * > mjx-itable > *:first-child > mjx-mtd {
+  padding-top: 0;
+}
+
+mjx-mtable > * > mjx-itable > *:last-child > mjx-mtd {
+  padding-bottom: 0;
+}
+
+mjx-tstrut {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -.25em;
+}
+
+mjx-labels[align="left"] > mjx-mtr > mjx-mtd {
+  text-align: left;
+}
+
+mjx-labels[align="right"] > mjx-mtr > mjx-mtd {
+  text-align: right;
+}
+
+mjx-mtd[extra] {
+  padding: 0;
+}
+
+mjx-mtd[rowalign="top"] {
+  vertical-align: top;
+}
+
+mjx-mtd[rowalign="center"] {
+  vertical-align: middle;
+}
+
+mjx-mtd[rowalign="bottom"] {
+  vertical-align: bottom;
+}
+
+mjx-mtd[rowalign="baseline"] {
+  vertical-align: baseline;
+}
+
+mjx-mtd[rowalign="axis"] {
+  vertical-align: .25em;
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-v.mjx-c7C mjx-ext mjx-c::before {
+  content: "\2223";
+  width: 0.333em;
+}
+
+mjx-c.mjx-c5E::before {
+  padding: 0.694em 0.5em 0 0;
+  content: "^";
+}
+
+mjx-c.mjx-c131.TEX-MI::before {
+  padding: 0.441em 0.34em 0.01em 0;
+  content: "\131";
+}
+
+mjx-c.mjx-c237.TEX-MI::before {
+  padding: 0.442em 0.332em 0.204em 0;
+  content: "\237";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c1D466.TEX-I::before {
+  padding: 0.442em 0.49em 0.205em 0;
+  content: "y";
+}
+
+mjx-c.mjx-c1D467.TEX-I::before {
+  padding: 0.442em 0.465em 0.011em 0;
+  content: "z";
+}
+
+mjx-c.mjx-c7C::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "|";
+}
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c69::before {
+  padding: 0.669em 0.278em 0 0;
+  content: "i";
+}
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c2061::before {
+  padding: 0 0 0 0;
+  content: "";
+}
+
+mjx-c.mjx-c1D703.TEX-I::before {
+  padding: 0.705em 0.469em 0.01em 0;
+  content: "\3B8";
+}
+
+mjx-c.mjx-c41::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c20::before {
+  padding: 0 0.25em 0 0;
+  content: " ";
+}
+
+mjx-c.mjx-c6F::before {
+  padding: 0.448em 0.5em 0.01em 0;
+  content: "o";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+mjx-c.mjx-c50::before {
+  padding: 0.683em 0.681em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-c.mjx-c67::before {
+  padding: 0.453em 0.5em 0.206em 0;
+  content: "g";
+}
+
+mjx-c.mjx-c6D::before {
+  padding: 0.442em 0.833em 0 0;
+  content: "m";
+}
+
+
+
+
+
+mjx-mrow {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D436.TEX-I::before {
+  padding: 0.705em 0.76em 0.022em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c22C5::before {
+  padding: 0.31em 0.278em 0 0;
+  content: "\22C5";
+}
+
+mjx-c.mjx-c28.TEX-S2::before {
+  padding: 1.15em 0.597em 0.649em 0;
+  content: "(";
+}
+
+mjx-c.mjx-cD7::before {
+  padding: 0.491em 0.778em 0 0;
+  content: "\D7";
+}
+
+mjx-c.mjx-c29.TEX-S2::before {
+  padding: 1.15em 0.597em 0.649em 0;
+  content: ")";
+}
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mover {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mover:not([limits="false"]) {
+  padding-top: .1em;
+}
+
+mjx-mover:not([limits="false"]) > * {
+  display: block;
+  text-align: left;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c20D7.TEX-V::before {
+  padding: 0.714em 0.5em 0 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c5B::before {
+  padding: 0.75em 0.278em 0.25em 0;
+  content: "[";
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+mjx-c.mjx-c2026::before {
+  padding: 0.12em 1.172em 0 0;
+  content: "\2026";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c5D::before {
+  padding: 0.75em 0.278em 0.25em 0;
+  content: "]";
+}
+10:T1000d,<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<p>An inflection point is any point on a graph of a function where the <a href="Concavity">concavity</a> of the function changes (ie. from concave up to concave down). For a function to have an inflection point it must have a <a href="Higher%20Order%20Derivatives">second derivative</a>. Inflection points can be found on a graph by checking for locations where the <a href="Higher%20Order%20Derivatives">second derivative</a> switches signs.</p>
+<h1>Example</h1>
+<p>Given the function <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c33"></mjx-c></mjx-mn><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.363em;"><mjx-TeXAtom size="s" texclass="ORD"><mjx-mn class="mjx-n"><mjx-c class="mjx-c33"></mjx-c></mjx-mn></mjx-TeXAtom></mjx-script></mjx-msup><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.363em;"><mjx-TeXAtom size="s" texclass="ORD"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-TeXAtom></mjx-script></mjx-msup></mjx-math></mjx-container> find the inflection points</p>
+<div class="desmos-graph">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="625" height="300"><defs/><g transform="scale(1,1)"><g id="background-067e7942"><rect fill="white" stroke="none" x="0" y="0" width="625" height="300" class="dcg-svg-background"/></g><g id="background-images-067e7942"/><g id="graphpaper-067e7942"><g id="grid-067e7942"><g><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 11.5 0 L 11.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 37.5 0 L 37.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 62.5 0 L 62.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 87.5 0 L 87.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 112.5 0 L 112.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 136.5 0 L 136.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 161.5 0 L 161.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 187.5 0 L 187.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 212.5 0 L 212.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 237.5 0 L 237.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 262.5 0 L 262.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 287.5 0 L 287.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 337.5 0 L 337.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 362.5 0 L 362.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 387.5 0 L 387.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 412.5 0 L 412.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 437.5 0 L 437.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 462.5 0 L 462.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 487.5 0 L 487.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 512.5 0 L 512.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 537.5 0 L 537.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 562.5 0 L 562.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 587.5 0 L 587.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 612.5 0 L 612.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 269.5 L 625 269.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 239.5 L 625 239.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 209.5 L 625 209.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 179.5 L 625 179.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 119.5 L 625 119.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 89.5 L 625 89.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 59.5 L 625 59.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 29.5 L 625 29.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 -0.5 L 625 -0.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 62.5 0 L 62.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 187.5 0 L 187.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 437.5 0 L 437.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 562.5 0 L 562.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 0 -0.5 L 625 -0.5" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/></g></g><g id="axis-067e7942"><g id="yaxis-067e7942"><title>Y axis</title><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 312.75 0 L 312.75 300" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/></g><g id="xaxis-067e7942"><title>X axis</title><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 0 149.75 L 625 149.75" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/></g><g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="165.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">0</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="165.808" text-anchor="middle">0</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="60.1689453125" y="165.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-2</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="60.1689453125" y="165.808" text-anchor="middle">-2</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="185.1689453125" y="165.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="185.1689453125" y="165.808" text-anchor="middle">-1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="437.5" y="165.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="437.5" y="165.808" text-anchor="middle">1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="562.5" y="165.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">2</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="562.5" y="165.808" text-anchor="middle">2</text></g><g class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="301.27587890625" y="293.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-5</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="301.27587890625" y="293.808" text-anchor="middle">-5</text></g><g class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="13.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">5</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="13.808" text-anchor="middle">5</text></g></g></g></g><g id="expressions-067e7942"><g id="sketch-067e7942"><title>Expression 1</title><path fill="#5e81ac" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#5e81ac" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 128.35910917829193 305.5 L 128.35910917829193 305.5 L 131.3359375 295.8881731033325 L 136.066162109375 281.57620352113736 L 140.79638671875 268.1807639023755 L 145.3740234375 256.0625317860395 L 149.95166015625 244.74872663314454 L 154.376708984375 234.5517713879526 L 158.8017578125 225.05776997469366 L 163.07421875 216.53568994998932 L 167.3466796875 208.6250250581652 L 171.466552734375 201.55575663785567 L 175.58642578125 195.01562722190283 L 179.5537109375 189.1997828502208 L 183.52099609375 183.83941563707776 L 187.335693359375 179.09868077959982 L 191.150390625 174.74775080382824 L 194.8125 170.92333984375 L 198.474609375 167.43044991791248 L 201.984130859375 164.3816209875804 L 205.49365234375 161.61284010787494 L 208.8505859375 159.21546885557473 L 212.20751953125 157.0529295427259 L 215.564453125 155.11476312577724 L 218.768798828125 153.46439281394123 L 221.97314453125 151.9998349545058 L 225.177490234375 150.71199289060314 L 228.3818359375 149.59176996536553 L 231.586181640625 148.63006952192518 L 234.79052734375 147.81779490341432 L 238.1474609375 147.11719745583832 L 241.656982421875 146.53807424884872 L 245.4716796875 146.07260277308524 L 249.896728515625 145.72694890058483 L 254.626953125 145.56234394013882 L 259.662353515625 145.58761023773695 L 265.30810546875 145.81898166262545 L 272.02197265625 146.30701081524603 L 281.482421875 147.23339368402958 L 297.65673828125 148.8459741526749 L 304.67578125 149.31211125850677 L 310.47412109375 149.49122301233 L 315.509521484375 149.45071186640416 L 320.23974609375 149.21351100248285 L 324.8173828125 148.77211343310773 L 328.78466796875 148.2002789566759 L 332.294189453125 147.53333219824708 L 335.651123046875 146.74236558904522 L 338.85546875 145.83802473545074 L 342.059814453125 144.7785882887838 L 345.111572265625 143.6170850470371 L 348.163330078125 142.29879656023695 L 351.36767578125 140.73725536628626 L 354.572021484375 138.98509830006515 L 357.7763671875 137.03322870470583 L 361.13330078125 134.76429719640873 L 364.490234375 132.2557373791933 L 367.84716796875 129.49709020950831 L 371.356689453125 126.33430046527064 L 374.8662109375 122.87478888221085 L 378.5283203125 118.9355835672468 L 382.1904296875 114.64670201577246 L 386.005126953125 109.79264284516103 L 389.81982421875 104.52907913760282 L 393.787109375 98.6040725260973 L 397.75439453125 92.20228160894476 L 401.874267578125 85.03111707660719 L 405.994140625 77.30783586204052 L 410.2666015625 68.69466550461948 L 414.5390625 59.44536876678467 L 418.964111328125 49.172127790836385 L 423.38916015625 38.16942512686364 L 427.966796875 25.994193449616432 L 432.54443359375 12.986167305381969 L 437.274658203125 -1.3585277806560043 L 438.5557669424701 -5.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-opacity="0.9" stroke-dasharray=""/></g></g><g id="sketch-067e7942"><title>Expression 2</title><path fill="#a3be8c" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#a3be8c" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 248.1111111111111 305.5 L 248.1111111111111 305.5 L 320.10185185185185 -5.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-opacity="0.9" stroke-dasharray=""/></g></g></g><g id="labels-067e7942"/></g></svg>
+    </div><blockquote>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container> is shown in blue and the second derivative of <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container> is also shown in green.</p>
+</blockquote>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-mtable style="min-width: 7.561em;"><mjx-table><mjx-itable><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2032"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c39"></mjx-c></mjx-mn><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msup><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd extra="true"></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em;"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr></mjx-itable></mjx-table></mjx-mtable></mjx-math></mjx-container></p>
+<p>Checking right before the potential inflection point</p>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-mtable style="min-width: 16.845em;"><mjx-table><mjx-itable><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mrow space="2"><mjx-mo class="mjx-s3"><mjx-c class="mjx-c28 TEX-S3"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-s3"><mjx-c class="mjx-c29 TEX-S3"></mjx-c></mjx-mo></mjx-mrow><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-mrow space="2"><mjx-mo class="mjx-s3"><mjx-c class="mjx-c28 TEX-S3"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-s3"><mjx-c class="mjx-c29 TEX-S3"></mjx-c></mjx-mo></mjx-mrow><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em;"><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr></mjx-itable></mjx-table></mjx-mtable></mjx-math></mjx-container></p>
+<p>Checking right after the potential inflection point</p>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-mtable style="min-width: 16.845em;"><mjx-table><mjx-itable><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mrow space="2"><mjx-mo class="mjx-s3"><mjx-c class="mjx-c28 TEX-S3"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-s3"><mjx-c class="mjx-c29 TEX-S3"></mjx-c></mjx-mo></mjx-mrow><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-mrow space="2"><mjx-mo class="mjx-s3"><mjx-c class="mjx-c28 TEX-S3"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mn class="mjx-n"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-s3"><mjx-c class="mjx-c29 TEX-S3"></mjx-c></mjx-mo></mjx-mrow><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em;"><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr></mjx-itable></mjx-table></mjx-mtable></mjx-math></mjx-container></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mi class="mjx-n"><mjx-c class="mjx-c221E"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="2"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container></th>
+<th><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-math></mjx-container></th>
+<th><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mfrac><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-n" space="2"><mjx-c class="mjx-c221E"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.363em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container></td>
+<td><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c3C"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math></mjx-container></td>
+<td><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math></mjx-container></td>
+<td><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c3E"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math></mjx-container></td>
+</tr>
+<tr>
+<td><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container></td>
+<td>Concave Down</td>
+<td>Inflection Point</td>
+<td>Concave Up</td>
+</tr>
+</tbody>
+</table>
+<h1>Non-Example</h1>
+<p>Given the function <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-msup space="4"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.363em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c34"></mjx-c></mjx-mn></mjx-script></mjx-msup></mjx-math></mjx-container> find any inflection points</p>
+<div class="desmos-graph">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="625" height="300"><defs/><g transform="scale(1,1)"><g id="background-dd3d2d07"><rect fill="white" stroke="none" x="0" y="0" width="625" height="300" class="dcg-svg-background"/></g><g id="background-images-dd3d2d07"/><g id="graphpaper-dd3d2d07"><g id="grid-dd3d2d07"><g><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 11.5 0 L 11.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 37.5 0 L 37.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 62.5 0 L 62.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 87.5 0 L 87.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 112.5 0 L 112.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 136.5 0 L 136.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 161.5 0 L 161.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 187.5 0 L 187.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 212.5 0 L 212.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 237.5 0 L 237.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 262.5 0 L 262.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 287.5 0 L 287.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 337.5 0 L 337.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 362.5 0 L 362.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 387.5 0 L 387.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 412.5 0 L 412.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 437.5 0 L 437.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 462.5 0 L 462.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 487.5 0 L 487.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 512.5 0 L 512.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 537.5 0 L 537.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 562.5 0 L 562.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 587.5 0 L 587.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 612.5 0 L 612.5 300" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 244.5 L 625 244.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 217.5 L 625 217.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 190.5 L 625 190.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 163.5 L 625 163.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 135.5 L 625 135.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 108.5 L 625 108.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 81.5 L 625 81.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 54.5 L 625 54.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 26.5 L 625 26.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 -0.5 L 625 -0.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 62.5 0 L 62.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 187.5 0 L 187.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 437.5 0 L 437.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 562.5 0 L 562.5 300" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 0 135.5 L 625 135.5" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 0 -0.5 L 625 -0.5" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/></g></g><g id="axis-dd3d2d07"><g id="yaxis-dd3d2d07"><title>Y axis</title><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 312.75 0 L 312.75 300" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/></g><g id="xaxis-dd3d2d07"><title>X axis</title><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 0 272.75 L 625 272.75" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/></g><g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="288.53527272727274" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">0</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="288.53527272727274" text-anchor="middle">0</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="60.1689453125" y="288.53527272727274" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-2</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="60.1689453125" y="288.53527272727274" text-anchor="middle">-2</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="185.1689453125" y="288.53527272727274" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="185.1689453125" y="288.53527272727274" text-anchor="middle">-1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="437.5" y="288.53527272727274" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="437.5" y="288.53527272727274" text-anchor="middle">1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="562.5" y="288.53527272727274" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">2</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="562.5" y="288.53527272727274" text-anchor="middle">2</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="140.17163636363637" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">5</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.60693359375" y="140.17163636363637" text-anchor="middle">5</text></g><g class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="299.7138671875" y="13.808" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">10</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="299.7138671875" y="13.808" text-anchor="middle">10</text></g></g></g></g><g id="expressions-dd3d2d07"><g id="sketch-dd3d2d07"><title>Expression 1</title><path fill="#5e81ac" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#5e81ac" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 88.70513036563847 -5.5 L 88.70513036563847 -5.5 L 88.763916015625 -5.1980497547106665 L 93.494140625 17.57892247994789 L 98.224365234375 38.923728631304584 L 102.95458984375 58.897699932542395 L 107.5322265625 76.97864576400718 L 112.10986328125 93.885131066642 L 116.6875 109.66915061257103 L 121.112548828125 123.90784750072402 L 125.53759765625 137.19001228359653 L 129.962646484375 149.55947462617686 L 134.3876953125 161.05903624336463 L 138.66015625 171.37582880300891 L 142.9326171875 180.95731768531317 L 147.205078125 189.83929991961816 L 151.324951171875 197.77425936785352 L 155.44482421875 205.12175395060802 L 159.564697265625 211.911520576817 L 163.531982421875 217.94973272286128 L 167.499267578125 223.52281514023332 L 171.466552734375 228.6552906999397 L 175.28125 233.19706760753286 L 179.095947265625 237.3741725104113 L 182.91064453125 241.20666890489397 L 186.725341796875 244.71405255961668 L 190.387451171875 247.79285014013325 L 194.049560546875 250.60572539648905 L 197.711669921875 253.16845020703283 L 201.373779296875 255.49631425255882 L 205.035888671875 257.60412501630657 L 208.697998046875 259.50620778396103 L 212.360107421875 261.2164056436525 L 216.022216796875 262.74807948595674 L 219.684326171875 264.11410800389484 L 223.346435546875 265.3268876929334 L 227.008544921875 266.39833285098416 L 230.8232421875 267.3764508875495 L 234.79052734375 268.25745229755603 L 238.910400390625 269.03932751757895 L 243.33544921875 269.7440318416254 L 248.21826171875 270.37854088232825 L 253.864013671875 270.95121977178974 L 260.73046875 271.455435174856 L 268.817626953125 271.83884114213373 L 278.4306640625 272.08541287007824 L 291.55322265625 272.2077478645764 L 322.223388671875 272.2260524233542 L 343.43310546875 272.11821971241187 L 354.266845703125 271.8707494653901 L 362.811767578125 271.482633811835 L 370.28857421875 270.9377700543893 L 376.544677734375 270.2884849883741 L 381.732666015625 269.58587624385575 L 386.310302734375 268.8209590379167 L 390.43017578125 268.0003795635468 L 394.3974609375 267.0780244267943 L 398.212158203125 266.056172694776 L 401.874267578125 264.938910071994 L 405.536376953125 263.6763950630929 L 409.0458984375 262.3190158446738 L 412.555419921875 260.8061064744669 L 416.06494140625 259.1262170096602 L 419.574462890625 257.26749079132617 L 423.083984375 255.2176644444222 L 426.593505859375 252.96406787779023 L 430.10302734375 250.49362428415682 L 433.612548828125 247.79285014013325 L 437.274658203125 244.71405255961668 L 440.936767578125 241.35307857903592 L 444.598876953125 237.69319192493296 L 448.260986328125 233.71717412629516 L 452.07568359375 229.220235996847 L 455.890380859375 224.34050036158413 L 459.705078125 219.05683639614355 L 463.519775390625 213.34754554847922 L 467.487060546875 206.93443696369354 L 471.454345703125 200.01118503412835 L 475.421630859375 192.5514276734516 L 479.54150390625 184.20792305079829 L 483.661376953125 175.2256756316719 L 487.78125 165.57288880781692 L 492.0537109375 154.8195067936444 L 496.326171875 143.27276373521784 L 500.5986328125 130.89456546762383 L 505.023681640625 117.15616219146338 L 509.44873046875 102.43969975061466 L 513.873779296875 86.69982427823373 L 518.451416015625 69.29085893983708 L 523.029052734375 50.68453640622937 L 527.606689453125 30.82717452777598 L 532.3369140625 8.935330630408714 L 535.2614485085816 -5.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-opacity="0.9" stroke-dasharray=""/></g></g><g id="sketch-dd3d2d07"><title>Expression 2</title><path fill="#a3be8c" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#a3be8c" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 196.87191235577617 -5.5 L 196.87191235577617 -5.5 L 197.8642578125 -0.6284859397194396 L 203.815185546875 27.082634579051614 L 209.613525390625 52.65627835013649 L 215.25927734375 76.20363512906161 L 220.75244140625 97.83296862515536 L 226.093017578125 117.64961650154808 L 231.281005859375 135.755990375172 L 236.31640625 152.25157581676137 L 241.19921875 167.23293235085228 L 245.929443359375 180.7936934557828 L 250.507080078125 193.02456656369296 L 254.779541015625 203.64806496013296 L 258.8994140625 213.16795626553622 L 262.86669921875 221.66324372725052 L 266.833984375 229.49919544566762 L 270.49609375 236.14717240767044 L 274.005615234375 241.99097433957186 L 277.51513671875 247.3188167918812 L 280.719482421875 251.7327574816617 L 283.923828125 255.7165693803267 L 286.822998046875 258.9503381035545 L 289.72216796875 261.83200593428177 L 292.46875 264.2372159090909 L 295.062744140625 266.218636859547 L 297.504150390625 267.8260115710172 L 299.79296875 269.10615678267044 L 301.92919921875 270.1029631874778 L 303.912841796875 270.8573954322121 L 305.743896484375 271.40749211744827 L 307.574951171875 271.81713858517736 L 309.406005859375 272.08633483539927 L 311.3896484375 272.21946993741125 L 313.52587890625 272.1785052906383 L 315.814697265625 271.92247624830765 L 317.645751953125 271.5596465197477 L 319.476806640625 271.0563665736805 L 321.307861328125 270.4126364101063 L 323.29150390625 269.5567678971724 L 325.275146484375 268.5360654484142 L 327.411376953125 267.2525065161965 L 329.7001953125 265.66512645374644 L 332.1416015625 263.73003456809306 L 334.735595703125 261.40041412006724 L 337.482177734375 258.62652232430196 L 340.38134765625 255.35569034923208 L 343.43310546875 251.53232331709427 L 346.637451171875 247.09790030392733 L 349.994384765625 241.99097433957186 L 353.50390625 236.14717240767044 L 357.166015625 229.49919544566762 L 360.980712890625 221.97681834480977 L 364.947998046875 213.50688995014536 L 368.915283203125 204.37762581218374 L 373.03515625 194.1993741122159 L 377.3076171875 182.8931316028942 L 381.732666015625 170.3769689906727 L 386.310302734375 156.56603093580765 L 391.04052734375 141.37253605235708 L 395.92333984375 124.70577690818092 L 400.958740234375 106.47212002494118 L 406.146728515625 86.57500587810168 L 411.4873046875 64.91494889692825 L 416.98046875 41.389537464488626 L 422.626220703125 15.893433917652487 L 427.12472054721917 -5.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-opacity="0.9" stroke-dasharray=""/></g></g></g><g id="labels-dd3d2d07"/></g></svg>
+    </div><blockquote>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container> is shown in blue and the second derivative of <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container> is also shown in green.</p>
+</blockquote>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-mtable style="min-width: 5.767em;"><mjx-table><mjx-itable><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2032"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c33"></mjx-c></mjx-mn></mjx-script></mjx-msup><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msup><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd extra="true"></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msup><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em;"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr></mjx-itable></mjx-table></mjx-mtable></mjx-math></mjx-container></p>
+<p>Checking right before the potential inflection point</p>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-mtable style="min-width: 9.679em;"><mjx-table><mjx-itable><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-script style="vertical-align: 0.413em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msup><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em;"><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr></mjx-itable></mjx-table></mjx-mtable></mjx-math></mjx-container></p>
+<p>Checking right after the potential inflection point</p>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-mtable style="min-width: 9.679em;"><mjx-table><mjx-itable><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-bottom: 0.15em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.413em; margin-left: 0.053em;"><mjx-mo class="mjx-var" size="s"><mjx-c class="mjx-c2033"></mjx-c></mjx-mo></mjx-script></mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-bottom: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-msup><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-script style="vertical-align: 0.413em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msup><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr><mjx-mtr><mjx-mtd style="text-align: right; padding-right: 0; padding-top: 0.15em;"><mjx-tstrut></mjx-tstrut></mjx-mtd><mjx-mtd style="text-align: left; padding-left: 0; padding-top: 0.15em;"><mjx-mi class="mjx-n"></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn><mjx-tstrut></mjx-tstrut></mjx-mtd></mjx-mtr></mjx-itable></mjx-table></mjx-mtable></mjx-math></mjx-container></p>
+
+<div class="callout" data-callout="note">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+</div>
+<div class="callout-title-inner">Note</div>
+</div>
+<div class="callout-content"><p>Because the second derivative stays positive before and after the potential inflection point <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math></mjx-container> is not an inflection point.</p>
+</div></div><p>There are no inflection points on the graph of the function <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D453 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-msup space="4"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.363em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c34"></mjx-c></mjx-mn></mjx-script></mjx-msup></mjx-math></mjx-container></p>
+5:["$","div",null,{"className":"overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0","children":[["$","div",null,{"className":"font-bold text-4xl pt-12","children":"Inflection%20Point"}],["$","div",null,{"children":[]}],["$","style",null,{"children":"$f"}],["$","div",null,{"className":"flex flex-col gap-4 -mt-8","dangerouslySetInnerHTML":{"__html":"$10"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}]]
+7:null
