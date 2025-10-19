@@ -2,6 +2,8 @@ import React from 'react';
 
 import './globals.css';
 import './desmosGraph.css';
+import './timeline.css';
+import './citations.css';
 import FileExplorer from 'src/components/FileExplorer';
 
 interface RootLayoutProps {

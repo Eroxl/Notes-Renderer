@@ -6,9 +6,15 @@ const mdWikiLinks = (md: MarkdownIt, _: any) => {
     mdRegexFactory,
     {
       name: 'wiki-link',
-      regex: /\[\[(.*)\]\]/,
+      regex: /\[\[(.*?)\]\]/,
       replace: (match: string) => {
-        return `<a href="./${match}">${match}</a>`
+        const portions = match.split("|");
+
+        const text = portions.length === 2 ? portions[1] : portions[0];
+        const link = portions[0];
+
+
+        return `<a href="./${link}">${text}</a>`;
       }
     }
   )

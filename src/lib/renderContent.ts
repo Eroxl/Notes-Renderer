@@ -9,10 +9,12 @@ import Token from 'markdown-it/lib/token.mjs';
 import tikz from './codeBlockRenderers/tikz';
 import desmosGraph from './codeBlockRenderers/desmosGraph/desmosGraph';
 import mdEmbeds from './mdPlugins/mdEmbeds';
+import timeline from './codeBlockRenderers/timeline';
+import mdCitation from './mdPlugins/mdCitation';
 
 const mdjax = mdMathJax();
 const md = markdownit({ linkify: false })
-  // .disable(['fence'])
+  .disable(['fence'])
   .use(mdCallouts)
   .use(mdCustomCodeblocks, {
     renderers: {
@@ -47,12 +49,14 @@ const md = markdownit({ linkify: false })
         `;
       },
       tikz,
-      'desmos-graph': desmosGraph
+      'timeline-labeled': timeline,
+      'desmos-graph': desmosGraph,
     }
   })
   .use(mdEmbeds)
-  .use(mdTables)
+  .use(mdCitation)
   .use(mdWikiLinks)
+  .use(mdTables)
   .use(mdjax.plugin())
 
 const mathJAXPreamble = fs.readFileSync(process.env['INPUT_PREAMBLE_PATH']).toString();
@@ -63,6 +67,14 @@ const renderContent = (content: string) => {
     .toString()
     .replaceAll(/<a href="(\S+)\.md/g, '<a href="$1')
     .replaceAll(/href="file=([^"]+)"/g, 'href="$1"')
+    .replaceAll(/<td>(.*?)\<\/td>/gm, (_: unknown, p1: string) => {
+      return `<td>${p1
+        .replaceAll('&lt;', '<')
+        .replaceAll('&gt;', '>')
+        .replaceAll('&amp;', '&')}</td>`
+        .replaceAll('&quot;', '"')
+    })
+    
 
   return {
     html: renderedContent,

@@ -2,9 +2,64 @@ import MarkdownIt, { Options } from 'markdown-it';
 import StateBlock from 'markdown-it/lib/rules_block/state_block.mjs';
 import hljs from 'highlight.js/lib/core';
 import type Token from "markdown-it/lib/token.mjs";
+
 import java from 'highlight.js/lib/languages/java';
+import c from 'highlight.js/lib/languages/c';
+import cpp from 'highlight.js/lib/languages/cpp';
+import python3 from 'highlight.js/lib/languages/python';
+import vb from 'highlight.js/lib/languages/vbnet';
+import lisp from 'highlight.js/lib/languages/lisp';
+
+const sm213Asm = () => ({
+  name: 'sm213',
+  case_insensitive: true,
+  keywords: {
+    $pattern: '\\.?' + hljs.IDENT_RE,
+    keyword: [
+      'ld', 'st', 'mov', 'add', 'sub', 'and', 'inc', 'inca', 'dec', 'deca',
+      'not', 'shl', 'shr', 'br', 'beq', 'bgt', 'j', 'gpc', 'halt', 'nop', 'mv',
+    ],
+    built_in: [
+      'r0', 'r1', 'r2', 'r3', 'r4', 'r5', 'r6', 'r7',
+    ],
+  },
+  contains: [
+    hljs.C_NUMBER_MODE,
+    {
+      scope: 'comment',
+      begin: '#', end: '$'
+    },
+    {
+      className: 'keyword',
+      begin: '\\.',
+      end: ' '
+    },
+    {
+      className: "title.function",
+      begin: hljs.IDENT_RE + ':',
+      relevance: 0
+    },
+    {
+      className: "title.variable",
+      begin: hljs.IDENT_RE + ':',
+      relevance: 0
+    },
+    {
+      className: 'variable',
+      begin: '\\$' + hljs.IDENT_RE,
+      relevance: 0
+    }
+  ]
+});
+
 
 hljs.registerLanguage('java', java);
+hljs.registerLanguage('c', c);
+hljs.registerLanguage('cpp', cpp);
+hljs.registerLanguage('vb', vb);
+hljs.registerLanguage('python', python3);
+hljs.registerLanguage('lisp', lisp);
+hljs.registerLanguage('sm213-asm', sm213Asm);
 
 type CustomCodeblocksOpts = {
   renderers: {

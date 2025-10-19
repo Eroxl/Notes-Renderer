@@ -35,8 +35,7 @@ const mdEmbeds = (md: MarkdownIt, _: any) => {
 
         const {
           content
-        } = getNoteContent(pagePath);
-
+        } = getNoteContent(pagePath); 
 
         if (!sections.length) {
           const {
@@ -44,13 +43,29 @@ const mdEmbeds = (md: MarkdownIt, _: any) => {
             style
           } = renderContent(content);
 
+          const pageName = page.replaceAll(' ', '-').toLowerCase();
+
+          const fixedCitationsHTML = html
+            .replaceAll(
+              /id="([^"]*)"\s+class="citation-definition/gm,
+              `id="embed-${pageName}-$1" class="citation-definition`
+            )
+            .replaceAll(
+              /href="#([^"]*)"/gm,
+              `href="#embed-${pageName}-$1"`
+            )
+            .replaceAll(
+              /onclick="document\.getElementById\('([^']*)'\)\.scrollIntoView\(\); return false;"/gm,
+              `onclick="document.getElementById('embed-${pageName}-$1').scrollIntoView(); return false;"`
+            );
+         
           return `
             <div class="embed">
               <div class="embed-page">
                 ${page}
               </div>
               <div class="embed-content">
-                ${html}
+                ${fixedCitationsHTML}
               </div>
             </div>`
 
@@ -63,11 +78,11 @@ const mdEmbeds = (md: MarkdownIt, _: any) => {
         } = renderContent(sectionContent);
 
         return `
-            <div class="embed">
-              <div class="embed-content">
-                ${html}
-              </div>
-            </div>`
+          <div class="embed">
+            <div class="embed-content">
+              ${html}
+            </div>
+          </div>`
       }
     }
   )

@@ -1,0 +1,49 @@
+.timeline-container {
+    @apply flex flex-col;
+}
+
+.timeline-container > .timeline-event:not(:last-child) > .timeline-event-body {
+    @apply pb-20;
+}
+
+.timeline-event {
+    @apply grid gap-12;
+    grid-template-columns: 150px 1fr;
+}
+
+.timeline-event-date {
+    @apply font-bold w-full text-right relative;
+}
+
+.timeline-event-date::after {
+    /* // Green circle to left */
+    content: '';
+    @apply inline-block w-4 h-4 bg-nord14 rounded-full absolute outline-4 outline-nord0 outline;
+    top: calc(1rem);
+    margin-left: calc(3rem - 0.5rem + 1px);
+}
+
+.timeline-event-body-content {
+    @apply bg-nord-1 pl-8 p-5 border-l-2 border-nord14 flex flex-col gap-4;
+}
+
+.timeline-event-body {
+    @apply border-l-2 pl-8;
+}
+
+.timeline-event-title {
+    @apply font-bold w-full relative;
+}
+
+.timeline-event-content > .embed {
+    padding-left: 0 !important;
+    border-left: none !important;
+}
+
+.timeline-event-content > .embed > .embed-page {
+    @apply hidden;
+}
+
+.timeline-event-content{
+    @apply -mt-10;
+}

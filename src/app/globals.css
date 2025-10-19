@@ -49,11 +49,11 @@ body {
 }
 
 .page td {
-  @apply border-nord1 border pl-3;
+  @apply border-white/10 border pl-3;
 }
 
 .page th {
-  @apply border-nord1 border pl-3 text-left;
+  @apply border-white/10 border pl-3 text-left;
 }
 
 .page a {
@@ -136,7 +136,7 @@ body {
   @apply py-6;
     
   overflow-x: auto;
-  background-coor: var(--callout-content-background);
+  background-color: var(--callout-content-background);
 }
 
 .col {
