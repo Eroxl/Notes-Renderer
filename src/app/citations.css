@@ -1,32 +1,16 @@
 .citation-definition {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.citation-definition-id {
     opacity: 0.25;
-}
-
-p:has(.citation-definition) {
-    position: relative;
-    padding-left: 2rem;
-    margin-bottom: -0.9rem;
-    font-size: 0.75rem;
-}
-
-p:has(.citation-definition)> .citation-definition {
-    position: absolute;
-    left: 0;
-    width: 1.25rem;
+    width: 20px;
     text-align: right;
-    height: 100%;
 }
 
-.embed > .embed-content > p:has(.citation-definition) {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding-top: 1rem;
-}
-
-.embed > .embed-content > p:has(.citation-definition) ~ p:has(.citation-definition) {
-    border-top: none;
-    padding-top: 0rem;
-}
-
-.embed > .embed-content > p:last-child:has(.citation-definition) {
-    margin-bottom: 0;
+.citation-definition-content {
+    opacity: 1 !important;
 }

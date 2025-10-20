@@ -14,7 +14,7 @@ import mdCitation from './mdPlugins/mdCitation';
 
 const mdjax = mdMathJax();
 const md = markdownit({ linkify: false })
-  .disable(['fence'])
+  .disable(['fence', 'link'])
   .use(mdCallouts)
   .use(mdCustomCodeblocks, {
     renderers: {
@@ -57,7 +57,7 @@ const md = markdownit({ linkify: false })
   .use(mdCitation)
   .use(mdWikiLinks)
   .use(mdTables)
-  .use(mdjax.plugin())
+  .use(mdjax.plugin());
 
 const mathJAXPreamble = fs.readFileSync(process.env['INPUT_PREAMBLE_PATH']).toString();
 
@@ -74,6 +74,30 @@ const renderContent = (content: string) => {
         .replaceAll('&amp;', '&')}</td>`
         .replaceAll('&quot;', '"')
     })
+    .replaceAll(
+      /\[([^\]]+)\]\(([^\)]+)\)/g,
+      (_: unknown, p1: string, p2: string) => {
+        return `<a href="${p2.replace('.md', '')}">${p1}</a>`;
+      }
+    )
+    .replaceAll(
+      /(\[\^([^\]]+?)\]:) (.+?)(?:(\[\^[^\]]+?\]:)|$)/mg,
+      (_: unknown, __: string, citationName: string, content: string) => {
+        return `
+          <span
+            id="${citationName}"
+            class="citation-definition"
+          >
+            <span class="citation-definition-id">
+              ${citationName}:
+            </span>
+            <span class="citation-definition-content">
+              ${content}
+            </span>
+          </span>
+        `;
+      }
+    )
     
 
   return {

@@ -19,24 +19,6 @@ const mdCitation = (md: MarkdownIt, _: any) => {
       }
     },
   );
-
-  md.use(
-    mdRegexFactory,
-    {
-      name: 'citation-definition',
-      regex: /\[\^([^\]]+?)\]:/,
-      replace: (match: string) => {
-        return `
-          <span
-            id="${match}"
-            class="citation-definition"
-          >
-            ${match}.
-          </span>
-        `;
-      }
-    }
-  )
 }
 
 export default mdCitation;
