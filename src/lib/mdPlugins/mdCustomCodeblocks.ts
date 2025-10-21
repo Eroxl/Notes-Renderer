@@ -9,6 +9,7 @@ import cpp from 'highlight.js/lib/languages/cpp';
 import python3 from 'highlight.js/lib/languages/python';
 import vb from 'highlight.js/lib/languages/vbnet';
 import lisp from 'highlight.js/lib/languages/lisp';
+import r from 'highlight.js/lib/languages/r';
 
 const sm213Asm = () => ({
   name: 'sm213',
@@ -59,6 +60,7 @@ hljs.registerLanguage('cpp', cpp);
 hljs.registerLanguage('vb', vb);
 hljs.registerLanguage('python', python3);
 hljs.registerLanguage('lisp', lisp);
+hljs.registerLanguage('r', r);
 hljs.registerLanguage('sm213-asm', sm213Asm);
 
 type CustomCodeblocksOpts = {
