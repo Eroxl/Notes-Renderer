@@ -58,7 +58,7 @@ const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
           hasNote
             ? (
               <Link
-                href={entry.name}
+                href={entry.href}
               >
                 {entry.name}
               </Link>

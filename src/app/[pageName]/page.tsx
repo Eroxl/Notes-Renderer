@@ -1,6 +1,6 @@
 import React from 'react';
 
-import getNotePath from '../../lib/getNotePath';
+import getNoteMetadata from '../../lib/getNoteMetadata';
 import getNoteContent from '../../lib/getNoteContent';
 import renderContent from '../../lib/renderContent';
 import getValidNotes from '../../lib/getValidNotes';
@@ -9,12 +9,12 @@ import PageMetadata from '../../components/PageMetadata';
 const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   const { pageName } = await params;
 
-  const pagePath = getNotePath(decodeURIComponent(decodeURIComponent(pageName)));
+  const pageMetadata = getNoteMetadata(decodeURIComponent(pageName));
 
   const {
     content,
     metadata
-  } = getNoteContent(pagePath);
+  } = getNoteContent(pageMetadata.path);
 
   if (metadata['excalidraw-plugin'] !== undefined) return '';
 
@@ -28,7 +28,7 @@ const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
       <div
         className="font-bold text-4xl pt-12"
       >
-        {decodeURI(pageName)}
+        {pageMetadata.name}
       </div>
       <PageMetadata metadata={metadata} />
 
@@ -53,10 +53,11 @@ const generateStaticParams = (): { pageName: string }[] => {
 
   return getValidNotes(notesPath)
     .filter((path) => path.path.endsWith('.md'))
-    .flatMap((path) => ([
-      { pageName: encodeURIComponent(path.name) },
-      { pageName: path.name }
-    ]))
+    .flatMap((path) => {
+      return [
+        { pageName: encodeURIComponent(path.url) },                          // Raw name
+      ];
+    });
 }
 
 export { generateStaticParams };

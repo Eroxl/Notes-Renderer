@@ -11,6 +11,7 @@ import desmosGraph from './codeBlockRenderers/desmosGraph/desmosGraph';
 import mdEmbeds from './mdPlugins/mdEmbeds';
 import timeline from './codeBlockRenderers/timeline';
 import mdCitation from './mdPlugins/mdCitation';
+import { cleanURL } from './getValidNotes';
 
 const mdjax = mdMathJax();
 const md = markdownit({ linkify: false })
@@ -68,7 +69,13 @@ const mathJAXPreamble = fs.readFileSync(process.env['INPUT_PREAMBLE_PATH']).toSt
 
 const renderContent = (content: string) => {
   const renderedContent = md
-    .render(`$$${mathJAXPreamble}$$\n${content}`.replaceAll(/%%.*%%/g, ''))
+    .render(
+      `$$${mathJAXPreamble}$$\n${content}`
+        .replaceAll(/%%.*%%/g, '')
+        .replaceAll(/\\linkto\{(.+?)\}/g, (_: unknown, p1: string) => {
+          return `\\linkto{${cleanURL(p1)}}`;
+        })
+    )
     .toString()
     .replaceAll(/<a href="(\S+)\.md/g, '<a href="$1')
     .replaceAll(/href="file=([^"]+)"/g, 'href="$1"')
@@ -82,7 +89,11 @@ const renderContent = (content: string) => {
     .replaceAll(
       /\[([^\]]+)\]\(([^\)]+)\)/g,
       (_: unknown, p1: string, p2: string) => {
-        return `<a href="${p2.replace('.md', '')}">${p1}</a>`;
+        if (p2.startsWith('https')) {
+          return `<a href="${p2}" target="_blank" rel="noopener noreferrer">${p1}</a>`;
+        }
+
+        return `<a href="${cleanURL(p2.replace('.md', ''))}">${p1}</a>`;
       }
     )
     .replaceAll(
@@ -102,7 +113,8 @@ const renderContent = (content: string) => {
           </span>
         `;
       }
-    )
+    );
+
 
 
   return {

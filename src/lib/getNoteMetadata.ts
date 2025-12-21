@@ -3,13 +3,13 @@ import getValidNotes from "./getValidNotes";
 const pathCache = Object.fromEntries(
   getValidNotes(process.env['INPUT_NOTES_ROOT_PATH'] || '')
     .map((note) => ([
-      note.name.toLowerCase(), note.path
+      note.url, note 
     ]))
 );
 
-const getNotePath = (noteName: string): string | undefined => {
+const getNoteMetadata = (noteName: string) => {
   return pathCache[noteName.toLowerCase()];
 };
 
-export default getNotePath;
+export default getNoteMetadata;
 
