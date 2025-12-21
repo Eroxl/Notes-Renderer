@@ -1,0 +1,1779 @@
+1:"$Sreact.fragment"
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/4bd83f5b72111c1f.css","style"]
+0:{"P":null,"b":"RfvYRFDYgVVhonDtat1tX","p":"","c":["","Bar%2520Graph"],"i":false,"f":[[["",{"children":[["pageName","Bar%2520Graph","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bd83f5b72111c1f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["pageName","Bar%2520Graph","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$0:f:0:1:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","FeoOVVh75TnCfRo1Vhah2",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:I[8173,["177","static/chunks/app/layout-4c4440e80807dae9.js"],""]
+e:I[8352,["177","static/chunks/app/layout-4c4440e80807dae9.js"],"default"]
+2:["$","html",null,{"children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","type":"text/css","href":"https://bill-ion.github.io/tikzjax-live/dist/fonts.css"}],["$","script",null,{"defer":true,"src":"https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js"}],["$","link",null,{"href":"https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css","rel":"stylesheet","type":"text/css"}],["$","script",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"}]]}],["$","body",null,{"className":"bg-nord-0 flex flex-row","children":[["$","div",null,{"className":"w-96 h-screen flex flex-col bg-nord-1 print:hidden","children":[["$","div",null,{"className":"flex flex-col gap-2 px-2 mt-5","children":[["$","$Ld",null,{"href":"/","children":["$","span",null,{"className":"h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded","children":"Eroxl's Notes"}]}],["$","$Ld",null,{"href":"/graph","className":"flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chart-scatter h-5 w-5 aspect-square","children":[["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],["$","circle","lysivs",{"cx":"18.5","cy":"5.5","r":".5","fill":"currentColor"}],["$","circle","byv1b8",{"cx":"11.5","cy":"11.5","r":".5","fill":"currentColor"}],["$","circle","nkw3mc",{"cx":"7.5","cy":"16.5","r":".5","fill":"currentColor"}],["$","circle","1gjh6j",{"cx":"17.5","cy":"14.5","r":".5","fill":"currentColor"}],["$","path","c24i48",{"d":"M3 3v16a2 2 0 0 0 2 2h16"}],"$undefined"]}],["$","span",null,{"className":"lex flex-row justify-center text-md font-bold","children":"Graph"}]]}],["$","div",null,{"className":"w-full h-0.5 rounded-full mt-2 bg-white/20"}]]}],["$","div",null,{"className":"h-full overflow-y-scroll p-4 no-scrollbar relative","id":"nav-bar","children":[["$","$Le","00 - Machine Learning",{"entry":{"name":"00 - Machine Learning","hasNote":false,"subFiles":[{"name":"Learning Types","hasNote":false,"subFiles":[{"name":"Supervised Learning","hasNote":true,"subFiles":[{"name":"Features","hasNote":true},{"name":"Problem Types","hasNote":false,"subFiles":[{"name":"Classification","hasNote":true},{"name":"Regression","hasNote":true}]}]},{"name":"Unsupervised Learning","hasNote":true}]},{"name":"Neural Networks","hasNote":true,"subFiles":[{"name":"Activation Functions","hasNote":true,"subFiles":[{"name":"Leaky ReLU Function","hasNote":true},{"name":"Parametric ReLU Function","hasNote":true},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Exploding Gradient Problem","hasNote":true},{"name":"Vanishing Gradient Problem","hasNote":true}]},{"name":"Rectified Linear (ReLU) Function","hasNote":true,"subFiles":[{"name":"Dying RELU Problem","hasNote":true}]},{"name":"Sigmoid Function","hasNote":true,"subFiles":[{"name":"Logistic Function","hasNote":true}]},{"name":"Softmax","hasNote":true},{"name":"Step Function","hasNote":true}]},{"name":"Convolutional Neural Network","hasNote":true},{"name":"Deep Neural Network","hasNote":true},{"name":"Feedforward Neural Network","hasNote":true},{"name":"Layer Types","hasNote":true,"subFiles":[{"name":"Convolutional Layer","hasNote":true,"subFiles":[{"name":"Kernel","hasNote":true}]},{"name":"Dense Layer","hasNote":true,"subFiles":[{"name":"Definition of a Layer of Dense Neurones","hasNote":true},{"name":"Definition of a Single Dense Neurone","hasNote":true}]},{"name":"Dropout Layer","hasNote":true},{"name":"Hidden Layer","hasNote":true}]},{"name":"Pre-Processing","hasNote":false,"subFiles":[{"name":"Normalization","hasNote":true,"subFiles":[{"name":"Min-Max Scaling","hasNote":true},{"name":"One Hot Encoding","hasNote":true},{"name":"Z-Score Normalization","hasNote":true}]}]}]},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Overfitting","hasNote":true},{"name":"Underfitting","hasNote":true}]},{"name":"Training","hasNote":false,"subFiles":[{"name":"Backpropagation","hasNote":true,"subFiles":[{"name":"Backpropagation Example with One Neurone","hasNote":true}]},{"name":"Batching","hasNote":true},{"name":"Cost Function","hasNote":true,"subFiles":[{"name":"Categorical Cross-Entropy Loss","hasNote":true}]},{"name":"Feature Set","hasNote":true},{"name":"Optimization","hasNote":true,"subFiles":[{"name":"Gradient Descent","hasNote":true,"subFiles":[{"name":"AdaGrad","hasNote":true},{"name":"Adam","hasNote":true},{"name":"Batch Gradient Descent","hasNote":true},{"name":"Gradient Descent with Momentum","hasNote":true},{"name":"Learning Rate","hasNote":true,"subFiles":[{"name":"Learning Rate Decay","hasNote":true,"subFiles":[{"name":"Exponential Learning Rate Decay","hasNote":true},{"name":"Step Based Learning Rate Decay","hasNote":true},{"name":"Time Based Learning Rate Decay","hasNote":true}]},{"name":"Learning Rate Scheduling","hasNote":true}]},{"name":"Mini-Batch Gradient Descent","hasNote":true},{"name":"RMSProp","hasNote":true},{"name":"Stochastic Gradient Descent","hasNote":true}]}]},{"name":"Penalties","hasNote":true,"subFiles":[{"name":"L1 Regularization","hasNote":true},{"name":"L2 Regularization","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","01 - Linear Algebra",{"entry":{"name":"01 - Linear Algebra","hasNote":false,"subFiles":[{"name":"Elementary Row Operations","hasNote":true},{"name":"Gaussian Elimination","hasNote":true},{"name":"Linear Equation","hasNote":true},{"name":"Linear System","hasNote":true},{"name":"Lines in Three Dimensions","hasNote":true},{"name":"Matrix","hasNote":true,"subFiles":[{"name":"Matrix Operations","hasNote":true,"subFiles":[{"name":"Adjugate Matrix","hasNote":true},{"name":"Cofactor Matrix","hasNote":true},{"name":"Hadamard Product","hasNote":true},{"name":"Matrix Cofactor","hasNote":true},{"name":"Matrix Determinant","hasNote":true,"subFiles":[{"name":"Laplace Expansion","hasNote":true}]},{"name":"Matrix Diagonal Operator","hasNote":true},{"name":"Matrix Inversion","hasNote":true},{"name":"Matrix Minor","hasNote":true},{"name":"Matrix Product","hasNote":true},{"name":"Matrix Transposition","hasNote":true}]},{"name":"Matrix Subtypes","hasNote":true,"subFiles":[{"name":"Column Vector","hasNote":true},{"name":"Identity Matrix","hasNote":true},{"name":"Row Vector","hasNote":true},{"name":"Square Matrix","hasNote":true}]}]},{"name":"Plane","hasNote":true},{"name":"Point","hasNote":true},{"name":"Scalar","hasNote":true},{"name":"Vector","hasNote":true,"subFiles":[{"name":"Span","hasNote":true},{"name":"Vector Notation","hasNote":true,"subFiles":[{"name":"Matrix Notation","hasNote":true},{"name":"Point Notation","hasNote":true},{"name":"Unit Vector Notation","hasNote":true}]},{"name":"Vector Operations","hasNote":true,"subFiles":[{"name":"Cross Product","hasNote":true,"subFiles":[{"name":"Right Hand Rule","hasNote":true}]},{"name":"Dot Product","hasNote":true},{"name":"Scalar Multiplication","hasNote":true},{"name":"Triple Product","hasNote":true},{"name":"Vector Addition","hasNote":true,"subFiles":[]},{"name":"Vector Subtraction","hasNote":true}]},{"name":"Vector Properties","hasNote":true,"subFiles":[{"name":"Vector Magnitude","hasNote":true},{"name":"Vector Orientation","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","02 - Calculus",{"entry":{"name":"02 - Calculus","hasNote":false,"subFiles":[{"name":"Area Between Curves","hasNote":true},{"name":"Average Rate of Change","hasNote":true},{"name":"Continuous Function","hasNote":true},{"name":"Critical Point","hasNote":true},{"name":"Derivative","hasNote":true,"subFiles":[{"name":"Concavity","hasNote":true},{"name":"Differentiable Function","hasNote":true},{"name":"Differentiation Rules","hasNote":true,"subFiles":[{"name":"Chain Rule","hasNote":true},{"name":"Constant Multiples Rule","hasNote":true},{"name":"Constant Rule","hasNote":true},{"name":"Inverse Function Rule","hasNote":true},{"name":"Power Rule","hasNote":true},{"name":"Product Rule","hasNote":true},{"name":"Quotient Rule","hasNote":true},{"name":"Sum Rule","hasNote":true}]},{"name":"First Derivative Test","hasNote":true},{"name":"Higher Order Derivatives","hasNote":true},{"name":"Notation","hasNote":false,"subFiles":[{"name":"Lagrange's Notation","hasNote":true},{"name":"Leibniz's Notation","hasNote":true}]},{"name":"Optimization Using Derivatives","hasNote":true},{"name":"Second Derivative Test","hasNote":true}]},{"name":"Discontinuity","hasNote":true,"subFiles":[{"name":"Essential Discontinuity","hasNote":true},{"name":"Jump Discontinuity","hasNote":true},{"name":"Removable Discontinuity","hasNote":true}]},{"name":"Extrema","hasNote":false,"subFiles":[{"name":"Absolute Extrema","hasNote":true,"subFiles":[{"name":"Absolute Maximum","hasNote":true},{"name":"Absolute Minimum","hasNote":true}]},{"name":"Local Extrema","hasNote":true,"subFiles":[{"name":"Local Maximum","hasNote":true},{"name":"Local Minimum","hasNote":true}]}]},{"name":"Horizontal Asymptote","hasNote":true},{"name":"Inflection Point","hasNote":true},{"name":"Integral","hasNote":true,"subFiles":[{"name":"Antiderivative Rules","hasNote":true},{"name":"Antiderivative Techniques","hasNote":true,"subFiles":[{"name":"Integration by Partial Fractions","hasNote":true},{"name":"Integration by Parts","hasNote":true},{"name":"Integration by Substitution","hasNote":true},{"name":"Trigonometric Substitution","hasNote":true}]},{"name":"Antiderivative","hasNote":true},{"name":"Approximations","hasNote":false,"subFiles":[{"name":"Riemann Sum","hasNote":true,"subFiles":[{"name":"Examples","hasNote":false,"subFiles":[]}]},{"name":"Simpson's Rule","hasNote":true}]},{"name":"Improper Integral","hasNote":true,"subFiles":[{"name":"Comparison Test (Improper Integrals)","hasNote":true},{"name":"Limit Comparison Test (Improper Integrals)","hasNote":true}]},{"name":"Integral Properties","hasNote":true}]},{"name":"Intermediate Value Theorem","hasNote":true},{"name":"Interval","hasNote":true,"subFiles":[{"name":"Closed Interval","hasNote":true},{"name":"Half-Open Interval","hasNote":true},{"name":"Interval Notation","hasNote":true},{"name":"Open Interval","hasNote":true}]},{"name":"Limit","hasNote":true,"subFiles":[{"name":"Indeterminate Form","hasNote":true},{"name":"L'Hôpital's Rule","hasNote":true},{"name":"One-Sided Limits","hasNote":true},{"name":"Squeeze Theorem","hasNote":true}]},{"name":"Linearization","hasNote":true},{"name":"Mean Value Theorem","hasNote":false,"subFiles":[{"name":"Mean Value Theorem for Derivatives","hasNote":true}]},{"name":"Normal Line","hasNote":true},{"name":"Rate of Change","hasNote":true},{"name":"Secant Line","hasNote":true},{"name":"Series","hasNote":true,"subFiles":[{"name":"Geometric Series","hasNote":true},{"name":"Power Series","hasNote":true},{"name":"Taylor Series","hasNote":true,"subFiles":[{"name":"Maclaurin Series","hasNote":true},{"name":"Use Cases","hasNote":false,"subFiles":[{"name":"Determining Higher Order Derivatives at a Point (Taylor Series)","hasNote":true},{"name":"Evaluating a Geometric Series with an Additional Reciprocal Term (Taylor Series)","hasNote":true}]}]},{"name":"Vergence Tests","hasNote":false,"subFiles":[{"name":"Comparison Test","hasNote":true},{"name":"Divergence Test","hasNote":true},{"name":"Limit Comparison Test","hasNote":true},{"name":"Ratio Test","hasNote":true},{"name":"The Integral Test","hasNote":true}]}]},{"name":"Signed Area","hasNote":true},{"name":"Solid of Revolution","hasNote":true,"subFiles":[{"name":"Disc Integration","hasNote":true},{"name":"Shell Integration","hasNote":true},{"name":"Washer Integration","hasNote":true}]},{"name":"Tangent Line","hasNote":true},{"name":"The Fundamental Theorem of Calculus","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","03 - Multivariable Calculus",{"entry":{"name":"03 - Multivariable Calculus","hasNote":false,"subFiles":[{"name":"Averaging","hasNote":false,"subFiles":[{"name":"Average Value of a Function","hasNote":true},{"name":"Weighted Average Value of a Function","hasNote":true}]},{"name":"Critical Points of Multivariable Functions","hasNote":true},{"name":"Directional Derivative","hasNote":true},{"name":"Limits in Multiple Dimensions","hasNote":true},{"name":"Multiple Integral","hasNote":true,"subFiles":[{"name":"Techniques","hasNote":false,"subFiles":[{"name":"Evaluating Double Integrals in Polar Coordinates","hasNote":true},{"name":"Evaluating Triple Integrals in Cylindrical Coordinates","hasNote":true},{"name":"Evaluating Triple Integrals in Spherical Coordinates","hasNote":true}]}]},{"name":"Multivariable Function","hasNote":true},{"name":"Partial Derivative","hasNote":true,"subFiles":[{"name":"Chain Rule in Multiple Dimensions","hasNote":true},{"name":"Gradient","hasNote":true},{"name":"Hessian Matrix","hasNote":true},{"name":"Higher Order Partial Derivative","hasNote":true},{"name":"Implicit Differentiation in Multiple Dimensions","hasNote":true},{"name":"Jacobian Matrix","hasNote":true},{"name":"Second Partial Derivative Test","hasNote":true}]},{"name":"Polar Coordinates System","hasNote":true},{"name":"Saddle Point","hasNote":true},{"name":"Tangent Plane","hasNote":true},{"name":"Visualizing 3D Surfaces","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","04 - Physics",{"entry":{"name":"04 - Physics","hasNote":false,"subFiles":[{"name":"Classical","hasNote":false,"subFiles":[{"name":"Centre of Mass","hasNote":true},{"name":"Energy","hasNote":true,"subFiles":[{"name":"Kinetic Energy","hasNote":true}]},{"name":"Galilean Transformation","hasNote":true},{"name":"Inertia","hasNote":true},{"name":"Inertial Frame of Reference","hasNote":true},{"name":"Momentum","hasNote":true},{"name":"Newton's Laws of Motion","hasNote":true}]},{"name":"Electric Circuits","hasNote":false,"subFiles":[{"name":"Ammeter","hasNote":true},{"name":"Battery","hasNote":true},{"name":"Capacitance","hasNote":true},{"name":"Capacitor","hasNote":true},{"name":"Conductance","hasNote":true},{"name":"Current","hasNote":true},{"name":"Electrical Power","hasNote":true},{"name":"Kirchhoff's Current Law","hasNote":true},{"name":"Kirchhoff's Voltage Law","hasNote":true},{"name":"Ohm's Law","hasNote":true},{"name":"Parallel","hasNote":true},{"name":"Resistance","hasNote":true},{"name":"Resistor","hasNote":true},{"name":"Series (Electric Circuits)","hasNote":true},{"name":"Voltmeter","hasNote":true}]},{"name":"Electromagnetics","hasNote":false,"subFiles":[{"name":"Electromagnetic Radiation","hasNote":true},{"name":"Light","hasNote":true},{"name":"Photon","hasNote":true}]},{"name":"Electrostatics","hasNote":false,"subFiles":[{"name":"Charged Particle","hasNote":true},{"name":"Coulombs Constant","hasNote":true},{"name":"Coulombs Law","hasNote":true},{"name":"Electric Field","hasNote":true,"subFiles":[{"name":"Uniform Electric Field","hasNote":true}]},{"name":"Electric Field Lines","hasNote":true,"subFiles":[]},{"name":"Electric Potential Difference","hasNote":true,"subFiles":[]},{"name":"Electric Potential Energy","hasNote":true},{"name":"Electric Potential","hasNote":true},{"name":"Elementary Charge","hasNote":true},{"name":"Parallel Plates","hasNote":true}]},{"name":"Geometrical Optics","hasNote":true,"subFiles":[{"name":"Lenses","hasNote":true,"subFiles":[{"name":"Focal Length","hasNote":true},{"name":"Image Point","hasNote":true},{"name":"Real Image","hasNote":true},{"name":"Thin Concave Lens","hasNote":true,"subFiles":[]},{"name":"Thin Convex Lens","hasNote":true,"subFiles":[]},{"name":"Virtual Image","hasNote":true}]},{"name":"Light Ray","hasNote":true},{"name":"Optical Medium","hasNote":true},{"name":"Refractive Index","hasNote":true},{"name":"Snell's Law","hasNote":true,"subFiles":[]},{"name":"Vergence (Optics)","hasNote":true}]},{"name":"International System of Units","hasNote":true,"subFiles":[{"name":"Electricity","hasNote":false,"subFiles":[{"name":"Ampere","hasNote":true},{"name":"Coulomb","hasNote":true},{"name":"Farad","hasNote":true},{"name":"Volt","hasNote":true}]},{"name":"Energy","hasNote":false,"subFiles":[{"name":"Joule","hasNote":true}]},{"name":"SI Base Units","hasNote":true}]},{"name":"Particle Physics","hasNote":false,"subFiles":[{"name":"Electron","hasNote":true},{"name":"Elementary Particle","hasNote":true},{"name":"Fermion","hasNote":true},{"name":"Lepton","hasNote":true},{"name":"Proton","hasNote":true}]},{"name":"Physical Constants","hasNote":false,"subFiles":[{"name":"Permeability of Free Space","hasNote":true},{"name":"Permittivity of Free Space","hasNote":true},{"name":"Planck's Constant","hasNote":true},{"name":"Speed of Light","hasNote":true}]},{"name":"Special Relativity","hasNote":true,"subFiles":[{"name":"Event","hasNote":true},{"name":"Lorentz Transformation","hasNote":true,"subFiles":[{"name":"Length Contraction","hasNote":true},{"name":"Lorentz Factor","hasNote":true},{"name":"Time Dilation","hasNote":true,"subFiles":[]}]},{"name":"Simultaneity","hasNote":true,"subFiles":[{"name":"Relativity of Simultaneity","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","05 - Algebra",{"entry":{"name":"05 - Algebra","hasNote":false,"subFiles":[{"name":"Empty Product","hasNote":true},{"name":"Euclidean Division","hasNote":true},{"name":"Factorial","hasNote":true},{"name":"Function","hasNote":true,"subFiles":[{"name":"Even Function","hasNote":true},{"name":"Odd Function","hasNote":true}]},{"name":"Integer","hasNote":true},{"name":"Natural Number","hasNote":true},{"name":"Partial Fraction Decomposition","hasNote":true},{"name":"Polynomial","hasNote":true,"subFiles":[{"name":"Completing the Square","hasNote":true},{"name":"Monomial","hasNote":true},{"name":"Polynomial Degree","hasNote":true}]},{"name":"Proper Fraction","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","06 - Discrete Mathematics",{"entry":{"name":"06 - Discrete Mathematics","hasNote":false,"subFiles":[{"name":"Big-O Notation (Discrete Math)","hasNote":true},{"name":"Formal Language","hasNote":true,"subFiles":[]},{"name":"Graph Theory","hasNote":false,"subFiles":[{"name":"Graph (Discrete Mathematics)","hasNote":true,"subFiles":[{"name":"Connectivity (Discrete Mathematics)","hasNote":true},{"name":"Directed Graph","hasNote":true},{"name":"Edge","hasNote":true,"subFiles":[{"name":"Directed Edge","hasNote":true},{"name":"Weighted Edge","hasNote":true}]},{"name":"Examples","hasNote":false,"subFiles":[]},{"name":"Handshaking Theorem","hasNote":true},{"name":"Vertex (Discrete Math)","hasNote":true},{"name":"Weighted Graph","hasNote":true}]},{"name":"Minimum Spanning Tree","hasNote":true},{"name":"Spanning Tree","hasNote":true},{"name":"Tree (Discrete Mathematics)","hasNote":true}]},{"name":"Mathematical Proof","hasNote":true,"subFiles":[{"name":"Mathematical Induction","hasNote":true,"subFiles":[{"name":"Strong Mathematical Induction","hasNote":true}]}]},{"name":"Modular Arithmetic","hasNote":true},{"name":"Modulo","hasNote":true},{"name":"Numeral System","hasNote":true,"subFiles":[{"name":"Binary Number","hasNote":true,"subFiles":[{"name":"Bit","hasNote":true},{"name":"Floating Point Number","hasNote":true},{"name":"Two's Complement","hasNote":true}]},{"name":"Decimal Number","hasNote":true},{"name":"Hexadecimal Number","hasNote":true},{"name":"Numerical Digit","hasNote":true},{"name":"Radix","hasNote":true}]},{"name":"Sequence","hasNote":true,"subFiles":[{"name":"Geometric Sequence","hasNote":true}]},{"name":"Summation","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","07 - Set Theory",{"entry":{"name":"07 - Set Theory","hasNote":false,"subFiles":[{"name":"Empty Set","hasNote":true},{"name":"Euler Diagram","hasNote":true,"subFiles":[]},{"name":"Power Set","hasNote":true},{"name":"Set","hasNote":true,"subFiles":[{"name":"Element","hasNote":true},{"name":"Operations","hasNote":false,"subFiles":[{"name":"Complement","hasNote":true,"subFiles":[]},{"name":"Intersection","hasNote":true,"subFiles":[]},{"name":"Set Difference","hasNote":true,"subFiles":[]},{"name":"Set Equality","hasNote":true},{"name":"Subset","hasNote":true},{"name":"Union","hasNote":true,"subFiles":[]}]}]},{"name":"Set Builder Notation","hasNote":true},{"name":"Universal Set","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","08 - Chemistry",{"entry":{"name":"08 - Chemistry","hasNote":false,"subFiles":[{"name":"Atom","hasNote":true},{"name":"Chemical Formula","hasNote":true},{"name":"Ion","hasNote":true},{"name":"Ionic Bonding","hasNote":true},{"name":"Periodic Table","hasNote":true,"subFiles":[{"name":"Periodic Trends","hasNote":true}]},{"name":"Structural Chemistry","hasNote":false,"subFiles":[{"name":"Atomic Orbital","hasNote":true},{"name":"Electron Shell","hasNote":true},{"name":"Lewis Structure","hasNote":true},{"name":"Properties","hasNote":false,"subFiles":[{"name":"Atomic Radius","hasNote":true},{"name":"Effective Nuclear Charge","hasNote":true},{"name":"Electron Affinity","hasNote":true},{"name":"Electronegativity","hasNote":true},{"name":"Ionization Energy","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","09 - Computer Science",{"entry":{"name":"09 - Computer Science","hasNote":false,"subFiles":[{"name":"Computer Systems","hasNote":false,"subFiles":[{"name":"Asynchronous Operation","hasNote":true},{"name":"Byte Extension","hasNote":true},{"name":"Byte Truncation","hasNote":true},{"name":"Character Encoding","hasNote":false,"subFiles":[{"name":"ASCII","hasNote":true}]},{"name":"Control Flow","hasNote":false,"subFiles":[{"name":"Call Stack","hasNote":true},{"name":"Concurrent Control Flow","hasNote":false,"subFiles":[{"name":"Asynchronous Condition Variable","hasNote":true},{"name":"Lock","hasNote":true,"subFiles":[]}]},{"name":"Conditional (Computer Science)","hasNote":true},{"name":"Dynamic Control Flow","hasNote":true},{"name":"For Loop","hasNote":true},{"name":"Jump Table","hasNote":true},{"name":"Procedure","hasNote":true}]},{"name":"Data Structures","hasNote":false,"subFiles":[{"name":"Array","hasNote":true},{"name":"Binary Heap","hasNote":true},{"name":"Disjoint Set (Data Structure)","hasNote":true},{"name":"Graph (Data Structure)","hasNote":true,"subFiles":[{"name":"Traversals","hasNote":false,"subFiles":[{"name":"Breadth-First Traversal","hasNote":true},{"name":"Depth-First Traversal","hasNote":true},{"name":"Graph Cycle","hasNote":true}]}]},{"name":"Hash Table","hasNote":true,"subFiles":[{"name":"Open Addressing","hasNote":true,"subFiles":[{"name":"Double Hashing","hasNote":true},{"name":"Linear Probing","hasNote":true},{"name":"Quadratic Probing","hasNote":true}]},{"name":"Separate Chaining","hasNote":true}]},{"name":"Instance Variables","hasNote":true},{"name":"Linked Lists","hasNote":false,"subFiles":[{"name":"Doubly Linked List","hasNote":true},{"name":"Singly Linked List","hasNote":true}]},{"name":"Priority Queue","hasNote":true},{"name":"Queue","hasNote":true},{"name":"Set (Data Structure)","hasNote":true},{"name":"Stack","hasNote":true},{"name":"Structure","hasNote":true},{"name":"Tree (Data Structure)","hasNote":true,"subFiles":[{"name":"B-Tree","hasNote":true},{"name":"Binary Tree","hasNote":true,"subFiles":[{"name":"Balanced Binary Tree","hasNote":true,"subFiles":[{"name":"AVL Tree","hasNote":true,"subFiles":[]}]},{"name":"In-Order Binary Tree Traversal","hasNote":true}]},{"name":"Traversals","hasNote":false,"subFiles":[{"name":"Breadth-First Tree Traversal","hasNote":true},{"name":"Depth-First Tree Traversal","hasNote":true}]}]}]},{"name":"Endianness","hasNote":true},{"name":"Memory","hasNote":true,"subFiles":[{"name":"Dangling Pointers","hasNote":true},{"name":"Heap Memory","hasNote":true},{"name":"Memory Address","hasNote":true,"subFiles":[{"name":"Address Alignment","hasNote":true},{"name":"Pointer","hasNote":true}]},{"name":"Memory Leak","hasNote":true},{"name":"Static Variable","hasNote":true}]},{"name":"Memory Management Systems","hasNote":false,"subFiles":[{"name":"Reference Counting","hasNote":true}]},{"name":"Paradigms","hasNote":false,"subFiles":[{"name":"Event-Driven Programming","hasNote":true},{"name":"Generic Programming","hasNote":true},{"name":"Object Oriented","hasNote":false,"subFiles":[{"name":"Call Graph","hasNote":true,"subFiles":[]},{"name":"Class Relationships","hasNote":false,"subFiles":[{"name":"Abstract Class","hasNote":true},{"name":"Inheritance","hasNote":true},{"name":"Interface","hasNote":true},{"name":"Overloading","hasNote":true},{"name":"Protected Members","hasNote":true},{"name":"Super Keyword","hasNote":true},{"name":"Supertypes and Subtypes","hasNote":true,"subFiles":[{"name":"Type Substitution","hasNote":true,"subFiles":[]}]}]},{"name":"Class","hasNote":true},{"name":"Constructor","hasNote":true},{"name":"Data Abstraction","hasNote":false,"subFiles":[{"name":"Data Abstraction Specifiers","hasNote":true},{"name":"Testing a Data Abstraction","hasNote":true}]},{"name":"Design Principles","hasNote":false,"subFiles":[{"name":"Liskov Substitution Principle","hasNote":true},{"name":"Single Responsibility Principle","hasNote":true,"subFiles":[{"name":"Cohesion","hasNote":true},{"name":"Coupling","hasNote":true,"subFiles":[{"name":"Moderate Coupling","hasNote":true},{"name":"Semantic Coupling","hasNote":true}]}]}]},{"name":"Exceptions","hasNote":true,"subFiles":[{"name":"Testing Exceptions","hasNote":true}]},{"name":"Method","hasNote":true},{"name":"Package Relationship Diagram","hasNote":true,"subFiles":[]},{"name":"Package","hasNote":true},{"name":"Patterns","hasNote":false,"subFiles":[{"name":"Composite Pattern","hasNote":true},{"name":"Iterator Pattern","hasNote":true}]},{"name":"Polymorphism","hasNote":true},{"name":"Robust Methods","hasNote":true}]}]},{"name":"Program Counter","hasNote":true},{"name":"Thread","hasNote":true}]},{"name":"Cryptography","hasNote":false,"subFiles":[{"name":"Hashing","hasNote":false,"subFiles":[{"name":"Hash Function","hasNote":true}]}]},{"name":"Hardware","hasNote":false,"subFiles":[{"name":"Common Circuits","hasNote":false,"subFiles":[{"name":"Full Adder","hasNote":true},{"name":"Half Adder","hasNote":true}]},{"name":"I-O System","hasNote":false,"subFiles":[{"name":"I-O Bus","hasNote":true},{"name":"I-O Controller","hasNote":true},{"name":"I-O Device","hasNote":true},{"name":"I-O Mapped Memory","hasNote":true},{"name":"Memory Bus","hasNote":true}]},{"name":"I-O Techniques","hasNote":false,"subFiles":[{"name":"Direct Memory Access","hasNote":true},{"name":"Interrupt (Hardware)","hasNote":true},{"name":"Polling (Computer Science)","hasNote":true},{"name":"Programmed Input-Output","hasNote":true}]},{"name":"Logic Gate","hasNote":true,"subFiles":[{"name":"AND Gate","hasNote":true},{"name":"NAND Gate","hasNote":true},{"name":"NOR Gate","hasNote":true},{"name":"NOT Gate","hasNote":true},{"name":"OR Gate","hasNote":true},{"name":"XNOR Gate","hasNote":true},{"name":"XOR Gate","hasNote":true}]},{"name":"Microcontroller","hasNote":false,"subFiles":[{"name":"General Purpose Input and Output","hasNote":true}]},{"name":"Peripheral","hasNote":true},{"name":"Watchdog Timer","hasNote":true}]},{"name":"Program Analysis","hasNote":false,"subFiles":[{"name":"Algorithms","hasNote":false,"subFiles":[{"name":"Graphs","hasNote":false,"subFiles":[{"name":"Dijkstra's Algorithm","hasNote":true},{"name":"Kruskal's Algorithm","hasNote":true},{"name":"Prim's Algorithm","hasNote":true}]},{"name":"Sorting","hasNote":false,"subFiles":[{"name":"Insertion Sort","hasNote":true},{"name":"Merge Sort","hasNote":true},{"name":"Selection Sort","hasNote":true}]}]},{"name":"Big-O Notation (Computer Science)","hasNote":true},{"name":"Loop Invariants","hasNote":true}]},{"name":"Programming Languages","hasNote":false,"subFiles":[{"name":"C","hasNote":false,"subFiles":[{"name":"Dynamic Array","hasNote":true},{"name":"Dynamic vs Static Arrays","hasNote":true},{"name":"Function Pointer","hasNote":true},{"name":"Static Array","hasNote":true},{"name":"Switch Statement","hasNote":true}]},{"name":"Java","hasNote":false,"subFiles":[{"name":"Memory Management (Java)","hasNote":true}]},{"name":"Racket","hasNote":false,"subFiles":[{"name":"Evaluation","hasNote":true},{"name":"Expression","hasNote":true},{"name":"Predicate (Racket)","hasNote":true},{"name":"Terminology","hasNote":true}]},{"name":"Register Transfer Language","hasNote":false,"subFiles":[]},{"name":"SM213 Assembly","hasNote":false,"subFiles":[{"name":"Conditional (SM213)","hasNote":true},{"name":"For Loop (SM213)","hasNote":true},{"name":"Instruction Set (SM213)","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","10 - Statistics",{"entry":{"name":"10 - Statistics","hasNote":false,"subFiles":[{"name":"Concepts","hasNote":false,"subFiles":[{"name":"Data Collection","hasNote":false,"subFiles":[{"name":"Census","hasNote":true},{"name":"Sample Survey","hasNote":true}]},{"name":"Parameter","hasNote":true},{"name":"Population","hasNote":true},{"name":"Sample","hasNote":true},{"name":"Statistic","hasNote":true},{"name":"Variable (Statistics)","hasNote":true}]},{"name":"Descriptive Statistics","hasNote":true,"subFiles":[{"name":"Bar Graph","hasNote":true,"subFiles":[]},{"name":"Dot Plot","hasNote":true,"subFiles":[]},{"name":"Frequency Table","hasNote":true},{"name":"Histogram","hasNote":true,"subFiles":[]},{"name":"Measures of Centre","hasNote":false,"subFiles":[{"name":"Mean","hasNote":true},{"name":"Median","hasNote":true}]},{"name":"Measures of Variability","hasNote":false,"subFiles":[{"name":"Interquartile Range","hasNote":true},{"name":"Range","hasNote":true},{"name":"Standard Deviation","hasNote":true},{"name":"Variance","hasNote":true}]},{"name":"Pie Chart","hasNote":true,"subFiles":[]},{"name":"Stem-and-Leaf Plots","hasNote":true}]},{"name":"Inferential Statistics","hasNote":true,"subFiles":[{"name":"Analysis of Variance","hasNote":true,"subFiles":[{"name":"Pooled Variance","hasNote":true}]},{"name":"Estimator","hasNote":true},{"name":"Hypothesis Testing","hasNote":true,"subFiles":[{"name":"Errors","hasNote":false,"subFiles":[{"name":"Type I Error","hasNote":true},{"name":"Type II Error","hasNote":true}]},{"name":"Test Statistics","hasNote":false,"subFiles":[{"name":"Multiple Sample","hasNote":false,"subFiles":[{"name":"F-Statistic","hasNote":true},{"name":"Two Sample t-Statistic","hasNote":true}]},{"name":"One Sample","hasNote":false,"subFiles":[{"name":"Chi-Squared Statistic","hasNote":true},{"name":"Z-Statistic","hasNote":true},{"name":"t-Statistic","hasNote":true}]}]},{"name":"Two-Sample Hypothesis Testing","hasNote":true}]},{"name":"Interval Estimator","hasNote":true},{"name":"Point Estimator","hasNote":true},{"name":"Regression Analysis","hasNote":false,"subFiles":[{"name":"Closed Form Solutions","hasNote":false,"subFiles":[{"name":"Ordinary Least Squares","hasNote":true}]},{"name":"Estimation Methods","hasNote":false,"subFiles":[{"name":"Least Squares","hasNote":true,"subFiles":[{"name":"Sum of Squared Residuals","hasNote":true}]}]},{"name":"Models","hasNote":false,"subFiles":[]},{"name":"Residual","hasNote":true}]}]},{"name":"Probability","hasNote":true,"subFiles":[{"name":"Bayes' Theorem","hasNote":true},{"name":"Central Limit Theorem","hasNote":true},{"name":"Conditional Probability","hasNote":true},{"name":"Covariance","hasNote":true},{"name":"Density Functions","hasNote":false,"subFiles":[{"name":"Cumulative Distribution Function","hasNote":true},{"name":"Probability Density Function","hasNote":true}]},{"name":"Expected Value","hasNote":true},{"name":"Extrema of Independent Random Variables","hasNote":true},{"name":"Independent Events","hasNote":true},{"name":"Random Variable","hasNote":true,"subFiles":[{"name":"Bernoulli Random Variable","hasNote":true}]},{"name":"Specific Distributions","hasNote":false,"subFiles":[{"name":"Bernoulli Distribution","hasNote":true},{"name":"Binomial Distribution","hasNote":true,"subFiles":[{"name":"Binomial Coefficient","hasNote":true},{"name":"Ten Percent Condition","hasNote":true}]},{"name":"Exponential Distribution","hasNote":true},{"name":"Geometric Distribution","hasNote":true},{"name":"Normal Distribution","hasNote":true},{"name":"Poisson Distribution","hasNote":true,"subFiles":[{"name":"Poisson Process","hasNote":true}]},{"name":"Standard Normal Distribution","hasNote":true}]},{"name":"Standardization","hasNote":false,"subFiles":[{"name":"Z-Score","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","11 - Formal Logic",{"entry":{"name":"11 - Formal Logic","hasNote":false,"subFiles":[{"name":"Argument","hasNote":true,"subFiles":[{"name":"Fallacy","hasNote":true},{"name":"Syllogism","hasNote":true}]},{"name":"Compound Statements","hasNote":true},{"name":"Contradiction","hasNote":true},{"name":"Creating a Statement from Truth Tables","hasNote":true},{"name":"Logical Equivalence","hasNote":true},{"name":"Logical Operator","hasNote":true,"subFiles":[{"name":"Biconditional","hasNote":true},{"name":"Conditional","hasNote":true},{"name":"Conjunction","hasNote":true},{"name":"Disjunction","hasNote":true},{"name":"Exclusive Disjunction","hasNote":true},{"name":"Negation","hasNote":true}]},{"name":"Predicate","hasNote":true,"subFiles":[{"name":"Truth Set","hasNote":true}]},{"name":"Quantifier","hasNote":true,"subFiles":[{"name":"Existential Quantifier","hasNote":true},{"name":"Universal Quantifier","hasNote":true,"subFiles":[{"name":"Universal Conditional Statements","hasNote":true}]}]},{"name":"Simplifying Statement Forms","hasNote":true},{"name":"Statement","hasNote":true},{"name":"Tautology","hasNote":true},{"name":"Truth Table","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","12 - Language",{"entry":{"name":"12 - Language","hasNote":false,"subFiles":[{"name":"Languages","hasNote":false,"subFiles":[{"name":"Spanish","hasNote":true,"subFiles":[{"name":"Ser vs Estar","hasNote":true},{"name":"Tener vs Haber","hasNote":true},{"name":"Tenses","hasNote":false,"subFiles":[{"name":"Present Tense","hasNote":true}]},{"name":"Verb Conjugations","hasNote":false,"subFiles":[{"name":"Conjugating Regular Verbs","hasNote":true},{"name":"Regular -ar Conjugation Table","hasNote":true},{"name":"Regular -er Conjugation Table","hasNote":true},{"name":"Regular -ir Conjugation Table","hasNote":true},{"name":"Stem Changing Verbs","hasNote":true,"subFiles":[{"name":"e > i Stem Changing Verbs","hasNote":true},{"name":"e > ie Stem Changing Verbs","hasNote":true},{"name":"o > ue Stem Changing Verbs","hasNote":true}]}]}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","13 - Politics",{"entry":{"name":"13 - Politics","hasNote":false,"subFiles":[{"name":"Background","hasNote":false,"subFiles":[{"name":"United States","hasNote":false,"subFiles":[{"name":"State Bills","hasNote":false,"subFiles":[{"name":"Michigan","hasNote":false,"subFiles":[{"name":"Senate Bill 757","hasNote":true}]},{"name":"Nevada","hasNote":false,"subFiles":[{"name":"Emergency Election Procedures Bill","hasNote":true}]},{"name":"Pennsylvania","hasNote":false,"subFiles":[{"name":"Act 77","hasNote":true},{"name":"Pennsylvania Election Code - Omnibus Amendments","hasNote":true}]}]},{"name":"United States Electoral System","hasNote":false,"subFiles":[{"name":"Certificate of Ascertainment","hasNote":true},{"name":"Organizations","hasNote":false,"subFiles":[{"name":"Democratic Party","hasNote":true},{"name":"Republican Party","hasNote":true}]},{"name":"President of the Senate","hasNote":true}]}]}]},{"name":"Events","hasNote":false,"subFiles":[{"name":"2020 Election Interference","hasNote":true,"subFiles":[{"name":"2020 Georgian Election Audit","hasNote":true},{"name":"False Electors Plot","hasNote":true,"subFiles":[{"name":"Eastman Memos","hasNote":true,"subFiles":[{"name":"Claims Made in Memorandum Two of the Eastman Memos","hasNote":true}]},{"name":"January 4th Oval Office Meeting - Eastman's First Pitch to Pence","hasNote":true},{"name":"January 5th West Wing Meeting - Eastman's Legal Argument to Pence's Advisors","hasNote":true}]},{"name":"Lawsuits","hasNote":false,"subFiles":[{"name":"Georgia Democratic Party v. Raffensperger","hasNote":true},{"name":"Trump v. Kemp","hasNote":true}]},{"name":"Trumps Publicized Meeting with Governors Hutchinson and Kelly","hasNote":true},{"name":"Trump–Raffensperger Phone Call","hasNote":true}]},{"name":"2020-2021 U.S","hasNote":false,"subFiles":[{"name":"2020-2021 U.S. Troop Withdrawal from Afghanistan","hasNote":true},{"name":"Agreement for Bringing Peace to Afghanistan","hasNote":true}]},{"name":"2026 Midterm Redistricting","hasNote":false,"subFiles":[{"name":"2025 Texas Redistricting","hasNote":true,"subFiles":[{"name":"Texas Democrats Leave State to Stop Redistricting Vote","hasNote":true,"subFiles":[{"name":"Greg Abbott Requests an Emergency Petition for Writ of Quo Warranto","hasNote":true},{"name":"John Cornyn Issues Request to the FBI to Help Locate or Arrest Texas Democrats who Left State to Stop Redistricting Vote","hasNote":true,"subFiles":[{"name":"Kash Patel Approves John Cornyn's Request for FBI Assistance","hasNote":true}]},{"name":"Texas Attorney General Ken Paxton's Response to Greg Abbott's Petition","hasNote":true},{"name":"Texas House Issues Civil Arrest Warrants for Democrats who Fled State to Avoid Redistricting Vote","hasNote":true}]},{"name":"Texas Enacts 2025 Gerrymandered Congressional Maps","hasNote":true},{"name":"Trump Comments on Texas Redistricting Proposals - 05.08.2025 CNBC Trump Interview","hasNote":true},{"name":"Trump-Abbott Phone Call on Texas Redistricting","hasNote":true}]}]},{"name":"Trump Federalizes D.C. Police and Deploys National Guard to D.C","hasNote":false,"subFiles":[{"name":"3 States Deploy National Guard Troops to D.C.","hasNote":true},{"name":"D.C. Attorney General Sues to Stop Federal Government Takeover of Metropolitan Police Department","hasNote":true},{"name":"Pam Bondi Initiates Temporary Takeover of D.C. Metropolitan Police Department","hasNote":true},{"name":"Trump Federalizes D.C. Police and Deploys National Guard to D.C.","hasNote":true}]}]},{"name":"People","hasNote":false,"subFiles":[{"name":"Brad Raffensperger","hasNote":true},{"name":"Donald Trump","hasNote":true},{"name":"Jim Runestad","hasNote":true},{"name":"John Eastman","hasNote":true,"subFiles":[]},{"name":"Judges","hasNote":false,"subFiles":[{"name":"Mark Howard Cohen","hasNote":true},{"name":"William M. Ray II","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","99 - Classes",{"entry":{"name":"99 - Classes","hasNote":true,"subFiles":[{"name":"Computer Science","hasNote":false,"subFiles":[{"name":"CPSC 213","hasNote":true,"subFiles":[{"name":"Assignment 9 - IO and Asynchrony","hasNote":true},{"name":"Practice","hasNote":false,"subFiles":[{"name":"01 - Numbers and Memory (CPSC 213 Practice)","hasNote":true},{"name":"02 - CPU & Static Variables (CPSC 213 Practice)","hasNote":true},{"name":"03 - Dynamic Arrays and C Pointers (CPSC 213 Practice)","hasNote":true},{"name":"04 - Structs and Dynamic Allocation (CPSC 213 Practice)","hasNote":true},{"name":"05 - Memory Management and Reference Counting (CPSC 213 Practice)","hasNote":true},{"name":"06 - Static Control Flow  (CPSC 213 Practice)","hasNote":true},{"name":"07 - Procedure Calls and the Stack (CPSC 213 Practice)","hasNote":true},{"name":"08 - Dynamic Control Flow (CPSC 213 Practice)","hasNote":true},{"name":"09 -  I-O, Asynchrony and Threads (CPSC 213 Practice)","hasNote":true},{"name":"10 - Synchronization (CPSC 213 Practice)","hasNote":true}]}]},{"name":"CPSC 221","hasNote":true,"subFiles":[{"name":"CPSC 221 Examlets","hasNote":true,"subFiles":[{"name":"Examlet Week 10 (CPSC 221)","hasNote":true},{"name":"Examlet Week 12 (CPSC 221)","hasNote":true},{"name":"Examlet Week 4 (CPSC 221)","hasNote":true},{"name":"Examlet Week 7 (CPSC 221)","hasNote":true},{"name":"Examlet Week 8 (CPSC 221)","hasNote":true},{"name":"Examlet Week 9 (CPSC 221)","hasNote":true}]},{"name":"CPSC 221 Labs","hasNote":true,"subFiles":[{"name":"02 - Lab Debugging","hasNote":true},{"name":"03 - Lab Linked Lists","hasNote":true},{"name":"05 - Lab Trees","hasNote":true},{"name":"06 - Lab Dict","hasNote":true},{"name":"08 - Lab Hash","hasNote":true},{"name":"09 - Lab Heaps","hasNote":true},{"name":"10 - Lab Graphs","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Final Practice (CPSC 221)","hasNote":true},{"name":"Practice 12 (CPSC 221)","hasNote":true}]}]}]},{"name":"Mathematics","hasNote":false,"subFiles":[{"name":"MATH 200","hasNote":true,"subFiles":[{"name":"Homework","hasNote":false,"subFiles":[{"name":"Web Work 10 (MATH 200)","hasNote":true},{"name":"Web Work 6 (MATH 200)","hasNote":true},{"name":"Web Work 7 (MATH 200)","hasNote":true},{"name":"Web Work 9 (MATH 200)","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Chain Rule in Multiple Dimensions (Practice)","hasNote":true},{"name":"Double Integrals (Practice)","hasNote":true},{"name":"Double Integrals in Polar Coordinates (Practice)","hasNote":true},{"name":"Equations of Lines in 3D (Practice)","hasNote":true},{"name":"Equations of Planes in 3D (Practice)","hasNote":true},{"name":"Final Exam","hasNote":false,"subFiles":[{"name":"MATH 200 Final Exam - 2015w1","hasNote":true},{"name":"MATH 200 Final Exam - 2016w1","hasNote":true}]},{"name":"Limits in Multiple Dimensions (Practice)","hasNote":true},{"name":"Maximum and Minimum Values (Practice)","hasNote":true},{"name":"Midterm 2","hasNote":false,"subFiles":[{"name":"MATH 200 Midterm Test 2","hasNote":true}]},{"name":"Points (Practice)","hasNote":true},{"name":"Triple Integrals in Spherical Coordinates (Practice)","hasNote":true},{"name":"Vectors (Practice)","hasNote":true}]}]}]},{"name":"Statistics","hasNote":false,"subFiles":[{"name":"STAT 251","hasNote":true,"subFiles":[{"name":"Homework","hasNote":false,"subFiles":[{"name":"Web Work 1 (STAT 251)","hasNote":true,"subFiles":[]},{"name":"Web Work 5 (STAT 251)","hasNote":true},{"name":"Web Work 7 (STAT 251)","hasNote":true},{"name":"Web Work 8 (STAT 251)","hasNote":true},{"name":"Written Assignment 1 (STAT 254)","hasNote":true,"subFiles":[]},{"name":"Written Assignment 2 (STAT 251)","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Final Exam","hasNote":false,"subFiles":[{"name":"STAT 251 Final Practice Problems - 1","hasNote":true,"subFiles":[]}]},{"name":"Midterm","hasNote":false,"subFiles":[{"name":"STAT 251 Midterm Practice Problems - 1","hasNote":true,"subFiles":[]},{"name":"STAT 251 Midterm Practice Problems - 2","hasNote":true,"subFiles":[]},{"name":"STAT 251 Midterm Practice Problems - 3","hasNote":true},{"name":"STAT 251 Practice - Probability","hasNote":true,"subFiles":[]}]}]}]}]}]},"fileColour":"#51e1e9","indentation":0}]]}]]}],["$","div",null,{"className":"w-full h-screen overflow-hidden print:h-full print:overflow-visible","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
+f:T6116,
+
+
+
+mjx-c.mjx-c28.TEX-S3::before {
+  padding: 1.45em 0.736em 0.949em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29.TEX-S3::before {
+  padding: 1.45em 0.736em 0.949em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c28.TEX-S2::before {
+  padding: 1.15em 0.597em 0.649em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29.TEX-S2::before {
+  padding: 1.15em 0.597em 0.649em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c39::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "9";
+}
+
+mjx-c.mjx-c6D::before {
+  padding: 0.442em 0.833em 0 0;
+  content: "m";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-mover {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mover:not([limits="false"]) {
+  padding-top: .1em;
+}
+
+mjx-mover:not([limits="false"]) > * {
+  display: block;
+  text-align: left;
+}
+
+mjx-munderover {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-munderover:not([limits="false"]) {
+  padding-top: .1em;
+}
+
+mjx-munderover:not([limits="false"]) > * {
+  display: block;
+}
+
+mjx-c.mjx-cAF::before {
+  padding: 0.59em 0.5em 0 0;
+  content: "\AF";
+}
+
+mjx-c.mjx-c38::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "8";
+}
+
+mjx-c.mjx-c1D44C.TEX-I::before {
+  padding: 0.683em 0.763em 0 0;
+  content: "Y";
+}
+
+mjx-munder {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-over {
+  text-align: left;
+}
+
+mjx-munder:not([limits="false"]) {
+  display: inline-table;
+}
+
+mjx-munder > mjx-row {
+  text-align: left;
+}
+
+mjx-under {
+  padding-bottom: .1em;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c1D53C.TEX-A::before {
+  padding: 0.683em 0.667em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c1D44B.TEX-I::before {
+  padding: 0.683em 0.852em 0 0;
+  content: "X";
+}
+
+mjx-c.mjx-c2211.TEX-S2::before {
+  padding: 0.95em 1.444em 0.45em 0;
+  content: "\2211";
+}
+
+mjx-c.mjx-c222B.TEX-S2::before {
+  padding: 1.36em 0.944em 0.862em 0;
+  content: "\222B";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+mjx-c.mjx-c1D453.TEX-I::before {
+  padding: 0.705em 0.55em 0.205em 0;
+  content: "f";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c46::before {
+  padding: 0.68em 0.653em 0 0;
+  content: "F";
+}
+
+mjx-c.mjx-c71::before {
+  padding: 0.442em 0.528em 0.194em 0;
+  content: "q";
+}
+
+mjx-c.mjx-c79::before {
+  padding: 0.431em 0.528em 0.204em 0;
+  content: "y";
+}
+
+mjx-c.mjx-c54::before {
+  padding: 0.677em 0.722em 0 0;
+  content: "T";
+}
+
+mjx-c.mjx-c20::before {
+  padding: 0 0.25em 0 0;
+  content: " ";
+}
+
+mjx-c.mjx-c50::before {
+  padding: 0.683em 0.681em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c35::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "5";
+}
+
+mjx-c.mjx-c37::before {
+  padding: 0.676em 0.5em 0.022em 0;
+  content: "7";
+}
+
+mjx-c.mjx-c25::before {
+  padding: 0.75em 0.833em 0.056em 0;
+  content: "%";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D45C.TEX-I::before {
+  padding: 0.441em 0.485em 0.011em 0;
+  content: "o";
+}
+
+mjx-c.mjx-c1D45D.TEX-I::before {
+  padding: 0.442em 0.503em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c1D695.TEX-T::before {
+  padding: 0.611em 0.525em 0 0;
+  content: "l";
+}
+
+mjx-c.mjx-c1D68D.TEX-T::before {
+  padding: 0.611em 0.525em 0.006em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c20.TEX-T::before {
+  padding: 0 0.525em 0 0;
+  content: " ";
+}
+
+mjx-c.mjx-c24.TEX-T::before {
+  padding: 0.694em 0.525em 0.082em 0;
+  content: "$";
+}
+
+mjx-c.mjx-c1D69F.TEX-T::before {
+  padding: 0.431em 0.525em 0 0;
+  content: "v";
+}
+
+mjx-c.mjx-c2C.TEX-T::before {
+  padding: 0.14em 0.525em 0.139em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c1D69B.TEX-T::before {
+  padding: 0.437em 0.525em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c1D451.TEX-I::before {
+  padding: 0.694em 0.52em 0.01em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c1D463.TEX-I::before {
+  padding: 0.443em 0.485em 0.011em 0;
+  content: "v";
+}
+
+mjx-c.mjx-c1D698.TEX-T::before {
+  padding: 0.44em 0.525em 0.006em 0;
+  content: "o";
+}
+
+mjx-c.mjx-c28.TEX-T::before {
+  padding: 0.694em 0.525em 0.082em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c1D69C.TEX-T::before {
+  padding: 0.44em 0.525em 0.006em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c29.TEX-T::before {
+  padding: 0.694em 0.525em 0.082em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c1D460.TEX-I::before {
+  padding: 0.442em 0.469em 0.01em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c1D692.TEX-T::before {
+  padding: 0.612em 0.525em 0 0;
+  content: "i";
+}
+
+mjx-c.mjx-c1D7FA.TEX-T::before {
+  padding: 0.624em 0.525em 0 0;
+  content: "4";
+}
+
+mjx-c.mjx-c1D69D.TEX-T::before {
+  padding: 0.554em 0.525em 0.006em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c1D696.TEX-T::before {
+  padding: 0.436em 0.536em 0 0;
+  content: "m";
+}
+
+mjx-c.mjx-c1D68A.TEX-T::before {
+  padding: 0.439em 0.525em 0.006em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c1D697.TEX-T::before {
+  padding: 0.436em 0.525em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c26::before {
+  padding: 0.716em 0.778em 0.022em 0;
+  content: "&";
+}
+
+mjx-c.mjx-c1D68C.TEX-T::before {
+  padding: 0.44em 0.525em 0.006em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c1D68E.TEX-T::before {
+  padding: 0.44em 0.525em 0.006em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+mjx-c.mjx-cAC::before {
+  padding: 0.356em 0.667em 0 0;
+  content: "\AC";
+}
+
+mjx-c.mjx-c1D691.TEX-T::before {
+  padding: 0.611em 0.525em 0 0;
+  content: "h";
+}
+
+mjx-c.mjx-c226A::before {
+  padding: 0.568em 1em 0.067em 0;
+  content: "\226A";
+}
+
+mjx-c.mjx-c226B::before {
+  padding: 0.567em 1em 0.067em 0;
+  content: "\226B";
+}
+
+mjx-c.mjx-c1D68B.TEX-T::before {
+  padding: 0.611em 0.525em 0.006em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c70::before {
+  padding: 0.442em 0.556em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c63::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c1D69A.TEX-T::before {
+  padding: 0.437em 0.545em 0.221em 0;
+  content: "q";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+mjx-c.mjx-cA0::before {
+  padding: 0 0.25em 0 0;
+  content: "\A0";
+}
+
+mjx-c.mjx-c3A::before {
+  padding: 0.43em 0.278em 0 0;
+  content: ":";
+}
+
+mjx-c.mjx-c1D690.TEX-T::before {
+  padding: 0.442em 0.525em 0.229em 0;
+  content: "g";
+}
+
+mjx-c.mjx-c3E::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: ">";
+}
+
+mjx-c.mjx-c1D693.TEX-T::before {
+  padding: 0.612em 0.525em 0.228em 0;
+  content: "j";
+}
+
+mjx-c.mjx-c1D699.TEX-T::before {
+  padding: 0.437em 0.525em 0.221em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c2A.TEX-T::before {
+  padding: 0.52em 0.525em 0 0;
+  content: "*";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c30::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "0";
+}
+
+mjx-c.mjx-c78::before {
+  padding: 0.431em 0.528em 0 0;
+  content: "x";
+}
+
+mjx-c.mjx-c1D45F.TEX-I::before {
+  padding: 0.442em 0.451em 0.011em 0;
+  content: "r";
+}
+
+mjx-c.mjx-c2190::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2190";
+}
+
+mjx-c.mjx-cD7::before {
+  padding: 0.491em 0.778em 0 0;
+  content: "\D7";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c68::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "h";
+}
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-mrow {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D449.TEX-I::before {
+  padding: 0.683em 0.769em 0.022em 0;
+  content: "V";
+}
+
+mjx-c.mjx-c1D438.TEX-I::before {
+  padding: 0.68em 0.764em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c1D6FC.TEX-I::before {
+  padding: 0.442em 0.64em 0.011em 0;
+  content: "\3B1";
+}
+
+mjx-c.mjx-c2264::before {
+  padding: 0.636em 0.778em 0.138em 0;
+  content: "\2264";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c5B::before {
+  padding: 0.75em 0.278em 0.25em 0;
+  content: "[";
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c5D::before {
+  padding: 0.75em 0.278em 0.25em 0;
+  content: "]";
+}
+
+
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mtable {
+  display: inline-block;
+  text-align: center;
+  vertical-align: .25em;
+  position: relative;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+mjx-mstyle[size="s"] mjx-mtable {
+  vertical-align: .354em;
+}
+
+mjx-labels {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+mjx-table {
+  display: inline-block;
+  vertical-align: -.5ex;
+  box-sizing: border-box;
+}
+
+mjx-table > mjx-itable {
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+mjx-labels > mjx-itable {
+  position: absolute;
+  top: 0;
+}
+
+mjx-mtable[justify="left"] {
+  text-align: left;
+}
+
+mjx-mtable[justify="right"] {
+  text-align: right;
+}
+
+mjx-mtable[justify="left"][side="left"] {
+  padding-right: 0 ! important;
+}
+
+mjx-mtable[justify="left"][side="right"] {
+  padding-left: 0 ! important;
+}
+
+mjx-mtable[justify="right"][side="left"] {
+  padding-right: 0 ! important;
+}
+
+mjx-mtable[justify="right"][side="right"] {
+  padding-left: 0 ! important;
+}
+
+mjx-mtable[align] {
+  vertical-align: baseline;
+}
+
+mjx-mtable[align="top"] > mjx-table {
+  vertical-align: top;
+}
+
+mjx-mtable[align="bottom"] > mjx-table {
+  vertical-align: bottom;
+}
+
+mjx-mtable[side="right"] mjx-labels {
+  min-width: 100%;
+}
+
+mjx-mtr {
+  display: table-row;
+  text-align: left;
+}
+
+mjx-mtr[rowalign="top"] > mjx-mtd {
+  vertical-align: top;
+}
+
+mjx-mtr[rowalign="center"] > mjx-mtd {
+  vertical-align: middle;
+}
+
+mjx-mtr[rowalign="bottom"] > mjx-mtd {
+  vertical-align: bottom;
+}
+
+mjx-mtr[rowalign="baseline"] > mjx-mtd {
+  vertical-align: baseline;
+}
+
+mjx-mtr[rowalign="axis"] > mjx-mtd {
+  vertical-align: .25em;
+}
+
+mjx-mtd {
+  display: table-cell;
+  text-align: center;
+  padding: .215em .4em;
+}
+
+mjx-mtd:first-child {
+  padding-left: 0;
+}
+
+mjx-mtd:last-child {
+  padding-right: 0;
+}
+
+mjx-mtable > * > mjx-itable > *:first-child > mjx-mtd {
+  padding-top: 0;
+}
+
+mjx-mtable > * > mjx-itable > *:last-child > mjx-mtd {
+  padding-bottom: 0;
+}
+
+mjx-tstrut {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -.25em;
+}
+
+mjx-labels[align="left"] > mjx-mtr > mjx-mtd {
+  text-align: left;
+}
+
+mjx-labels[align="right"] > mjx-mtr > mjx-mtd {
+  text-align: right;
+}
+
+mjx-mtd[extra] {
+  padding: 0;
+}
+
+mjx-mtd[rowalign="top"] {
+  vertical-align: top;
+}
+
+mjx-mtd[rowalign="center"] {
+  vertical-align: middle;
+}
+
+mjx-mtd[rowalign="bottom"] {
+  vertical-align: bottom;
+}
+
+mjx-mtd[rowalign="baseline"] {
+  vertical-align: baseline;
+}
+
+mjx-mtd[rowalign="axis"] {
+  vertical-align: .25em;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-msqrt {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-root {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+mjx-surd {
+  display: inline-block;
+  vertical-align: top;
+}
+
+mjx-sqrt {
+  display: inline-block;
+  padding-top: .07em;
+}
+
+mjx-sqrt > mjx-box {
+  border-top: .07em solid;
+}
+
+mjx-sqrt.mjx-tall > mjx-box {
+  padding-left: .3em;
+  margin-left: -.3em;
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c2E::before {
+  padding: 0.12em 0.278em 0 0;
+  content: ".";
+}
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c7A::before {
+  padding: 0.431em 0.444em 0 0;
+  content: "z";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c1D447.TEX-I::before {
+  padding: 0.677em 0.704em 0 0;
+  content: "T";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c1D442.TEX-I::before {
+  padding: 0.704em 0.763em 0.022em 0;
+  content: "O";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+mjx-c.mjx-c22C5::before {
+  padding: 0.31em 0.278em 0 0;
+  content: "\22C5";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c3C::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "<";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-c.mjx-c67::before {
+  padding: 0.453em 0.5em 0.206em 0;
+  content: "g";
+}
+
+mjx-c.mjx-c2061::before {
+  padding: 0 0 0 0;
+  content: "";
+}
+
+mjx-c.mjx-c1D456.TEX-I::before {
+  padding: 0.661em 0.345em 0.011em 0;
+  content: "i";
+}
+
+mjx-c.mjx-c2265::before {
+  padding: 0.636em 0.778em 0.138em 0;
+  content: "\2265";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+mjx-c.mjx-c221A::before {
+  padding: 0.8em 0.853em 0.2em 0;
+  content: "\221A";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-c1D436.TEX-I::before {
+  padding: 0.705em 0.76em 0.022em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c69::before {
+  padding: 0.669em 0.278em 0 0;
+  content: "i";
+}
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c6F::before {
+  padding: 0.448em 0.5em 0.01em 0;
+  content: "o";
+}
+
+mjx-c.mjx-c75::before {
+  padding: 0.442em 0.556em 0.011em 0;
+  content: "u";
+}
+
+mjx-c.mjx-c74::before {
+  padding: 0.615em 0.389em 0.01em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c1D446.TEX-I::before {
+  padding: 0.705em 0.645em 0.022em 0;
+  content: "S";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+10:T9b9a,<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<p>A bar graph is a type of way to display <a href="./Variable (Statistics)#Qualitative">qualitative variables</a> where each category is drawn as a single bar whose height is the frequency of the category.</p>
+<h1>Example</h1>
+<p>A campus press polled a sample of 300 undergrads in order to  study the attitude towards a proposed change in on campus housing regulations. Summary of results of an opinion poll are shown as follows:</p>
+<p>
+            <div class="image-embed">
+              <svg width="849" height="381" viewBox="0 0 849 381" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.448" y="1.32568" width="845.665" height="377.965" stroke="white" stroke-width="2"/>
+<mask id="mask0_108_944" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="47" y="38" width="750" height="300">
+<rect x="48" y="39" width="748" height="298" fill="#2E3440" stroke="white" stroke-width="2"/>
+</mask>
+<g mask="url(#mask0_108_944)">
+<rect x="47" y="38" width="750" height="300" fill="white"/>
+<rect x="49" y="40" width="746" height="296" fill="#2E3440"/>
+<rect x="49" y="277.6" width="1" height="10" transform="rotate(-90 49 277.6)" fill="white" fill-opacity="0.5"/>
+<rect x="59" y="277.6" width="1" height="726" transform="rotate(-90 59 277.6)" fill="#484D57"/>
+<rect x="785" y="277.6" width="1" height="10" transform="rotate(-90 785 277.6)" fill="#979A9F"/>
+<rect x="49" y="218.2" width="1" height="10" transform="rotate(-90 49 218.2)" fill="white" fill-opacity="0.5"/>
+<rect x="59" y="218.2" width="1" height="726" transform="rotate(-90 59 218.2)" fill="#484D57"/>
+<rect x="785" y="218.2" width="1" height="10" transform="rotate(-90 785 218.2)" fill="#979A9F"/>
+<rect x="49" y="158.8" width="1" height="10" transform="rotate(-90 49 158.8)" fill="white" fill-opacity="0.5"/>
+<rect x="59" y="158.8" width="1" height="726" transform="rotate(-90 59 158.8)" fill="#484D57"/>
+<rect x="785" y="158.8" width="1" height="10" transform="rotate(-90 785 158.8)" fill="#979A9F"/>
+<rect x="49" y="99.4001" width="1" height="10" transform="rotate(-90 49 99.4001)" fill="white" fill-opacity="0.5"/>
+<rect x="59" y="99.4001" width="1" height="726" transform="rotate(-90 59 99.4001)" fill="#484D57"/>
+<rect x="785" y="99.4001" width="1" height="10" transform="rotate(-90 785 99.4001)" fill="#979A9F"/>
+<rect x="49" y="40" width="0.0001" height="4.41452" fill="#D9D9D9"/>
+<rect x="172.5" y="40" width="1" height="10" fill="white" fill-opacity="0.5"/>
+<rect x="172.5" y="50" width="1" height="276" fill="#484D57"/>
+<rect x="172.5" y="326" width="1" height="10" fill="#979A9F"/>
+<rect x="297" y="40" width="1" height="10" fill="white" fill-opacity="0.5"/>
+<rect x="297" y="50" width="1" height="276" fill="#484D57"/>
+<rect x="297" y="326" width="1" height="10" fill="#979A9F"/>
+<rect x="421.5" y="40" width="1" height="10" fill="white" fill-opacity="0.5"/>
+<rect x="421.5" y="50" width="1" height="276" fill="#484D57"/>
+<rect x="421.5" y="326" width="1" height="10" fill="#979A9F"/>
+<rect x="546" y="40" width="1" height="10" fill="white" fill-opacity="0.5"/>
+<rect x="546" y="50" width="1" height="276" fill="#484D57"/>
+<rect x="546" y="326" width="1" height="10" fill="#979A9F"/>
+<rect x="670.5" y="40" width="1" height="10" fill="white" fill-opacity="0.5"/>
+<rect x="670.5" y="50" width="1" height="276" fill="#484D57"/>
+<rect x="670.5" y="326" width="1" height="10" fill="#979A9F"/>
+<rect x="795" y="40" width="0.0001" height="4.41452" fill="#D9D9D9"/>
+</g>
+<path d="M17.5881 273.35V280.623H16.0505V274.809H16.0079L14.3424 275.853V274.49L16.1428 273.35H17.5881ZM21.9729 280.722C21.471 280.722 21.0236 280.63 20.6306 280.445C20.24 280.26 19.9298 280.006 19.7002 279.682C19.4705 279.357 19.351 278.985 19.3415 278.566H20.833C20.8496 278.848 20.9679 279.077 21.1881 279.252C21.4083 279.427 21.6699 279.515 21.9729 279.515C22.2144 279.515 22.4275 279.461 22.6121 279.355C22.7991 279.246 22.9447 279.096 23.0489 278.904C23.1554 278.71 23.2087 278.487 23.2087 278.236C23.2087 277.981 23.1543 277.756 23.0454 277.561C22.9388 277.367 22.7909 277.216 22.6015 277.107C22.4121 276.998 22.1954 276.942 21.9516 276.94C21.7385 276.94 21.5314 276.984 21.3302 277.071C21.1313 277.159 20.9762 277.279 20.865 277.43L19.4978 277.185L19.8422 273.35H24.2883V274.607H21.11L20.9218 276.429H20.9644C21.0922 276.249 21.2852 276.1 21.5432 275.981C21.8013 275.863 22.0901 275.804 22.4097 275.804C22.8477 275.804 23.2383 275.907 23.5816 276.113C23.9249 276.319 24.1959 276.601 24.3948 276.961C24.5937 277.319 24.6919 277.731 24.6895 278.197C24.6919 278.687 24.5783 279.123 24.3486 279.504C24.1213 279.883 23.8029 280.181 23.3934 280.399C22.9862 280.614 22.5127 280.722 21.9729 280.722ZM29.7428 279.259V278.875C29.7428 278.584 29.8044 278.317 29.9275 278.073C30.0529 277.827 30.234 277.63 30.4708 277.483C30.7099 277.334 31.0011 277.26 31.3444 277.26C31.6924 277.26 31.9847 277.333 32.2215 277.48C32.4606 277.627 32.6405 277.823 32.7613 278.069C32.8844 278.313 32.9459 278.582 32.9459 278.875V279.259C32.9459 279.55 32.8844 279.819 32.7613 280.065C32.6382 280.309 32.457 280.504 32.2179 280.651C31.9788 280.8 31.6876 280.875 31.3444 280.875C30.9963 280.875 30.704 280.8 30.4672 280.651C30.2305 280.504 30.0506 280.309 29.9275 280.065C29.8044 279.819 29.7428 279.55 29.7428 279.259ZM30.7762 278.875V279.259C30.7762 279.427 30.8164 279.586 30.8969 279.735C30.9798 279.884 31.1289 279.958 31.3444 279.958C31.5598 279.958 31.7066 279.885 31.7847 279.738C31.8652 279.592 31.9054 279.432 31.9054 279.259V278.875C31.9054 278.703 31.8676 278.542 31.7918 278.392C31.716 278.243 31.5669 278.169 31.3444 278.169C31.1313 278.169 30.9833 278.243 30.9005 278.392C30.8176 278.542 30.7762 278.703 30.7762 278.875ZM26.0106 275.097V274.713C26.0106 274.42 26.0733 274.151 26.1988 273.907C26.3242 273.661 26.5053 273.465 26.7421 273.318C26.9812 273.171 27.27 273.098 27.6086 273.098C27.9589 273.098 28.2525 273.171 28.4892 273.318C28.726 273.465 28.9059 273.661 29.029 273.907C29.1521 274.151 29.2137 274.42 29.2137 274.713V275.097C29.2137 275.391 29.1509 275.659 29.0255 275.903C28.9024 276.147 28.7213 276.342 28.4821 276.489C28.2454 276.633 27.9542 276.706 27.6086 276.706C27.2629 276.706 26.9705 276.632 26.7314 276.485C26.4947 276.336 26.3148 276.141 26.1917 275.9C26.0709 275.656 26.0106 275.388 26.0106 275.097ZM27.051 274.713V275.097C27.051 275.27 27.0913 275.43 27.1718 275.576C27.2546 275.723 27.4002 275.797 27.6086 275.797C27.8264 275.797 27.9743 275.723 28.0525 275.576C28.1329 275.43 28.1732 275.27 28.1732 275.097V274.713C28.1732 274.541 28.1353 274.38 28.0596 274.231C27.9838 274.081 27.8335 274.007 27.6086 274.007C27.3979 274.007 27.2523 274.083 27.1718 274.234C27.0913 274.386 27.051 274.545 27.051 274.713ZM26.4793 280.623L31.4793 273.35H32.4097L27.4097 280.623H26.4793Z" fill="white"/>
+<path d="M17.1123 220.655C16.582 220.655 16.1097 220.564 15.6954 220.381C15.2835 220.197 14.9579 219.943 14.7188 219.621C14.4821 219.297 14.3602 218.923 14.3531 218.499H15.9014C15.9108 218.677 15.9688 218.833 16.0754 218.968C16.1843 219.101 16.3287 219.204 16.5086 219.277C16.6885 219.35 16.8909 219.387 17.1158 219.387C17.3502 219.387 17.5574 219.346 17.7373 219.263C17.9172 219.18 18.0581 219.065 18.1599 218.918C18.2617 218.772 18.3126 218.602 18.3126 218.411C18.3126 218.216 18.2581 218.045 18.1492 217.896C18.0427 217.744 17.8888 217.626 17.6876 217.541C17.4887 217.455 17.252 217.413 16.9774 217.413H16.2991V216.283H16.9774C17.2094 216.283 17.4141 216.243 17.5917 216.163C17.7716 216.082 17.9113 215.971 18.0107 215.829C18.1102 215.684 18.1599 215.516 18.1599 215.325C18.1599 215.142 18.1161 214.983 18.0285 214.845C17.9433 214.706 17.8225 214.597 17.6663 214.518C17.5124 214.44 17.3325 214.401 17.1265 214.401C16.9182 214.401 16.7276 214.439 16.5548 214.515C16.3819 214.588 16.2434 214.694 16.1393 214.831C16.0351 214.968 15.9795 215.129 15.9724 215.314H14.4987C14.5058 214.895 14.6253 214.526 14.8573 214.206C15.0893 213.886 15.4018 213.637 15.7948 213.457C16.1902 213.274 16.6364 213.183 17.1336 213.183C17.6355 213.183 18.0747 213.274 18.4511 213.457C18.8275 213.639 19.1199 213.885 19.3282 214.195C19.5389 214.503 19.6431 214.849 19.6407 215.232C19.6431 215.639 19.5164 215.979 19.2607 216.251C19.0074 216.524 18.6772 216.697 18.27 216.77V216.827C18.805 216.895 19.2122 217.081 19.4916 217.384C19.7733 217.685 19.913 218.061 19.9106 218.514C19.913 218.928 19.7934 219.296 19.5519 219.618C19.3128 219.94 18.9826 220.193 18.5612 220.378C18.1398 220.563 17.6568 220.655 17.1123 220.655ZM23.8674 220.715C23.2566 220.713 22.7311 220.563 22.2907 220.264C21.8528 219.966 21.5154 219.534 21.2787 218.968C21.0443 218.402 20.9283 217.722 20.9307 216.926C20.9307 216.133 21.0478 215.457 21.2822 214.898C21.519 214.34 21.8563 213.915 22.2943 213.624C22.7346 213.33 23.259 213.183 23.8674 213.183C24.4759 213.183 24.9991 213.33 25.437 213.624C25.8774 213.917 26.2159 214.343 26.4527 214.902C26.6894 215.458 26.8066 216.133 26.8042 216.926C26.8042 217.724 26.6859 218.406 26.4491 218.972C26.2147 219.537 25.8786 219.969 25.4406 220.268C25.0026 220.566 24.4782 220.715 23.8674 220.715ZM23.8674 219.44C24.2841 219.44 24.6167 219.231 24.8653 218.812C25.1139 218.393 25.237 217.764 25.2346 216.926C25.2346 216.375 25.1778 215.915 25.0642 215.548C24.9529 215.181 24.7943 214.906 24.5883 214.721C24.3847 214.536 24.1444 214.444 23.8674 214.444C23.4531 214.444 23.1217 214.651 22.8731 215.065C22.6245 215.48 22.4991 216.1 22.4967 216.926C22.4967 217.485 22.5523 217.951 22.6636 218.325C22.7772 218.697 22.937 218.976 23.143 219.163C23.349 219.348 23.5905 219.44 23.8674 219.44ZM31.8815 219.192V218.808C31.8815 218.517 31.943 218.25 32.0661 218.006C32.1916 217.759 32.3727 217.563 32.6095 217.416C32.8486 217.267 33.1398 217.192 33.483 217.192C33.831 217.192 34.1234 217.266 34.3602 217.413C34.5993 217.559 34.7792 217.756 34.8999 218.002C35.023 218.246 35.0846 218.515 35.0846 218.808V219.192C35.0846 219.483 35.023 219.752 34.8999 219.998C34.7768 220.242 34.5957 220.437 34.3566 220.584C34.1175 220.733 33.8263 220.808 33.483 220.808C33.135 220.808 32.8426 220.733 32.6059 220.584C32.3692 220.437 32.1892 220.242 32.0661 219.998C31.943 219.752 31.8815 219.483 31.8815 219.192ZM32.9149 218.808V219.192C32.9149 219.36 32.9551 219.518 33.0356 219.668C33.1184 219.817 33.2676 219.891 33.483 219.891C33.6985 219.891 33.8452 219.818 33.9234 219.671C34.0039 219.524 34.0441 219.365 34.0441 219.192V218.808C34.0441 218.635 34.0062 218.474 33.9305 218.325C33.8547 218.176 33.7056 218.102 33.483 218.102C33.27 218.102 33.122 218.176 33.0391 218.325C32.9563 218.474 32.9149 218.635 32.9149 218.808ZM28.1492 215.03V214.646C28.1492 214.353 28.212 214.084 28.3374 213.84C28.4629 213.594 28.644 213.398 28.8808 213.251C29.1199 213.104 29.4087 213.031 29.7472 213.031C30.0976 213.031 30.3912 213.104 30.6279 213.251C30.8647 213.398 31.0446 213.594 31.1677 213.84C31.2908 214.084 31.3524 214.353 31.3524 214.646V215.03C31.3524 215.323 31.2896 215.592 31.1641 215.836C31.041 216.08 30.8599 216.275 30.6208 216.422C30.3841 216.566 30.0929 216.639 29.7472 216.639C29.4016 216.639 29.1092 216.565 28.8701 216.418C28.6334 216.269 28.4534 216.074 28.3303 215.832C28.2096 215.589 28.1492 215.321 28.1492 215.03ZM29.1897 214.646V215.03C29.1897 215.203 29.23 215.362 29.3104 215.509C29.3933 215.656 29.5389 215.729 29.7472 215.729C29.965 215.729 30.113 215.656 30.1911 215.509C30.2716 215.362 30.3119 215.203 30.3119 215.03V214.646C30.3119 214.474 30.274 214.313 30.1982 214.163C30.1225 214.014 29.9721 213.94 29.7472 213.94C29.5365 213.94 29.3909 214.015 29.3104 214.167C29.23 214.318 29.1897 214.478 29.1897 214.646ZM28.618 220.555L33.618 213.283H34.5484L29.5484 220.555H28.618Z" fill="white"/>
+<path d="M14.314 159.416V158.205L17.3502 153.421H18.3943V155.098H17.7764L15.8623 158.127V158.183H20.1769V159.416H14.314ZM17.8048 160.694V159.046L17.8332 158.51V153.421H19.2749V160.694H17.8048ZM23.8577 160.794C23.3558 160.794 22.9083 160.701 22.5153 160.517C22.1247 160.332 21.8146 160.077 21.5849 159.753C21.3553 159.429 21.2358 159.057 21.2263 158.638H22.7178C22.7343 158.92 22.8527 159.148 23.0729 159.323C23.293 159.499 23.5546 159.586 23.8577 159.586C24.0992 159.586 24.3122 159.533 24.4969 159.426C24.6839 159.317 24.8295 159.167 24.9337 158.975C25.0402 158.781 25.0935 158.559 25.0935 158.308C25.0935 158.052 25.039 157.827 24.9301 157.633C24.8236 157.439 24.6756 157.287 24.4862 157.178C24.2968 157.07 24.0802 157.014 23.8364 157.012C23.6233 157.012 23.4162 157.055 23.2149 157.143C23.0161 157.231 22.861 157.35 22.7497 157.502L21.3825 157.257L21.727 153.421H26.173V154.678H22.9948L22.8065 156.5H22.8492C22.977 156.32 23.1699 156.171 23.428 156.053C23.686 155.934 23.9749 155.875 24.2945 155.875C24.7324 155.875 25.1231 155.978 25.4663 156.184C25.8096 156.39 26.0807 156.673 26.2796 157.033C26.4784 157.39 26.5767 157.802 26.5743 158.269C26.5767 158.759 26.463 159.194 26.2334 159.575C26.0061 159.954 25.6877 160.253 25.2781 160.47C24.8709 160.686 24.3974 160.794 23.8577 160.794ZM31.6276 159.33V158.947C31.6276 158.656 31.6891 158.388 31.8122 158.144C31.9377 157.898 32.1188 157.702 32.3555 157.555C32.5947 157.406 32.8858 157.331 33.2291 157.331C33.5771 157.331 33.8695 157.405 34.1063 157.551C34.3454 157.698 34.5253 157.895 34.646 158.141C34.7691 158.385 34.8307 158.653 34.8307 158.947V159.33C34.8307 159.622 34.7691 159.89 34.646 160.137C34.5229 160.38 34.3418 160.576 34.1027 160.723C33.8636 160.872 33.5724 160.946 33.2291 160.946C32.8811 160.946 32.5887 160.872 32.352 160.723C32.1153 160.576 31.9353 160.38 31.8122 160.137C31.6891 159.89 31.6276 159.622 31.6276 159.33ZM32.6609 158.947V159.33C32.6609 159.499 32.7012 159.657 32.7817 159.806C32.8645 159.955 33.0137 160.03 33.2291 160.03C33.4446 160.03 33.5913 159.957 33.6695 159.81C33.75 159.663 33.7902 159.503 33.7902 159.33V158.947C33.7902 158.774 33.7523 158.613 33.6766 158.464C33.6008 158.315 33.4517 158.24 33.2291 158.24C33.0161 158.24 32.8681 158.315 32.7852 158.464C32.7024 158.613 32.6609 158.774 32.6609 158.947ZM27.8953 155.169V154.785C27.8953 154.491 27.9581 154.223 28.0835 153.979C28.209 153.733 28.3901 153.536 28.6269 153.389C28.866 153.243 29.1548 153.169 29.4933 153.169C29.8437 153.169 30.1373 153.243 30.374 153.389C30.6108 153.536 30.7907 153.733 30.9138 153.979C31.0369 154.223 31.0984 154.491 31.0984 154.785V155.169C31.0984 155.462 31.0357 155.731 30.9102 155.975C30.7871 156.218 30.606 156.414 30.3669 156.561C30.1302 156.705 29.839 156.777 29.4933 156.777C29.1477 156.777 28.8553 156.704 28.6162 156.557C28.3795 156.408 28.1995 156.213 28.0764 155.971C27.9557 155.727 27.8953 155.46 27.8953 155.169ZM28.9358 154.785V155.169C28.9358 155.341 28.976 155.501 29.0565 155.648C29.1394 155.795 29.285 155.868 29.4933 155.868C29.7111 155.868 29.8591 155.795 29.9372 155.648C30.0177 155.501 30.058 155.341 30.058 155.169V154.785C30.058 154.612 30.0201 154.451 29.9443 154.302C29.8686 154.153 29.7182 154.078 29.4933 154.078C29.2826 154.078 29.137 154.154 29.0565 154.306C28.976 154.457 28.9358 154.617 28.9358 154.785ZM28.3641 160.694L33.3641 153.421H34.2945L29.2945 160.694H28.3641Z" fill="white"/>
+<path d="M17.7153 101.447C17.3412 101.444 16.9802 101.381 16.6322 101.258C16.2865 101.135 15.9764 100.935 15.7018 100.658C15.4272 100.381 15.2094 100.014 15.0484 99.5574C14.8898 99.1005 14.8104 98.5394 14.8104 97.8742C14.8128 97.2634 14.8827 96.7177 15.02 96.2371C15.1596 95.7541 15.3585 95.3446 15.6166 95.0084C15.877 94.6722 16.1883 94.4165 16.5505 94.2413C16.9127 94.0638 17.3187 93.975 17.7685 93.975C18.2539 93.975 18.6824 94.0697 19.0541 94.2591C19.4257 94.4461 19.724 94.7006 19.9489 95.0226C20.1762 95.3446 20.3135 95.7056 20.3609 96.1057H18.8445C18.7854 95.8524 18.6611 95.6535 18.4717 95.5091C18.2823 95.3647 18.0479 95.2925 17.7685 95.2925C17.2951 95.2925 16.9352 95.4984 16.689 95.9104C16.4452 96.3223 16.3209 96.8822 16.3161 97.5901H16.3658C16.4747 97.3746 16.6215 97.1912 16.8062 97.0396C16.9932 96.8858 17.2051 96.7686 17.4418 96.6881C17.6809 96.6052 17.9331 96.5638 18.1982 96.5638C18.6291 96.5638 19.0126 96.6656 19.3488 96.8692C19.685 97.0704 19.9501 97.3474 20.1443 97.7002C20.3384 98.0529 20.4354 98.4565 20.4354 98.9111C20.4354 99.4035 20.3206 99.8415 20.091 100.225C19.8637 100.609 19.5453 100.909 19.1357 101.127C18.7285 101.342 18.255 101.449 17.7153 101.447ZM17.7082 100.239C17.9449 100.239 18.1568 100.182 18.3438 100.069C18.5309 99.9551 18.6776 99.8012 18.7842 99.6071C18.8907 99.413 18.944 99.1952 18.944 98.9537C18.944 98.7122 18.8907 98.4956 18.7842 98.3038C18.68 98.1121 18.5356 97.9594 18.3509 97.8457C18.1663 97.7321 17.9556 97.6753 17.7188 97.6753C17.5413 97.6753 17.3767 97.7084 17.2252 97.7747C17.0761 97.841 16.9447 97.9333 16.831 98.0517C16.7198 98.1701 16.6322 98.3074 16.5683 98.4636C16.5043 98.6175 16.4724 98.7821 16.4724 98.9573C16.4724 99.1916 16.5256 99.4059 16.6322 99.6C16.7411 99.7941 16.8879 99.9492 17.0725 100.065C17.2595 100.181 17.4714 100.239 17.7082 100.239ZM24.3772 101.507C23.7664 101.505 23.2408 101.354 22.8005 101.056C22.3625 100.758 22.0252 100.326 21.7884 99.7598C21.5541 99.194 21.4381 98.5134 21.4404 97.7179C21.4404 96.9248 21.5576 96.2489 21.792 95.6902C22.0287 95.1315 22.3661 94.7065 22.8041 94.4153C23.2444 94.1218 23.7688 93.975 24.3772 93.975C24.9856 93.975 25.5088 94.1218 25.9468 94.4153C26.3872 94.7089 26.7257 95.135 26.9624 95.6938C27.1992 96.2501 27.3164 96.9248 27.314 97.7179C27.314 98.5157 27.1956 99.1975 26.9589 99.7634C26.7245 100.329 26.3883 100.761 25.9504 101.06C25.5124 101.358 24.988 101.507 24.3772 101.507ZM24.3772 100.232C24.7939 100.232 25.1265 100.023 25.3751 99.6036C25.6237 99.1845 25.7468 98.556 25.7444 97.7179C25.7444 97.1663 25.6876 96.707 25.5739 96.3401C25.4627 95.9731 25.3041 95.6973 25.0981 95.5127C24.8945 95.328 24.6542 95.2357 24.3772 95.2357C23.9629 95.2357 23.6315 95.4428 23.3829 95.8571C23.1343 96.2714 23.0088 96.8917 23.0065 97.7179C23.0065 98.2766 23.0621 98.743 23.1734 99.1171C23.287 99.4887 23.4468 99.7681 23.6528 99.9551C23.8587 100.14 24.1002 100.232 24.3772 100.232ZM32.3912 99.9835V99.6C32.3912 99.3088 32.4528 99.0413 32.5759 98.7975C32.7014 98.5512 32.8825 98.3547 33.1192 98.208C33.3583 98.0588 33.6495 97.9842 33.9928 97.9842C34.3408 97.9842 34.6332 98.0576 34.8699 98.2044C35.109 98.3512 35.289 98.5477 35.4097 98.7939C35.5328 99.0377 35.5944 99.3064 35.5944 99.6V99.9835C35.5944 100.275 35.5328 100.543 35.4097 100.79C35.2866 101.033 35.1055 101.229 34.8664 101.376C34.6273 101.525 34.3361 101.599 33.9928 101.599C33.6448 101.599 33.3524 101.525 33.1157 101.376C32.8789 101.229 32.699 101.033 32.5759 100.79C32.4528 100.543 32.3912 100.275 32.3912 99.9835ZM33.4246 99.6V99.9835C33.4246 100.152 33.4649 100.31 33.5454 100.459C33.6282 100.609 33.7774 100.683 33.9928 100.683C34.2082 100.683 34.355 100.61 34.4331 100.463C34.5136 100.316 34.5539 100.156 34.5539 99.9835V99.6C34.5539 99.4272 34.516 99.2662 34.4402 99.1171C34.3645 98.9679 34.2153 98.8933 33.9928 98.8933C33.7797 98.8933 33.6318 98.9679 33.5489 99.1171C33.466 99.2662 33.4246 99.4272 33.4246 99.6ZM28.659 95.8216V95.4381C28.659 95.1445 28.7217 94.8758 28.8472 94.632C28.9727 94.3858 29.1538 94.1893 29.3905 94.0425C29.6296 93.8957 29.9185 93.8223 30.257 93.8223C30.6074 93.8223 30.9009 93.8957 31.1377 94.0425C31.3744 94.1893 31.5544 94.3858 31.6775 94.632C31.8006 94.8758 31.8621 95.1445 31.8621 95.4381V95.8216C31.8621 96.1152 31.7994 96.3839 31.6739 96.6277C31.5508 96.8716 31.3697 97.0669 31.1306 97.2136C30.8938 97.3581 30.6026 97.4303 30.257 97.4303C29.9114 97.4303 29.619 97.3569 29.3799 97.2101C29.1431 97.0609 28.9632 96.8656 28.8401 96.6242C28.7194 96.3803 28.659 96.1128 28.659 95.8216ZM29.6995 95.4381V95.8216C29.6995 95.9944 29.7397 96.1542 29.8202 96.301C29.9031 96.4478 30.0487 96.5212 30.257 96.5212C30.4748 96.5212 30.6228 96.4478 30.7009 96.301C30.7814 96.1542 30.8216 95.9944 30.8216 95.8216V95.4381C30.8216 95.2653 30.7838 95.1043 30.708 94.9551C30.6322 94.806 30.4819 94.7314 30.257 94.7314C30.0463 94.7314 29.9007 94.8072 29.8202 94.9587C29.7397 95.1102 29.6995 95.27 29.6995 95.4381ZM29.1277 101.347L34.1277 94.0744H35.0581L30.0581 101.347H29.1277Z" fill="white"/>
+<path d="M156.747 354.689C156.719 354.403 156.597 354.18 156.382 354.022C156.166 353.863 155.874 353.784 155.504 353.784C155.253 353.784 155.042 353.819 154.869 353.89C154.696 353.959 154.563 354.055 154.471 354.178C154.381 354.301 154.336 354.441 154.336 354.597C154.331 354.727 154.359 354.841 154.418 354.938C154.479 355.035 154.563 355.119 154.67 355.19C154.776 355.259 154.9 355.319 155.039 355.371C155.179 355.421 155.328 355.463 155.487 355.499L156.14 355.655C156.457 355.726 156.749 355.821 157.014 355.939C157.279 356.058 157.508 356.203 157.703 356.376C157.897 356.549 158.047 356.752 158.154 356.987C158.262 357.221 158.318 357.49 158.32 357.793C158.318 358.238 158.204 358.624 157.98 358.951C157.757 359.275 157.435 359.527 157.014 359.707C156.595 359.885 156.089 359.973 155.497 359.973C154.91 359.973 154.399 359.883 153.963 359.703C153.53 359.524 153.191 359.257 152.948 358.904C152.706 358.549 152.579 358.11 152.568 357.587H154.056C154.072 357.831 154.142 358.034 154.265 358.198C154.391 358.359 154.557 358.481 154.766 358.564C154.977 358.644 155.214 358.684 155.48 358.684C155.74 358.684 155.966 358.646 156.158 358.571C156.352 358.495 156.502 358.39 156.609 358.255C156.715 358.12 156.769 357.965 156.769 357.789C156.769 357.626 156.72 357.489 156.623 357.377C156.528 357.266 156.389 357.171 156.204 357.093C156.022 357.015 155.798 356.944 155.533 356.88L154.741 356.681C154.128 356.532 153.644 356.299 153.289 355.982C152.933 355.665 152.757 355.237 152.759 354.7C152.757 354.26 152.874 353.875 153.111 353.546C153.35 353.217 153.678 352.96 154.095 352.775C154.511 352.591 154.985 352.498 155.515 352.498C156.055 352.498 156.526 352.591 156.928 352.775C157.333 352.96 157.648 353.217 157.873 353.546C158.098 353.875 158.214 354.256 158.221 354.689H156.747ZM162.824 357.548V354.416H164.337V359.87H162.885V358.88H162.828C162.705 359.199 162.5 359.456 162.213 359.65C161.929 359.844 161.583 359.941 161.173 359.941C160.808 359.941 160.488 359.859 160.211 359.693C159.934 359.527 159.717 359.292 159.561 358.986C159.407 358.681 159.329 358.315 159.326 357.889V354.416H160.839V357.619C160.842 357.941 160.928 358.195 161.098 358.382C161.269 358.569 161.497 358.663 161.784 358.663C161.966 358.663 162.136 358.622 162.295 358.539C162.454 358.453 162.582 358.328 162.679 358.162C162.778 357.997 162.827 357.792 162.824 357.548ZM165.547 361.916V354.416H167.039V355.332H167.106C167.172 355.185 167.268 355.036 167.394 354.885C167.521 354.731 167.687 354.603 167.891 354.501C168.097 354.397 168.352 354.345 168.658 354.345C169.056 354.345 169.423 354.449 169.759 354.657C170.095 354.863 170.364 355.175 170.565 355.591C170.766 356.006 170.867 356.525 170.867 357.15C170.867 357.759 170.768 358.272 170.572 358.691C170.378 359.108 170.113 359.424 169.776 359.64C169.443 359.853 169.069 359.959 168.654 359.959C168.361 359.959 168.111 359.911 167.905 359.814C167.701 359.716 167.535 359.595 167.404 359.448C167.274 359.299 167.175 359.148 167.106 358.997H167.06V361.916H165.547ZM167.028 357.143C167.028 357.467 167.073 357.75 167.163 357.992C167.253 358.233 167.383 358.421 167.553 358.556C167.724 358.689 167.931 358.755 168.175 358.755C168.421 358.755 168.629 358.688 168.8 358.553C168.97 358.416 169.099 358.226 169.187 357.985C169.277 357.741 169.322 357.46 169.322 357.143C169.322 356.828 169.278 356.551 169.191 356.312C169.103 356.073 168.974 355.886 168.803 355.751C168.633 355.616 168.423 355.549 168.175 355.549C167.929 355.549 167.72 355.614 167.55 355.744C167.382 355.874 167.253 356.059 167.163 356.298C167.073 356.537 167.028 356.819 167.028 357.143ZM171.875 361.916V354.416H173.367V355.332H173.434C173.5 355.185 173.596 355.036 173.722 354.885C173.85 354.731 174.015 354.603 174.219 354.501C174.425 354.397 174.681 354.345 174.986 354.345C175.384 354.345 175.751 354.449 176.087 354.657C176.423 354.863 176.692 355.175 176.893 355.591C177.094 356.006 177.195 356.525 177.195 357.15C177.195 357.759 177.097 358.272 176.9 358.691C176.706 359.108 176.441 359.424 176.105 359.64C175.771 359.853 175.397 359.959 174.982 359.959C174.689 359.959 174.439 359.911 174.233 359.814C174.03 359.716 173.863 359.595 173.732 359.448C173.602 359.299 173.503 359.148 173.434 358.997H173.388V361.916H171.875ZM173.356 357.143C173.356 357.467 173.401 357.75 173.491 357.992C173.581 358.233 173.711 358.421 173.882 358.556C174.052 358.689 174.259 358.755 174.503 358.755C174.749 358.755 174.958 358.688 175.128 358.553C175.298 358.416 175.427 358.226 175.515 357.985C175.605 357.741 175.65 357.46 175.65 357.143C175.65 356.828 175.606 356.551 175.519 356.312C175.431 356.073 175.302 355.886 175.132 355.751C174.961 355.616 174.752 355.549 174.503 355.549C174.257 355.549 174.048 355.614 173.878 355.744C173.71 355.874 173.581 356.059 173.491 356.298C173.401 356.537 173.356 356.819 173.356 357.143ZM180.668 359.977C180.116 359.977 179.639 359.86 179.237 359.625C178.837 359.389 178.528 359.06 178.31 358.638C178.092 358.214 177.983 357.723 177.983 357.164C177.983 356.601 178.092 356.109 178.31 355.687C178.528 355.263 178.837 354.934 179.237 354.7C179.639 354.463 180.116 354.345 180.668 354.345C181.219 354.345 181.695 354.463 182.095 354.7C182.498 354.934 182.808 355.263 183.026 355.687C183.244 356.109 183.352 356.601 183.352 357.164C183.352 357.723 183.244 358.214 183.026 358.638C182.808 359.06 182.498 359.389 182.095 359.625C181.695 359.86 181.219 359.977 180.668 359.977ZM180.675 358.805C180.926 358.805 181.135 358.734 181.303 358.592C181.472 358.448 181.598 358.251 181.683 358.002C181.771 357.754 181.815 357.471 181.815 357.154C181.815 356.837 181.771 356.554 181.683 356.305C181.598 356.056 181.472 355.86 181.303 355.716C181.135 355.571 180.926 355.499 180.675 355.499C180.422 355.499 180.209 355.571 180.036 355.716C179.865 355.86 179.736 356.056 179.649 356.305C179.563 356.554 179.521 356.837 179.521 357.154C179.521 357.471 179.563 357.754 179.649 358.002C179.736 358.251 179.865 358.448 180.036 358.592C180.209 358.734 180.422 358.805 180.675 358.805ZM184.336 359.87V354.416H185.803V355.368H185.86C185.959 355.029 186.126 354.773 186.36 354.6C186.595 354.425 186.865 354.338 187.17 354.338C187.246 354.338 187.327 354.342 187.415 354.352C187.503 354.361 187.579 354.374 187.646 354.391V355.733C187.575 355.712 187.477 355.693 187.351 355.676C187.226 355.66 187.111 355.652 187.007 355.652C186.784 355.652 186.585 355.7 186.41 355.797C186.237 355.892 186.1 356.024 185.998 356.195C185.899 356.365 185.849 356.562 185.849 356.784V359.87H184.336ZM191.603 354.416V355.552H188.318V354.416H191.603ZM189.064 353.109H190.576V358.194C190.576 358.334 190.598 358.443 190.64 358.521C190.683 358.597 190.742 358.65 190.818 358.681C190.896 358.712 190.986 358.727 191.088 358.727C191.159 358.727 191.23 358.721 191.301 358.709C191.372 358.695 191.426 358.684 191.464 358.677L191.702 359.803C191.626 359.827 191.52 359.854 191.382 359.885C191.245 359.918 191.078 359.938 190.882 359.945C190.517 359.959 190.198 359.911 189.923 359.799C189.651 359.688 189.439 359.515 189.287 359.281C189.136 359.046 189.061 358.751 189.064 358.393V353.109Z" fill="white"/>
+<path d="M410.715 352.598V359.87H409.387L406.223 355.293H406.17V359.87H404.632V352.598H405.982L409.121 357.171H409.185V352.598H410.715ZM414.443 359.977C413.882 359.977 413.399 359.863 412.994 359.636C412.592 359.406 412.282 359.082 412.064 358.663C411.846 358.242 411.737 357.743 411.737 357.168C411.737 356.607 411.846 356.114 412.064 355.691C412.282 355.267 412.588 354.937 412.983 354.7C413.381 354.463 413.848 354.345 414.383 354.345C414.742 354.345 415.077 354.403 415.388 354.519C415.7 354.632 415.972 354.804 416.204 355.034C416.439 355.263 416.621 355.552 416.751 355.9C416.881 356.246 416.947 356.651 416.947 357.115V357.53H412.341V356.593H415.523C415.523 356.375 415.475 356.182 415.381 356.014C415.286 355.846 415.154 355.714 414.986 355.62C414.821 355.523 414.628 355.474 414.407 355.474C414.178 355.474 413.974 355.527 413.797 355.634C413.622 355.738 413.484 355.879 413.385 356.056C413.285 356.232 413.234 356.427 413.232 356.642V357.534C413.232 357.804 413.282 358.037 413.381 358.233C413.483 358.43 413.626 358.581 413.811 358.688C413.996 358.794 414.215 358.848 414.468 358.848C414.636 358.848 414.79 358.824 414.93 358.777C415.069 358.729 415.189 358.658 415.288 358.564C415.388 358.469 415.463 358.353 415.515 358.216L416.915 358.308C416.844 358.644 416.698 358.938 416.478 359.189C416.26 359.437 415.978 359.631 415.633 359.771C415.289 359.908 414.893 359.977 414.443 359.977ZM421.432 357.548V354.416H422.944V359.87H421.492V358.88H421.435C421.312 359.199 421.107 359.456 420.821 359.65C420.537 359.844 420.19 359.941 419.78 359.941C419.416 359.941 419.095 359.859 418.818 359.693C418.541 359.527 418.324 359.292 418.168 358.986C418.014 358.681 417.936 358.315 417.934 357.889V354.416H419.447V357.619C419.449 357.941 419.535 358.195 419.706 358.382C419.876 358.569 420.105 358.663 420.391 358.663C420.573 358.663 420.744 358.622 420.903 358.539C421.061 358.453 421.189 358.328 421.286 358.162C421.385 357.997 421.434 357.792 421.432 357.548ZM427.056 354.416V355.552H423.771V354.416H427.056ZM424.517 353.109H426.029V358.194C426.029 358.334 426.051 358.443 426.093 358.521C426.136 358.597 426.195 358.65 426.271 358.681C426.349 358.712 426.439 358.727 426.541 358.727C426.612 358.727 426.683 358.721 426.754 358.709C426.825 358.695 426.879 358.684 426.917 358.677L427.155 359.803C427.079 359.827 426.973 359.854 426.836 359.885C426.698 359.918 426.531 359.938 426.335 359.945C425.97 359.959 425.651 359.911 425.376 359.799C425.104 359.688 424.892 359.515 424.74 359.281C424.589 359.046 424.514 358.751 424.517 358.393V353.109ZM428.041 359.87V354.416H429.508V355.368H429.565C429.664 355.029 429.831 354.773 430.065 354.6C430.3 354.425 430.57 354.338 430.875 354.338C430.951 354.338 431.032 354.342 431.12 354.352C431.208 354.361 431.285 354.374 431.351 354.391V355.733C431.28 355.712 431.182 355.693 431.056 355.676C430.931 355.66 430.816 355.652 430.712 355.652C430.489 355.652 430.29 355.7 430.115 355.797C429.942 355.892 429.805 356.024 429.703 356.195C429.604 356.365 429.554 356.562 429.554 356.784V359.87H428.041ZM433.532 359.973C433.184 359.973 432.874 359.913 432.602 359.792C432.329 359.669 432.114 359.488 431.955 359.249C431.799 359.007 431.721 358.707 431.721 358.347C431.721 358.044 431.777 357.789 431.888 357.583C431.999 357.377 432.151 357.212 432.343 357.086C432.534 356.961 432.752 356.866 432.996 356.802C433.242 356.738 433.5 356.693 433.77 356.667C434.087 356.634 434.343 356.603 434.537 356.575C434.731 356.544 434.872 356.499 434.96 356.44C435.047 356.381 435.091 356.293 435.091 356.177V356.156C435.091 355.931 435.02 355.757 434.878 355.634C434.738 355.511 434.539 355.449 434.281 355.449C434.009 355.449 433.793 355.51 433.632 355.63C433.471 355.749 433.364 355.898 433.312 356.078L431.913 355.964C431.984 355.633 432.124 355.346 432.332 355.105C432.54 354.861 432.809 354.674 433.138 354.544C433.469 354.411 433.853 354.345 434.289 354.345C434.592 354.345 434.882 354.38 435.159 354.451C435.438 354.522 435.685 354.632 435.901 354.782C436.119 354.931 436.29 355.122 436.416 355.357C436.541 355.589 436.604 355.867 436.604 356.191V359.87H435.169V359.114H435.127C435.039 359.284 434.922 359.435 434.775 359.565C434.628 359.693 434.452 359.793 434.246 359.867C434.04 359.938 433.802 359.973 433.532 359.973ZM433.965 358.929C434.188 358.929 434.384 358.886 434.555 358.798C434.725 358.708 434.859 358.587 434.956 358.436C435.053 358.284 435.102 358.113 435.102 357.921V357.342C435.054 357.373 434.989 357.401 434.906 357.427C434.826 357.451 434.735 357.473 434.633 357.495C434.531 357.514 434.429 357.531 434.328 357.548C434.226 357.562 434.133 357.575 434.051 357.587C433.873 357.613 433.718 357.654 433.585 357.711C433.453 357.768 433.35 357.845 433.276 357.942C433.203 358.037 433.166 358.155 433.166 358.297C433.166 358.503 433.241 358.661 433.39 358.77C433.542 358.876 433.733 358.929 433.965 358.929ZM439.29 352.598V359.87H437.778V352.598H439.29Z" fill="white"/>
+<path d="M659.145 356.234C659.145 357.027 658.995 357.702 658.694 358.258C658.396 358.814 657.989 359.239 657.473 359.533C656.959 359.824 656.381 359.97 655.74 359.97C655.093 359.97 654.513 359.823 654 359.529C653.486 359.236 653.08 358.811 652.782 358.255C652.483 357.698 652.334 357.025 652.334 356.234C652.334 355.441 652.483 354.766 652.782 354.21C653.08 353.654 653.486 353.23 654 352.939C654.513 352.645 655.093 352.498 655.74 352.498C656.381 352.498 656.959 352.645 657.473 352.939C657.989 353.23 658.396 353.654 658.694 354.21C658.995 354.766 659.145 355.441 659.145 356.234ZM657.586 356.234C657.586 355.72 657.509 355.287 657.356 354.934C657.204 354.582 656.99 354.314 656.713 354.132C656.436 353.949 656.111 353.858 655.74 353.858C655.368 353.858 655.044 353.949 654.767 354.132C654.49 354.314 654.274 354.582 654.12 354.934C653.969 355.287 653.893 355.72 653.893 356.234C653.893 356.748 653.969 357.181 654.12 357.534C654.274 357.886 654.49 358.154 654.767 358.336C655.044 358.519 655.368 358.61 655.74 358.61C656.111 358.61 656.436 358.519 656.713 358.336C656.99 358.154 657.204 357.886 657.356 357.534C657.509 357.181 657.586 356.748 657.586 356.234ZM660.256 361.916V354.416H661.747V355.332H661.815C661.881 355.185 661.977 355.036 662.103 354.885C662.23 354.731 662.396 354.603 662.6 354.501C662.806 354.397 663.061 354.345 663.367 354.345C663.764 354.345 664.131 354.449 664.468 354.657C664.804 354.863 665.072 355.175 665.274 355.591C665.475 356.006 665.576 356.525 665.576 357.15C665.576 357.759 665.477 358.272 665.281 358.691C665.087 359.108 664.821 359.424 664.485 359.64C664.152 359.853 663.777 359.959 663.363 359.959C663.07 359.959 662.82 359.911 662.614 359.814C662.41 359.716 662.243 359.595 662.113 359.448C661.983 359.299 661.884 359.148 661.815 358.997H661.769V361.916H660.256ZM661.737 357.143C661.737 357.467 661.782 357.75 661.872 357.992C661.962 358.233 662.092 358.421 662.262 358.556C662.433 358.689 662.64 358.755 662.884 358.755C663.13 358.755 663.338 358.688 663.509 358.553C663.679 358.416 663.808 358.226 663.896 357.985C663.986 357.741 664.031 357.46 664.031 357.143C664.031 356.828 663.987 356.551 663.899 356.312C663.812 356.073 663.683 355.886 663.512 355.751C663.342 355.616 663.132 355.549 662.884 355.549C662.638 355.549 662.429 355.614 662.259 355.744C662.091 355.874 661.962 356.059 661.872 356.298C661.782 356.537 661.737 356.819 661.737 357.143ZM666.584 361.916V354.416H668.076V355.332H668.143C668.209 355.185 668.305 355.036 668.431 354.885C668.558 354.731 668.724 354.603 668.928 354.501C669.134 354.397 669.389 354.345 669.695 354.345C670.093 354.345 670.46 354.449 670.796 354.657C671.132 354.863 671.401 355.175 671.602 355.591C671.803 356.006 671.904 356.525 671.904 357.15C671.904 357.759 671.805 358.272 671.609 358.691C671.415 359.108 671.15 359.424 670.813 359.64C670.48 359.853 670.106 359.959 669.691 359.959C669.398 359.959 669.148 359.911 668.942 359.814C668.738 359.716 668.571 359.595 668.441 359.448C668.311 359.299 668.212 359.148 668.143 358.997H668.097V361.916H666.584ZM668.065 357.143C668.065 357.467 668.11 357.75 668.2 357.992C668.29 358.233 668.42 358.421 668.59 358.556C668.761 358.689 668.968 358.755 669.212 358.755C669.458 358.755 669.666 358.688 669.837 358.553C670.007 358.416 670.136 358.226 670.224 357.985C670.314 357.741 670.359 357.46 670.359 357.143C670.359 356.828 670.315 356.551 670.228 356.312C670.14 356.073 670.011 355.886 669.84 355.751C669.67 355.616 669.46 355.549 669.212 355.549C668.966 355.549 668.757 355.614 668.587 355.744C668.419 355.874 668.29 356.059 668.2 356.298C668.11 356.537 668.065 356.819 668.065 357.143ZM675.377 359.977C674.825 359.977 674.348 359.86 673.946 359.625C673.545 359.389 673.237 359.06 673.019 358.638C672.801 358.214 672.692 357.723 672.692 357.164C672.692 356.601 672.801 356.109 673.019 355.687C673.237 355.263 673.545 354.934 673.946 354.7C674.348 354.463 674.825 354.345 675.377 354.345C675.928 354.345 676.404 354.463 676.804 354.7C677.207 354.934 677.517 355.263 677.735 355.687C677.952 356.109 678.061 356.601 678.061 357.164C678.061 357.723 677.952 358.214 677.735 358.638C677.517 359.06 677.207 359.389 676.804 359.625C676.404 359.86 675.928 359.977 675.377 359.977ZM675.384 358.805C675.635 358.805 675.844 358.734 676.012 358.592C676.18 358.448 676.307 358.251 676.392 358.002C676.48 357.754 676.524 357.471 676.524 357.154C676.524 356.837 676.48 356.554 676.392 356.305C676.307 356.056 676.18 355.86 676.012 355.716C675.844 355.571 675.635 355.499 675.384 355.499C675.13 355.499 674.917 355.571 674.745 355.716C674.574 355.86 674.445 356.056 674.357 356.305C674.272 356.554 674.23 356.837 674.23 357.154C674.23 357.471 674.272 357.754 674.357 358.002C674.445 358.251 674.574 358.448 674.745 358.592C674.917 358.734 675.13 358.805 675.384 358.805ZM683.583 355.971L682.198 356.056C682.175 355.938 682.124 355.832 682.046 355.737C681.968 355.64 681.865 355.563 681.737 355.506C681.611 355.447 681.461 355.417 681.286 355.417C681.051 355.417 680.854 355.467 680.693 355.566C680.532 355.663 680.451 355.794 680.451 355.957C680.451 356.087 680.503 356.197 680.607 356.287C680.712 356.377 680.89 356.449 681.144 356.504L682.131 356.703C682.661 356.812 683.057 356.987 683.317 357.228C683.577 357.47 683.708 357.787 683.708 358.18C683.708 358.538 683.602 358.851 683.392 359.121C683.183 359.391 682.897 359.602 682.532 359.753C682.17 359.902 681.752 359.977 681.279 359.977C680.557 359.977 679.981 359.827 679.553 359.526C679.127 359.223 678.877 358.811 678.804 358.29L680.291 358.212C680.336 358.432 680.445 358.6 680.618 358.716C680.791 358.83 681.012 358.887 681.282 358.887C681.547 358.887 681.76 358.836 681.921 358.734C682.085 358.63 682.168 358.496 682.17 358.333C682.168 358.195 682.11 358.083 681.996 357.995C681.882 357.905 681.707 357.837 681.47 357.789L680.526 357.601C679.993 357.495 679.597 357.31 679.336 357.047C679.078 356.784 678.949 356.449 678.949 356.042C678.949 355.692 679.044 355.39 679.233 355.137C679.425 354.883 679.694 354.688 680.039 354.551C680.387 354.413 680.795 354.345 681.261 354.345C681.95 354.345 682.492 354.49 682.887 354.782C683.285 355.073 683.517 355.469 683.583 355.971ZM687.146 359.977C686.585 359.977 686.102 359.863 685.697 359.636C685.295 359.406 684.985 359.082 684.767 358.663C684.549 358.242 684.44 357.743 684.44 357.168C684.44 356.607 684.549 356.114 684.767 355.691C684.985 355.267 685.291 354.937 685.686 354.7C686.084 354.463 686.551 354.345 687.086 354.345C687.445 354.345 687.78 354.403 688.091 354.519C688.403 354.632 688.675 354.804 688.907 355.034C689.142 355.263 689.324 355.552 689.454 355.9C689.584 356.246 689.65 356.651 689.65 357.115V357.53H685.044V356.593H688.226C688.226 356.375 688.178 356.182 688.084 356.014C687.989 355.846 687.857 355.714 687.689 355.62C687.524 355.523 687.331 355.474 687.11 355.474C686.881 355.474 686.677 355.527 686.5 355.634C686.325 355.738 686.187 355.879 686.088 356.056C685.988 356.232 685.937 356.427 685.935 356.642V357.534C685.935 357.804 685.985 358.037 686.084 358.233C686.186 358.43 686.329 358.581 686.514 358.688C686.699 358.794 686.918 358.848 687.171 358.848C687.339 358.848 687.493 358.824 687.633 358.777C687.772 358.729 687.892 358.658 687.991 358.564C688.091 358.469 688.166 358.353 688.218 358.216L689.618 358.308C689.547 358.644 689.401 358.938 689.181 359.189C688.963 359.437 688.681 359.631 688.336 359.771C687.992 359.908 687.596 359.977 687.146 359.977Z" fill="white"/>
+<rect x="123.333" y="136.602" width="97.6737" height="199.338" fill="#8E9ED4"/>
+<rect x="373.163" y="289.833" width="97.6737" height="46.1072" fill="#8E9ED4"/>
+<rect x="622.493" y="208.495" width="97.6737" height="127.445" fill="#8E9ED4"/>
+</svg>
+
+            </div></p>
+5:["$","div",null,{"className":"overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0","children":[["$","div",null,{"className":"font-bold text-4xl pt-12","children":"Bar%20Graph"}],["$","div",null,{"children":[]}],["$","style",null,{"children":"$f"}],["$","div",null,{"className":"flex flex-col gap-4 -mt-8","dangerouslySetInnerHTML":{"__html":"$10"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}]]
+7:null

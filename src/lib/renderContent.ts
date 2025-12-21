@@ -18,6 +18,11 @@ const md = markdownit({ linkify: false })
   .use(mdCallouts)
   .use(mdCustomCodeblocks, {
     renderers: {
+      '': (content: string) => {
+        return (
+          `<pre>${content}</pre>`
+        );
+      },
       'col': (content: string) => {
         const {
           html,
@@ -98,7 +103,7 @@ const renderContent = (content: string) => {
         `;
       }
     )
-    
+
 
   return {
     html: renderedContent,

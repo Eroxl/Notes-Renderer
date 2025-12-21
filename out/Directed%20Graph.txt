@@ -1,0 +1,618 @@
+1:"$Sreact.fragment"
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/4bd83f5b72111c1f.css","style"]
+0:{"P":null,"b":"RfvYRFDYgVVhonDtat1tX","p":"","c":["","Directed%2520Graph"],"i":false,"f":[[["",{"children":[["pageName","Directed%2520Graph","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bd83f5b72111c1f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["pageName","Directed%2520Graph","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$0:f:0:1:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dp55nvBarPU1oonK788PX",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:I[8173,["177","static/chunks/app/layout-4c4440e80807dae9.js"],""]
+e:I[8352,["177","static/chunks/app/layout-4c4440e80807dae9.js"],"default"]
+2:["$","html",null,{"children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","type":"text/css","href":"https://bill-ion.github.io/tikzjax-live/dist/fonts.css"}],["$","script",null,{"defer":true,"src":"https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js"}],["$","link",null,{"href":"https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css","rel":"stylesheet","type":"text/css"}],["$","script",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"}]]}],["$","body",null,{"className":"bg-nord-0 flex flex-row","children":[["$","div",null,{"className":"w-96 h-screen flex flex-col bg-nord-1 print:hidden","children":[["$","div",null,{"className":"flex flex-col gap-2 px-2 mt-5","children":[["$","$Ld",null,{"href":"/","children":["$","span",null,{"className":"h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded","children":"Eroxl's Notes"}]}],["$","$Ld",null,{"href":"/graph","className":"flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chart-scatter h-5 w-5 aspect-square","children":[["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],["$","circle","lysivs",{"cx":"18.5","cy":"5.5","r":".5","fill":"currentColor"}],["$","circle","byv1b8",{"cx":"11.5","cy":"11.5","r":".5","fill":"currentColor"}],["$","circle","nkw3mc",{"cx":"7.5","cy":"16.5","r":".5","fill":"currentColor"}],["$","circle","1gjh6j",{"cx":"17.5","cy":"14.5","r":".5","fill":"currentColor"}],["$","path","c24i48",{"d":"M3 3v16a2 2 0 0 0 2 2h16"}],"$undefined"]}],["$","span",null,{"className":"lex flex-row justify-center text-md font-bold","children":"Graph"}]]}],["$","div",null,{"className":"w-full h-0.5 rounded-full mt-2 bg-white/20"}]]}],["$","div",null,{"className":"h-full overflow-y-scroll p-4 no-scrollbar relative","id":"nav-bar","children":[["$","$Le","00 - Machine Learning",{"entry":{"name":"00 - Machine Learning","hasNote":false,"subFiles":[{"name":"Learning Types","hasNote":false,"subFiles":[{"name":"Supervised Learning","hasNote":true,"subFiles":[{"name":"Features","hasNote":true},{"name":"Problem Types","hasNote":false,"subFiles":[{"name":"Classification","hasNote":true},{"name":"Regression","hasNote":true}]}]},{"name":"Unsupervised Learning","hasNote":true}]},{"name":"Neural Networks","hasNote":true,"subFiles":[{"name":"Activation Functions","hasNote":true,"subFiles":[{"name":"Leaky ReLU Function","hasNote":true},{"name":"Parametric ReLU Function","hasNote":true},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Exploding Gradient Problem","hasNote":true},{"name":"Vanishing Gradient Problem","hasNote":true}]},{"name":"Rectified Linear (ReLU) Function","hasNote":true,"subFiles":[{"name":"Dying RELU Problem","hasNote":true}]},{"name":"Sigmoid Function","hasNote":true,"subFiles":[{"name":"Logistic Function","hasNote":true}]},{"name":"Softmax","hasNote":true},{"name":"Step Function","hasNote":true}]},{"name":"Convolutional Neural Network","hasNote":true},{"name":"Deep Neural Network","hasNote":true},{"name":"Feedforward Neural Network","hasNote":true},{"name":"Layer Types","hasNote":true,"subFiles":[{"name":"Convolutional Layer","hasNote":true,"subFiles":[{"name":"Kernel","hasNote":true}]},{"name":"Dense Layer","hasNote":true,"subFiles":[{"name":"Definition of a Layer of Dense Neurones","hasNote":true},{"name":"Definition of a Single Dense Neurone","hasNote":true}]},{"name":"Dropout Layer","hasNote":true},{"name":"Hidden Layer","hasNote":true}]},{"name":"Pre-Processing","hasNote":false,"subFiles":[{"name":"Normalization","hasNote":true,"subFiles":[{"name":"Min-Max Scaling","hasNote":true},{"name":"One Hot Encoding","hasNote":true},{"name":"Z-Score Normalization","hasNote":true}]}]}]},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Overfitting","hasNote":true},{"name":"Underfitting","hasNote":true}]},{"name":"Training","hasNote":false,"subFiles":[{"name":"Backpropagation","hasNote":true,"subFiles":[{"name":"Backpropagation Example with One Neurone","hasNote":true}]},{"name":"Batching","hasNote":true},{"name":"Cost Function","hasNote":true,"subFiles":[{"name":"Categorical Cross-Entropy Loss","hasNote":true}]},{"name":"Feature Set","hasNote":true},{"name":"Optimization","hasNote":true,"subFiles":[{"name":"Gradient Descent","hasNote":true,"subFiles":[{"name":"AdaGrad","hasNote":true},{"name":"Adam","hasNote":true},{"name":"Batch Gradient Descent","hasNote":true},{"name":"Gradient Descent with Momentum","hasNote":true},{"name":"Learning Rate","hasNote":true,"subFiles":[{"name":"Learning Rate Decay","hasNote":true,"subFiles":[{"name":"Exponential Learning Rate Decay","hasNote":true},{"name":"Step Based Learning Rate Decay","hasNote":true},{"name":"Time Based Learning Rate Decay","hasNote":true}]},{"name":"Learning Rate Scheduling","hasNote":true}]},{"name":"Mini-Batch Gradient Descent","hasNote":true},{"name":"RMSProp","hasNote":true},{"name":"Stochastic Gradient Descent","hasNote":true}]}]},{"name":"Penalties","hasNote":true,"subFiles":[{"name":"L1 Regularization","hasNote":true},{"name":"L2 Regularization","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","01 - Linear Algebra",{"entry":{"name":"01 - Linear Algebra","hasNote":false,"subFiles":[{"name":"Elementary Row Operations","hasNote":true},{"name":"Gaussian Elimination","hasNote":true},{"name":"Linear Equation","hasNote":true},{"name":"Linear System","hasNote":true},{"name":"Lines in Three Dimensions","hasNote":true},{"name":"Matrix","hasNote":true,"subFiles":[{"name":"Matrix Operations","hasNote":true,"subFiles":[{"name":"Adjugate Matrix","hasNote":true},{"name":"Cofactor Matrix","hasNote":true},{"name":"Hadamard Product","hasNote":true},{"name":"Matrix Cofactor","hasNote":true},{"name":"Matrix Determinant","hasNote":true,"subFiles":[{"name":"Laplace Expansion","hasNote":true}]},{"name":"Matrix Diagonal Operator","hasNote":true},{"name":"Matrix Inversion","hasNote":true},{"name":"Matrix Minor","hasNote":true},{"name":"Matrix Product","hasNote":true},{"name":"Matrix Transposition","hasNote":true}]},{"name":"Matrix Subtypes","hasNote":true,"subFiles":[{"name":"Column Vector","hasNote":true},{"name":"Identity Matrix","hasNote":true},{"name":"Row Vector","hasNote":true},{"name":"Square Matrix","hasNote":true}]}]},{"name":"Plane","hasNote":true},{"name":"Point","hasNote":true},{"name":"Scalar","hasNote":true},{"name":"Vector","hasNote":true,"subFiles":[{"name":"Span","hasNote":true},{"name":"Vector Notation","hasNote":true,"subFiles":[{"name":"Matrix Notation","hasNote":true},{"name":"Point Notation","hasNote":true},{"name":"Unit Vector Notation","hasNote":true}]},{"name":"Vector Operations","hasNote":true,"subFiles":[{"name":"Cross Product","hasNote":true,"subFiles":[{"name":"Right Hand Rule","hasNote":true}]},{"name":"Dot Product","hasNote":true},{"name":"Scalar Multiplication","hasNote":true},{"name":"Triple Product","hasNote":true},{"name":"Vector Addition","hasNote":true,"subFiles":[]},{"name":"Vector Subtraction","hasNote":true}]},{"name":"Vector Properties","hasNote":true,"subFiles":[{"name":"Vector Magnitude","hasNote":true},{"name":"Vector Orientation","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","02 - Calculus",{"entry":{"name":"02 - Calculus","hasNote":false,"subFiles":[{"name":"Area Between Curves","hasNote":true},{"name":"Average Rate of Change","hasNote":true},{"name":"Continuous Function","hasNote":true},{"name":"Critical Point","hasNote":true},{"name":"Derivative","hasNote":true,"subFiles":[{"name":"Concavity","hasNote":true},{"name":"Differentiable Function","hasNote":true},{"name":"Differentiation Rules","hasNote":true,"subFiles":[{"name":"Chain Rule","hasNote":true},{"name":"Constant Multiples Rule","hasNote":true},{"name":"Constant Rule","hasNote":true},{"name":"Inverse Function Rule","hasNote":true},{"name":"Power Rule","hasNote":true},{"name":"Product Rule","hasNote":true},{"name":"Quotient Rule","hasNote":true},{"name":"Sum Rule","hasNote":true}]},{"name":"First Derivative Test","hasNote":true},{"name":"Higher Order Derivatives","hasNote":true},{"name":"Notation","hasNote":false,"subFiles":[{"name":"Lagrange's Notation","hasNote":true},{"name":"Leibniz's Notation","hasNote":true}]},{"name":"Optimization Using Derivatives","hasNote":true},{"name":"Second Derivative Test","hasNote":true}]},{"name":"Discontinuity","hasNote":true,"subFiles":[{"name":"Essential Discontinuity","hasNote":true},{"name":"Jump Discontinuity","hasNote":true},{"name":"Removable Discontinuity","hasNote":true}]},{"name":"Extrema","hasNote":false,"subFiles":[{"name":"Absolute Extrema","hasNote":true,"subFiles":[{"name":"Absolute Maximum","hasNote":true},{"name":"Absolute Minimum","hasNote":true}]},{"name":"Local Extrema","hasNote":true,"subFiles":[{"name":"Local Maximum","hasNote":true},{"name":"Local Minimum","hasNote":true}]}]},{"name":"Horizontal Asymptote","hasNote":true},{"name":"Inflection Point","hasNote":true},{"name":"Integral","hasNote":true,"subFiles":[{"name":"Antiderivative Rules","hasNote":true},{"name":"Antiderivative Techniques","hasNote":true,"subFiles":[{"name":"Integration by Partial Fractions","hasNote":true},{"name":"Integration by Parts","hasNote":true},{"name":"Integration by Substitution","hasNote":true},{"name":"Trigonometric Substitution","hasNote":true}]},{"name":"Antiderivative","hasNote":true},{"name":"Approximations","hasNote":false,"subFiles":[{"name":"Riemann Sum","hasNote":true,"subFiles":[{"name":"Examples","hasNote":false,"subFiles":[]}]},{"name":"Simpson's Rule","hasNote":true}]},{"name":"Improper Integral","hasNote":true,"subFiles":[{"name":"Comparison Test (Improper Integrals)","hasNote":true},{"name":"Limit Comparison Test (Improper Integrals)","hasNote":true}]},{"name":"Integral Properties","hasNote":true}]},{"name":"Intermediate Value Theorem","hasNote":true},{"name":"Interval","hasNote":true,"subFiles":[{"name":"Closed Interval","hasNote":true},{"name":"Half-Open Interval","hasNote":true},{"name":"Interval Notation","hasNote":true},{"name":"Open Interval","hasNote":true}]},{"name":"Limit","hasNote":true,"subFiles":[{"name":"Indeterminate Form","hasNote":true},{"name":"L'Hôpital's Rule","hasNote":true},{"name":"One-Sided Limits","hasNote":true},{"name":"Squeeze Theorem","hasNote":true}]},{"name":"Linearization","hasNote":true},{"name":"Mean Value Theorem","hasNote":false,"subFiles":[{"name":"Mean Value Theorem for Derivatives","hasNote":true}]},{"name":"Normal Line","hasNote":true},{"name":"Rate of Change","hasNote":true},{"name":"Secant Line","hasNote":true},{"name":"Series","hasNote":true,"subFiles":[{"name":"Geometric Series","hasNote":true},{"name":"Power Series","hasNote":true},{"name":"Taylor Series","hasNote":true,"subFiles":[{"name":"Maclaurin Series","hasNote":true},{"name":"Use Cases","hasNote":false,"subFiles":[{"name":"Determining Higher Order Derivatives at a Point (Taylor Series)","hasNote":true},{"name":"Evaluating a Geometric Series with an Additional Reciprocal Term (Taylor Series)","hasNote":true}]}]},{"name":"Vergence Tests","hasNote":false,"subFiles":[{"name":"Comparison Test","hasNote":true},{"name":"Divergence Test","hasNote":true},{"name":"Limit Comparison Test","hasNote":true},{"name":"Ratio Test","hasNote":true},{"name":"The Integral Test","hasNote":true}]}]},{"name":"Signed Area","hasNote":true},{"name":"Solid of Revolution","hasNote":true,"subFiles":[{"name":"Disc Integration","hasNote":true},{"name":"Shell Integration","hasNote":true},{"name":"Washer Integration","hasNote":true}]},{"name":"Tangent Line","hasNote":true},{"name":"The Fundamental Theorem of Calculus","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","03 - Multivariable Calculus",{"entry":{"name":"03 - Multivariable Calculus","hasNote":false,"subFiles":[{"name":"Averaging","hasNote":false,"subFiles":[{"name":"Average Value of a Function","hasNote":true},{"name":"Weighted Average Value of a Function","hasNote":true}]},{"name":"Critical Points of Multivariable Functions","hasNote":true},{"name":"Directional Derivative","hasNote":true},{"name":"Limits in Multiple Dimensions","hasNote":true},{"name":"Multiple Integral","hasNote":true,"subFiles":[{"name":"Techniques","hasNote":false,"subFiles":[{"name":"Evaluating Double Integrals in Polar Coordinates","hasNote":true},{"name":"Evaluating Triple Integrals in Cylindrical Coordinates","hasNote":true},{"name":"Evaluating Triple Integrals in Spherical Coordinates","hasNote":true}]}]},{"name":"Multivariable Function","hasNote":true},{"name":"Partial Derivative","hasNote":true,"subFiles":[{"name":"Chain Rule in Multiple Dimensions","hasNote":true},{"name":"Gradient","hasNote":true},{"name":"Hessian Matrix","hasNote":true},{"name":"Higher Order Partial Derivative","hasNote":true},{"name":"Implicit Differentiation in Multiple Dimensions","hasNote":true},{"name":"Jacobian Matrix","hasNote":true},{"name":"Second Partial Derivative Test","hasNote":true}]},{"name":"Polar Coordinates System","hasNote":true},{"name":"Saddle Point","hasNote":true},{"name":"Tangent Plane","hasNote":true},{"name":"Visualizing 3D Surfaces","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","04 - Physics",{"entry":{"name":"04 - Physics","hasNote":false,"subFiles":[{"name":"Classical","hasNote":false,"subFiles":[{"name":"Centre of Mass","hasNote":true},{"name":"Energy","hasNote":true,"subFiles":[{"name":"Kinetic Energy","hasNote":true}]},{"name":"Galilean Transformation","hasNote":true},{"name":"Inertia","hasNote":true},{"name":"Inertial Frame of Reference","hasNote":true},{"name":"Momentum","hasNote":true},{"name":"Newton's Laws of Motion","hasNote":true}]},{"name":"Electric Circuits","hasNote":false,"subFiles":[{"name":"Ammeter","hasNote":true},{"name":"Battery","hasNote":true},{"name":"Capacitance","hasNote":true},{"name":"Capacitor","hasNote":true},{"name":"Conductance","hasNote":true},{"name":"Current","hasNote":true},{"name":"Electrical Power","hasNote":true},{"name":"Kirchhoff's Current Law","hasNote":true},{"name":"Kirchhoff's Voltage Law","hasNote":true},{"name":"Ohm's Law","hasNote":true},{"name":"Parallel","hasNote":true},{"name":"Resistance","hasNote":true},{"name":"Resistor","hasNote":true},{"name":"Series (Electric Circuits)","hasNote":true},{"name":"Voltmeter","hasNote":true}]},{"name":"Electromagnetics","hasNote":false,"subFiles":[{"name":"Electromagnetic Radiation","hasNote":true},{"name":"Light","hasNote":true},{"name":"Photon","hasNote":true}]},{"name":"Electrostatics","hasNote":false,"subFiles":[{"name":"Charged Particle","hasNote":true},{"name":"Coulombs Constant","hasNote":true},{"name":"Coulombs Law","hasNote":true},{"name":"Electric Field","hasNote":true,"subFiles":[{"name":"Uniform Electric Field","hasNote":true}]},{"name":"Electric Field Lines","hasNote":true,"subFiles":[]},{"name":"Electric Potential Difference","hasNote":true,"subFiles":[]},{"name":"Electric Potential Energy","hasNote":true},{"name":"Electric Potential","hasNote":true},{"name":"Elementary Charge","hasNote":true},{"name":"Parallel Plates","hasNote":true}]},{"name":"Geometrical Optics","hasNote":true,"subFiles":[{"name":"Lenses","hasNote":true,"subFiles":[{"name":"Focal Length","hasNote":true},{"name":"Image Point","hasNote":true},{"name":"Real Image","hasNote":true},{"name":"Thin Concave Lens","hasNote":true,"subFiles":[]},{"name":"Thin Convex Lens","hasNote":true,"subFiles":[]},{"name":"Virtual Image","hasNote":true}]},{"name":"Light Ray","hasNote":true},{"name":"Optical Medium","hasNote":true},{"name":"Refractive Index","hasNote":true},{"name":"Snell's Law","hasNote":true,"subFiles":[]},{"name":"Vergence (Optics)","hasNote":true}]},{"name":"International System of Units","hasNote":true,"subFiles":[{"name":"Electricity","hasNote":false,"subFiles":[{"name":"Ampere","hasNote":true},{"name":"Coulomb","hasNote":true},{"name":"Farad","hasNote":true},{"name":"Volt","hasNote":true}]},{"name":"Energy","hasNote":false,"subFiles":[{"name":"Joule","hasNote":true}]},{"name":"SI Base Units","hasNote":true}]},{"name":"Particle Physics","hasNote":false,"subFiles":[{"name":"Electron","hasNote":true},{"name":"Elementary Particle","hasNote":true},{"name":"Fermion","hasNote":true},{"name":"Lepton","hasNote":true},{"name":"Proton","hasNote":true}]},{"name":"Physical Constants","hasNote":false,"subFiles":[{"name":"Permeability of Free Space","hasNote":true},{"name":"Permittivity of Free Space","hasNote":true},{"name":"Planck's Constant","hasNote":true},{"name":"Speed of Light","hasNote":true}]},{"name":"Special Relativity","hasNote":true,"subFiles":[{"name":"Event","hasNote":true},{"name":"Lorentz Transformation","hasNote":true,"subFiles":[{"name":"Length Contraction","hasNote":true},{"name":"Lorentz Factor","hasNote":true},{"name":"Time Dilation","hasNote":true,"subFiles":[]}]},{"name":"Simultaneity","hasNote":true,"subFiles":[{"name":"Relativity of Simultaneity","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","05 - Algebra",{"entry":{"name":"05 - Algebra","hasNote":false,"subFiles":[{"name":"Empty Product","hasNote":true},{"name":"Euclidean Division","hasNote":true},{"name":"Factorial","hasNote":true},{"name":"Function","hasNote":true,"subFiles":[{"name":"Even Function","hasNote":true},{"name":"Odd Function","hasNote":true}]},{"name":"Integer","hasNote":true},{"name":"Natural Number","hasNote":true},{"name":"Partial Fraction Decomposition","hasNote":true},{"name":"Polynomial","hasNote":true,"subFiles":[{"name":"Completing the Square","hasNote":true},{"name":"Monomial","hasNote":true},{"name":"Polynomial Degree","hasNote":true}]},{"name":"Proper Fraction","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","06 - Discrete Mathematics",{"entry":{"name":"06 - Discrete Mathematics","hasNote":false,"subFiles":[{"name":"Big-O Notation (Discrete Math)","hasNote":true},{"name":"Formal Language","hasNote":true,"subFiles":[]},{"name":"Graph Theory","hasNote":false,"subFiles":[{"name":"Graph (Discrete Mathematics)","hasNote":true,"subFiles":[{"name":"Connectivity (Discrete Mathematics)","hasNote":true},{"name":"Directed Graph","hasNote":true},{"name":"Edge","hasNote":true,"subFiles":[{"name":"Directed Edge","hasNote":true},{"name":"Weighted Edge","hasNote":true}]},{"name":"Examples","hasNote":false,"subFiles":[]},{"name":"Handshaking Theorem","hasNote":true},{"name":"Vertex (Discrete Math)","hasNote":true},{"name":"Weighted Graph","hasNote":true}]},{"name":"Minimum Spanning Tree","hasNote":true},{"name":"Spanning Tree","hasNote":true},{"name":"Tree (Discrete Mathematics)","hasNote":true}]},{"name":"Mathematical Proof","hasNote":true,"subFiles":[{"name":"Mathematical Induction","hasNote":true,"subFiles":[{"name":"Strong Mathematical Induction","hasNote":true}]}]},{"name":"Modular Arithmetic","hasNote":true},{"name":"Modulo","hasNote":true},{"name":"Numeral System","hasNote":true,"subFiles":[{"name":"Binary Number","hasNote":true,"subFiles":[{"name":"Bit","hasNote":true},{"name":"Floating Point Number","hasNote":true},{"name":"Two's Complement","hasNote":true}]},{"name":"Decimal Number","hasNote":true},{"name":"Hexadecimal Number","hasNote":true},{"name":"Numerical Digit","hasNote":true},{"name":"Radix","hasNote":true}]},{"name":"Sequence","hasNote":true,"subFiles":[{"name":"Geometric Sequence","hasNote":true}]},{"name":"Summation","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","07 - Set Theory",{"entry":{"name":"07 - Set Theory","hasNote":false,"subFiles":[{"name":"Empty Set","hasNote":true},{"name":"Euler Diagram","hasNote":true,"subFiles":[]},{"name":"Power Set","hasNote":true},{"name":"Set","hasNote":true,"subFiles":[{"name":"Element","hasNote":true},{"name":"Operations","hasNote":false,"subFiles":[{"name":"Complement","hasNote":true,"subFiles":[]},{"name":"Intersection","hasNote":true,"subFiles":[]},{"name":"Set Difference","hasNote":true,"subFiles":[]},{"name":"Set Equality","hasNote":true},{"name":"Subset","hasNote":true},{"name":"Union","hasNote":true,"subFiles":[]}]}]},{"name":"Set Builder Notation","hasNote":true},{"name":"Universal Set","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","08 - Chemistry",{"entry":{"name":"08 - Chemistry","hasNote":false,"subFiles":[{"name":"Atom","hasNote":true},{"name":"Chemical Formula","hasNote":true},{"name":"Ion","hasNote":true},{"name":"Ionic Bonding","hasNote":true},{"name":"Periodic Table","hasNote":true,"subFiles":[{"name":"Periodic Trends","hasNote":true}]},{"name":"Structural Chemistry","hasNote":false,"subFiles":[{"name":"Atomic Orbital","hasNote":true},{"name":"Electron Shell","hasNote":true},{"name":"Lewis Structure","hasNote":true},{"name":"Properties","hasNote":false,"subFiles":[{"name":"Atomic Radius","hasNote":true},{"name":"Effective Nuclear Charge","hasNote":true},{"name":"Electron Affinity","hasNote":true},{"name":"Electronegativity","hasNote":true},{"name":"Ionization Energy","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","09 - Computer Science",{"entry":{"name":"09 - Computer Science","hasNote":false,"subFiles":[{"name":"Computer Systems","hasNote":false,"subFiles":[{"name":"Asynchronous Operation","hasNote":true},{"name":"Byte Extension","hasNote":true},{"name":"Byte Truncation","hasNote":true},{"name":"Character Encoding","hasNote":false,"subFiles":[{"name":"ASCII","hasNote":true}]},{"name":"Control Flow","hasNote":false,"subFiles":[{"name":"Call Stack","hasNote":true},{"name":"Concurrent Control Flow","hasNote":false,"subFiles":[{"name":"Asynchronous Condition Variable","hasNote":true},{"name":"Lock","hasNote":true,"subFiles":[]}]},{"name":"Conditional (Computer Science)","hasNote":true},{"name":"Dynamic Control Flow","hasNote":true},{"name":"For Loop","hasNote":true},{"name":"Jump Table","hasNote":true},{"name":"Procedure","hasNote":true}]},{"name":"Data Structures","hasNote":false,"subFiles":[{"name":"Array","hasNote":true},{"name":"Binary Heap","hasNote":true},{"name":"Disjoint Set (Data Structure)","hasNote":true},{"name":"Graph (Data Structure)","hasNote":true,"subFiles":[{"name":"Traversals","hasNote":false,"subFiles":[{"name":"Breadth-First Traversal","hasNote":true},{"name":"Depth-First Traversal","hasNote":true},{"name":"Graph Cycle","hasNote":true}]}]},{"name":"Hash Table","hasNote":true,"subFiles":[{"name":"Open Addressing","hasNote":true,"subFiles":[{"name":"Double Hashing","hasNote":true},{"name":"Linear Probing","hasNote":true},{"name":"Quadratic Probing","hasNote":true}]},{"name":"Separate Chaining","hasNote":true}]},{"name":"Instance Variables","hasNote":true},{"name":"Linked Lists","hasNote":false,"subFiles":[{"name":"Doubly Linked List","hasNote":true},{"name":"Singly Linked List","hasNote":true}]},{"name":"Priority Queue","hasNote":true},{"name":"Queue","hasNote":true},{"name":"Set (Data Structure)","hasNote":true},{"name":"Stack","hasNote":true},{"name":"Structure","hasNote":true},{"name":"Tree (Data Structure)","hasNote":true,"subFiles":[{"name":"B-Tree","hasNote":true},{"name":"Binary Tree","hasNote":true,"subFiles":[{"name":"Balanced Binary Tree","hasNote":true,"subFiles":[{"name":"AVL Tree","hasNote":true,"subFiles":[]}]},{"name":"In-Order Binary Tree Traversal","hasNote":true}]},{"name":"Traversals","hasNote":false,"subFiles":[{"name":"Breadth-First Tree Traversal","hasNote":true},{"name":"Depth-First Tree Traversal","hasNote":true}]}]}]},{"name":"Endianness","hasNote":true},{"name":"Memory","hasNote":true,"subFiles":[{"name":"Dangling Pointers","hasNote":true},{"name":"Heap Memory","hasNote":true},{"name":"Memory Address","hasNote":true,"subFiles":[{"name":"Address Alignment","hasNote":true},{"name":"Pointer","hasNote":true}]},{"name":"Memory Leak","hasNote":true},{"name":"Static Variable","hasNote":true}]},{"name":"Memory Management Systems","hasNote":false,"subFiles":[{"name":"Reference Counting","hasNote":true}]},{"name":"Paradigms","hasNote":false,"subFiles":[{"name":"Event-Driven Programming","hasNote":true},{"name":"Generic Programming","hasNote":true},{"name":"Object Oriented","hasNote":false,"subFiles":[{"name":"Call Graph","hasNote":true,"subFiles":[]},{"name":"Class Relationships","hasNote":false,"subFiles":[{"name":"Abstract Class","hasNote":true},{"name":"Inheritance","hasNote":true},{"name":"Interface","hasNote":true},{"name":"Overloading","hasNote":true},{"name":"Protected Members","hasNote":true},{"name":"Super Keyword","hasNote":true},{"name":"Supertypes and Subtypes","hasNote":true,"subFiles":[{"name":"Type Substitution","hasNote":true,"subFiles":[]}]}]},{"name":"Class","hasNote":true},{"name":"Constructor","hasNote":true},{"name":"Data Abstraction","hasNote":false,"subFiles":[{"name":"Data Abstraction Specifiers","hasNote":true},{"name":"Testing a Data Abstraction","hasNote":true}]},{"name":"Design Principles","hasNote":false,"subFiles":[{"name":"Liskov Substitution Principle","hasNote":true},{"name":"Single Responsibility Principle","hasNote":true,"subFiles":[{"name":"Cohesion","hasNote":true},{"name":"Coupling","hasNote":true,"subFiles":[{"name":"Moderate Coupling","hasNote":true},{"name":"Semantic Coupling","hasNote":true}]}]}]},{"name":"Exceptions","hasNote":true,"subFiles":[{"name":"Testing Exceptions","hasNote":true}]},{"name":"Method","hasNote":true},{"name":"Package Relationship Diagram","hasNote":true,"subFiles":[]},{"name":"Package","hasNote":true},{"name":"Patterns","hasNote":false,"subFiles":[{"name":"Composite Pattern","hasNote":true},{"name":"Iterator Pattern","hasNote":true}]},{"name":"Polymorphism","hasNote":true},{"name":"Robust Methods","hasNote":true}]}]},{"name":"Program Counter","hasNote":true},{"name":"Thread","hasNote":true}]},{"name":"Cryptography","hasNote":false,"subFiles":[{"name":"Hashing","hasNote":false,"subFiles":[{"name":"Hash Function","hasNote":true}]}]},{"name":"Hardware","hasNote":false,"subFiles":[{"name":"Common Circuits","hasNote":false,"subFiles":[{"name":"Full Adder","hasNote":true},{"name":"Half Adder","hasNote":true}]},{"name":"I-O System","hasNote":false,"subFiles":[{"name":"I-O Bus","hasNote":true},{"name":"I-O Controller","hasNote":true},{"name":"I-O Device","hasNote":true},{"name":"I-O Mapped Memory","hasNote":true},{"name":"Memory Bus","hasNote":true}]},{"name":"I-O Techniques","hasNote":false,"subFiles":[{"name":"Direct Memory Access","hasNote":true},{"name":"Interrupt (Hardware)","hasNote":true},{"name":"Polling (Computer Science)","hasNote":true},{"name":"Programmed Input-Output","hasNote":true}]},{"name":"Logic Gate","hasNote":true,"subFiles":[{"name":"AND Gate","hasNote":true},{"name":"NAND Gate","hasNote":true},{"name":"NOR Gate","hasNote":true},{"name":"NOT Gate","hasNote":true},{"name":"OR Gate","hasNote":true},{"name":"XNOR Gate","hasNote":true},{"name":"XOR Gate","hasNote":true}]},{"name":"Microcontroller","hasNote":false,"subFiles":[{"name":"General Purpose Input and Output","hasNote":true}]},{"name":"Peripheral","hasNote":true},{"name":"Watchdog Timer","hasNote":true}]},{"name":"Program Analysis","hasNote":false,"subFiles":[{"name":"Algorithms","hasNote":false,"subFiles":[{"name":"Graphs","hasNote":false,"subFiles":[{"name":"Dijkstra's Algorithm","hasNote":true},{"name":"Kruskal's Algorithm","hasNote":true},{"name":"Prim's Algorithm","hasNote":true}]},{"name":"Sorting","hasNote":false,"subFiles":[{"name":"Insertion Sort","hasNote":true},{"name":"Merge Sort","hasNote":true},{"name":"Selection Sort","hasNote":true}]}]},{"name":"Big-O Notation (Computer Science)","hasNote":true},{"name":"Loop Invariants","hasNote":true}]},{"name":"Programming Languages","hasNote":false,"subFiles":[{"name":"C","hasNote":false,"subFiles":[{"name":"Dynamic Array","hasNote":true},{"name":"Dynamic vs Static Arrays","hasNote":true},{"name":"Function Pointer","hasNote":true},{"name":"Static Array","hasNote":true},{"name":"Switch Statement","hasNote":true}]},{"name":"Java","hasNote":false,"subFiles":[{"name":"Memory Management (Java)","hasNote":true}]},{"name":"Racket","hasNote":false,"subFiles":[{"name":"Evaluation","hasNote":true},{"name":"Expression","hasNote":true},{"name":"Predicate (Racket)","hasNote":true},{"name":"Terminology","hasNote":true}]},{"name":"Register Transfer Language","hasNote":false,"subFiles":[]},{"name":"SM213 Assembly","hasNote":false,"subFiles":[{"name":"Conditional (SM213)","hasNote":true},{"name":"For Loop (SM213)","hasNote":true},{"name":"Instruction Set (SM213)","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","10 - Statistics",{"entry":{"name":"10 - Statistics","hasNote":false,"subFiles":[{"name":"Concepts","hasNote":false,"subFiles":[{"name":"Data Collection","hasNote":false,"subFiles":[{"name":"Census","hasNote":true},{"name":"Sample Survey","hasNote":true}]},{"name":"Parameter","hasNote":true},{"name":"Population","hasNote":true},{"name":"Sample","hasNote":true},{"name":"Statistic","hasNote":true},{"name":"Variable (Statistics)","hasNote":true}]},{"name":"Descriptive Statistics","hasNote":true,"subFiles":[{"name":"Bar Graph","hasNote":true,"subFiles":[]},{"name":"Dot Plot","hasNote":true,"subFiles":[]},{"name":"Frequency Table","hasNote":true},{"name":"Histogram","hasNote":true,"subFiles":[]},{"name":"Measures of Centre","hasNote":false,"subFiles":[{"name":"Mean","hasNote":true},{"name":"Median","hasNote":true}]},{"name":"Measures of Variability","hasNote":false,"subFiles":[{"name":"Interquartile Range","hasNote":true},{"name":"Range","hasNote":true},{"name":"Standard Deviation","hasNote":true},{"name":"Variance","hasNote":true}]},{"name":"Pie Chart","hasNote":true,"subFiles":[]},{"name":"Stem-and-Leaf Plots","hasNote":true}]},{"name":"Inferential Statistics","hasNote":true,"subFiles":[{"name":"Analysis of Variance","hasNote":true,"subFiles":[{"name":"Pooled Variance","hasNote":true}]},{"name":"Estimator","hasNote":true},{"name":"Hypothesis Testing","hasNote":true,"subFiles":[{"name":"Errors","hasNote":false,"subFiles":[{"name":"Type I Error","hasNote":true},{"name":"Type II Error","hasNote":true}]},{"name":"Test Statistics","hasNote":false,"subFiles":[{"name":"Multiple Sample","hasNote":false,"subFiles":[{"name":"F-Statistic","hasNote":true},{"name":"Two Sample t-Statistic","hasNote":true}]},{"name":"One Sample","hasNote":false,"subFiles":[{"name":"Chi-Squared Statistic","hasNote":true},{"name":"Z-Statistic","hasNote":true},{"name":"t-Statistic","hasNote":true}]}]},{"name":"Two-Sample Hypothesis Testing","hasNote":true}]},{"name":"Interval Estimator","hasNote":true},{"name":"Point Estimator","hasNote":true},{"name":"Regression Analysis","hasNote":false,"subFiles":[{"name":"Closed Form Solutions","hasNote":false,"subFiles":[{"name":"Ordinary Least Squares","hasNote":true}]},{"name":"Estimation Methods","hasNote":false,"subFiles":[{"name":"Least Squares","hasNote":true,"subFiles":[{"name":"Sum of Squared Residuals","hasNote":true}]}]},{"name":"Models","hasNote":false,"subFiles":[]},{"name":"Residual","hasNote":true}]}]},{"name":"Probability","hasNote":true,"subFiles":[{"name":"Bayes' Theorem","hasNote":true},{"name":"Central Limit Theorem","hasNote":true},{"name":"Conditional Probability","hasNote":true},{"name":"Covariance","hasNote":true},{"name":"Density Functions","hasNote":false,"subFiles":[{"name":"Cumulative Distribution Function","hasNote":true},{"name":"Probability Density Function","hasNote":true}]},{"name":"Expected Value","hasNote":true},{"name":"Extrema of Independent Random Variables","hasNote":true},{"name":"Independent Events","hasNote":true},{"name":"Random Variable","hasNote":true,"subFiles":[{"name":"Bernoulli Random Variable","hasNote":true}]},{"name":"Specific Distributions","hasNote":false,"subFiles":[{"name":"Bernoulli Distribution","hasNote":true},{"name":"Binomial Distribution","hasNote":true,"subFiles":[{"name":"Binomial Coefficient","hasNote":true},{"name":"Ten Percent Condition","hasNote":true}]},{"name":"Exponential Distribution","hasNote":true},{"name":"Geometric Distribution","hasNote":true},{"name":"Normal Distribution","hasNote":true},{"name":"Poisson Distribution","hasNote":true,"subFiles":[{"name":"Poisson Process","hasNote":true}]},{"name":"Standard Normal Distribution","hasNote":true}]},{"name":"Standardization","hasNote":false,"subFiles":[{"name":"Z-Score","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","11 - Formal Logic",{"entry":{"name":"11 - Formal Logic","hasNote":false,"subFiles":[{"name":"Argument","hasNote":true,"subFiles":[{"name":"Fallacy","hasNote":true},{"name":"Syllogism","hasNote":true}]},{"name":"Compound Statements","hasNote":true},{"name":"Contradiction","hasNote":true},{"name":"Creating a Statement from Truth Tables","hasNote":true},{"name":"Logical Equivalence","hasNote":true},{"name":"Logical Operator","hasNote":true,"subFiles":[{"name":"Biconditional","hasNote":true},{"name":"Conditional","hasNote":true},{"name":"Conjunction","hasNote":true},{"name":"Disjunction","hasNote":true},{"name":"Exclusive Disjunction","hasNote":true},{"name":"Negation","hasNote":true}]},{"name":"Predicate","hasNote":true,"subFiles":[{"name":"Truth Set","hasNote":true}]},{"name":"Quantifier","hasNote":true,"subFiles":[{"name":"Existential Quantifier","hasNote":true},{"name":"Universal Quantifier","hasNote":true,"subFiles":[{"name":"Universal Conditional Statements","hasNote":true}]}]},{"name":"Simplifying Statement Forms","hasNote":true},{"name":"Statement","hasNote":true},{"name":"Tautology","hasNote":true},{"name":"Truth Table","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","12 - Language",{"entry":{"name":"12 - Language","hasNote":false,"subFiles":[{"name":"Languages","hasNote":false,"subFiles":[{"name":"Spanish","hasNote":true,"subFiles":[{"name":"Ser vs Estar","hasNote":true},{"name":"Tener vs Haber","hasNote":true},{"name":"Tenses","hasNote":false,"subFiles":[{"name":"Present Tense","hasNote":true}]},{"name":"Verb Conjugations","hasNote":false,"subFiles":[{"name":"Conjugating Regular Verbs","hasNote":true},{"name":"Regular -ar Conjugation Table","hasNote":true},{"name":"Regular -er Conjugation Table","hasNote":true},{"name":"Regular -ir Conjugation Table","hasNote":true},{"name":"Stem Changing Verbs","hasNote":true,"subFiles":[{"name":"e > i Stem Changing Verbs","hasNote":true},{"name":"e > ie Stem Changing Verbs","hasNote":true},{"name":"o > ue Stem Changing Verbs","hasNote":true}]}]}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","13 - Politics",{"entry":{"name":"13 - Politics","hasNote":false,"subFiles":[{"name":"Background","hasNote":false,"subFiles":[{"name":"United States","hasNote":false,"subFiles":[{"name":"State Bills","hasNote":false,"subFiles":[{"name":"Michigan","hasNote":false,"subFiles":[{"name":"Senate Bill 757","hasNote":true}]},{"name":"Nevada","hasNote":false,"subFiles":[{"name":"Emergency Election Procedures Bill","hasNote":true}]},{"name":"Pennsylvania","hasNote":false,"subFiles":[{"name":"Act 77","hasNote":true},{"name":"Pennsylvania Election Code - Omnibus Amendments","hasNote":true}]}]},{"name":"United States Electoral System","hasNote":false,"subFiles":[{"name":"Certificate of Ascertainment","hasNote":true},{"name":"Organizations","hasNote":false,"subFiles":[{"name":"Democratic Party","hasNote":true},{"name":"Republican Party","hasNote":true}]},{"name":"President of the Senate","hasNote":true}]}]}]},{"name":"Events","hasNote":false,"subFiles":[{"name":"2020 Election Interference","hasNote":true,"subFiles":[{"name":"2020 Georgian Election Audit","hasNote":true},{"name":"False Electors Plot","hasNote":true,"subFiles":[{"name":"Eastman Memos","hasNote":true,"subFiles":[{"name":"Claims Made in Memorandum Two of the Eastman Memos","hasNote":true}]},{"name":"January 4th Oval Office Meeting - Eastman's First Pitch to Pence","hasNote":true},{"name":"January 5th West Wing Meeting - Eastman's Legal Argument to Pence's Advisors","hasNote":true}]},{"name":"Lawsuits","hasNote":false,"subFiles":[{"name":"Georgia Democratic Party v. Raffensperger","hasNote":true},{"name":"Trump v. Kemp","hasNote":true}]},{"name":"Trumps Publicized Meeting with Governors Hutchinson and Kelly","hasNote":true},{"name":"Trump–Raffensperger Phone Call","hasNote":true}]},{"name":"2020-2021 U.S","hasNote":false,"subFiles":[{"name":"2020-2021 U.S. Troop Withdrawal from Afghanistan","hasNote":true},{"name":"Agreement for Bringing Peace to Afghanistan","hasNote":true}]},{"name":"2026 Midterm Redistricting","hasNote":false,"subFiles":[{"name":"2025 Texas Redistricting","hasNote":true,"subFiles":[{"name":"Texas Democrats Leave State to Stop Redistricting Vote","hasNote":true,"subFiles":[{"name":"Greg Abbott Requests an Emergency Petition for Writ of Quo Warranto","hasNote":true},{"name":"John Cornyn Issues Request to the FBI to Help Locate or Arrest Texas Democrats who Left State to Stop Redistricting Vote","hasNote":true,"subFiles":[{"name":"Kash Patel Approves John Cornyn's Request for FBI Assistance","hasNote":true}]},{"name":"Texas Attorney General Ken Paxton's Response to Greg Abbott's Petition","hasNote":true},{"name":"Texas House Issues Civil Arrest Warrants for Democrats who Fled State to Avoid Redistricting Vote","hasNote":true}]},{"name":"Texas Enacts 2025 Gerrymandered Congressional Maps","hasNote":true},{"name":"Trump Comments on Texas Redistricting Proposals - 05.08.2025 CNBC Trump Interview","hasNote":true},{"name":"Trump-Abbott Phone Call on Texas Redistricting","hasNote":true}]}]},{"name":"Trump Federalizes D.C. Police and Deploys National Guard to D.C","hasNote":false,"subFiles":[{"name":"3 States Deploy National Guard Troops to D.C.","hasNote":true},{"name":"D.C. Attorney General Sues to Stop Federal Government Takeover of Metropolitan Police Department","hasNote":true},{"name":"Pam Bondi Initiates Temporary Takeover of D.C. Metropolitan Police Department","hasNote":true},{"name":"Trump Federalizes D.C. Police and Deploys National Guard to D.C.","hasNote":true}]}]},{"name":"People","hasNote":false,"subFiles":[{"name":"Brad Raffensperger","hasNote":true},{"name":"Donald Trump","hasNote":true},{"name":"Jim Runestad","hasNote":true},{"name":"John Eastman","hasNote":true,"subFiles":[]},{"name":"Judges","hasNote":false,"subFiles":[{"name":"Mark Howard Cohen","hasNote":true},{"name":"William M. Ray II","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","99 - Classes",{"entry":{"name":"99 - Classes","hasNote":true,"subFiles":[{"name":"Computer Science","hasNote":false,"subFiles":[{"name":"CPSC 213","hasNote":true,"subFiles":[{"name":"Assignment 9 - IO and Asynchrony","hasNote":true},{"name":"Practice","hasNote":false,"subFiles":[{"name":"01 - Numbers and Memory (CPSC 213 Practice)","hasNote":true},{"name":"02 - CPU & Static Variables (CPSC 213 Practice)","hasNote":true},{"name":"03 - Dynamic Arrays and C Pointers (CPSC 213 Practice)","hasNote":true},{"name":"04 - Structs and Dynamic Allocation (CPSC 213 Practice)","hasNote":true},{"name":"05 - Memory Management and Reference Counting (CPSC 213 Practice)","hasNote":true},{"name":"06 - Static Control Flow  (CPSC 213 Practice)","hasNote":true},{"name":"07 - Procedure Calls and the Stack (CPSC 213 Practice)","hasNote":true},{"name":"08 - Dynamic Control Flow (CPSC 213 Practice)","hasNote":true},{"name":"09 -  I-O, Asynchrony and Threads (CPSC 213 Practice)","hasNote":true},{"name":"10 - Synchronization (CPSC 213 Practice)","hasNote":true}]}]},{"name":"CPSC 221","hasNote":true,"subFiles":[{"name":"CPSC 221 Examlets","hasNote":true,"subFiles":[{"name":"Examlet Week 10 (CPSC 221)","hasNote":true},{"name":"Examlet Week 12 (CPSC 221)","hasNote":true},{"name":"Examlet Week 4 (CPSC 221)","hasNote":true},{"name":"Examlet Week 7 (CPSC 221)","hasNote":true},{"name":"Examlet Week 8 (CPSC 221)","hasNote":true},{"name":"Examlet Week 9 (CPSC 221)","hasNote":true}]},{"name":"CPSC 221 Labs","hasNote":true,"subFiles":[{"name":"02 - Lab Debugging","hasNote":true},{"name":"03 - Lab Linked Lists","hasNote":true},{"name":"05 - Lab Trees","hasNote":true},{"name":"06 - Lab Dict","hasNote":true},{"name":"08 - Lab Hash","hasNote":true},{"name":"09 - Lab Heaps","hasNote":true},{"name":"10 - Lab Graphs","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Final Practice (CPSC 221)","hasNote":true},{"name":"Practice 12 (CPSC 221)","hasNote":true}]}]}]},{"name":"Mathematics","hasNote":false,"subFiles":[{"name":"MATH 200","hasNote":true,"subFiles":[{"name":"Homework","hasNote":false,"subFiles":[{"name":"Web Work 10 (MATH 200)","hasNote":true},{"name":"Web Work 6 (MATH 200)","hasNote":true},{"name":"Web Work 7 (MATH 200)","hasNote":true},{"name":"Web Work 9 (MATH 200)","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Chain Rule in Multiple Dimensions (Practice)","hasNote":true},{"name":"Double Integrals (Practice)","hasNote":true},{"name":"Double Integrals in Polar Coordinates (Practice)","hasNote":true},{"name":"Equations of Lines in 3D (Practice)","hasNote":true},{"name":"Equations of Planes in 3D (Practice)","hasNote":true},{"name":"Final Exam","hasNote":false,"subFiles":[{"name":"MATH 200 Final Exam - 2015w1","hasNote":true},{"name":"MATH 200 Final Exam - 2016w1","hasNote":true}]},{"name":"Limits in Multiple Dimensions (Practice)","hasNote":true},{"name":"Maximum and Minimum Values (Practice)","hasNote":true},{"name":"Midterm 2","hasNote":false,"subFiles":[{"name":"MATH 200 Midterm Test 2","hasNote":true}]},{"name":"Points (Practice)","hasNote":true},{"name":"Triple Integrals in Spherical Coordinates (Practice)","hasNote":true},{"name":"Vectors (Practice)","hasNote":true}]}]}]},{"name":"Statistics","hasNote":false,"subFiles":[{"name":"STAT 251","hasNote":true,"subFiles":[{"name":"Homework","hasNote":false,"subFiles":[{"name":"Web Work 1 (STAT 251)","hasNote":true,"subFiles":[]},{"name":"Web Work 5 (STAT 251)","hasNote":true},{"name":"Web Work 7 (STAT 251)","hasNote":true},{"name":"Web Work 8 (STAT 251)","hasNote":true},{"name":"Written Assignment 1 (STAT 254)","hasNote":true,"subFiles":[]},{"name":"Written Assignment 2 (STAT 251)","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Final Exam","hasNote":false,"subFiles":[{"name":"STAT 251 Final Practice Problems - 1","hasNote":true,"subFiles":[]}]},{"name":"Midterm","hasNote":false,"subFiles":[{"name":"STAT 251 Midterm Practice Problems - 1","hasNote":true,"subFiles":[]},{"name":"STAT 251 Midterm Practice Problems - 2","hasNote":true,"subFiles":[]},{"name":"STAT 251 Midterm Practice Problems - 3","hasNote":true},{"name":"STAT 251 Practice - Probability","hasNote":true,"subFiles":[]}]}]}]}]}]},"fileColour":"#51e1e9","indentation":0}]]}]]}],["$","div",null,{"className":"w-full h-screen overflow-hidden print:h-full print:overflow-visible","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
+f:T297a,
+
+mjx-c.mjx-c7B::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "{";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c1D436.TEX-I::before {
+  padding: 0.705em 0.76em 0.022em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c1D437.TEX-I::before {
+  padding: 0.683em 0.828em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c1D439.TEX-I::before {
+  padding: 0.68em 0.749em 0 0;
+  content: "F";
+}
+
+mjx-c.mjx-c7D::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "}";
+}
+
+
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c1D43A.TEX-I::before {
+  padding: 0.705em 0.786em 0.022em 0;
+  content: "G";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c1D449.TEX-I::before {
+  padding: 0.683em 0.769em 0.022em 0;
+  content: "V";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c1D438.TEX-I::before {
+  padding: 0.68em 0.764em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c1D462.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "u";
+}
+
+mjx-c.mjx-c1D463.TEX-I::before {
+  padding: 0.443em 0.485em 0.011em 0;
+  content: "v";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c2200::before {
+  padding: 0.694em 0.556em 0.022em 0;
+  content: "\2200";
+}
+
+mjx-c.mjx-c2203::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "\2203";
+}
+10:T528c,<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<p>A <strong>directed graph</strong> is a type of <a href="./Graph (Discrete Mathematics)">graph</a> which replaces the <a href="./Edge">edges</a> with <a href="./Directed Edge">directed edges</a>.</p>
+<p>
+            <div class="image-embed">
+              <svg width="795" height="747" viewBox="0 0 795 747" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="792.439" height="744.846" stroke="white" stroke-width="2"/>
+<circle cx="48.3362" cy="48.3362" r="46.3362" transform="matrix(-1 0 0 1 141.207 584.968)" fill="#2E3440" stroke="white" stroke-width="4"/>
+<path d="M92.8064 649.224C90.8184 649.224 89.0964 648.86 87.6404 648.132C86.1844 647.376 85.0504 646.326 84.2384 644.982C83.4544 643.61 83.0624 642 83.0624 640.152V626.796C83.0624 624.948 83.4544 623.352 84.2384 622.008C85.0504 620.636 86.1844 619.586 87.6404 618.858C89.0964 618.102 90.8184 617.724 92.8064 617.724C94.7664 617.724 96.4744 618.102 97.9304 618.858C99.3864 619.586 100.52 620.636 101.332 622.008C102.144 623.352 102.55 624.948 102.55 626.796H97.2584C97.2584 625.368 96.8664 624.276 96.0824 623.52C95.3264 622.736 94.2344 622.344 92.8064 622.344C91.3784 622.344 90.2724 622.736 89.4884 623.52C88.7044 624.276 88.3124 625.368 88.3124 626.796V640.152C88.3124 641.58 88.7044 642.686 89.4884 643.47C90.2724 644.226 91.3784 644.604 92.8064 644.604C94.2344 644.604 95.3264 644.226 96.0824 643.47C96.8664 642.686 97.2584 641.58 97.2584 640.152H102.55C102.55 642 102.144 643.61 101.332 644.982C100.52 646.326 99.3864 647.376 97.9304 648.132C96.4744 648.86 94.7664 649.224 92.8064 649.224Z" fill="white"/>
+<circle cx="48.3362" cy="48.3362" r="46.3362" transform="matrix(-1 0 0 1 479.967 488.295)" fill="#2E3440" stroke="white" stroke-width="4"/>
+<path d="M421.991 552.132V521.472H441.059V526.344H427.157V534.534H439.967V539.406H427.241V552.132H421.991Z" fill="white"/>
+<circle cx="48.3362" cy="48.3362" r="46.3362" transform="matrix(-1 0 0 1 393.969 233.751)" fill="#2E3440" stroke="white" stroke-width="4"/>
+<path d="M335.783 297.587V266.927H344.897C346.969 266.927 348.761 267.333 350.273 268.145C351.813 268.929 353.003 270.035 353.843 271.463C354.683 272.891 355.103 274.571 355.103 276.503V287.969C355.103 289.901 354.683 291.595 353.843 293.051C353.003 294.479 351.813 295.599 350.273 296.411C348.761 297.195 346.969 297.587 344.897 297.587H335.783ZM341.033 292.883H344.897C346.409 292.883 347.613 292.449 348.509 291.581C349.405 290.685 349.853 289.481 349.853 287.969V276.503C349.853 275.019 349.405 273.843 348.509 272.975C347.613 272.079 346.409 271.631 344.897 271.631H341.033V292.883Z" fill="white"/>
+<circle cx="48.3362" cy="48.3362" r="46.3362" transform="matrix(-1 0 0 1 625.339 32.4077)" fill="#2E3440" stroke="white" stroke-width="4"/>
+<path d="M567.699 96.2438V65.5838H586.095V70.2038H572.865V78.1838H584.625V82.6358H572.865V91.6238H586.095V96.2438H567.699Z" fill="white"/>
+<circle cx="48.3362" cy="48.3362" r="46.3362" transform="matrix(-1 0 0 1 141.207 297.587)" fill="#2E3440" stroke="white" stroke-width="4"/>
+<path d="M81.3404 361.423L89.0684 330.763H95.8304L103.6 361.423H98.2244L96.5444 353.989H88.3964L86.7164 361.423H81.3404ZM89.3624 349.705H95.5784L93.7304 341.473C93.4224 340.101 93.1564 338.869 92.9324 337.777C92.7084 336.657 92.5544 335.845 92.4704 335.341C92.3864 335.845 92.2324 336.657 92.0084 337.777C91.7844 338.869 91.5184 340.087 91.2104 341.431L89.3624 349.705Z" fill="white"/>
+<path d="M150.311 336.739L172.618 342.717L166.64 320.41L150.311 336.739ZM292.451 300.724L294.383 300.206L293.347 296.342L291.415 296.86L291.933 298.792L292.451 300.724ZM167.697 332.081L168.215 334.013L292.451 300.724L291.933 298.792L291.415 296.86L167.18 330.149L167.697 332.081Z" fill="white"/>
+<path d="M96.2534 403.945L84.7064 423.945H107.8L96.2534 403.945ZM94.2534 576.344C94.2534 577.448 95.1488 578.344 96.2534 578.344C97.358 578.344 98.2534 577.448 98.2534 576.344H96.2534H94.2534ZM96.2534 421.945H94.2534V576.344H96.2534H98.2534V421.945H96.2534Z" fill="white"/>
+<path d="M148.244 613.888C147.192 614.223 146.61 615.347 146.945 616.4C147.28 617.453 148.404 618.034 149.457 617.699L148.851 615.794L148.244 613.888ZM373.845 544.204L351.285 539.265L358.287 561.272L373.845 544.204ZM148.851 615.794L149.457 617.699L357.298 551.568L356.692 549.662L356.085 547.756L148.244 613.888L148.851 615.794Z" fill="white"/>
+<path d="M158.3 645.007L180.86 649.947L173.858 627.94L158.3 645.007ZM383.901 575.324C384.953 574.989 385.535 573.864 385.2 572.812C384.865 571.759 383.74 571.177 382.688 571.512L383.294 573.418L383.901 575.324ZM175.453 639.55L176.059 641.455L383.901 575.324L383.294 573.418L382.688 571.512L174.847 637.644L175.453 639.55Z" fill="white"/>
+<path d="M412.869 480.591C413.241 481.631 414.386 482.173 415.426 481.801C416.466 481.428 417.007 480.284 416.635 479.244L414.752 479.918L412.869 480.591ZM365.078 341.122L360.945 363.844L382.689 356.062L365.078 341.122ZM414.752 479.918L416.635 479.244L373.026 357.396L371.143 358.07L369.26 358.744L412.869 480.591L414.752 479.918Z" fill="white"/>
+<path d="M395.87 247.604C395.055 248.349 394.999 249.614 395.744 250.429C396.49 251.244 397.755 251.301 398.57 250.555L397.22 249.079L395.87 247.604ZM534.554 123.433L512.003 128.414L527.592 145.453L534.554 123.433ZM397.22 249.079L398.57 250.555L522.623 137.059L521.273 135.584L519.923 134.108L395.87 247.604L397.22 249.079Z" fill="white"/>
+<path d="M597.78 260.328C598.723 259.753 599.023 258.523 598.448 257.579C597.874 256.636 596.644 256.336 595.7 256.911L596.74 258.619L597.78 260.328ZM499.416 295.602L499.052 293.636L499.052 293.636L499.416 295.602ZM408.621 283.964C407.569 284.299 406.987 285.424 407.322 286.477L412.78 303.629C413.115 304.682 414.239 305.263 415.292 304.929C416.345 304.594 416.926 303.469 416.591 302.416L411.74 287.17L426.987 282.318C428.039 281.983 428.621 280.858 428.286 279.806C427.951 278.753 426.826 278.171 425.774 278.506L408.621 283.964ZM596.74 258.619C595.7 256.911 595.7 256.911 595.7 256.911C595.7 256.911 595.7 256.911 595.699 256.911C595.698 256.912 595.697 256.913 595.694 256.914C595.69 256.917 595.682 256.922 595.672 256.928C595.652 256.94 595.621 256.958 595.58 256.983C595.497 257.033 595.371 257.108 595.204 257.207C594.871 257.405 594.371 257.698 593.715 258.076C592.404 258.832 590.466 259.925 587.974 261.269C582.99 263.957 575.794 267.646 566.962 271.639C549.287 279.629 525.116 288.809 499.052 293.636L499.416 295.602L499.78 297.569C526.27 292.663 550.762 283.352 568.61 275.284C577.54 271.247 584.82 267.515 589.873 264.789C592.4 263.427 594.37 262.315 595.712 261.542C596.383 261.156 596.896 260.854 597.244 260.648C597.418 260.545 597.55 260.466 597.64 260.412C597.685 260.385 597.719 260.364 597.742 260.35C597.754 260.343 597.763 260.338 597.769 260.334C597.772 260.332 597.775 260.331 597.777 260.33C597.777 260.329 597.778 260.329 597.779 260.328C597.779 260.328 597.78 260.328 596.74 258.619ZM499.416 295.602L499.052 293.636C473.096 298.442 450.829 296.038 435.059 292.436C427.174 290.635 420.919 288.536 416.647 286.893C414.511 286.071 412.872 285.364 411.773 284.866C411.224 284.617 410.81 284.42 410.537 284.288C410.401 284.221 410.299 284.171 410.234 284.138C410.201 284.122 410.178 284.11 410.163 284.102C410.156 284.098 410.151 284.096 410.148 284.094C410.146 284.094 410.146 284.093 410.145 284.093C410.145 284.093 410.145 284.093 410.145 284.093C410.146 284.093 410.146 284.094 409.228 285.87C408.309 287.647 408.31 287.647 408.31 287.648C408.311 287.648 408.312 287.648 408.313 287.649C408.315 287.65 408.318 287.651 408.321 287.653C408.327 287.656 408.336 287.661 408.347 287.666C408.369 287.677 408.4 287.693 408.44 287.713C408.52 287.754 408.637 287.811 408.789 287.885C409.093 288.033 409.539 288.245 410.121 288.509C411.286 289.037 412.998 289.775 415.211 290.626C419.637 292.328 426.075 294.487 434.168 296.336C450.353 300.033 473.181 302.495 499.78 297.569L499.416 295.602Z" fill="white"/>
+<path d="M619.754 366.167C620.847 366.01 621.607 364.997 621.45 363.904C621.294 362.81 620.28 362.051 619.187 362.207L619.47 364.187L619.754 366.167ZM516.394 381.148L516.03 379.181L516.03 379.181L516.394 381.148ZM409.341 413.962C408.951 414.996 409.472 416.15 410.506 416.54L427.346 422.895C428.38 423.285 429.534 422.763 429.924 421.73C430.314 420.697 429.792 419.543 428.759 419.153L413.789 413.503L419.439 398.534C419.829 397.5 419.307 396.347 418.274 395.957C417.24 395.567 416.086 396.088 415.696 397.122L409.341 413.962ZM619.47 364.187C619.187 362.207 619.187 362.207 619.186 362.207C619.186 362.207 619.185 362.207 619.184 362.207C619.183 362.208 619.181 362.208 619.177 362.208C619.171 362.209 619.162 362.211 619.149 362.212C619.125 362.216 619.088 362.221 619.039 362.228C618.941 362.242 618.796 362.263 618.604 362.291C618.22 362.346 617.651 362.429 616.908 362.537C615.422 362.754 613.241 363.075 610.46 363.49C604.898 364.321 596.935 365.529 587.329 367.042C568.119 370.067 542.331 374.311 516.03 379.181L516.394 381.148L516.758 383.114C543.012 378.253 568.762 374.015 587.951 370.993C597.545 369.482 605.497 368.276 611.05 367.446C613.827 367.032 616.004 366.712 617.486 366.495C618.227 366.387 618.794 366.305 619.176 366.25C619.367 366.222 619.512 366.201 619.608 366.188C619.657 366.181 619.693 366.175 619.717 366.172C619.729 366.17 619.739 366.169 619.745 366.168C619.748 366.168 619.75 366.167 619.751 366.167C619.752 366.167 619.753 366.167 619.753 366.167C619.753 366.167 619.754 366.167 619.47 364.187ZM516.394 381.148L516.03 379.181C489.601 384.075 463.19 392.495 443.412 399.678C433.517 403.271 425.268 406.56 419.491 408.951C416.602 410.147 414.331 411.119 412.779 411.793C412.003 412.13 411.408 412.392 411.005 412.571C410.804 412.66 410.65 412.728 410.547 412.774C410.495 412.798 410.456 412.815 410.43 412.827C410.416 412.833 410.406 412.838 410.399 412.841C410.396 412.842 410.393 412.844 410.391 412.844C410.39 412.845 410.39 412.845 410.389 412.845C410.388 412.846 410.388 412.846 411.212 414.668C412.036 416.491 412.036 416.491 412.036 416.491C412.036 416.491 412.037 416.49 412.037 416.49C412.039 416.489 412.041 416.489 412.044 416.487C412.05 416.485 412.059 416.48 412.071 416.475C412.095 416.464 412.132 416.447 412.182 416.425C412.281 416.381 412.43 416.314 412.626 416.227C413.02 416.053 413.606 415.794 414.372 415.462C415.904 414.796 418.155 413.834 421.021 412.647C426.753 410.274 434.946 407.008 444.777 403.438C464.451 396.293 490.632 387.952 516.758 383.114L516.394 381.148Z" fill="white"/>
+<path d="M615.232 270.087L607.504 239.427H612.922L617.584 259.419C617.836 260.399 618.06 261.463 618.256 262.611C618.48 263.731 618.648 264.627 618.76 265.299C618.872 264.627 619.026 263.731 619.222 262.611C619.446 261.463 619.684 260.385 619.936 259.377L624.43 239.427H629.764L622.036 270.087H615.232ZM643.859 270.507C641.899 270.507 640.191 270.129 638.735 269.373C637.279 268.617 636.145 267.553 635.333 266.181C634.549 264.781 634.157 263.143 634.157 261.267V255.807C634.157 253.931 634.549 252.307 635.333 250.935C636.145 249.535 637.279 248.457 638.735 247.701C640.191 246.945 641.899 246.567 643.859 246.567C645.791 246.567 647.471 246.945 648.899 247.701C650.355 248.457 651.475 249.521 652.259 250.893C653.071 252.237 653.477 253.819 653.477 255.639V259.839H639.197V261.435C639.197 263.003 639.603 264.193 640.415 265.005C641.227 265.789 642.375 266.181 643.859 266.181C644.951 266.181 645.875 265.999 646.631 265.635C647.415 265.243 647.877 264.683 648.017 263.955H653.225C652.861 265.943 651.825 267.539 650.117 268.743C648.409 269.919 646.323 270.507 643.859 270.507ZM639.197 255.639V256.437L648.437 256.395V255.597C648.437 254.001 648.045 252.769 647.261 251.901C646.477 251.033 645.343 250.599 643.859 250.599C642.319 250.599 641.157 251.047 640.373 251.943C639.589 252.811 639.197 254.043 639.197 255.639ZM660.475 270.087V246.987H665.599V251.481C665.879 249.969 666.565 248.779 667.657 247.911C668.777 247.015 670.219 246.567 671.983 246.567C674.335 246.567 676.169 247.323 677.485 248.835C678.801 250.347 679.459 252.461 679.459 255.177V257.361H674.209V255.429C674.209 254.029 673.845 252.965 673.117 252.237C672.389 251.481 671.353 251.103 670.009 251.103C668.609 251.103 667.545 251.523 666.817 252.363C666.089 253.203 665.725 254.393 665.725 255.933V270.087H660.475ZM696.494 270.087C694.338 270.087 692.616 269.471 691.328 268.239C690.068 266.979 689.438 265.285 689.438 263.157V251.733H683.054V246.987H689.438V240.477H694.73V246.987H703.928V251.733H694.73V263.031C694.73 263.703 694.912 264.263 695.276 264.711C695.668 265.131 696.2 265.341 696.872 265.341H703.718V270.087H696.494ZM719.41 270.507C717.45 270.507 715.742 270.129 714.286 269.373C712.83 268.617 711.696 267.553 710.884 266.181C710.1 264.781 709.708 263.143 709.708 261.267V255.807C709.708 253.931 710.1 252.307 710.884 250.935C711.696 249.535 712.83 248.457 714.286 247.701C715.742 246.945 717.45 246.567 719.41 246.567C721.342 246.567 723.022 246.945 724.45 247.701C725.906 248.457 727.026 249.521 727.81 250.893C728.622 252.237 729.028 253.819 729.028 255.639V259.839H714.748V261.435C714.748 263.003 715.154 264.193 715.966 265.005C716.778 265.789 717.926 266.181 719.41 266.181C720.502 266.181 721.426 265.999 722.182 265.635C722.966 265.243 723.428 264.683 723.568 263.955H728.776C728.412 265.943 727.376 267.539 725.668 268.743C723.96 269.919 721.874 270.507 719.41 270.507ZM714.748 255.639V256.437L723.988 256.395V255.597C723.988 254.001 723.596 252.769 722.812 251.901C722.028 251.033 720.894 250.599 719.41 250.599C717.87 250.599 716.708 251.047 715.924 251.943C715.14 252.811 714.748 254.043 714.748 255.639ZM733.464 270.087L741.528 258.159L734.01 246.987H739.932L743.502 252.657C743.726 252.993 743.936 253.371 744.132 253.791C744.328 254.211 744.468 254.547 744.552 254.799C744.664 254.547 744.804 254.211 744.972 253.791C745.168 253.371 745.378 252.993 745.602 252.657L749.172 246.987H755.136L747.618 258.159L755.64 270.087H749.676L745.686 263.745C745.462 263.409 745.238 263.031 745.014 262.611C744.818 262.163 744.664 261.813 744.552 261.561C744.44 261.813 744.286 262.163 744.09 262.611C743.894 263.031 743.684 263.409 743.46 263.745L739.428 270.087H733.464Z" fill="white"/>
+<path d="M643.013 376.923V346.263H661.409V350.883H648.179V358.863H659.939V363.315H648.179V372.303H661.409V376.923H643.013ZM675.001 377.343C672.761 377.343 670.941 376.545 669.541 374.949C668.169 373.353 667.483 371.211 667.483 368.523V362.265C667.483 359.549 668.169 357.393 669.541 355.797C670.913 354.201 672.733 353.403 675.001 353.403C676.597 353.403 677.941 353.809 679.033 354.621C680.153 355.433 680.937 356.567 681.385 358.023L681.217 352.731V346.263H686.467V376.923H681.343V372.723C680.923 374.179 680.167 375.313 679.075 376.125C677.983 376.937 676.625 377.343 675.001 377.343ZM676.975 372.807C678.319 372.807 679.355 372.401 680.083 371.589C680.839 370.777 681.217 369.629 681.217 368.145V362.601C681.217 361.117 680.839 359.969 680.083 359.157C679.355 358.345 678.319 357.939 676.975 357.939C675.631 357.939 674.581 358.303 673.825 359.031C673.097 359.759 672.733 360.879 672.733 362.391V368.355C672.733 369.867 673.097 370.987 673.825 371.715C674.581 372.443 675.631 372.807 676.975 372.807ZM696.069 384.483V380.115H702.579C703.811 380.115 704.763 379.779 705.435 379.107C706.107 378.463 706.443 377.581 706.443 376.461V375.075L706.527 371.463C706.051 372.751 705.281 373.759 704.217 374.487C703.181 375.187 701.907 375.537 700.395 375.537C698.043 375.537 696.167 374.753 694.767 373.185C693.395 371.589 692.709 369.433 692.709 366.717V362.223C692.709 359.535 693.395 357.393 694.767 355.797C696.167 354.201 698.043 353.403 700.395 353.403C701.907 353.403 703.181 353.767 704.217 354.495C705.281 355.195 706.051 356.203 706.527 357.519V353.823H711.651V376.587C711.651 379.023 710.839 380.941 709.215 382.341C707.619 383.769 705.435 384.483 702.663 384.483H696.069ZM702.159 371.043C703.503 371.043 704.539 370.651 705.267 369.867C706.023 369.055 706.401 367.935 706.401 366.507V362.475C706.401 361.047 706.023 359.941 705.267 359.157C704.539 358.345 703.503 357.939 702.159 357.939C700.815 357.939 699.779 358.331 699.051 359.115C698.323 359.871 697.959 360.935 697.959 362.307V366.675C697.959 368.047 698.323 369.125 699.051 369.909C699.779 370.665 700.815 371.043 702.159 371.043ZM727.51 377.343C725.55 377.343 723.842 376.965 722.386 376.209C720.93 375.453 719.796 374.389 718.984 373.017C718.2 371.617 717.808 369.979 717.808 368.103V362.643C717.808 360.767 718.2 359.143 718.984 357.771C719.796 356.371 720.93 355.293 722.386 354.537C723.842 353.781 725.55 353.403 727.51 353.403C729.442 353.403 731.122 353.781 732.55 354.537C734.006 355.293 735.126 356.357 735.91 357.729C736.722 359.073 737.128 360.655 737.128 362.475V366.675H722.848V368.271C722.848 369.839 723.254 371.029 724.066 371.841C724.878 372.625 726.026 373.017 727.51 373.017C728.602 373.017 729.526 372.835 730.282 372.471C731.066 372.079 731.528 371.519 731.668 370.791H736.876C736.512 372.779 735.476 374.375 733.768 375.579C732.06 376.755 729.974 377.343 727.51 377.343ZM722.848 362.475V363.273L732.088 363.231V362.433C732.088 360.837 731.696 359.605 730.912 358.737C730.128 357.869 728.994 357.435 727.51 357.435C725.97 357.435 724.808 357.883 724.024 358.779C723.24 359.647 722.848 360.879 722.848 362.475Z" fill="white"/>
+</svg>
+
+            </div></p>
+<blockquote>
+<p>Example of a <a href="./Directed Graph">directed graph</a> with 5 <a href="./Vertex (Discrete Math)">vertices</a> <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c7B"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D434 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D437 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D438 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D439 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c7D"></mjx-c></mjx-mo></mjx-math></mjx-container> and 6 <a href="./Edge">edges</a> <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c7B"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D434 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="2"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D439 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="2"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D437 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D434 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="2"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D437 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D438 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="2"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D439 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="2"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D439 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="2"><mjx-c class="mjx-c1D437 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c7D"></mjx-c></mjx-mo></mjx-math></mjx-container>.</p>
+</blockquote>
+5:["$","div",null,{"className":"overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0","children":[["$","div",null,{"className":"font-bold text-4xl pt-12","children":"Directed%20Graph"}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-row py-4 gap-8","children":[["$","div",null,{"className":"text-[#9eafcc]","children":"aliases"}],"Digraph"]}]]}],["$","style",null,{"children":"$f"}],["$","div",null,{"className":"flex flex-col gap-4 -mt-8","dangerouslySetInnerHTML":{"__html":"$10"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}]]
+7:null

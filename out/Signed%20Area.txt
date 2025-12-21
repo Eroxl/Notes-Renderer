@@ -1,0 +1,2039 @@
+1:"$Sreact.fragment"
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/4bd83f5b72111c1f.css","style"]
+0:{"P":null,"b":"RfvYRFDYgVVhonDtat1tX","p":"","c":["","Signed%2520Area"],"i":false,"f":[[["",{"children":[["pageName","Signed%2520Area","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bd83f5b72111c1f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["pageName","Signed%2520Area","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$0:f:0:1:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","L7v5ECriO7DYksq7LC-6R",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:I[8173,["177","static/chunks/app/layout-4c4440e80807dae9.js"],""]
+e:I[8352,["177","static/chunks/app/layout-4c4440e80807dae9.js"],"default"]
+2:["$","html",null,{"children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","type":"text/css","href":"https://bill-ion.github.io/tikzjax-live/dist/fonts.css"}],["$","script",null,{"defer":true,"src":"https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js"}],["$","link",null,{"href":"https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css","rel":"stylesheet","type":"text/css"}],["$","script",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"}]]}],["$","body",null,{"className":"bg-nord-0 flex flex-row","children":[["$","div",null,{"className":"w-96 h-screen flex flex-col bg-nord-1 print:hidden","children":[["$","div",null,{"className":"flex flex-col gap-2 px-2 mt-5","children":[["$","$Ld",null,{"href":"/","children":["$","span",null,{"className":"h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded","children":"Eroxl's Notes"}]}],["$","$Ld",null,{"href":"/graph","className":"flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chart-scatter h-5 w-5 aspect-square","children":[["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],["$","circle","lysivs",{"cx":"18.5","cy":"5.5","r":".5","fill":"currentColor"}],["$","circle","byv1b8",{"cx":"11.5","cy":"11.5","r":".5","fill":"currentColor"}],["$","circle","nkw3mc",{"cx":"7.5","cy":"16.5","r":".5","fill":"currentColor"}],["$","circle","1gjh6j",{"cx":"17.5","cy":"14.5","r":".5","fill":"currentColor"}],["$","path","c24i48",{"d":"M3 3v16a2 2 0 0 0 2 2h16"}],"$undefined"]}],["$","span",null,{"className":"lex flex-row justify-center text-md font-bold","children":"Graph"}]]}],["$","div",null,{"className":"w-full h-0.5 rounded-full mt-2 bg-white/20"}]]}],["$","div",null,{"className":"h-full overflow-y-scroll p-4 no-scrollbar relative","id":"nav-bar","children":[["$","$Le","00 - Machine Learning",{"entry":{"name":"00 - Machine Learning","hasNote":false,"subFiles":[{"name":"Learning Types","hasNote":false,"subFiles":[{"name":"Supervised Learning","hasNote":true,"subFiles":[{"name":"Features","hasNote":true},{"name":"Problem Types","hasNote":false,"subFiles":[{"name":"Classification","hasNote":true},{"name":"Regression","hasNote":true}]}]},{"name":"Unsupervised Learning","hasNote":true}]},{"name":"Neural Networks","hasNote":true,"subFiles":[{"name":"Activation Functions","hasNote":true,"subFiles":[{"name":"Leaky ReLU Function","hasNote":true},{"name":"Parametric ReLU Function","hasNote":true},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Exploding Gradient Problem","hasNote":true},{"name":"Vanishing Gradient Problem","hasNote":true}]},{"name":"Rectified Linear (ReLU) Function","hasNote":true,"subFiles":[{"name":"Dying RELU Problem","hasNote":true}]},{"name":"Sigmoid Function","hasNote":true,"subFiles":[{"name":"Logistic Function","hasNote":true}]},{"name":"Softmax","hasNote":true},{"name":"Step Function","hasNote":true}]},{"name":"Convolutional Neural Network","hasNote":true},{"name":"Deep Neural Network","hasNote":true},{"name":"Feedforward Neural Network","hasNote":true},{"name":"Layer Types","hasNote":true,"subFiles":[{"name":"Convolutional Layer","hasNote":true,"subFiles":[{"name":"Kernel","hasNote":true}]},{"name":"Dense Layer","hasNote":true,"subFiles":[{"name":"Definition of a Layer of Dense Neurones","hasNote":true},{"name":"Definition of a Single Dense Neurone","hasNote":true}]},{"name":"Dropout Layer","hasNote":true},{"name":"Hidden Layer","hasNote":true}]},{"name":"Pre-Processing","hasNote":false,"subFiles":[{"name":"Normalization","hasNote":true,"subFiles":[{"name":"Min-Max Scaling","hasNote":true},{"name":"One Hot Encoding","hasNote":true},{"name":"Z-Score Normalization","hasNote":true}]}]}]},{"name":"Pitfalls","hasNote":false,"subFiles":[{"name":"Overfitting","hasNote":true},{"name":"Underfitting","hasNote":true}]},{"name":"Training","hasNote":false,"subFiles":[{"name":"Backpropagation","hasNote":true,"subFiles":[{"name":"Backpropagation Example with One Neurone","hasNote":true}]},{"name":"Batching","hasNote":true},{"name":"Cost Function","hasNote":true,"subFiles":[{"name":"Categorical Cross-Entropy Loss","hasNote":true}]},{"name":"Feature Set","hasNote":true},{"name":"Optimization","hasNote":true,"subFiles":[{"name":"Gradient Descent","hasNote":true,"subFiles":[{"name":"AdaGrad","hasNote":true},{"name":"Adam","hasNote":true},{"name":"Batch Gradient Descent","hasNote":true},{"name":"Gradient Descent with Momentum","hasNote":true},{"name":"Learning Rate","hasNote":true,"subFiles":[{"name":"Learning Rate Decay","hasNote":true,"subFiles":[{"name":"Exponential Learning Rate Decay","hasNote":true},{"name":"Step Based Learning Rate Decay","hasNote":true},{"name":"Time Based Learning Rate Decay","hasNote":true}]},{"name":"Learning Rate Scheduling","hasNote":true}]},{"name":"Mini-Batch Gradient Descent","hasNote":true},{"name":"RMSProp","hasNote":true},{"name":"Stochastic Gradient Descent","hasNote":true}]}]},{"name":"Penalties","hasNote":true,"subFiles":[{"name":"L1 Regularization","hasNote":true},{"name":"L2 Regularization","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","01 - Linear Algebra",{"entry":{"name":"01 - Linear Algebra","hasNote":false,"subFiles":[{"name":"Elementary Row Operations","hasNote":true},{"name":"Gaussian Elimination","hasNote":true},{"name":"Linear Equation","hasNote":true},{"name":"Linear System","hasNote":true},{"name":"Lines in Three Dimensions","hasNote":true},{"name":"Matrix","hasNote":true,"subFiles":[{"name":"Matrix Operations","hasNote":true,"subFiles":[{"name":"Adjugate Matrix","hasNote":true},{"name":"Cofactor Matrix","hasNote":true},{"name":"Hadamard Product","hasNote":true},{"name":"Matrix Cofactor","hasNote":true},{"name":"Matrix Determinant","hasNote":true,"subFiles":[{"name":"Laplace Expansion","hasNote":true}]},{"name":"Matrix Diagonal Operator","hasNote":true},{"name":"Matrix Inversion","hasNote":true},{"name":"Matrix Minor","hasNote":true},{"name":"Matrix Product","hasNote":true},{"name":"Matrix Transposition","hasNote":true}]},{"name":"Matrix Subtypes","hasNote":true,"subFiles":[{"name":"Column Vector","hasNote":true},{"name":"Identity Matrix","hasNote":true},{"name":"Row Vector","hasNote":true},{"name":"Square Matrix","hasNote":true}]}]},{"name":"Plane","hasNote":true},{"name":"Point","hasNote":true},{"name":"Scalar","hasNote":true},{"name":"Vector","hasNote":true,"subFiles":[{"name":"Span","hasNote":true},{"name":"Vector Notation","hasNote":true,"subFiles":[{"name":"Matrix Notation","hasNote":true},{"name":"Point Notation","hasNote":true},{"name":"Unit Vector Notation","hasNote":true}]},{"name":"Vector Operations","hasNote":true,"subFiles":[{"name":"Cross Product","hasNote":true,"subFiles":[{"name":"Right Hand Rule","hasNote":true}]},{"name":"Dot Product","hasNote":true},{"name":"Scalar Multiplication","hasNote":true},{"name":"Triple Product","hasNote":true},{"name":"Vector Addition","hasNote":true,"subFiles":[]},{"name":"Vector Subtraction","hasNote":true}]},{"name":"Vector Properties","hasNote":true,"subFiles":[{"name":"Vector Magnitude","hasNote":true},{"name":"Vector Orientation","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","02 - Calculus",{"entry":{"name":"02 - Calculus","hasNote":false,"subFiles":[{"name":"Area Between Curves","hasNote":true},{"name":"Average Rate of Change","hasNote":true},{"name":"Continuous Function","hasNote":true},{"name":"Critical Point","hasNote":true},{"name":"Derivative","hasNote":true,"subFiles":[{"name":"Concavity","hasNote":true},{"name":"Differentiable Function","hasNote":true},{"name":"Differentiation Rules","hasNote":true,"subFiles":[{"name":"Chain Rule","hasNote":true},{"name":"Constant Multiples Rule","hasNote":true},{"name":"Constant Rule","hasNote":true},{"name":"Inverse Function Rule","hasNote":true},{"name":"Power Rule","hasNote":true},{"name":"Product Rule","hasNote":true},{"name":"Quotient Rule","hasNote":true},{"name":"Sum Rule","hasNote":true}]},{"name":"First Derivative Test","hasNote":true},{"name":"Higher Order Derivatives","hasNote":true},{"name":"Notation","hasNote":false,"subFiles":[{"name":"Lagrange's Notation","hasNote":true},{"name":"Leibniz's Notation","hasNote":true}]},{"name":"Optimization Using Derivatives","hasNote":true},{"name":"Second Derivative Test","hasNote":true}]},{"name":"Discontinuity","hasNote":true,"subFiles":[{"name":"Essential Discontinuity","hasNote":true},{"name":"Jump Discontinuity","hasNote":true},{"name":"Removable Discontinuity","hasNote":true}]},{"name":"Extrema","hasNote":false,"subFiles":[{"name":"Absolute Extrema","hasNote":true,"subFiles":[{"name":"Absolute Maximum","hasNote":true},{"name":"Absolute Minimum","hasNote":true}]},{"name":"Local Extrema","hasNote":true,"subFiles":[{"name":"Local Maximum","hasNote":true},{"name":"Local Minimum","hasNote":true}]}]},{"name":"Horizontal Asymptote","hasNote":true},{"name":"Inflection Point","hasNote":true},{"name":"Integral","hasNote":true,"subFiles":[{"name":"Antiderivative Rules","hasNote":true},{"name":"Antiderivative Techniques","hasNote":true,"subFiles":[{"name":"Integration by Partial Fractions","hasNote":true},{"name":"Integration by Parts","hasNote":true},{"name":"Integration by Substitution","hasNote":true},{"name":"Trigonometric Substitution","hasNote":true}]},{"name":"Antiderivative","hasNote":true},{"name":"Approximations","hasNote":false,"subFiles":[{"name":"Riemann Sum","hasNote":true,"subFiles":[{"name":"Examples","hasNote":false,"subFiles":[]}]},{"name":"Simpson's Rule","hasNote":true}]},{"name":"Improper Integral","hasNote":true,"subFiles":[{"name":"Comparison Test (Improper Integrals)","hasNote":true},{"name":"Limit Comparison Test (Improper Integrals)","hasNote":true}]},{"name":"Integral Properties","hasNote":true}]},{"name":"Intermediate Value Theorem","hasNote":true},{"name":"Interval","hasNote":true,"subFiles":[{"name":"Closed Interval","hasNote":true},{"name":"Half-Open Interval","hasNote":true},{"name":"Interval Notation","hasNote":true},{"name":"Open Interval","hasNote":true}]},{"name":"Limit","hasNote":true,"subFiles":[{"name":"Indeterminate Form","hasNote":true},{"name":"L'Hôpital's Rule","hasNote":true},{"name":"One-Sided Limits","hasNote":true},{"name":"Squeeze Theorem","hasNote":true}]},{"name":"Linearization","hasNote":true},{"name":"Mean Value Theorem","hasNote":false,"subFiles":[{"name":"Mean Value Theorem for Derivatives","hasNote":true}]},{"name":"Normal Line","hasNote":true},{"name":"Rate of Change","hasNote":true},{"name":"Secant Line","hasNote":true},{"name":"Series","hasNote":true,"subFiles":[{"name":"Geometric Series","hasNote":true},{"name":"Power Series","hasNote":true},{"name":"Taylor Series","hasNote":true,"subFiles":[{"name":"Maclaurin Series","hasNote":true},{"name":"Use Cases","hasNote":false,"subFiles":[{"name":"Determining Higher Order Derivatives at a Point (Taylor Series)","hasNote":true},{"name":"Evaluating a Geometric Series with an Additional Reciprocal Term (Taylor Series)","hasNote":true}]}]},{"name":"Vergence Tests","hasNote":false,"subFiles":[{"name":"Comparison Test","hasNote":true},{"name":"Divergence Test","hasNote":true},{"name":"Limit Comparison Test","hasNote":true},{"name":"Ratio Test","hasNote":true},{"name":"The Integral Test","hasNote":true}]}]},{"name":"Signed Area","hasNote":true},{"name":"Solid of Revolution","hasNote":true,"subFiles":[{"name":"Disc Integration","hasNote":true},{"name":"Shell Integration","hasNote":true},{"name":"Washer Integration","hasNote":true}]},{"name":"Tangent Line","hasNote":true},{"name":"The Fundamental Theorem of Calculus","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","03 - Multivariable Calculus",{"entry":{"name":"03 - Multivariable Calculus","hasNote":false,"subFiles":[{"name":"Averaging","hasNote":false,"subFiles":[{"name":"Average Value of a Function","hasNote":true},{"name":"Weighted Average Value of a Function","hasNote":true}]},{"name":"Critical Points of Multivariable Functions","hasNote":true},{"name":"Directional Derivative","hasNote":true},{"name":"Limits in Multiple Dimensions","hasNote":true},{"name":"Multiple Integral","hasNote":true,"subFiles":[{"name":"Techniques","hasNote":false,"subFiles":[{"name":"Evaluating Double Integrals in Polar Coordinates","hasNote":true},{"name":"Evaluating Triple Integrals in Cylindrical Coordinates","hasNote":true},{"name":"Evaluating Triple Integrals in Spherical Coordinates","hasNote":true}]}]},{"name":"Multivariable Function","hasNote":true},{"name":"Partial Derivative","hasNote":true,"subFiles":[{"name":"Chain Rule in Multiple Dimensions","hasNote":true},{"name":"Gradient","hasNote":true},{"name":"Hessian Matrix","hasNote":true},{"name":"Higher Order Partial Derivative","hasNote":true},{"name":"Implicit Differentiation in Multiple Dimensions","hasNote":true},{"name":"Jacobian Matrix","hasNote":true},{"name":"Second Partial Derivative Test","hasNote":true}]},{"name":"Polar Coordinates System","hasNote":true},{"name":"Saddle Point","hasNote":true},{"name":"Tangent Plane","hasNote":true},{"name":"Visualizing 3D Surfaces","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","04 - Physics",{"entry":{"name":"04 - Physics","hasNote":false,"subFiles":[{"name":"Classical","hasNote":false,"subFiles":[{"name":"Centre of Mass","hasNote":true},{"name":"Energy","hasNote":true,"subFiles":[{"name":"Kinetic Energy","hasNote":true}]},{"name":"Galilean Transformation","hasNote":true},{"name":"Inertia","hasNote":true},{"name":"Inertial Frame of Reference","hasNote":true},{"name":"Momentum","hasNote":true},{"name":"Newton's Laws of Motion","hasNote":true}]},{"name":"Electric Circuits","hasNote":false,"subFiles":[{"name":"Ammeter","hasNote":true},{"name":"Battery","hasNote":true},{"name":"Capacitance","hasNote":true},{"name":"Capacitor","hasNote":true},{"name":"Conductance","hasNote":true},{"name":"Current","hasNote":true},{"name":"Electrical Power","hasNote":true},{"name":"Kirchhoff's Current Law","hasNote":true},{"name":"Kirchhoff's Voltage Law","hasNote":true},{"name":"Ohm's Law","hasNote":true},{"name":"Parallel","hasNote":true},{"name":"Resistance","hasNote":true},{"name":"Resistor","hasNote":true},{"name":"Series (Electric Circuits)","hasNote":true},{"name":"Voltmeter","hasNote":true}]},{"name":"Electromagnetics","hasNote":false,"subFiles":[{"name":"Electromagnetic Radiation","hasNote":true},{"name":"Light","hasNote":true},{"name":"Photon","hasNote":true}]},{"name":"Electrostatics","hasNote":false,"subFiles":[{"name":"Charged Particle","hasNote":true},{"name":"Coulombs Constant","hasNote":true},{"name":"Coulombs Law","hasNote":true},{"name":"Electric Field","hasNote":true,"subFiles":[{"name":"Uniform Electric Field","hasNote":true}]},{"name":"Electric Field Lines","hasNote":true,"subFiles":[]},{"name":"Electric Potential Difference","hasNote":true,"subFiles":[]},{"name":"Electric Potential Energy","hasNote":true},{"name":"Electric Potential","hasNote":true},{"name":"Elementary Charge","hasNote":true},{"name":"Parallel Plates","hasNote":true}]},{"name":"Geometrical Optics","hasNote":true,"subFiles":[{"name":"Lenses","hasNote":true,"subFiles":[{"name":"Focal Length","hasNote":true},{"name":"Image Point","hasNote":true},{"name":"Real Image","hasNote":true},{"name":"Thin Concave Lens","hasNote":true,"subFiles":[]},{"name":"Thin Convex Lens","hasNote":true,"subFiles":[]},{"name":"Virtual Image","hasNote":true}]},{"name":"Light Ray","hasNote":true},{"name":"Optical Medium","hasNote":true},{"name":"Refractive Index","hasNote":true},{"name":"Snell's Law","hasNote":true,"subFiles":[]},{"name":"Vergence (Optics)","hasNote":true}]},{"name":"International System of Units","hasNote":true,"subFiles":[{"name":"Electricity","hasNote":false,"subFiles":[{"name":"Ampere","hasNote":true},{"name":"Coulomb","hasNote":true},{"name":"Farad","hasNote":true},{"name":"Volt","hasNote":true}]},{"name":"Energy","hasNote":false,"subFiles":[{"name":"Joule","hasNote":true}]},{"name":"SI Base Units","hasNote":true}]},{"name":"Particle Physics","hasNote":false,"subFiles":[{"name":"Electron","hasNote":true},{"name":"Elementary Particle","hasNote":true},{"name":"Fermion","hasNote":true},{"name":"Lepton","hasNote":true},{"name":"Proton","hasNote":true}]},{"name":"Physical Constants","hasNote":false,"subFiles":[{"name":"Permeability of Free Space","hasNote":true},{"name":"Permittivity of Free Space","hasNote":true},{"name":"Planck's Constant","hasNote":true},{"name":"Speed of Light","hasNote":true}]},{"name":"Special Relativity","hasNote":true,"subFiles":[{"name":"Event","hasNote":true},{"name":"Lorentz Transformation","hasNote":true,"subFiles":[{"name":"Length Contraction","hasNote":true},{"name":"Lorentz Factor","hasNote":true},{"name":"Time Dilation","hasNote":true,"subFiles":[]}]},{"name":"Simultaneity","hasNote":true,"subFiles":[{"name":"Relativity of Simultaneity","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","05 - Algebra",{"entry":{"name":"05 - Algebra","hasNote":false,"subFiles":[{"name":"Empty Product","hasNote":true},{"name":"Euclidean Division","hasNote":true},{"name":"Factorial","hasNote":true},{"name":"Function","hasNote":true,"subFiles":[{"name":"Even Function","hasNote":true},{"name":"Odd Function","hasNote":true}]},{"name":"Integer","hasNote":true},{"name":"Natural Number","hasNote":true},{"name":"Partial Fraction Decomposition","hasNote":true},{"name":"Polynomial","hasNote":true,"subFiles":[{"name":"Completing the Square","hasNote":true},{"name":"Monomial","hasNote":true},{"name":"Polynomial Degree","hasNote":true}]},{"name":"Proper Fraction","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","06 - Discrete Mathematics",{"entry":{"name":"06 - Discrete Mathematics","hasNote":false,"subFiles":[{"name":"Big-O Notation (Discrete Math)","hasNote":true},{"name":"Formal Language","hasNote":true,"subFiles":[]},{"name":"Graph Theory","hasNote":false,"subFiles":[{"name":"Graph (Discrete Mathematics)","hasNote":true,"subFiles":[{"name":"Connectivity (Discrete Mathematics)","hasNote":true},{"name":"Directed Graph","hasNote":true},{"name":"Edge","hasNote":true,"subFiles":[{"name":"Directed Edge","hasNote":true},{"name":"Weighted Edge","hasNote":true}]},{"name":"Examples","hasNote":false,"subFiles":[]},{"name":"Handshaking Theorem","hasNote":true},{"name":"Vertex (Discrete Math)","hasNote":true},{"name":"Weighted Graph","hasNote":true}]},{"name":"Minimum Spanning Tree","hasNote":true},{"name":"Spanning Tree","hasNote":true},{"name":"Tree (Discrete Mathematics)","hasNote":true}]},{"name":"Mathematical Proof","hasNote":true,"subFiles":[{"name":"Mathematical Induction","hasNote":true,"subFiles":[{"name":"Strong Mathematical Induction","hasNote":true}]}]},{"name":"Modular Arithmetic","hasNote":true},{"name":"Modulo","hasNote":true},{"name":"Numeral System","hasNote":true,"subFiles":[{"name":"Binary Number","hasNote":true,"subFiles":[{"name":"Bit","hasNote":true},{"name":"Floating Point Number","hasNote":true},{"name":"Two's Complement","hasNote":true}]},{"name":"Decimal Number","hasNote":true},{"name":"Hexadecimal Number","hasNote":true},{"name":"Numerical Digit","hasNote":true},{"name":"Radix","hasNote":true}]},{"name":"Sequence","hasNote":true,"subFiles":[{"name":"Geometric Sequence","hasNote":true}]},{"name":"Summation","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","07 - Set Theory",{"entry":{"name":"07 - Set Theory","hasNote":false,"subFiles":[{"name":"Empty Set","hasNote":true},{"name":"Euler Diagram","hasNote":true,"subFiles":[]},{"name":"Power Set","hasNote":true},{"name":"Set","hasNote":true,"subFiles":[{"name":"Element","hasNote":true},{"name":"Operations","hasNote":false,"subFiles":[{"name":"Complement","hasNote":true,"subFiles":[]},{"name":"Intersection","hasNote":true,"subFiles":[]},{"name":"Set Difference","hasNote":true,"subFiles":[]},{"name":"Set Equality","hasNote":true},{"name":"Subset","hasNote":true},{"name":"Union","hasNote":true,"subFiles":[]}]}]},{"name":"Set Builder Notation","hasNote":true},{"name":"Universal Set","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","08 - Chemistry",{"entry":{"name":"08 - Chemistry","hasNote":false,"subFiles":[{"name":"Atom","hasNote":true},{"name":"Chemical Formula","hasNote":true},{"name":"Ion","hasNote":true},{"name":"Ionic Bonding","hasNote":true},{"name":"Periodic Table","hasNote":true,"subFiles":[{"name":"Periodic Trends","hasNote":true}]},{"name":"Structural Chemistry","hasNote":false,"subFiles":[{"name":"Atomic Orbital","hasNote":true},{"name":"Electron Shell","hasNote":true},{"name":"Lewis Structure","hasNote":true},{"name":"Properties","hasNote":false,"subFiles":[{"name":"Atomic Radius","hasNote":true},{"name":"Effective Nuclear Charge","hasNote":true},{"name":"Electron Affinity","hasNote":true},{"name":"Electronegativity","hasNote":true},{"name":"Ionization Energy","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","09 - Computer Science",{"entry":{"name":"09 - Computer Science","hasNote":false,"subFiles":[{"name":"Computer Systems","hasNote":false,"subFiles":[{"name":"Asynchronous Operation","hasNote":true},{"name":"Byte Extension","hasNote":true},{"name":"Byte Truncation","hasNote":true},{"name":"Character Encoding","hasNote":false,"subFiles":[{"name":"ASCII","hasNote":true}]},{"name":"Control Flow","hasNote":false,"subFiles":[{"name":"Call Stack","hasNote":true},{"name":"Concurrent Control Flow","hasNote":false,"subFiles":[{"name":"Asynchronous Condition Variable","hasNote":true},{"name":"Lock","hasNote":true,"subFiles":[]}]},{"name":"Conditional (Computer Science)","hasNote":true},{"name":"Dynamic Control Flow","hasNote":true},{"name":"For Loop","hasNote":true},{"name":"Jump Table","hasNote":true},{"name":"Procedure","hasNote":true}]},{"name":"Data Structures","hasNote":false,"subFiles":[{"name":"Array","hasNote":true},{"name":"Binary Heap","hasNote":true},{"name":"Disjoint Set (Data Structure)","hasNote":true},{"name":"Graph (Data Structure)","hasNote":true,"subFiles":[{"name":"Traversals","hasNote":false,"subFiles":[{"name":"Breadth-First Traversal","hasNote":true},{"name":"Depth-First Traversal","hasNote":true},{"name":"Graph Cycle","hasNote":true}]}]},{"name":"Hash Table","hasNote":true,"subFiles":[{"name":"Open Addressing","hasNote":true,"subFiles":[{"name":"Double Hashing","hasNote":true},{"name":"Linear Probing","hasNote":true},{"name":"Quadratic Probing","hasNote":true}]},{"name":"Separate Chaining","hasNote":true}]},{"name":"Instance Variables","hasNote":true},{"name":"Linked Lists","hasNote":false,"subFiles":[{"name":"Doubly Linked List","hasNote":true},{"name":"Singly Linked List","hasNote":true}]},{"name":"Priority Queue","hasNote":true},{"name":"Queue","hasNote":true},{"name":"Set (Data Structure)","hasNote":true},{"name":"Stack","hasNote":true},{"name":"Structure","hasNote":true},{"name":"Tree (Data Structure)","hasNote":true,"subFiles":[{"name":"B-Tree","hasNote":true},{"name":"Binary Tree","hasNote":true,"subFiles":[{"name":"Balanced Binary Tree","hasNote":true,"subFiles":[{"name":"AVL Tree","hasNote":true,"subFiles":[]}]},{"name":"In-Order Binary Tree Traversal","hasNote":true}]},{"name":"Traversals","hasNote":false,"subFiles":[{"name":"Breadth-First Tree Traversal","hasNote":true},{"name":"Depth-First Tree Traversal","hasNote":true}]}]}]},{"name":"Endianness","hasNote":true},{"name":"Memory","hasNote":true,"subFiles":[{"name":"Dangling Pointers","hasNote":true},{"name":"Heap Memory","hasNote":true},{"name":"Memory Address","hasNote":true,"subFiles":[{"name":"Address Alignment","hasNote":true},{"name":"Pointer","hasNote":true}]},{"name":"Memory Leak","hasNote":true},{"name":"Static Variable","hasNote":true}]},{"name":"Memory Management Systems","hasNote":false,"subFiles":[{"name":"Reference Counting","hasNote":true}]},{"name":"Paradigms","hasNote":false,"subFiles":[{"name":"Event-Driven Programming","hasNote":true},{"name":"Generic Programming","hasNote":true},{"name":"Object Oriented","hasNote":false,"subFiles":[{"name":"Call Graph","hasNote":true,"subFiles":[]},{"name":"Class Relationships","hasNote":false,"subFiles":[{"name":"Abstract Class","hasNote":true},{"name":"Inheritance","hasNote":true},{"name":"Interface","hasNote":true},{"name":"Overloading","hasNote":true},{"name":"Protected Members","hasNote":true},{"name":"Super Keyword","hasNote":true},{"name":"Supertypes and Subtypes","hasNote":true,"subFiles":[{"name":"Type Substitution","hasNote":true,"subFiles":[]}]}]},{"name":"Class","hasNote":true},{"name":"Constructor","hasNote":true},{"name":"Data Abstraction","hasNote":false,"subFiles":[{"name":"Data Abstraction Specifiers","hasNote":true},{"name":"Testing a Data Abstraction","hasNote":true}]},{"name":"Design Principles","hasNote":false,"subFiles":[{"name":"Liskov Substitution Principle","hasNote":true},{"name":"Single Responsibility Principle","hasNote":true,"subFiles":[{"name":"Cohesion","hasNote":true},{"name":"Coupling","hasNote":true,"subFiles":[{"name":"Moderate Coupling","hasNote":true},{"name":"Semantic Coupling","hasNote":true}]}]}]},{"name":"Exceptions","hasNote":true,"subFiles":[{"name":"Testing Exceptions","hasNote":true}]},{"name":"Method","hasNote":true},{"name":"Package Relationship Diagram","hasNote":true,"subFiles":[]},{"name":"Package","hasNote":true},{"name":"Patterns","hasNote":false,"subFiles":[{"name":"Composite Pattern","hasNote":true},{"name":"Iterator Pattern","hasNote":true}]},{"name":"Polymorphism","hasNote":true},{"name":"Robust Methods","hasNote":true}]}]},{"name":"Program Counter","hasNote":true},{"name":"Thread","hasNote":true}]},{"name":"Cryptography","hasNote":false,"subFiles":[{"name":"Hashing","hasNote":false,"subFiles":[{"name":"Hash Function","hasNote":true}]}]},{"name":"Hardware","hasNote":false,"subFiles":[{"name":"Common Circuits","hasNote":false,"subFiles":[{"name":"Full Adder","hasNote":true},{"name":"Half Adder","hasNote":true}]},{"name":"I-O System","hasNote":false,"subFiles":[{"name":"I-O Bus","hasNote":true},{"name":"I-O Controller","hasNote":true},{"name":"I-O Device","hasNote":true},{"name":"I-O Mapped Memory","hasNote":true},{"name":"Memory Bus","hasNote":true}]},{"name":"I-O Techniques","hasNote":false,"subFiles":[{"name":"Direct Memory Access","hasNote":true},{"name":"Interrupt (Hardware)","hasNote":true},{"name":"Polling (Computer Science)","hasNote":true},{"name":"Programmed Input-Output","hasNote":true}]},{"name":"Logic Gate","hasNote":true,"subFiles":[{"name":"AND Gate","hasNote":true},{"name":"NAND Gate","hasNote":true},{"name":"NOR Gate","hasNote":true},{"name":"NOT Gate","hasNote":true},{"name":"OR Gate","hasNote":true},{"name":"XNOR Gate","hasNote":true},{"name":"XOR Gate","hasNote":true}]},{"name":"Microcontroller","hasNote":false,"subFiles":[{"name":"General Purpose Input and Output","hasNote":true}]},{"name":"Peripheral","hasNote":true},{"name":"Watchdog Timer","hasNote":true}]},{"name":"Program Analysis","hasNote":false,"subFiles":[{"name":"Algorithms","hasNote":false,"subFiles":[{"name":"Graphs","hasNote":false,"subFiles":[{"name":"Dijkstra's Algorithm","hasNote":true},{"name":"Kruskal's Algorithm","hasNote":true},{"name":"Prim's Algorithm","hasNote":true}]},{"name":"Sorting","hasNote":false,"subFiles":[{"name":"Insertion Sort","hasNote":true},{"name":"Merge Sort","hasNote":true},{"name":"Selection Sort","hasNote":true}]}]},{"name":"Big-O Notation (Computer Science)","hasNote":true},{"name":"Loop Invariants","hasNote":true}]},{"name":"Programming Languages","hasNote":false,"subFiles":[{"name":"C","hasNote":false,"subFiles":[{"name":"Dynamic Array","hasNote":true},{"name":"Dynamic vs Static Arrays","hasNote":true},{"name":"Function Pointer","hasNote":true},{"name":"Static Array","hasNote":true},{"name":"Switch Statement","hasNote":true}]},{"name":"Java","hasNote":false,"subFiles":[{"name":"Memory Management (Java)","hasNote":true}]},{"name":"Racket","hasNote":false,"subFiles":[{"name":"Evaluation","hasNote":true},{"name":"Expression","hasNote":true},{"name":"Predicate (Racket)","hasNote":true},{"name":"Terminology","hasNote":true}]},{"name":"Register Transfer Language","hasNote":false,"subFiles":[]},{"name":"SM213 Assembly","hasNote":false,"subFiles":[{"name":"Conditional (SM213)","hasNote":true},{"name":"For Loop (SM213)","hasNote":true},{"name":"Instruction Set (SM213)","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","10 - Statistics",{"entry":{"name":"10 - Statistics","hasNote":false,"subFiles":[{"name":"Concepts","hasNote":false,"subFiles":[{"name":"Data Collection","hasNote":false,"subFiles":[{"name":"Census","hasNote":true},{"name":"Sample Survey","hasNote":true}]},{"name":"Parameter","hasNote":true},{"name":"Population","hasNote":true},{"name":"Sample","hasNote":true},{"name":"Statistic","hasNote":true},{"name":"Variable (Statistics)","hasNote":true}]},{"name":"Descriptive Statistics","hasNote":true,"subFiles":[{"name":"Bar Graph","hasNote":true,"subFiles":[]},{"name":"Dot Plot","hasNote":true,"subFiles":[]},{"name":"Frequency Table","hasNote":true},{"name":"Histogram","hasNote":true,"subFiles":[]},{"name":"Measures of Centre","hasNote":false,"subFiles":[{"name":"Mean","hasNote":true},{"name":"Median","hasNote":true}]},{"name":"Measures of Variability","hasNote":false,"subFiles":[{"name":"Interquartile Range","hasNote":true},{"name":"Range","hasNote":true},{"name":"Standard Deviation","hasNote":true},{"name":"Variance","hasNote":true}]},{"name":"Pie Chart","hasNote":true,"subFiles":[]},{"name":"Stem-and-Leaf Plots","hasNote":true}]},{"name":"Inferential Statistics","hasNote":true,"subFiles":[{"name":"Analysis of Variance","hasNote":true,"subFiles":[{"name":"Pooled Variance","hasNote":true}]},{"name":"Estimator","hasNote":true},{"name":"Hypothesis Testing","hasNote":true,"subFiles":[{"name":"Errors","hasNote":false,"subFiles":[{"name":"Type I Error","hasNote":true},{"name":"Type II Error","hasNote":true}]},{"name":"Test Statistics","hasNote":false,"subFiles":[{"name":"Multiple Sample","hasNote":false,"subFiles":[{"name":"F-Statistic","hasNote":true},{"name":"Two Sample t-Statistic","hasNote":true}]},{"name":"One Sample","hasNote":false,"subFiles":[{"name":"Chi-Squared Statistic","hasNote":true},{"name":"Z-Statistic","hasNote":true},{"name":"t-Statistic","hasNote":true}]}]},{"name":"Two-Sample Hypothesis Testing","hasNote":true}]},{"name":"Interval Estimator","hasNote":true},{"name":"Point Estimator","hasNote":true},{"name":"Regression Analysis","hasNote":false,"subFiles":[{"name":"Closed Form Solutions","hasNote":false,"subFiles":[{"name":"Ordinary Least Squares","hasNote":true}]},{"name":"Estimation Methods","hasNote":false,"subFiles":[{"name":"Least Squares","hasNote":true,"subFiles":[{"name":"Sum of Squared Residuals","hasNote":true}]}]},{"name":"Models","hasNote":false,"subFiles":[]},{"name":"Residual","hasNote":true}]}]},{"name":"Probability","hasNote":true,"subFiles":[{"name":"Bayes' Theorem","hasNote":true},{"name":"Central Limit Theorem","hasNote":true},{"name":"Conditional Probability","hasNote":true},{"name":"Covariance","hasNote":true},{"name":"Density Functions","hasNote":false,"subFiles":[{"name":"Cumulative Distribution Function","hasNote":true},{"name":"Probability Density Function","hasNote":true}]},{"name":"Expected Value","hasNote":true},{"name":"Extrema of Independent Random Variables","hasNote":true},{"name":"Independent Events","hasNote":true},{"name":"Random Variable","hasNote":true,"subFiles":[{"name":"Bernoulli Random Variable","hasNote":true}]},{"name":"Specific Distributions","hasNote":false,"subFiles":[{"name":"Bernoulli Distribution","hasNote":true},{"name":"Binomial Distribution","hasNote":true,"subFiles":[{"name":"Binomial Coefficient","hasNote":true},{"name":"Ten Percent Condition","hasNote":true}]},{"name":"Exponential Distribution","hasNote":true},{"name":"Geometric Distribution","hasNote":true},{"name":"Normal Distribution","hasNote":true},{"name":"Poisson Distribution","hasNote":true,"subFiles":[{"name":"Poisson Process","hasNote":true}]},{"name":"Standard Normal Distribution","hasNote":true}]},{"name":"Standardization","hasNote":false,"subFiles":[{"name":"Z-Score","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","11 - Formal Logic",{"entry":{"name":"11 - Formal Logic","hasNote":false,"subFiles":[{"name":"Argument","hasNote":true,"subFiles":[{"name":"Fallacy","hasNote":true},{"name":"Syllogism","hasNote":true}]},{"name":"Compound Statements","hasNote":true},{"name":"Contradiction","hasNote":true},{"name":"Creating a Statement from Truth Tables","hasNote":true},{"name":"Logical Equivalence","hasNote":true},{"name":"Logical Operator","hasNote":true,"subFiles":[{"name":"Biconditional","hasNote":true},{"name":"Conditional","hasNote":true},{"name":"Conjunction","hasNote":true},{"name":"Disjunction","hasNote":true},{"name":"Exclusive Disjunction","hasNote":true},{"name":"Negation","hasNote":true}]},{"name":"Predicate","hasNote":true,"subFiles":[{"name":"Truth Set","hasNote":true}]},{"name":"Quantifier","hasNote":true,"subFiles":[{"name":"Existential Quantifier","hasNote":true},{"name":"Universal Quantifier","hasNote":true,"subFiles":[{"name":"Universal Conditional Statements","hasNote":true}]}]},{"name":"Simplifying Statement Forms","hasNote":true},{"name":"Statement","hasNote":true},{"name":"Tautology","hasNote":true},{"name":"Truth Table","hasNote":true}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","12 - Language",{"entry":{"name":"12 - Language","hasNote":false,"subFiles":[{"name":"Languages","hasNote":false,"subFiles":[{"name":"Spanish","hasNote":true,"subFiles":[{"name":"Ser vs Estar","hasNote":true},{"name":"Tener vs Haber","hasNote":true},{"name":"Tenses","hasNote":false,"subFiles":[{"name":"Present Tense","hasNote":true}]},{"name":"Verb Conjugations","hasNote":false,"subFiles":[{"name":"Conjugating Regular Verbs","hasNote":true},{"name":"Regular -ar Conjugation Table","hasNote":true},{"name":"Regular -er Conjugation Table","hasNote":true},{"name":"Regular -ir Conjugation Table","hasNote":true},{"name":"Stem Changing Verbs","hasNote":true,"subFiles":[{"name":"e > i Stem Changing Verbs","hasNote":true},{"name":"e > ie Stem Changing Verbs","hasNote":true},{"name":"o > ue Stem Changing Verbs","hasNote":true}]}]}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","13 - Politics",{"entry":{"name":"13 - Politics","hasNote":false,"subFiles":[{"name":"Background","hasNote":false,"subFiles":[{"name":"United States","hasNote":false,"subFiles":[{"name":"State Bills","hasNote":false,"subFiles":[{"name":"Michigan","hasNote":false,"subFiles":[{"name":"Senate Bill 757","hasNote":true}]},{"name":"Nevada","hasNote":false,"subFiles":[{"name":"Emergency Election Procedures Bill","hasNote":true}]},{"name":"Pennsylvania","hasNote":false,"subFiles":[{"name":"Act 77","hasNote":true},{"name":"Pennsylvania Election Code - Omnibus Amendments","hasNote":true}]}]},{"name":"United States Electoral System","hasNote":false,"subFiles":[{"name":"Certificate of Ascertainment","hasNote":true},{"name":"Organizations","hasNote":false,"subFiles":[{"name":"Democratic Party","hasNote":true},{"name":"Republican Party","hasNote":true}]},{"name":"President of the Senate","hasNote":true}]}]}]},{"name":"Events","hasNote":false,"subFiles":[{"name":"2020 Election Interference","hasNote":true,"subFiles":[{"name":"2020 Georgian Election Audit","hasNote":true},{"name":"False Electors Plot","hasNote":true,"subFiles":[{"name":"Eastman Memos","hasNote":true,"subFiles":[{"name":"Claims Made in Memorandum Two of the Eastman Memos","hasNote":true}]},{"name":"January 4th Oval Office Meeting - Eastman's First Pitch to Pence","hasNote":true},{"name":"January 5th West Wing Meeting - Eastman's Legal Argument to Pence's Advisors","hasNote":true}]},{"name":"Lawsuits","hasNote":false,"subFiles":[{"name":"Georgia Democratic Party v. Raffensperger","hasNote":true},{"name":"Trump v. Kemp","hasNote":true}]},{"name":"Trumps Publicized Meeting with Governors Hutchinson and Kelly","hasNote":true},{"name":"Trump–Raffensperger Phone Call","hasNote":true}]},{"name":"2020-2021 U.S","hasNote":false,"subFiles":[{"name":"2020-2021 U.S. Troop Withdrawal from Afghanistan","hasNote":true},{"name":"Agreement for Bringing Peace to Afghanistan","hasNote":true}]},{"name":"2026 Midterm Redistricting","hasNote":false,"subFiles":[{"name":"2025 Texas Redistricting","hasNote":true,"subFiles":[{"name":"Texas Democrats Leave State to Stop Redistricting Vote","hasNote":true,"subFiles":[{"name":"Greg Abbott Requests an Emergency Petition for Writ of Quo Warranto","hasNote":true},{"name":"John Cornyn Issues Request to the FBI to Help Locate or Arrest Texas Democrats who Left State to Stop Redistricting Vote","hasNote":true,"subFiles":[{"name":"Kash Patel Approves John Cornyn's Request for FBI Assistance","hasNote":true}]},{"name":"Texas Attorney General Ken Paxton's Response to Greg Abbott's Petition","hasNote":true},{"name":"Texas House Issues Civil Arrest Warrants for Democrats who Fled State to Avoid Redistricting Vote","hasNote":true}]},{"name":"Texas Enacts 2025 Gerrymandered Congressional Maps","hasNote":true},{"name":"Trump Comments on Texas Redistricting Proposals - 05.08.2025 CNBC Trump Interview","hasNote":true},{"name":"Trump-Abbott Phone Call on Texas Redistricting","hasNote":true}]}]},{"name":"Trump Federalizes D.C. Police and Deploys National Guard to D.C","hasNote":false,"subFiles":[{"name":"3 States Deploy National Guard Troops to D.C.","hasNote":true},{"name":"D.C. Attorney General Sues to Stop Federal Government Takeover of Metropolitan Police Department","hasNote":true},{"name":"Pam Bondi Initiates Temporary Takeover of D.C. Metropolitan Police Department","hasNote":true},{"name":"Trump Federalizes D.C. Police and Deploys National Guard to D.C.","hasNote":true}]}]},{"name":"People","hasNote":false,"subFiles":[{"name":"Brad Raffensperger","hasNote":true},{"name":"Donald Trump","hasNote":true},{"name":"Jim Runestad","hasNote":true},{"name":"John Eastman","hasNote":true,"subFiles":[]},{"name":"Judges","hasNote":false,"subFiles":[{"name":"Mark Howard Cohen","hasNote":true},{"name":"William M. Ray II","hasNote":true}]}]}]},"fileColour":"#51e1e9","indentation":0}],["$","$Le","99 - Classes",{"entry":{"name":"99 - Classes","hasNote":true,"subFiles":[{"name":"Computer Science","hasNote":false,"subFiles":[{"name":"CPSC 213","hasNote":true,"subFiles":[{"name":"Assignment 9 - IO and Asynchrony","hasNote":true},{"name":"Practice","hasNote":false,"subFiles":[{"name":"01 - Numbers and Memory (CPSC 213 Practice)","hasNote":true},{"name":"02 - CPU & Static Variables (CPSC 213 Practice)","hasNote":true},{"name":"03 - Dynamic Arrays and C Pointers (CPSC 213 Practice)","hasNote":true},{"name":"04 - Structs and Dynamic Allocation (CPSC 213 Practice)","hasNote":true},{"name":"05 - Memory Management and Reference Counting (CPSC 213 Practice)","hasNote":true},{"name":"06 - Static Control Flow  (CPSC 213 Practice)","hasNote":true},{"name":"07 - Procedure Calls and the Stack (CPSC 213 Practice)","hasNote":true},{"name":"08 - Dynamic Control Flow (CPSC 213 Practice)","hasNote":true},{"name":"09 -  I-O, Asynchrony and Threads (CPSC 213 Practice)","hasNote":true},{"name":"10 - Synchronization (CPSC 213 Practice)","hasNote":true}]}]},{"name":"CPSC 221","hasNote":true,"subFiles":[{"name":"CPSC 221 Examlets","hasNote":true,"subFiles":[{"name":"Examlet Week 10 (CPSC 221)","hasNote":true},{"name":"Examlet Week 12 (CPSC 221)","hasNote":true},{"name":"Examlet Week 4 (CPSC 221)","hasNote":true},{"name":"Examlet Week 7 (CPSC 221)","hasNote":true},{"name":"Examlet Week 8 (CPSC 221)","hasNote":true},{"name":"Examlet Week 9 (CPSC 221)","hasNote":true}]},{"name":"CPSC 221 Labs","hasNote":true,"subFiles":[{"name":"02 - Lab Debugging","hasNote":true},{"name":"03 - Lab Linked Lists","hasNote":true},{"name":"05 - Lab Trees","hasNote":true},{"name":"06 - Lab Dict","hasNote":true},{"name":"08 - Lab Hash","hasNote":true},{"name":"09 - Lab Heaps","hasNote":true},{"name":"10 - Lab Graphs","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Final Practice (CPSC 221)","hasNote":true},{"name":"Practice 12 (CPSC 221)","hasNote":true}]}]}]},{"name":"Mathematics","hasNote":false,"subFiles":[{"name":"MATH 200","hasNote":true,"subFiles":[{"name":"Homework","hasNote":false,"subFiles":[{"name":"Web Work 10 (MATH 200)","hasNote":true},{"name":"Web Work 6 (MATH 200)","hasNote":true},{"name":"Web Work 7 (MATH 200)","hasNote":true},{"name":"Web Work 9 (MATH 200)","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Chain Rule in Multiple Dimensions (Practice)","hasNote":true},{"name":"Double Integrals (Practice)","hasNote":true},{"name":"Double Integrals in Polar Coordinates (Practice)","hasNote":true},{"name":"Equations of Lines in 3D (Practice)","hasNote":true},{"name":"Equations of Planes in 3D (Practice)","hasNote":true},{"name":"Final Exam","hasNote":false,"subFiles":[{"name":"MATH 200 Final Exam - 2015w1","hasNote":true},{"name":"MATH 200 Final Exam - 2016w1","hasNote":true}]},{"name":"Limits in Multiple Dimensions (Practice)","hasNote":true},{"name":"Maximum and Minimum Values (Practice)","hasNote":true},{"name":"Midterm 2","hasNote":false,"subFiles":[{"name":"MATH 200 Midterm Test 2","hasNote":true}]},{"name":"Points (Practice)","hasNote":true},{"name":"Triple Integrals in Spherical Coordinates (Practice)","hasNote":true},{"name":"Vectors (Practice)","hasNote":true}]}]}]},{"name":"Statistics","hasNote":false,"subFiles":[{"name":"STAT 251","hasNote":true,"subFiles":[{"name":"Homework","hasNote":false,"subFiles":[{"name":"Web Work 1 (STAT 251)","hasNote":true,"subFiles":[]},{"name":"Web Work 5 (STAT 251)","hasNote":true},{"name":"Web Work 7 (STAT 251)","hasNote":true},{"name":"Web Work 8 (STAT 251)","hasNote":true},{"name":"Written Assignment 1 (STAT 254)","hasNote":true,"subFiles":[]},{"name":"Written Assignment 2 (STAT 251)","hasNote":true}]},{"name":"Practice","hasNote":false,"subFiles":[{"name":"Final Exam","hasNote":false,"subFiles":[{"name":"STAT 251 Final Practice Problems - 1","hasNote":true,"subFiles":[]}]},{"name":"Midterm","hasNote":false,"subFiles":[{"name":"STAT 251 Midterm Practice Problems - 1","hasNote":true,"subFiles":[]},{"name":"STAT 251 Midterm Practice Problems - 2","hasNote":true,"subFiles":[]},{"name":"STAT 251 Midterm Practice Problems - 3","hasNote":true},{"name":"STAT 251 Practice - Probability","hasNote":true,"subFiles":[]}]}]}]}]}]},"fileColour":"#51e1e9","indentation":0}]]}]]}],["$","div",null,{"className":"w-full h-screen overflow-hidden print:h-full print:overflow-visible","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
+f:T7c0d,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c2033::before {
+  padding: 0.56em 0.55em 0 0;
+  content: "\2032\2032";
+}
+
+mjx-c.mjx-c28.TEX-S3::before {
+  padding: 1.45em 0.736em 0.949em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29.TEX-S3::before {
+  padding: 1.45em 0.736em 0.949em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c3C::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: "<";
+}
+
+mjx-c.mjx-c3E::before {
+  padding: 0.54em 0.778em 0.04em 0;
+  content: ">";
+}
+
+mjx-c.mjx-c221E::before {
+  padding: 0.442em 1em 0.011em 0;
+  content: "\221E";
+}
+
+
+
+mjx-c.mjx-c75::before {
+  padding: 0.442em 0.556em 0.011em 0;
+  content: "u";
+}
+
+mjx-c.mjx-c2032::before {
+  padding: 0.56em 0.275em 0 0;
+  content: "\2032";
+}
+
+mjx-c.mjx-c44::before {
+  padding: 0.683em 0.764em 0 0;
+  content: "D";
+}
+
+mjx-c.mjx-c4E::before {
+  padding: 0.683em 0.75em 0 0;
+  content: "N";
+}
+
+mjx-c.mjx-c45::before {
+  padding: 0.68em 0.681em 0 0;
+  content: "E";
+}
+
+mjx-c.mjx-c40::before {
+  padding: 0.705em 0.778em 0.011em 0;
+  content: "@";
+}
+
+
+
+mjx-munder {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-over {
+  text-align: left;
+}
+
+mjx-munder:not([limits="false"]) {
+  display: inline-table;
+}
+
+mjx-munder > mjx-row {
+  text-align: left;
+}
+
+mjx-under {
+  padding-bottom: .1em;
+}
+
+
+
+
+
+
+
+
+
+mjx-menclose {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+mjx-menclose > mjx-dstrike {
+  display: inline-block;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-top: 0.067em solid;
+  transform-origin: top left;
+}
+
+mjx-menclose > mjx-ustrike {
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  border-top: 0.067em solid;
+  transform-origin: bottom left;
+}
+
+mjx-menclose > mjx-hstrike {
+  border-top: 0.067em solid;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  transform: translateY(0.034em);
+}
+
+mjx-menclose > mjx-vstrike {
+  border-left: 0.067em solid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(0.034em);
+}
+
+mjx-menclose > mjx-rbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 0.067em solid;
+  border-radius: 0.267em;
+}
+
+mjx-menclose > mjx-cbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 0.067em solid;
+  border-radius: 50%;
+}
+
+mjx-menclose > mjx-arrow {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  height: 0;
+  width: 0;
+}
+
+mjx-menclose > mjx-arrow > * {
+  display: block;
+  position: absolute;
+  transform-origin: bottom;
+  border-left: 0.268em solid;
+  border-right: 0;
+  box-sizing: border-box;
+}
+
+mjx-menclose > mjx-arrow > mjx-aline {
+  left: 0;
+  top: -0.034em;
+  right: 0.201em;
+  height: 0;
+  border-top: 0.067em solid;
+  border-left: 0;
+}
+
+mjx-menclose > mjx-arrow[double] > mjx-aline {
+  left: 0.201em;
+  height: 0;
+}
+
+mjx-menclose > mjx-arrow > mjx-rthead {
+  transform: skewX(0.464rad);
+  right: 0;
+  bottom: -1px;
+  border-bottom: 1px solid transparent;
+  border-top: 0.134em solid transparent;
+}
+
+mjx-menclose > mjx-arrow > mjx-rbhead {
+  transform: skewX(-0.464rad);
+  transform-origin: top;
+  right: 0;
+  top: -1px;
+  border-top: 1px solid transparent;
+  border-bottom: 0.134em solid transparent;
+}
+
+mjx-menclose > mjx-arrow > mjx-lthead {
+  transform: skewX(-0.464rad);
+  left: 0;
+  bottom: -1px;
+  border-left: 0;
+  border-right: 0.268em solid;
+  border-bottom: 1px solid transparent;
+  border-top: 0.134em solid transparent;
+}
+
+mjx-menclose > mjx-arrow > mjx-lbhead {
+  transform: skewX(0.464rad);
+  transform-origin: top;
+  left: 0;
+  top: -1px;
+  border-left: 0;
+  border-right: 0.268em solid;
+  border-top: 1px solid transparent;
+  border-bottom: 0.134em solid transparent;
+}
+
+mjx-menclose > dbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.3em;
+  width: 0.6em;
+  border: 0.067em solid;
+  border-radius: 50%;
+  clip-path: inset(0 0 0 0.3em);
+  box-sizing: border-box;
+}
+
+mjx-c.mjx-c222B.TEX-S2::before {
+  padding: 1.36em 0.944em 0.862em 0;
+  content: "\222B";
+}
+
+mjx-c.mjx-c1D70B.TEX-I::before {
+  padding: 0.431em 0.57em 0.011em 0;
+  content: "\3C0";
+}
+
+mjx-c.mjx-cB1::before {
+  padding: 0.666em 0.778em 0 0;
+  content: "\B1";
+}
+
+mjx-c.mjx-c2190::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2190";
+}
+
+mjx-c.mjx-c49::before {
+  padding: 0.683em 0.361em 0 0;
+  content: "I";
+}
+
+mjx-c.mjx-c70::before {
+  padding: 0.442em 0.556em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c62::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c28.TEX-S1::before {
+  padding: 0.85em 0.458em 0.349em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29.TEX-S1::before {
+  padding: 0.85em 0.458em 0.349em 0;
+  content: ")";
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c1D449.TEX-I::before {
+  padding: 0.683em 0.769em 0.022em 0;
+  content: "V";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c6E::before {
+  padding: 0.442em 0.556em 0 0;
+  content: "n";
+}
+
+mjx-c.mjx-c20::before {
+  padding: 0 0.25em 0 0;
+  content: " ";
+}
+
+mjx-c.mjx-c66::before {
+  padding: 0.705em 0.372em 0 0;
+  content: "f";
+}
+
+mjx-c.mjx-c50::before {
+  padding: 0.683em 0.681em 0 0;
+  content: "P";
+}
+
+mjx-c.mjx-c6C::before {
+  padding: 0.694em 0.278em 0 0;
+  content: "l";
+}
+
+mjx-c.mjx-c67::before {
+  padding: 0.453em 0.5em 0.206em 0;
+  content: "g";
+}
+
+mjx-c.mjx-c6D::before {
+  padding: 0.442em 0.833em 0 0;
+  content: "m";
+}
+
+mjx-c.mjx-c221A.TEX-S2::before {
+  padding: 1.15em 1.02em 0.65em 0;
+  content: "\221A";
+}
+
+mjx-c.mjx-c1D444.TEX-I::before {
+  padding: 0.704em 0.791em 0.194em 0;
+  content: "Q";
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c28.TEX-S2::before {
+  padding: 1.15em 0.597em 0.649em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c29.TEX-S2::before {
+  padding: 1.15em 0.597em 0.649em 0;
+  content: ")";
+}
+
+
+
+mjx-c.mjx-c1D45F.TEX-I::before {
+  padding: 0.442em 0.451em 0.011em 0;
+  content: "r";
+}
+
+
+
+mjx-c.mjx-c1D703.TEX-I::before {
+  padding: 0.705em 0.469em 0.01em 0;
+  content: "\3B8";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c5E::before {
+  padding: 0.694em 0.5em 0 0;
+  content: "^";
+}
+
+mjx-c.mjx-c131.TEX-MI::before {
+  padding: 0.441em 0.34em 0.01em 0;
+  content: "\131";
+}
+
+mjx-c.mjx-c237.TEX-MI::before {
+  padding: 0.442em 0.332em 0.204em 0;
+  content: "\237";
+}
+
+
+
+
+
+
+
+
+
+mjx-stretchy-v.mjx-c7B mjx-beg mjx-c::before {
+  content: "\23A7";
+  padding: 0.899em 0.889em 0.01em 0;
+}
+
+mjx-stretchy-v.mjx-c7B mjx-ext mjx-c::before {
+  content: "\23AA";
+  width: 0.889em;
+}
+
+mjx-stretchy-v.mjx-c7B mjx-end mjx-c::before {
+  content: "\23A9";
+  padding: 0.01em 0.889em 0.899em 0;
+}
+
+mjx-stretchy-v.mjx-c7B mjx-mid mjx-c::before {
+  content: "\23A8";
+  padding: 1.16em 0.889em 0.66em 0;
+}
+
+mjx-stretchy-v.mjx-c7B > mjx-mid {
+  margin-top: -0.91em;
+  margin-bottom: -0.91em;
+}
+
+mjx-stretchy-v.mjx-c7B > mjx-end {
+  margin-top: -0.909em;
+}
+
+mjx-stretchy-v.mjx-c7B > mjx-ext {
+  height: 50%;
+  border-top-width: 0.879em;
+  border-bottom-width: 0.879em;
+}
+
+mjx-stretchy-v.mjx-c7D mjx-beg mjx-c::before {
+  content: "\23AB";
+  padding: 0.899em 0.889em 0.01em 0;
+}
+
+mjx-stretchy-v.mjx-c7D mjx-ext mjx-c::before {
+  content: "\23AA";
+  width: 0.889em;
+}
+
+mjx-stretchy-v.mjx-c7D mjx-end mjx-c::before {
+  content: "\23AD";
+  padding: 0.01em 0.889em 0.899em 0;
+}
+
+mjx-stretchy-v.mjx-c7D mjx-mid mjx-c::before {
+  content: "\23AC";
+  padding: 1.16em 0.889em 0.66em 0;
+}
+
+mjx-stretchy-v.mjx-c7D > mjx-mid {
+  margin-top: -0.91em;
+  margin-bottom: -0.91em;
+}
+
+mjx-stretchy-v.mjx-c7D > mjx-end {
+  margin-top: -0.909em;
+}
+
+mjx-stretchy-v.mjx-c7D > mjx-ext {
+  height: 50%;
+  border-top-width: 0.879em;
+  border-bottom-width: 0.879em;
+}
+
+mjx-c.mjx-c7B::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "{";
+}
+
+mjx-c.mjx-c7D::before {
+  padding: 0.75em 0.5em 0.25em 0;
+  content: "}";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c1D452.TEX-I::before {
+  padding: 0.442em 0.466em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c1D453.TEX-I::before {
+  padding: 0.705em 0.55em 0.205em 0;
+  content: "f";
+}
+
+mjx-c.mjx-c1D454.TEX-I::before {
+  padding: 0.442em 0.477em 0.205em 0;
+  content: "g";
+}
+
+mjx-c.mjx-c210E.TEX-I::before {
+  padding: 0.694em 0.576em 0.011em 0;
+  content: "h";
+}
+
+mjx-c.mjx-cA0::before {
+  padding: 0 0.25em 0 0;
+  content: "\A0";
+}
+
+
+
+mjx-stretchy-v.mjx-c7C mjx-ext mjx-c::before {
+  content: "\2223";
+  width: 0.333em;
+}
+
+mjx-c.mjx-c7C::before {
+  padding: 0.75em 0.278em 0.249em 0;
+  content: "|";
+}
+
+mjx-c.mjx-c1D462.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "u";
+}
+
+mjx-c.mjx-c1D464.TEX-I::before {
+  padding: 0.443em 0.716em 0.011em 0;
+  content: "w";
+}
+
+mjx-c.mjx-c72::before {
+  padding: 0.442em 0.392em 0 0;
+  content: "r";
+}
+
+mjx-c.mjx-c5B.TEX-S2::before {
+  padding: 1.15em 0.472em 0.649em 0;
+  content: "[";
+}
+
+mjx-c.mjx-c5D.TEX-S2::before {
+  padding: 1.15em 0.472em 0.649em 0;
+  content: "]";
+}
+
+mjx-c.mjx-c22BA.TEX-A::before {
+  padding: 0.431em 0.556em 0.212em 0;
+  content: "\22BA";
+}
+
+mjx-c.mjx-c5B.TEX-S1::before {
+  padding: 0.85em 0.417em 0.349em 0;
+  content: "[";
+}
+
+mjx-c.mjx-c5D.TEX-S1::before {
+  padding: 0.85em 0.417em 0.349em 0;
+  content: "]";
+}
+
+mjx-c.mjx-c5B::before {
+  padding: 0.75em 0.278em 0.25em 0;
+  content: "[";
+}
+
+mjx-c.mjx-c5D::before {
+  padding: 0.75em 0.278em 0.25em 0;
+  content: "]";
+}
+
+
+
+
+
+
+
+mjx-munderover {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-munderover:not([limits="false"]) {
+  padding-top: .1em;
+}
+
+mjx-munderover:not([limits="false"]) > * {
+  display: block;
+}
+
+mjx-msubsup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-script {
+  display: inline-block;
+  padding-right: .05em;
+  padding-left: .033em;
+}
+
+mjx-script > mjx-spacer {
+  display: block;
+}
+
+mjx-c.mjx-c1D450.TEX-I::before {
+  padding: 0.442em 0.433em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c2211.TEX-S2::before {
+  padding: 0.95em 1.444em 0.45em 0;
+  content: "\2211";
+}
+
+
+
+
+
+mjx-c.mjx-c25FB.TEX-A::before {
+  padding: 0.689em 0.778em 0 0;
+  content: "\25A1";
+}
+
+mjx-c.mjx-c65::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "e";
+}
+
+mjx-c.mjx-c1D43C.TEX-I::before {
+  padding: 0.683em 0.504em 0 0;
+  content: "I";
+}
+
+
+
+
+
+
+
+
+
+mjx-c.mjx-c1D440.TEX-I::before {
+  padding: 0.683em 1.051em 0 0;
+  content: "M";
+}
+
+
+
+mjx-c.mjx-c2299::before {
+  padding: 0.583em 0.778em 0.083em 0;
+  content: "\2299";
+}
+
+mjx-c.mjx-c1D435.TEX-I::before {
+  padding: 0.683em 0.759em 0 0;
+  content: "B";
+}
+
+mjx-c.mjx-cD7::before {
+  padding: 0.491em 0.778em 0 0;
+  content: "\D7";
+}
+
+mjx-c.mjx-c69::before {
+  padding: 0.669em 0.278em 0 0;
+  content: "i";
+}
+
+
+
+
+
+mjx-c.mjx-c61::before {
+  padding: 0.448em 0.5em 0.011em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c64::before {
+  padding: 0.694em 0.556em 0.011em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c6A::before {
+  padding: 0.669em 0.306em 0.205em 0;
+  content: "j";
+}
+
+mjx-c.mjx-c41::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c1D436.TEX-I::before {
+  padding: 0.705em 0.76em 0.022em 0;
+  content: "C";
+}
+
+mjx-c.mjx-c1D5B3.TEX-SS::before {
+  padding: 0.688em 0.681em 0 0;
+  content: "T";
+}
+
+mjx-mtext {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-v.mjx-c28 mjx-beg mjx-c::before {
+  content: "\239B";
+  padding: 1.154em 0.875em 0.655em 0;
+}
+
+mjx-stretchy-v.mjx-c28 mjx-ext mjx-c::before {
+  content: "\239C";
+  width: 0.875em;
+}
+
+mjx-stretchy-v.mjx-c28 mjx-end mjx-c::before {
+  content: "\239D";
+  padding: 1.165em 0.875em 0.644em 0;
+}
+
+mjx-stretchy-v.mjx-c28 > mjx-end {
+  margin-top: -1.809em;
+}
+
+mjx-stretchy-v.mjx-c28 > mjx-ext {
+  border-top-width: 1.779em;
+  border-bottom-width: 1.779em;
+}
+
+mjx-stretchy-v.mjx-c29 mjx-beg mjx-c::before {
+  content: "\239E";
+  padding: 1.154em 0.875em 0.655em 0;
+}
+
+mjx-stretchy-v.mjx-c29 mjx-ext mjx-c::before {
+  content: "\239F";
+  width: 0.875em;
+}
+
+mjx-stretchy-v.mjx-c29 mjx-end mjx-c::before {
+  content: "\23A0";
+  padding: 1.165em 0.875em 0.644em 0;
+}
+
+mjx-stretchy-v.mjx-c29 > mjx-end {
+  margin-top: -1.809em;
+}
+
+mjx-stretchy-v.mjx-c29 > mjx-ext {
+  border-top-width: 1.779em;
+  border-bottom-width: 1.779em;
+}
+
+mjx-c.mjx-c5B.TEX-S3::before {
+  padding: 1.45em 0.528em 0.949em 0;
+  content: "[";
+}
+
+mjx-c.mjx-c39::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "9";
+}
+
+mjx-c.mjx-c5D.TEX-S3::before {
+  padding: 1.45em 0.528em 0.949em 0;
+  content: "]";
+}
+
+mjx-c.mjx-c1D45A.TEX-I::before {
+  padding: 0.442em 0.878em 0.011em 0;
+  content: "m";
+}
+
+mjx-c.mjx-c22EE::before {
+  padding: 1.3em 0.278em 0.03em 0;
+  content: "\22EE";
+}
+
+mjx-c.mjx-c22F1::before {
+  padding: 1.52em 1.282em 0 0;
+  content: "\22F1";
+}
+
+mjx-c.mjx-c74::before {
+  padding: 0.615em 0.389em 0.01em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c68::before {
+  padding: 0.694em 0.556em 0 0;
+  content: "h";
+}
+
+mjx-msqrt {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-root {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+mjx-surd {
+  display: inline-block;
+  vertical-align: top;
+}
+
+mjx-sqrt {
+  display: inline-block;
+  padding-top: .07em;
+}
+
+mjx-sqrt > mjx-box {
+  border-top: .07em solid;
+}
+
+mjx-sqrt.mjx-tall > mjx-box {
+  padding-left: .3em;
+  margin-left: -.3em;
+}
+
+mjx-c.mjx-c2E::before {
+  padding: 0.12em 0.278em 0 0;
+  content: ".";
+}
+
+mjx-c.mjx-c221A::before {
+  padding: 0.8em 0.853em 0.2em 0;
+  content: "\221A";
+}
+
+
+
+
+
+
+
+mjx-mover {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mover:not([limits="false"]) {
+  padding-top: .1em;
+}
+
+mjx-mover:not([limits="false"]) > * {
+  display: block;
+  text-align: left;
+}
+
+mjx-c.mjx-c27E8::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "\27E8";
+}
+
+mjx-c.mjx-c27E9::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "\27E9";
+}
+
+mjx-c.mjx-c1D461.TEX-I::before {
+  padding: 0.626em 0.361em 0.011em 0;
+  content: "t";
+}
+
+mjx-c.mjx-c20D7.TEX-V::before {
+  padding: 0.714em 0.5em 0 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c1D451.TEX-I::before {
+  padding: 0.694em 0.52em 0.01em 0;
+  content: "d";
+}
+
+mjx-c.mjx-c2208::before {
+  padding: 0.54em 0.667em 0.04em 0;
+  content: "\2208";
+}
+
+mjx-c.mjx-c211D.TEX-A::before {
+  padding: 0.683em 0.722em 0 0;
+  content: "R";
+}
+
+mjx-c.mjx-c27F9::before {
+  padding: 0.525em 1.638em 0.024em 0;
+  content: "\27F9";
+}
+
+mjx-c.mjx-c1D463.TEX-I::before {
+  padding: 0.443em 0.485em 0.011em 0;
+  content: "v";
+}
+
+mjx-c.mjx-c1D45D.TEX-I::before {
+  padding: 0.442em 0.503em 0.194em 0;
+  content: "p";
+}
+
+mjx-c.mjx-c3A::before {
+  padding: 0.43em 0.278em 0 0;
+  content: ":";
+}
+
+mjx-c.mjx-c1D460.TEX-I::before {
+  padding: 0.442em 0.469em 0.01em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c1D443.TEX-I::before {
+  padding: 0.683em 0.751em 0 0;
+  content: "P";
+}
+
+
+
+
+
+
+
+mjx-c.mjx-c1D448.TEX-I::before {
+  padding: 0.683em 0.767em 0.022em 0;
+  content: "U";
+}
+
+mjx-c.mjx-c1D44B.TEX-I::before {
+  padding: 0.683em 0.852em 0 0;
+  content: "X";
+}
+
+
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c.mjx-c1D44E.TEX-I::before {
+  padding: 0.441em 0.529em 0.01em 0;
+  content: "a";
+}
+
+mjx-c.mjx-c200B::before {
+  padding: 0 0 0 0;
+  content: "";
+}
+
+mjx-c.mjx-c22EF::before {
+  padding: 0.31em 1.172em 0 0;
+  content: "\22EF";
+}
+
+mjx-c.mjx-c1D45B.TEX-I::before {
+  padding: 0.442em 0.6em 0.011em 0;
+  content: "n";
+}
+
+mjx-c.mjx-c2C::before {
+  padding: 0.121em 0.278em 0.194em 0;
+  content: ",";
+}
+
+mjx-c.mjx-c2026::before {
+  padding: 0.12em 1.172em 0 0;
+  content: "\2026";
+}
+
+mjx-c.mjx-c63::before {
+  padding: 0.448em 0.444em 0.011em 0;
+  content: "c";
+}
+
+mjx-c.mjx-c6F::before {
+  padding: 0.448em 0.5em 0.01em 0;
+  content: "o";
+}
+
+mjx-c.mjx-c73::before {
+  padding: 0.448em 0.394em 0.011em 0;
+  content: "s";
+}
+
+mjx-c.mjx-c2061::before {
+  padding: 0 0 0 0;
+  content: "";
+}
+
+mjx-c.mjx-c22C5::before {
+  padding: 0.31em 0.278em 0 0;
+  content: "\22C5";
+}
+
+mjx-c.mjx-c1D445.TEX-I::before {
+  padding: 0.683em 0.759em 0.021em 0;
+  content: "R";
+}
+
+mjx-c.mjx-c1D456.TEX-I::before {
+  padding: 0.661em 0.345em 0.011em 0;
+  content: "i";
+}
+
+mjx-c.mjx-c2194::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2194";
+}
+
+mjx-c.mjx-c1D457.TEX-I::before {
+  padding: 0.661em 0.412em 0.204em 0;
+  content: "j";
+}
+
+mjx-c.mjx-c1D458.TEX-I::before {
+  padding: 0.694em 0.521em 0.011em 0;
+  content: "k";
+}
+
+mjx-c.mjx-c2260::before {
+  padding: 0.716em 0.778em 0.215em 0;
+  content: "\2260";
+}
+
+mjx-c.mjx-c1D434.TEX-I::before {
+  padding: 0.716em 0.75em 0 0;
+  content: "A";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-mrow {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mtable {
+  display: inline-block;
+  text-align: center;
+  vertical-align: .25em;
+  position: relative;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+mjx-mstyle[size="s"] mjx-mtable {
+  vertical-align: .354em;
+}
+
+mjx-labels {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+mjx-table {
+  display: inline-block;
+  vertical-align: -.5ex;
+  box-sizing: border-box;
+}
+
+mjx-table > mjx-itable {
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+mjx-labels > mjx-itable {
+  position: absolute;
+  top: 0;
+}
+
+mjx-mtable[justify="left"] {
+  text-align: left;
+}
+
+mjx-mtable[justify="right"] {
+  text-align: right;
+}
+
+mjx-mtable[justify="left"][side="left"] {
+  padding-right: 0 ! important;
+}
+
+mjx-mtable[justify="left"][side="right"] {
+  padding-left: 0 ! important;
+}
+
+mjx-mtable[justify="right"][side="left"] {
+  padding-right: 0 ! important;
+}
+
+mjx-mtable[justify="right"][side="right"] {
+  padding-left: 0 ! important;
+}
+
+mjx-mtable[align] {
+  vertical-align: baseline;
+}
+
+mjx-mtable[align="top"] > mjx-table {
+  vertical-align: top;
+}
+
+mjx-mtable[align="bottom"] > mjx-table {
+  vertical-align: bottom;
+}
+
+mjx-mtable[side="right"] mjx-labels {
+  min-width: 100%;
+}
+
+mjx-mtr {
+  display: table-row;
+  text-align: left;
+}
+
+mjx-mtr[rowalign="top"] > mjx-mtd {
+  vertical-align: top;
+}
+
+mjx-mtr[rowalign="center"] > mjx-mtd {
+  vertical-align: middle;
+}
+
+mjx-mtr[rowalign="bottom"] > mjx-mtd {
+  vertical-align: bottom;
+}
+
+mjx-mtr[rowalign="baseline"] > mjx-mtd {
+  vertical-align: baseline;
+}
+
+mjx-mtr[rowalign="axis"] > mjx-mtd {
+  vertical-align: .25em;
+}
+
+mjx-mtd {
+  display: table-cell;
+  text-align: center;
+  padding: .215em .4em;
+}
+
+mjx-mtd:first-child {
+  padding-left: 0;
+}
+
+mjx-mtd:last-child {
+  padding-right: 0;
+}
+
+mjx-mtable > * > mjx-itable > *:first-child > mjx-mtd {
+  padding-top: 0;
+}
+
+mjx-mtable > * > mjx-itable > *:last-child > mjx-mtd {
+  padding-bottom: 0;
+}
+
+mjx-tstrut {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -.25em;
+}
+
+mjx-labels[align="left"] > mjx-mtr > mjx-mtd {
+  text-align: left;
+}
+
+mjx-labels[align="right"] > mjx-mtr > mjx-mtd {
+  text-align: right;
+}
+
+mjx-mtd[extra] {
+  padding: 0;
+}
+
+mjx-mtd[rowalign="top"] {
+  vertical-align: top;
+}
+
+mjx-mtd[rowalign="center"] {
+  vertical-align: middle;
+}
+
+mjx-mtd[rowalign="bottom"] {
+  vertical-align: bottom;
+}
+
+mjx-mtd[rowalign="baseline"] {
+  vertical-align: baseline;
+}
+
+mjx-mtd[rowalign="axis"] {
+  vertical-align: .25em;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-msub {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mi {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-TeXAtom {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mspace {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mfrac {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-frac {
+  display: inline-block;
+  vertical-align: 0.17em;
+  padding: 0 .22em;
+}
+
+mjx-frac[type="d"] {
+  vertical-align: .04em;
+}
+
+mjx-frac[delims] {
+  padding: 0 .1em;
+}
+
+mjx-frac[atop] {
+  padding: 0 .12em;
+}
+
+mjx-frac[atop][delims] {
+  padding: 0;
+}
+
+mjx-dtable {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-dtable > * {
+  font-size: 2000%;
+}
+
+mjx-dbox {
+  display: block;
+  font-size: 5%;
+}
+
+mjx-num {
+  display: block;
+  text-align: center;
+}
+
+mjx-den {
+  display: block;
+  text-align: center;
+}
+
+mjx-mfrac[bevelled] > mjx-num {
+  display: inline-block;
+}
+
+mjx-mfrac[bevelled] > mjx-den {
+  display: inline-block;
+}
+
+mjx-den[align="right"], mjx-num[align="right"] {
+  text-align: right;
+}
+
+mjx-den[align="left"], mjx-num[align="left"] {
+  text-align: left;
+}
+
+mjx-nstrut {
+  display: inline-block;
+  height: .054em;
+  width: 0;
+  vertical-align: -.054em;
+}
+
+mjx-nstrut[type="d"] {
+  height: .217em;
+  vertical-align: -.217em;
+}
+
+mjx-dstrut {
+  display: inline-block;
+  height: .505em;
+  width: 0;
+}
+
+mjx-dstrut[type="d"] {
+  height: .726em;
+}
+
+mjx-line {
+  display: block;
+  box-sizing: border-box;
+  min-height: 1px;
+  height: .06em;
+  border-top: .06em solid;
+  margin: .06em -.1em;
+  overflow: hidden;
+}
+
+mjx-line[type="d"] {
+  margin: .18em -.1em;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax-full@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-stretchy-v.mjx-c5B mjx-beg mjx-c::before {
+  content: "\23A1";
+  padding: 1.154em 0.667em 0.645em 0;
+}
+
+mjx-stretchy-v.mjx-c5B mjx-ext mjx-c::before {
+  content: "\23A2";
+  width: 0.667em;
+}
+
+mjx-stretchy-v.mjx-c5B mjx-end mjx-c::before {
+  content: "\23A3";
+  padding: 1.155em 0.667em 0.644em 0;
+}
+
+mjx-stretchy-v.mjx-c5B > mjx-end {
+  margin-top: -1.799em;
+}
+
+mjx-stretchy-v.mjx-c5B > mjx-ext {
+  border-top-width: 1.769em;
+  border-bottom-width: 1.769em;
+}
+
+mjx-stretchy-v.mjx-c5D mjx-beg mjx-c::before {
+  content: "\23A4";
+  padding: 1.154em 0.667em 0.645em 0;
+}
+
+mjx-stretchy-v.mjx-c5D mjx-ext mjx-c::before {
+  content: "\23A5";
+  width: 0.667em;
+}
+
+mjx-stretchy-v.mjx-c5D mjx-end mjx-c::before {
+  content: "\23A6";
+  padding: 1.155em 0.667em 0.644em 0;
+}
+
+mjx-stretchy-v.mjx-c5D > mjx-end {
+  margin-top: -1.799em;
+}
+
+mjx-stretchy-v.mjx-c5D > mjx-ext {
+  border-top-width: 1.769em;
+  border-bottom-width: 1.769em;
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+
+mjx-c.mjx-c30::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "0";
+}
+
+mjx-c.mjx-c1D465.TEX-I::before {
+  padding: 0.442em 0.572em 0.011em 0;
+  content: "x";
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-c3D::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "=";
+}
+
+mjx-c.mjx-c1D44F.TEX-I::before {
+  padding: 0.694em 0.429em 0.011em 0;
+  content: "b";
+}
+
+mjx-c.mjx-c2B::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "+";
+}
+
+mjx-c.mjx-c1D466.TEX-I::before {
+  padding: 0.442em 0.49em 0.205em 0;
+  content: "y";
+}
+
+mjx-c.mjx-c2212::before {
+  padding: 0.583em 0.778em 0.082em 0;
+  content: "\2212";
+}
+
+mjx-c.mjx-c1D467.TEX-I::before {
+  padding: 0.442em 0.465em 0.011em 0;
+  content: "z";
+}
+
+mjx-c.mjx-c38::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "8";
+}
+
+mjx-c.mjx-c28::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: "(";
+}
+
+mjx-c.mjx-c1D43F.TEX-I::before {
+  padding: 0.683em 0.681em 0 0;
+  content: "L";
+}
+
+mjx-c.mjx-c29::before {
+  padding: 0.75em 0.389em 0.25em 0;
+  content: ")";
+}
+
+mjx-c.mjx-c2192::before {
+  padding: 0.511em 1em 0.011em 0;
+  content: "\2192";
+}
+
+mjx-c.mjx-c35::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "5";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+mjx-c.mjx-c37::before {
+  padding: 0.676em 0.5em 0.022em 0;
+  content: "7";
+}
+10:Td9d8,<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"></mjx-math></mjx-container></p>
+<p>Signed area refers to the area between a <a href="Function">function</a> and the x-axis, with the sign determined by whether the curve is above or below the x-axis. When the <a href="Function">function</a> is above the x-axis it's area is added where as when it is below the x-axis it's area is subtracted.</p>
+<h1>Example</h1>
+<div class="desmos-graph">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="624" height="299"><defs/><g transform="scale(1,1)"><g id="background-4c26d759"><rect fill="white" stroke="none" x="0" y="0" width="624.99560546875" height="299.99932861328125" class="dcg-svg-background"/></g><g id="background-images-4c26d759"/><g id="graphpaper-4c26d759"><g id="grid-4c26d759"><g><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 13.5 0 L 13.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 33.5 0 L 33.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 53.5 0 L 53.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 73.5 0 L 73.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 93.5 0 L 93.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 113.5 0 L 113.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 132.5 0 L 132.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 152.5 0 L 152.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 172.5 0 L 172.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 192.5 0 L 192.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 212.5 0 L 212.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 232.5 0 L 232.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 252.5 0 L 252.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 272.5 0 L 272.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 292.5 0 L 292.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 331.5 0 L 331.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 351.5 0 L 351.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 371.5 0 L 371.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 391.5 0 L 391.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 411.5 0 L 411.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 431.5 0 L 431.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 451.5 0 L 451.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 471.5 0 L 471.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 491.5 0 L 491.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 510.5 0 L 510.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 530.5 0 L 530.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 550.5 0 L 550.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 570.5 0 L 570.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 590.5 0 L 590.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 610.5 0 L 610.5 299.99932861328125" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 285.5 L 624.99560546875 285.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 258.5 L 624.99560546875 258.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 231.5 L 624.99560546875 231.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 204.5 L 624.99560546875 204.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 176.5 L 624.99560546875 176.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 122.5 L 624.99560546875 122.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 94.5 L 624.99560546875 94.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 67.5 L 624.99560546875 67.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 40.5 L 624.99560546875 40.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-minor-gridline" paint-order="fill stroke markers" d=" M 0 13.5 L 624.99560546875 13.5" stroke-opacity="0.12" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 13.5 0 L 13.5 299.99932861328125" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 113.5 0 L 113.5 299.99932861328125" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 212.5 0 L 212.5 299.99932861328125" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 411.5 0 L 411.5 299.99932861328125" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 510.5 0 L 510.5 299.99932861328125" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 610.5 0 L 610.5 299.99932861328125" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 0 285.5 L 624.99560546875 285.5" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-major-gridline" paint-order="fill stroke markers" d=" M 0 13.5 L 624.99560546875 13.5" stroke-opacity="0.31818181818181823" stroke-miterlimit="10" stroke-dasharray=""/></g></g><g id="axis-4c26d759"><g id="yaxis-4c26d759"><title>Y axis</title><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 311.75 0 L 311.75 299.99932861328125" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/></g><g id="xaxis-4c26d759"><title>X axis</title><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 0 149.75 L 624.99560546875 149.75" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/></g><g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.604736328125" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">0</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.604736328125" y="165.80766430664062" text-anchor="middle">0</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="11.753327983684244" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-3</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="11.753327983684244" y="165.80766430664062" text-anchor="middle">-3</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="111.22446800474785" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-2</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="111.22446800474785" y="165.80766430664062" text-anchor="middle">-2</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="210.69560802581142" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="210.69560802581142" y="165.80766430664062" text-anchor="middle">-1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="411.96894275543855" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="411.96894275543855" y="165.80766430664062" text-anchor="middle">1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="511.44008277650215" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">2</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="511.44008277650215" y="165.80766430664062" text-anchor="middle">2</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="610.9112227975658" y="165.80766430664062" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">3</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="610.9112227975658" y="165.80766430664062" text-anchor="middle">3</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="301.273681640625" y="290.17099549449574" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">-1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="301.273681640625" y="290.17099549449574" text-anchor="middle">-1</text></g><g class="dcg-svg-axis-value"><text fill="none" stroke="#ffffff" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.604736328125" y="17.44433311878553" text-anchor="middle" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">1</text><text fill="#000000" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="normal" text-decoration="normal" x="303.604736328125" y="17.44433311878553" text-anchor="middle">1</text></g></g></g></g><g id="expressions-4c26d759"><g id="sketch-4c26d759"><title>Expression 1</title><path fill="#5e81ac" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#5e81ac" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M -0.5 149.49966430664062 L -0.5 149.49966430664062 L 19.794046759605422 177.12783504557308 L 30.62771081924439 191.47906672768647 L 39.63033306598661 203.03340914653307 L 47.56484758853914 212.85661610348433 L 54.73642802238462 221.39029452485568 L 61.45024800300596 229.0415753319256 L 67.70630753040315 235.84584675591864 L 73.65719342231753 242.00173589925376 L 79.30290567874908 247.5363252280069 L 84.6434442996979 252.48143977790727 L 89.83139610290523 257.00120930784993 L 94.71417427062991 260.9882529565907 L 99.4443656206131 264.5946652044656 L 104.02197015285495 267.8370581217408 L 108.44698786735532 270.7332596980683 L 112.87200558185576 273.3895850526312 L 117.14443647861481 275.7217678051478 L 121.26428055763243 277.7502050951387 L 125.38412463665007 279.558671860505 L 129.3513818979263 281.08935883974175 L 133.3186391592026 282.4107546779993 L 137.28589642047882 283.52075771797354 L 141.10056686401364 284.3870683382147 L 144.91523730754852 285.055026298819 L 148.72990775108335 285.52364936398044 L 152.54457819461823 285.79224842093856 L 156.35924863815305 285.86042849332256 L 160.17391908168796 285.7280893219659 L 163.98858952522275 285.3954255123383 L 167.80325996875766 284.86292624837705 L 171.61793041229245 284.1313745731397 L 175.43260085582733 283.20184623733456 L 179.24727129936218 282.07570811742386 L 183.2145285606384 280.69774399990416 L 187.18178582191467 279.11111159805796 L 191.30162990093234 277.2453022899986 L 195.42147397994995 275.16038844769764 L 199.693904876709 272.7706556751078 L 203.96633577346805 270.1535440740318 L 208.39135348796842 267.208412930736 L 212.96895802021027 263.9167133008199 L 217.69914937019345 260.2608600526884 L 222.58192753791803 256.22450675607564 L 227.6172925233841 251.7928416248281 L 232.8052443265915 246.95290364594933 L 238.29836976528165 241.53968279314915 L 244.09666883945465 235.52163946944097 L 250.20014154911038 228.87157626734194 L 256.60878789424896 221.56795777638783 L 263.4751946926117 213.41163336995788 L 270.95194876194 204.18543699251603 L 279.3442237377167 193.4642493884985 L 288.9571932554245 180.80396231528516 L 301.01155185699463 164.52993166411284 L 339.4634299278259 112.32410812453728 L 348.92381262779236 100.03308532443899 L 357.1635007858276 89.68849290644016 L 364.64025485515594 80.65484903346135 L 371.5066616535187 72.69992563409946 L 377.9153079986572 65.60463516306376 L 384.018780708313 59.17044224305144 L 389.66449296474457 53.52098266800476 L 395.15761840343475 48.320743688251866 L 400.34557020664215 43.692396684141215 L 405.38093519210815 39.47524414463686 L 410.26371335983276 35.65498158842803 L 414.9939047098159 32.21555536168211 L 419.5715092420578 29.13947821625294 L 423.9965269565582 26.40812365741317 L 428.26895785331726 24.001998341520107 L 432.5413887500763 21.82735905448186 L 436.66123282909393 19.95337536226134 L 440.6284900903702 18.358765540851948 L 444.59574735164637 16.972733058489553 L 448.5630046129226 15.797482375946743 L 452.3776750564575 14.86795404014157 L 456.1923454999923 14.1364023649042 L 460.0070159435272 13.603903100943 L 463.821686387062 13.271239291315396 L 467.6363568305969 13.138900119958691 L 471.4510272741317 13.207080192342687 L 475.2656977176666 13.47567924930081 L 479.0803681612015 13.944302314462277 L 482.8950386047363 14.612260275066603 L 486.7097090482712 15.478570895307712 L 490.524379491806 16.541960260717417 L 494.4916367530823 17.855262326504146 L 498.4588940143585 19.377942544521602 L 502.4261512756347 21.107579118128967 L 506.54599535465235 23.11983700728922 L 510.66583943367004 25.348856843355065 L 514.9382703304291 27.885294284960935 L 519.3632880449295 30.748739593355083 L 523.9408925771713 33.95810851785268 L 528.6710839271545 37.5313901157279 L 533.5538620948792 41.4853727701734 L 538.5892270803452 45.83534880541734 L 543.7771788835526 50.59479851006603 L 549.2703043222427 55.92710394380617 L 554.9160165786743 61.704650394372266 L 560.8669024705887 68.1002044669545 L 567.2755488157272 75.31275850708434 L 573.9893687963486 83.19841139653877 L 581.3135360479355 92.14400978701585 L 589.4006373882294 102.38049817148595 L 598.555846452713 114.34095633197242 L 609.6946841478348 129.28411695911973 L 624.49560546875 149.49966430664062" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-opacity="0.9" stroke-dasharray=""/></g></g><g id="sketch-4c26d759"><title>Expression 2</title><path fill="#a3be8c" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><path fill="#a3be8c" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M -3 146.19576181389925 L -0.7670269310474456 149.2627721366007 L -1.1961773559451228 149.4584656683728 L -3 149.4208204936173 M 467.43608663231134 13.173370278440416 L 468.5518777370453 13.214568916708288 L 468.80936799198383 13.173370278440416 L 469.92515909671783 13.214568916708288 L 470.18264935165644 13.173370278440416 L 471.98508113622665 13.296966193243861 L 472.24257139116526 13.255767554976046 L 479.62395869940514 14.03854168206459 L 486.4903654977679 15.42899572360335 L 487.60615660250187 15.768884489312768 L 488.12113711237913 15.851281765848398 L 488.5502875372768 15.974877680651844 L 489.1510981321335 16.18087087199092 L 489.1510981321335 16.18087087199092 L 489.83773881196976 16.34566542506218 L 491.98349093645805 17.00484363734722 L 492.67013161629444 17.293234105221927 L 493.8717528060079 17.664021849632206 L 501.0814799442888 20.506727890111506 L 501.51063036918646 20.71272108145058 L 501.51063036918646 20.71272108145058 L 508.3770371675492 24.09100941941142 L 508.46286725252867 24.214605334214866 L 508.63452742248774 24.255803972482624 L 508.63452742248774 24.255803972482624 L 514.3851431161165 27.55169503390789 L 515.9300846457481 28.540462352335453 L 516.6167253255844 28.952448735013604 L 519.3632880449295 30.76518881879747 L 519.449118129909 30.8475860953331 L 520.2215888947248 31.34196975454688 L 520.736569404602 31.69215817982331 L 521.680700339377 32.37193571124226 L 524.1697728037835 34.14347715675831 L 526.5730151832104 35.95621724054217 L 526.830505438149 36.121011793613434 L 526.830505438149 36.121011793613434 L 527.6029762029648 36.780190005898476 L 527.6888062879443 36.780190005898476 L 528.5471071377397 37.43936821818352 L 528.6329372227192 37.60416277125478 L 529.3195779025555 38.09854643046856 L 530.2637088373303 38.798923281021416 L 530.4353690072894 38.94311851495877 L 532.2378007918597 40.405670173466206 L 532.2378007918597 40.488067450001836 L 532.5811211317778 40.73525927960873 L 533.2677618116142 41.31204021535814 L 533.4394219815731 41.39443749189377 L 533.7827423214912 41.72402659803629 L 533.7827423214912 41.72402659803629 L 533.8685724064708 41.765225236304104 L 537.9884164854884 45.34950676560399 L 538.1600766554475 45.555499956943095 L 538.9325474202633 46.17347953096029 L 541.5074499696493 48.563000550493626 L 541.6791101396084 48.64539782702923 L 550.5196088925004 57.21471458673477 L 550.6054389774799 57.379509139806004 L 551.2491646148266 57.956290075555444 L 553.0945114418864 59.85142743587491 L 554.1244724616408 60.96379066910595 L 554.3819627165796 61.16978386044502 L 554.3819627165796 61.16978386044502 L 554.639452971518 61.499372966587515 L 555.0686033964157 61.911359349265666 L 556.0985644161702 62.982523944228916 L 556.871035180986 63.80649670958522 L 557.5576758608222 64.58927083667365 L 558.1799439769239 65.20725041069088 L 566.6556648686528 74.64173857402056 L 566.6556648686528 74.72413585055622 L 566.998985208571 75.0125263184309 L 567.0848152935505 75.17732087150216 L 567.9431161433458 76.0836909133941 L 568.6297568231821 76.9076636787504 L 569.1447373330593 77.48444461449981 L 569.4880576729774 77.97882827371356 L 569.573887757957 78.0200269119814 L 571.4621496275067 80.28595201671126 L 571.5479797124863 80.3683492932469 L 571.6338097974658 80.39924827194773 L 572.6637708172202 81.72790435608479 L 573.1787513270974 82.26348665356636 L 579.1868572756648 89.51444698870182 L 579.4443475306034 89.84403609484434 L 580.4743085503578 91.1623925194144 L 585.0233030542731 96.88900323864073 L 585.5811986066401 97.50698281265795 L 586.1390941590071 98.33095557801425 L 586.6540746688843 98.90773651376367 L 587.6840356886387 100.22609293833375 L 588.0273560285567 100.6380793210119 L 588.0273560285567 100.6380793210119 L 588.1131861135364 100.76167523581535 L 588.542336538434 101.37965480983257 L 589.5722975581884 102.61561395786703 L 589.7010426856577 102.78040851093829 L 590.2589382380247 103.60438127629459 L 590.7739187479019 104.181162212044 L 592.1472001075743 105.99390229582787 L 596.267044186592 111.34972527064383 L 596.6961946114897 111.92650620639324 L 600.0435679256916 116.37595913931727 L 600.5585484355688 117.11753462813795 L 600.6443785205483 117.19993190467358 L 600.6443785205483 117.19993190467358 L 600.8160386905073 117.40592509601265 L 602.0176598802209 119.05387062672526 L 602.18932005018 119.1774665415287 L 602.7901306450367 120.001439306885 L 604.9358827695249 122.92654262389988 L 606.051673874259 124.3684949632734 L 606.051673874259 124.45089223980904 L 606.3949942141771 124.86287862248719 L 608.454916253686 127.66438602469862 L 608.626576423645 127.91157785430553 L 609.9998577833176 129.72431793808937 L 611.3731391429901 131.6194552984089 L 611.4589692279696 131.7430512132123 L 612.1456099078059 132.64942125510427 L 612.2314399927855 132.7730171699077 L 614.2913620322943 135.57452457211915 L 614.4630222022533 135.821716401726 L 614.9780027121305 136.5632918905467 L 615.3213230520487 136.97527827322486 L 615.3213230520487 137.05767554976046 L 615.4929832220078 137.22247010283175 L 615.4929832220078 137.22247010283175 L 615.8577610831708 137.7168537620455 L 616.4371141567826 138.499627889134 L 618.9261866211891 141.91911486536267 L 620.6427883207798 144.22623860836032 L 623.1318607851863 147.7545157387649 L 619.5269972160459 149.4584656683728 L 617.5529052615166 149.417267030105 L 615.5788133069873 149.4584656683728 L 615.4071531370282 149.4584656683728 L 613.4330611824989 149.417267030105 L 611.4589692279696 149.4584656683728 L 611.2873090580106 149.4584656683728 L 609.3132171034813 149.417267030105 L 607.339125148952 149.4584656683728 L 607.1674649789929 149.4584656683728 L 605.1933730244637 149.417267030105 L 603.2192810699344 149.4584656683728 L 603.0476208999753 149.4584656683728 L 601.073528945446 149.417267030105 L 599.0994369909167 149.4584656683728 L 598.9277768209577 149.4584656683728 L 596.9536848664284 149.417267030105 L 594.979592911899 149.4584656683728 L 594.80793274194 149.4584656683728 L 592.8338407874107 149.417267030105 L 590.8597488328813 149.4584656683728 L 590.6880886629224 149.4584656683728 L 588.7139967083931 149.417267030105 L 586.7399047538637 149.4584656683728 L 586.5682445839047 149.4584656683728 L 584.5941526293755 149.417267030105 L 582.6200606748461 149.4584656683728 L 582.4484005048871 149.4584656683728 L 580.4743085503578 149.417267030105 L 578.5002165958284 149.4584656683728 L 578.3285564258695 149.4584656683728 L 576.3544644713402 149.417267030105 L 574.3803725168109 149.4584656683728 L 574.2087123468518 149.4584656683728 L 572.2346203923225 149.417267030105 L 570.2605284377933 149.4584656683728 L 570.0888682678343 149.4584656683728 L 568.1147763133049 149.417267030105 L 566.1406843587756 149.4584656683728 L 565.9690241888167 149.4584656683728 L 563.9949322342873 149.417267030105 L 562.020840279758 149.4584656683728 L 561.849180109799 149.4584656683728 L 559.8750881552696 149.417267030105 L 557.9009962007403 149.4584656683728 L 557.7293360307814 149.4584656683728 L 555.755244076252 149.417267030105 L 553.7811521217227 149.4584656683728 L 553.6094919517637 149.4584656683728 L 551.6353999972343 149.417267030105 L 549.6613080427051 149.4584656683728 L 549.4896478727461 149.4584656683728 L 547.5155559182167 149.417267030105 L 545.5414639636874 149.4584656683728 L 545.3698037937285 149.4584656683728 L 543.3957118391992 149.417267030105 L 541.4216198846698 149.4584656683728 L 541.2499597147107 149.4584656683728 L 539.2758677601814 149.417267030105 L 537.3017758056521 149.4584656683728 L 537.1301156356931 149.4584656683728 L 535.1560236811638 149.417267030105 L 533.1819317266345 149.4584656683728 L 533.0102715566754 149.4584656683728 L 531.0361796021461 149.417267030105 L 529.0620876476169 149.4584656683728 L 528.8904274776578 149.4584656683728 L 526.9163355231285 149.417267030105 L 524.9422435685992 149.4584656683728 L 524.7705833986402 149.4584656683728 L 522.7964914441109 149.417267030105 L 520.8223994895817 149.4584656683728 L 520.6507393196225 149.4584656683728 L 518.6766473650932 149.417267030105 L 516.7025554105641 149.4584656683728 L 516.5308952406049 149.4584656683728 L 514.5568032860756 149.417267030105 L 512.5827113315464 149.4584656683728 L 512.4110511615872 149.4584656683728 L 510.436959207058 149.417267030105 L 508.46286725252867 149.4584656683728 L 508.2912070825696 149.4584656683728 L 506.31711512804037 149.417267030105 L 504.343023173511 149.4584656683728 L 504.17136300355196 149.4584656683728 L 502.19727104902273 149.417267030105 L 500.2231790944934 149.4584656683728 L 500.0515189245344 149.4584656683728 L 498.07742697000504 149.417267030105 L 496.10333501547575 149.4584656683728 L 495.93167484551674 149.4584656683728 L 493.9575828909874 149.417267030105 L 491.98349093645805 149.4584656683728 L 491.8118307664991 149.4584656683728 L 489.83773881196976 149.417267030105 L 487.8636468574404 149.4584656683728 L 487.69198668748146 149.4584656683728 L 485.7178947329521 149.417267030105 L 483.7438027784228 149.4584656683728 L 483.5721426084638 149.4584656683728 L 481.5980506539345 149.417267030105 L 479.62395869940514 149.4584656683728 L 479.4522985294461 149.4584656683728 L 477.47820657491684 149.417267030105 L 475.50411462038755 149.4584656683728 L 475.3324544504285 149.4584656683728 L 473.35836249589914 149.417267030105 L 471.3842705413699 149.4584656683728 L 471.21261037141085 149.4584656683728 L 469.2385184168815 149.417267030105 L 467.2644264623523 149.4584656683728 L 467.0927662923932 149.4584656683728 L 465.11867433786387 149.417267030105 L 463.14458238333464 149.4584656683728 L 462.9729222133755 149.4584656683728 L 460.9988302588463 149.417267030105 L 459.024738304317 149.4584656683728 L 458.8530781343579 149.4584656683728 L 456.87898617982864 149.417267030105 L 454.90489422529936 149.4584656683728 L 454.73323405534023 149.4584656683728 L 452.759142100811 149.417267030105 L 450.7850501462818 149.4584656683728 L 450.6133899763226 149.4584656683728 L 448.63929802179337 149.417267030105 L 446.66520606726414 149.4584656683728 L 446.49354589730495 149.4584656683728 L 444.5194539427757 149.417267030105 L 442.5453619882465 149.4584656683728 L 442.3737018182874 149.4584656683728 L 440.3996098637581 149.417267030105 L 438.42551790922886 149.4584656683728 L 438.25385773926973 149.4584656683728 L 436.27976578474045 149.417267030105 L 434.3056738302112 149.4584656683728 L 434.1340136602521 149.4584656683728 L 432.15992170572287 149.417267030105 L 430.1858297511936 149.4584656683728 L 430.01416958123446 149.4584656683728 L 428.0400776267052 149.417267030105 L 426.0659856721759 149.4584656683728 L 425.8943255022168 149.4584656683728 L 423.9202335476876 149.417267030105 L 421.94614159315825 149.4584656683728 L 421.7744814231992 149.4584656683728 L 419.80038946866995 149.417267030105 L 417.8262975141406 149.4584656683728 L 417.65463734418154 149.4584656683728 L 415.68054538965225 149.417267030105 L 413.70645343512297 149.4584656683728 L 413.53479326516396 149.4584656683728 L 411.5607013106346 149.417267030105 L 409.5866093561053 149.4584656683728 L 409.4149491861463 149.4584656683728 L 407.440857231617 149.417267030105 L 405.46676527708775 149.4584656683728 L 405.29510510712856 149.4584656683728 L 403.32101315259933 149.417267030105 L 401.34692119807 149.4584656683728 L 401.175261028111 149.4584656683728 L 399.2011690735817 149.417267030105 L 397.2270771190524 149.4584656683728 L 397.05541694909334 149.4584656683728 L 395.08132499456406 149.417267030105 L 393.10723304003477 149.4584656683728 L 392.9355728700757 149.4584656683728 L 390.9614809155464 149.417267030105 L 388.98738896101713 149.4584656683728 L 388.81572879105806 149.4584656683728 L 386.8416368365288 149.417267030105 L 384.8675448819995 149.4584656683728 L 384.6958847120404 149.4584656683728 L 382.7217927575111 149.417267030105 L 380.74770080298185 149.4584656683728 L 380.5760406330228 149.4584656683728 L 378.60194867849344 149.417267030105 L 376.6278567239642 149.4584656683728 L 376.45619655400515 149.4584656683728 L 374.48210459947586 149.417267030105 L 372.5080126449466 149.4584656683728 L 372.3363524749875 149.4584656683728 L 370.3622605204582 149.417267030105 L 368.38816856592894 149.4584656683728 L 368.21650839596987 149.4584656683728 L 366.2424164414406 149.417267030105 L 364.2683244869113 149.4584656683728 L 364.09666431695223 149.4584656683728 L 362.12257236242294 149.417267030105 L 360.14848040789366 149.4584656683728 L 359.97682023793453 149.4584656683728 L 358.0027282834053 149.417267030105 L 356.028636328876 149.4584656683728 L 355.85697615891695 149.4584656683728 L 353.88288420438766 149.417267030105 L 351.9087922498584 149.4584656683728 L 351.7371320798993 149.4584656683728 L 349.76304012537 149.417267030105 L 347.78894817084074 149.4584656683728 L 347.6172880008817 149.4584656683728 L 345.6431960463524 149.417267030105 L 343.6691040918231 149.4584656683728 L 343.49744392186403 149.4584656683728 L 341.52335196733475 149.417267030105 L 339.54926001280546 149.4584656683728 L 339.3775998428464 149.4584656683728 L 337.4035078883171 149.417267030105 L 335.4294159337878 149.4584656683728 L 335.25775576382875 149.4584656683728 L 333.28366380929947 149.417267030105 L 331.3095718547701 149.4584656683728 L 331.1379116848111 149.4584656683728 L 329.16381973028183 149.417267030105 L 327.18972777575254 149.4584656683728 L 327.0180676057935 149.4584656683728 L 325.0439756512642 149.417267030105 L 323.0698836967349 149.4584656683728 L 322.89822352677584 149.4584656683728 L 320.92413157224655 149.417267030105 L 318.95003961771727 149.4584656683728 L 318.77837944775814 149.4584656683728 L 316.8042874932289 149.417267030105 L 314.8301955386996 149.4584656683728 L 314.65853536874056 149.4584656683728 L 312.6844434142113 149.417267030105 L 312.08363281935453 149.4584656683728 L 312.555698286742 148.75808881781998 L 313.0277637541294 148.18130788207054 L 315.60266630351543 144.63822499103847 L 315.7743264734745 144.39103316143158 L 316.2893069833517 143.64945767261088 L 316.63262732326984 143.23747128993273 L 316.63262732326984 143.15507401339713 L 317.0617777481675 142.70188899245113 L 317.0617777481675 142.57829307764771 L 318.0917387679219 141.2187380148098 L 318.86420953273773 140.1063747815788 L 319.2933599576354 139.611991122365 L 320.15166080743074 138.33483333606273 L 320.2374908924103 138.29363469779491 L 323.0698836967349 134.37976406235248 L 323.15571378171444 134.25616814754903 L 324.528995141387 132.4434280637652 L 324.70065531134605 132.19623623415828 L 325.21563582122326 131.45466074533763 L 325.64478624612093 131.00147572439167 L 325.98810658603907 130.50709206517786 L 328.8204993903637 126.59322142973542 L 328.99215956032276 126.42842687666416 L 329.42130998522043 125.76924866437912 L 329.5929701551795 125.64565274957567 L 330.2796108350158 124.65688543114811 L 331.22374176979065 123.37972764484584 L 331.22374176979065 123.31792968744412 L 331.3954019397497 123.13253581523895 L 333.1120036393404 120.8254120722413 L 333.19783372431993 120.78421343397349 L 333.97030448913574 119.67185020074248 L 335.6869061887264 117.36472645774484 L 336.1160566136241 116.82914416026324 L 336.0945990923792 116.78794552199543 L 340.8367112874985 110.60814978182316 L 340.8367112874985 110.52575250528753 L 342.55331298708916 108.30102603882551 L 343.75493417680264 106.73547778464857 L 344.1840846017003 106.2822927637026 L 344.3557447716594 105.99390229582787 L 344.3557447716594 105.99390229582787 L 345.90068630129093 104.01636765897274 L 346.32983672618866 103.43958672322333 L 346.4156668111682 103.31599080841988 L 347.10230749100447 102.40962076652795 L 347.188137575984 102.2860248517245 L 347.35979774594307 102.03883302211761 L 347.35979774594307 102.03883302211761 L 347.53145791590214 101.95643574558198 L 348.1322685107589 101.05006570369005 L 348.6472490206361 100.51448340620846 L 348.6472490206361 100.39088749140501 L 351.30798165500164 97.0949964299798 L 351.4581843037158 96.84780460037291 L 351.56547190994024 96.76540732383731 L 351.56547190994024 96.76540732383731 L 351.6513019949198 96.68301004730165 L 352.166282504797 95.941434558481 L 352.7670930996537 95.24105770792812 L 353.88288420438766 93.79910536855459 L 357.31608760356903 89.51444698870182 L 358.2602185383439 88.40208375547081 L 358.6893689632416 87.86650145798922 L 359.63349989801645 86.6717409482226 L 359.8051600679755 86.54814503341913 L 360.0626503229141 86.21855592727661 L 360.83512108772993 85.27098724711686 L 360.92095117270947 85.14739133231342 L 361.09261134266853 84.90019950270653 L 361.09261134266853 84.90019950270653 L 361.2642715126276 84.81780222617093 L 361.7792520225048 84.07622673735023 L 362.38006261736155 83.3758498867974 L 363.15253338217735 82.42828120663762 L 364.0108342319727 81.52191116474572 L 364.95496516674757 80.28595201671126 L 365.2982855066657 79.95636291056874 L 366.92905712127686 77.97882827371356 L 367.272377461195 77.64923916757107 L 367.95901814103127 76.82526640221477 L 368.3023384809494 76.41328001953661 L 368.3023384809494 76.41328001953661 L 368.38816856592894 76.28968410473317 L 379.8893999531865 63.518106241710484 L 379.97523003816605 63.47690760344267 L 380.66187071800226 62.6735341572203 L 380.8335308879614 62.488140285015106 L 382.55013258755207 60.75779747776687 L 382.7217927575111 60.51060564815998 L 382.7217927575111 60.51060564815998 L 383.0651130974293 60.18101654201746 L 384.52422454208136 58.6566669261083 L 385.2108652219176 58.07988599035889 L 385.29669530689716 57.87389279901981 L 385.81167581677437 57.379509139806004 L 390.1031800657511 53.17724803648889 L 390.27484023571014 52.930056206882 L 390.27484023571014 52.930056206882 L 390.9614809155464 52.27087799459699 L 394.3946843147278 49.05738420970735 L 394.82383473962545 48.64539782702923 L 396.62626652419567 46.997452296316595 L 398.42869830876583 45.390705403871806 L 398.5145283937454 45.34950676560399 L 398.5145283937454 45.34950676560399 L 399.45865932852035 44.4843353619799 L 405.38093519210815 39.499300131574216 L 405.63842544704676 39.2933069402352 L 409.5007792711258 36.285806346684694 L 409.67243944108486 36.121011793613434 L 411.47487122565514 34.80265536904335 L 411.8181915655732 34.59666217770422 L 412.41900216042995 34.06107988022268 L 416.3671860694885 31.280171797145158 L 417.05382674932486 30.8475860953331 L 418.1052452903241 30.106010606512427 L 419.1137487888337 29.529229670763016 L 419.1137487888337 29.446832394227386 L 423.834403462708 26.521729077212456 L 430.8724704310298 22.649057080037892 L 436.96640646457666 19.8269503586925 L 437.4813869744539 19.64155648648739 L 439.0263285040855 18.982378274202347 L 440.2279496937991 18.570391891524196 L 441.0862505435943 18.240802785381675 L 446.49354589730495 16.386864063329995 L 446.66520606726414 16.386864063329995 L 446.66520606726414 16.34566542506218 L 448.38180776685476 15.89248040411627 L 449.6692590415478 15.521692659705877 L 454.1324234604835 14.532925341278315 L 456.87898617982864 14.03854168206459 L 463.7453929781914 13.296966193243861 L 465.8053150177002 13.214568916708288 L 466.0628052726388 13.173370278440416 L 467.1785963773727 13.214568916708288 L 467.43608663231134 13.173370278440416" fill-opacity="0.4"/></g><g id="sketch-4c26d759"><title>Expression 3</title><path fill="#bf616a" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><path fill="#bf616a" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 310.62452137470245 149.49966430664062 L 311.997802734375 149.49966430664062 L 311.22533196955914 150.44723298680037 L 311.13950188457966 150.65322617813945 L 310.88201162964106 150.94161664601415 L 308.39293916523457 154.3611036222428 L 308.22127899527544 154.6082954518497 L 307.70629848539824 155.3498709406704 L 307.36297814548016 155.76185732334855 L 307.36297814548016 155.84425459988415 L 306.9338277205825 156.29743962083012 L 306.9338277205825 156.42103553563356 L 305.9038667008281 157.78059059847146 L 305.13139593601227 158.89295383170247 L 304.70224551111454 159.38733749091625 L 303.84394466131926 160.66449527721852 L 303.7581145763397 160.70569391548636 L 300.9257217720151 164.61956455092877 L 300.83989168703556 164.74316046573222 L 299.466610327363 166.55590054951608 L 299.29495015740395 166.80309237912297 L 298.77996964752674 167.54466786794364 L 298.35081922262907 167.9978528888896 L 298.00749888271093 168.4922365481034 L 295.17510607838625 172.40610718354583 L 295.00344590842724 172.5709017366171 L 294.57429548352957 173.23007994890213 L 294.4026353135705 173.35367586370558 L 293.7159946337342 174.34244318213317 L 292.77186369895935 175.6196009684354 L 292.77186369895935 175.68139892583716 L 292.6002035290002 175.8667927980423 L 290.8836018294096 178.17391654103994 L 290.79777174443007 178.21511517930776 L 290.02530097961426 179.32747841253877 L 288.3086992800236 181.6346021555364 L 287.8795488551259 182.17018445301804 L 287.9010063763708 182.21138309128582 L 283.15889418125147 188.3911788314581 L 283.15889418125147 188.47357610799372 L 281.44229248166084 190.69830257445574 L 280.24067129194736 192.2638508286327 L 279.8115208670497 192.71703584957868 L 279.63986069709057 193.00542631745338 L 279.63986069709057 193.00542631745338 L 278.094919167459 194.9829609543085 L 277.66576874256134 195.55974189005792 L 277.57993865758175 195.68333780486137 L 276.89329797774553 196.5897078467533 L 276.807467892766 196.71330376155674 L 276.63580772280693 196.96049559116364 L 276.63580772280693 196.96049559116364 L 276.46414755284786 197.04289286769927 L 275.8633369579911 197.9492629095912 L 275.3483564481139 198.4848452070728 L 275.3483564481139 198.60844112187624 L 272.68762381374836 201.90433218330145 L 272.5374211650342 202.15152401290834 L 272.43013355880976 202.23392128944397 L 272.43013355880976 202.23392128944397 L 272.3443034738302 202.3163185659796 L 271.829322963953 203.05789405480027 L 271.2285123690963 203.75827090535313 L 270.11272126436234 205.20022324472666 L 266.67951786518097 209.48488162457943 L 265.7353869304061 210.59724485781044 L 265.3062365055084 211.13282715529203 L 264.36210557073355 212.32758766505867 L 264.1904454007745 212.45118357986212 L 263.9329551458358 212.78077268600464 L 263.16048438102007 213.72834136616441 L 263.0746542960405 213.85193728096783 L 262.90299412608147 214.09912911057472 L 262.90299412608147 214.09912911057472 L 262.7313339561224 214.18152638711035 L 262.2163534462452 214.92310187593102 L 261.6155428513884 215.62347872648388 L 260.84307208657265 216.57104740664363 L 259.98477123677725 217.47741744853556 L 259.04064030200243 218.71337659657001 L 258.6973199620843 219.04296570271254 L 257.0665483474731 221.02050033956766 L 256.723228007555 221.3500894457102 L 256.0365873277187 222.1740622110665 L 255.6932669878006 222.58604859374464 L 255.6932669878006 222.58604859374464 L 255.607436902821 222.70964450854808 L 244.1062055155635 235.48122237157077 L 244.02037543058395 235.52242100983858 L 243.3337347507477 236.32579445606098 L 243.16207458078858 236.51118832826614 L 241.44547288119793 238.2415311355144 L 241.2738127112389 238.4887229651213 L 241.2738127112389 238.4887229651213 L 240.93049237132072 238.8183120712638 L 239.47138092666864 240.34266168717298 L 238.7847402468324 240.9194426229224 L 238.6989101618528 241.12543581426146 L 238.1839296519756 241.61981947347525 L 233.8924254029989 245.82208057679236 L 233.72076523303983 246.06927240639928 L 233.72076523303983 246.06927240639928 L 233.03412455320358 246.7284506186843 L 229.6009211540222 249.9419444035739 L 229.17177072912452 250.35393078625202 L 227.36933894455433 252.00187631696465 L 225.56690715998408 253.60862320940944 L 225.48107707500458 253.64982184767726 L 225.48107707500458 253.64982184767726 L 224.5369461402297 254.51499325130138 L 218.61467027664182 259.50002848170703 L 218.3571800217032 259.70602167304605 L 214.4948261976242 262.7135222665966 L 214.32316602766514 262.8783168196679 L 212.5207342430949 264.1966732442379 L 212.17741390317676 264.40266643557703 L 211.57660330832002 264.9382487330586 L 207.62841939926145 267.7191568161361 L 206.94177871942514 268.15174251794815 L 205.89036017842588 268.8933180067688 L 204.88185667991632 269.47009894251823 L 204.88185667991632 269.55249621905386 L 200.16120200604198 272.47759953606874 L 193.12313503772017 276.35027153324336 L 187.02919900417325 279.1723782545887 L 186.51421849429605 279.3577721267939 L 184.96927696466443 280.0169503390789 L 183.76765577495095 280.42893672175705 L 182.9093549251556 280.7585258278996 L 177.50205957144496 282.61246454995126 L 177.3303994014859 282.61246454995126 L 177.3303994014859 282.65366318821907 L 175.61379770189524 283.10684820916504 L 174.3263464272022 283.4776359535754 L 169.86318200826645 284.46640327200294 L 167.11661928892136 284.9607869312167 L 160.2502124905586 285.7023624200374 L 158.1902904510498 285.784759696573 L 157.93280019611117 285.82595833484083 L 156.81700909137723 285.784759696573 L 156.55951883643866 285.82595833484083 L 155.44372773170468 285.784759696573 L 155.18623747676608 285.82595833484083 L 154.07044637203217 285.784759696573 L 153.81295611709353 285.82595833484083 L 152.01052433252332 285.7023624200374 L 151.75303407758472 285.7435610583052 L 144.37164676934478 284.9607869312167 L 137.50523997098207 283.57033288967796 L 136.3894488662481 283.2304441239685 L 135.8744683563709 283.14804684743285 L 135.4453179314732 283.0244509326294 L 134.8445073366165 282.81845774129033 L 134.8445073366165 282.81845774129033 L 134.15786665678021 282.65366318821907 L 132.0121145322919 281.99448497593403 L 131.3254738524556 281.7060945080593 L 130.1238526627421 281.335306763649 L 122.91412552446121 278.49260072316974 L 122.48497509956357 278.28660753183067 L 122.48497509956357 278.28660753183067 L 115.61856830120084 274.90831919386983 L 115.53273821622132 274.7847232790664 L 115.36107804626222 274.74352464079857 L 115.36107804626222 274.74352464079857 L 109.6104623526334 271.44763357937336 L 108.06552082300183 270.4588662609458 L 107.37888014316553 270.04687987826765 L 104.63231742382047 268.2341397944838 L 104.54648733884093 268.15174251794815 L 103.77401657402515 267.65735885873437 L 103.2590360641479 267.307170433458 L 102.31490512937302 266.627392902039 L 99.82583266496653 264.85585145652294 L 97.42259028553957 263.0431113727391 L 97.16510003060098 262.8783168196679 L 97.16510003060098 262.8783168196679 L 96.39262926578516 262.2191386073828 L 96.30679918080563 262.2191386073828 L 95.44849833101027 261.55996039509773 L 95.36266824603075 261.3951658420265 L 94.67602756619449 260.9007821828127 L 93.73189663141962 260.2004053322599 L 93.56023646146056 260.0562100983225 L 91.75780467689027 258.59365843981504 L 91.75780467689027 258.5112611632794 L 91.41448433697217 258.2640693336725 L 90.72784365713586 257.6872883979231 L 90.55618348717681 257.6048911213875 L 90.21286314725872 257.27530201524496 L 90.21286314725872 257.27530201524496 L 90.12703306227918 257.23410337697715 L 86.00718898326156 253.64982184767726 L 85.83552881330246 253.44382865633816 L 85.06305804848667 252.82584908232099 L 82.48815549910061 250.43632806278765 L 82.31649532914156 250.35393078625202 L 73.47599657624951 241.7846140265465 L 73.39016649127 241.61981947347525 L 72.74644085392352 241.04303853772583 L 70.90109402686355 239.1479011774063 L 69.8711330071091 238.03553794417533 L 69.61364275217046 237.82954475283626 L 69.61364275217046 237.82954475283626 L 69.35615249723189 237.4999556466937 L 68.92700207233422 237.08796926401556 L 67.89704105257981 236.01680466905236 L 67.12457028776402 235.19283190369606 L 66.43792960792771 234.4100577766076 L 65.81566149182609 233.79207820259035 L 57.3399406000971 224.35759003926069 L 57.3399406000971 224.27519276272506 L 56.996620260179 223.98680229485035 L 56.91079017519947 223.82200774177912 L 56.05248932540412 222.91563769988716 L 55.365848645567816 222.09166493453085 L 54.850868135690654 221.51488399878144 L 54.5075477957725 221.02050033956766 L 54.421717710792976 220.97930170129987 L 52.53345584124322 218.71337659657001 L 52.44762575626369 218.63097932003438 L 52.36179567128416 218.60008034133352 L 51.33183465152975 217.2714242571965 L 50.81685414165255 216.7358419597149 L 44.80874819308516 209.48488162457943 L 44.55125793814658 209.1552925184369 L 43.521296918392174 207.83693609386683 L 38.972302414476864 202.11032537464052 L 38.41440686210987 201.4923458006233 L 37.856511309742885 200.668373035267 L 37.34153079986572 200.09159209951758 L 36.31156978011132 198.7732356749475 L 35.96824944019317 198.36124929226935 L 35.96824944019317 198.36124929226935 L 35.88241935521364 198.2376533774659 L 35.453268930315964 197.61967380344868 L 34.423307910561554 196.38371465541422 L 34.294562783092246 196.21892010234296 L 33.73666723072525 195.39494733698666 L 33.2216867208481 194.81816640123725 L 31.848405361175537 193.00542631745338 L 27.728561282157905 187.64960334263742 L 27.299410857260227 187.072822406888 L 23.95203754305838 182.62336947396398 L 23.43705703318118 181.8817939851433 L 23.351226948201653 181.79939670860767 L 23.351226948201653 181.79939670860767 L 23.1795667782426 181.5934035172686 L 21.977945588529092 179.945457986556 L 21.80628541857004 179.82186207175255 L 21.20547482371331 178.99788930639625 L 19.059722699224967 176.07278598938137 L 17.943931594491033 174.63083365000784 L 17.943931594491033 174.5484363734722 L 17.60061125457284 174.13644999079406 L 15.540689215064024 171.33494258858263 L 15.36902904510497 171.08775075897574 L 13.995747685432413 169.27501067519188 L 12.622466325759854 167.3798733148724 L 12.536636240780327 167.25627740006894 L 11.84999556094407 166.34990735817703 L 11.7641654759645 166.22631144337356 L 9.704243436455684 163.42480404116213 L 9.532583266496632 163.17761221155527 L 9.017602756619471 162.43603672273457 L 8.674282416701276 162.02405034005642 L 8.674282416701276 161.94165306352082 L 8.502622246742224 161.77685851044953 L 8.502622246742224 161.77685851044953 L 8.137844385579225 161.28247485123575 L 7.558491311967343 160.4997007241473 L 5.069418847560894 157.0802137479186 L 3.867797657847345 155.432268217206 L 3.6103074029087647 155.06148047279567 L 2.923666723072508 154.15511043090373 L 2.837836638092937 154.0315145161003 L 0.09127391874790891 150.2412397954613 L -0.2520464211702859 149.82925341278315 L -0.2520464211702859 149.74685613624752 L -0.4237065911293391 149.49966430664062 L 310.62452137470245 149.49966430664062 M 627.99560546875 154.264169581479 L 624.5051421448588 149.49966430664062 L 627.99560546875 149.49966430664062" fill-opacity="0.4"/></g><g id="sketch-4c26d759"><title>plus</title></g><g id="sketch-4c26d759"><title>minus</title></g></g><g id="labels-4c26d759"><g transform="rotate(0,0,0) translate(468.7467041015625,81.81799871271308)"><g class="dcg-svg-label"><g transform="translate(-7.38397216796875,-9.356077020818546)"><g><text fill="none" stroke="#FFF" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="13.306663457031249" text-anchor="start" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">+</text></g></g><g transform="translate(-7.38397216796875,-9.356077020818546)"><g><text fill="rgb(45, 112, 179)" stroke="none" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="13.306663457031249" text-anchor="start">+</text></g></g></g></g><g transform="rotate(0,0,0) translate(156.2489013671875,218.1813299005682)"><g class="dcg-svg-label"><g transform="translate(-7.3875274658203125,-9.35932367498225)"><g><text fill="none" stroke="#FFF" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="13.306663457031249" text-anchor="start" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">−</text></g></g><g transform="translate(-7.3875274658203125,-9.35932367498225)"><g><text fill="rgb(56, 140, 70)" stroke="none" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="13.306663457031249" text-anchor="start">−</text></g></g></g></g></g></g></svg>
+    </div><blockquote>
+<p>The area shown in green as added to the signed area, where as the area shown in red is subtracted from the signed area.</p>
+</blockquote>
+<p>Because <mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;"><mjx-math class=" MJX-TEX"><mjx-mi class="mjx-n"><mjx-c class="mjx-c73"></mjx-c><mjx-c class="mjx-c69"></mjx-c><mjx-c class="mjx-c6E"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2061"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math></mjx-container> is an <a href="Odd%20Function">odd function</a>, the area below the x-axis on the left is exactly the same as the area above the x-axis on the right hence:</p>
+<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 121%;" display="true"><mjx-math display="true" style="margin-left: 0; margin-right: 0;" class=" MJX-TEX"><mjx-msubsup><mjx-mo class="mjx-lop"><mjx-c class="mjx-c222B TEX-S2"></mjx-c></mjx-mo><mjx-script style="vertical-align: -0.896em; margin-left: -0.388em;"><mjx-mi class="mjx-i" size="s" style="margin-left: 0.647em;"><mjx-c class="mjx-c1D70B TEX-I"></mjx-c></mjx-mi><mjx-spacer style="margin-top: 1.564em;"></mjx-spacer><mjx-TeXAtom size="s" texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D70B TEX-I"></mjx-c></mjx-mi></mjx-TeXAtom></mjx-script></mjx-msubsup><mjx-mi class="mjx-n" space="2"><mjx-c class="mjx-c73"></mjx-c><mjx-c class="mjx-c69"></mjx-c><mjx-c class="mjx-c6E"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c2061"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math></mjx-container></p>
+5:["$","div",null,{"className":"overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0","children":[["$","div",null,{"className":"font-bold text-4xl pt-12","children":"Signed%20Area"}],["$","div",null,{"children":[]}],["$","style",null,{"children":"$f"}],["$","div",null,{"className":"flex flex-col gap-4 -mt-8","dangerouslySetInnerHTML":{"__html":"$10"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}]]
+7:null

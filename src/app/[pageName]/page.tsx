@@ -9,7 +9,7 @@ import PageMetadata from '../../components/PageMetadata';
 const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   const { pageName } = await params;
 
-  const pagePath = getNotePath(decodeURI(decodeURI(pageName)));
+  const pagePath = getNotePath(decodeURIComponent(decodeURIComponent(pageName)));
 
   const {
     content,
@@ -54,7 +54,7 @@ const generateStaticParams = (): { pageName: string }[] => {
   return getValidNotes(notesPath)
     .filter((path) => path.path.endsWith('.md'))
     .flatMap((path) => ([
-      { pageName: encodeURI(path.name) },
+      { pageName: encodeURIComponent(path.name) },
       { pageName: path.name }
     ]))
 }
