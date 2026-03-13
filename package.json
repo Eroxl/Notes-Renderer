@@ -2,7 +2,7 @@
   "name": "notes-renderer",
   "version": "1.0.0",
   "repository": "https://github.com/Eroxl/Notes-Renderer.git",
-  "author": "Eroxl <InfinityWaffles@outlook.com>",
+  "author": "Eroxl <evan@erox.one>",
   "module": "index.ts",
   "type": "module",
   "scripts": {

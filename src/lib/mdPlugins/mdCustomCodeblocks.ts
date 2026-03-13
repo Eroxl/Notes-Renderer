@@ -9,6 +9,7 @@ import cpp from 'highlight.js/lib/languages/cpp';
 import python3 from 'highlight.js/lib/languages/python';
 import vb from 'highlight.js/lib/languages/vbnet';
 import lisp from 'highlight.js/lib/languages/lisp';
+import sql from 'highlight.js/lib/languages/sql';
 import r from 'highlight.js/lib/languages/r';
 
 const sm213Asm = () => ({
@@ -62,6 +63,7 @@ hljs.registerLanguage('python', python3);
 hljs.registerLanguage('lisp', lisp);
 hljs.registerLanguage('r', r);
 hljs.registerLanguage('sm213-asm', sm213Asm);
+hljs.registerLanguage('sql', sql);
 
 type CustomCodeblocksOpts = {
   renderers: {
