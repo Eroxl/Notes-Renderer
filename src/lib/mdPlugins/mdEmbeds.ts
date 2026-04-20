@@ -23,31 +23,61 @@ const mdEmbeds = (md: MarkdownIt, _: any) => {
       }
 
       const hasFileExtension = page.includes(".");
-      if (!pagePath?.endsWith(".md") && hasFileExtension) {
-        if (!pagePath?.endsWith(".svg") && !pagePath?.endsWith(".png")) {
-          console.error(`Unsuported file type for file ${page}`);
 
-          return `ERROR: Unsuported file type for file ${page}`;
+      const renderSVG = (svgPath: string) => {
+        const sizingStyle = sizing ? `width: ${sizing}px` : "";
+        const svgWidth = sizing ? `${sizing}px` : "100%";
+        const svgContent = fs.readFileSync(svgPath, "utf-8")
+          .replace(/<svg([^>]*)>/, (_, attrs) => {
+            const cleaned = attrs.replace(/\s*(width|height)="[^"]*"/g, "");
+            return `<svg${cleaned} width="${svgWidth}">`;
+          });
+        return `
+          <div class="image-embed w-full" style="${sizingStyle}">
+            ${svgContent}
+          </div>`;
+      };
+
+      const findSVGCounterpart = (filePath: string) => {
+        const dir = filePath.substring(0, filePath.lastIndexOf('/'));
+        const fileName = filePath.substring(filePath.lastIndexOf('/') + 1);
+        const baseName = fileName.split('.')[0];
+        const svgPath = `${dir}/${baseName}.svg`;
+        return fs.existsSync(svgPath) ? svgPath : null;
+      };
+
+      if (!pagePath?.endsWith(".md")) {
+        const sizingStyle = sizing ? `width: ${sizing}px` : "";
+
+        if (pagePath?.endsWith(".svg")) {
+          return renderSVG(pagePath);
         }
 
-        const sizingStyle = sizing ? `width: ${sizing}px` : "";
-        
-        if (pagePath?.endsWith(".svg")) {
+        if (pagePath?.endsWith(".png")) {
+          const imageData = fs.readFileSync(pagePath).toString("base64");
           return `
             <div class="image-embed" style="${sizingStyle}">
-              ${fs.readFileSync(pagePath)}
+              <img src="data:image/png;base64,${imageData}" alt="${page}" />
             </div>`;
         }
 
-        const imageData = fs.readFileSync(pagePath).toString("base64");
+        const svgCounterpart = findSVGCounterpart(pagePath);
+        if (svgCounterpart) {
+          return renderSVG(svgCounterpart);
+        }
 
-        return `
-          <div class="image-embed" style="${sizingStyle}">
-            <img src="data:image/png;base64,${imageData}" alt="${page}" />
-          </div>`;
+        console.error(`Unsuported file type for file ${page}`);
+        return `ERROR: Unsuported file type for file ${page}`;
       }
 
-      const { content } = getNoteContent(pagePath);
+      const { content, metadata } = getNoteContent(pagePath);
+
+      if ('excalidraw-plugin' in metadata) {
+        const svgCounterpart = findSVGCounterpart(pagePath);
+        if (svgCounterpart) {
+          return renderSVG(svgCounterpart);
+        }
+      }
 
       if (!sections.length) {
         const { html, style } = renderContent(content);

@@ -3,13 +3,18 @@
 import { usePathname } from 'next/navigation';
 import { FolderTreeEntry } from "./FileExplorer";
 import Link from "next/link";
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ChevronRight } from 'lucide-react';
 
 type FileExplorerEntryProps = {
   entry: FolderTreeEntry,
   fileColour: string,
   indentation: number
+};
+
+const isPathInSubtree = (entry: FolderTreeEntry, pathname: string): boolean => {
+  if (entry.href === pathname) return true;
+  return entry.subFiles?.some((sub) => isPathInSubtree(sub, pathname)) ?? false;
 };
 
 const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
@@ -20,9 +25,30 @@ const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
   } = props;
 
   const pathname = usePathname();
-  const isActiveFile = entry.name === pathname.slice(pathname.lastIndexOf('/') + 1).replaceAll('%20', ' ')
+  const isActiveFile = entry.href === pathname;
 
-  const [isExpanded, setIsExpanded] = useState(false);
+  const hasActiveDescendant =
+    entry.subFiles?.some((sub) => isPathInSubtree(sub, pathname)) ?? false;
+
+  const [isExpanded, setIsExpanded] = useState(hasActiveDescendant);
+
+  // Auto-expand when navigating into this subtree (client-side navigation)
+  useEffect(() => {
+    if (hasActiveDescendant) {
+      setIsExpanded(true);
+    }
+  }, [hasActiveDescendant]);
+
+  const spanRef = useRef<HTMLSpanElement>(null);
+
+  // Scroll the active entry into view after the tree has expanded
+  useEffect(() => {
+    if (!isActiveFile || !spanRef.current) return;
+    const t = setTimeout(() => {
+      spanRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 50);
+    return () => clearTimeout(t);
+  }, [isActiveFile, pathname]);
 
   const hasNote = entry.hasNote;
 
@@ -33,6 +59,7 @@ const FileExplorerEntry: React.FC<FileExplorerEntryProps> = (props) => {
       className="flex flex-col gap-0.5 select-none"
     >
       <span
+        ref={spanRef}
         className={`${entry.subFiles && "font-normal"} w-full rounded-md flex flex-row ${isFile || 'ml-5'} ${hasNote || 'hover:cursor-pointer'}`}
         id={isActiveFile ? 'active-file' : ''}
         style={{

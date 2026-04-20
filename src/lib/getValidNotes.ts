@@ -1,11 +1,17 @@
 import fs from 'fs';
 
 export const cleanURL = (url: string) => {
-  return url
+  let decoded = url;
+  try {
+    decoded = decodeURIComponent(url);
+  } catch {
+    // malformed encoding — use original
+  }
+
+  return decoded
     .toLowerCase()
     .replaceAll(/[^a-z0-9\s]/g, '')
     .replaceAll(/\s+/g, '-')
-    .replaceAll(',', '')
     .toLowerCase();
 }
 

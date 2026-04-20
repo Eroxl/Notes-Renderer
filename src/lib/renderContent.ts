@@ -11,10 +11,11 @@ import desmosGraph from './codeBlockRenderers/desmosGraph/desmosGraph';
 import mdEmbeds from './mdPlugins/mdEmbeds';
 import timeline from './codeBlockRenderers/timeline';
 import mdCitation from './mdPlugins/mdCitation';
+import mdHeadingAnchors from './mdPlugins/mdHeadingAnchors';
 import { cleanURL } from './getValidNotes';
 
 const mdjax = mdMathJax();
-const md = markdownit({ linkify: false })
+const md = markdownit({ linkify: false, html: true })
   .disable(['fence', 'link'])
   .use(mdCallouts)
   .use(mdCustomCodeblocks, {
@@ -61,6 +62,7 @@ const md = markdownit({ linkify: false })
   })
   .use(mdEmbeds)
   .use(mdCitation)
+  .use(mdHeadingAnchors)
   .use(mdWikiLinks)
   .use(mdTables)
   .use(mdjax.plugin());

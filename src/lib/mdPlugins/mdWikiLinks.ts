@@ -12,10 +12,12 @@ const mdWikiLinks = (md: MarkdownIt, _: any) => {
         const portions = match.split("|");
 
         const text = portions.length === 2 ? portions[1] : portions[0];
-        const link = cleanURL(portions[0]);
+        const linkParts = portions[0].split('#');
+        const page = cleanURL(linkParts[0]);
+        const anchor = linkParts.length > 1 ? `#${cleanURL(linkParts[1])}` : '';
+        const href = page ? `../${page}${anchor}` : anchor;
 
-
-        return `<a href="/${link}">${text}</a>`;
+        return `<a href="${href}">${text}</a>`;
       }
     }
   )

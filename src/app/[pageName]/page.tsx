@@ -5,6 +5,7 @@ import getNoteContent from '../../lib/getNoteContent';
 import renderContent from '../../lib/renderContent';
 import getValidNotes from '../../lib/getValidNotes';
 import PageMetadata from '../../components/PageMetadata';
+import NoteContent from '../../components/NoteContent';
 
 const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   const { pageName } = await params;
@@ -35,12 +36,7 @@ const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
       <style>
         {style}
       </style>
-      <div
-        className="flex flex-col gap-4 -mt-8"
-        dangerouslySetInnerHTML={{
-          __html: html
-        }}
-      />
+      <NoteContent html={html} />
     </div>
   )
 }

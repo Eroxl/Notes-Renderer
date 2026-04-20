@@ -6,6 +6,7 @@ import FileExplorerEntry from './FileExplorerEntry';
 import Link from 'next/link';
 import { ScatterChartIcon } from 'lucide-react';
 import { cleanURL } from 'src/lib/getValidNotes';
+import groupColor from 'src/lib/graph/groupColor';
 
 export type FolderTreeEntry = {
   name: string,
@@ -66,12 +67,12 @@ const FileExplorer: React.FC = () => (
           Eroxl's Notes
         </span>
       </Link>
-      {/* <Link href="/graph" className="flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded">
+      <Link href="/graph" className="flex flex-row items-center h-5 w-full p-2 py-4 gap-2 text-white/90 hover:bg-white/5 rounded">
         <ScatterChartIcon className="h-5 w-5 aspect-square" />
         <span className="lex flex-row justify-center text-md font-bold">
           Graph
         </span>
-      </Link> */}
+      </Link>
       <div className="w-full h-0.5 rounded-full mt-2 bg-white/20" />
     </div>
     <div
@@ -82,7 +83,7 @@ const FileExplorer: React.FC = () => (
         <FileExplorerEntry
           entry={subFile}
           key={subFile.name}
-          fileColour="#51e1e9"
+          fileColour={groupColor(subFile.name)}
           indentation={0}
         />
       ))}
