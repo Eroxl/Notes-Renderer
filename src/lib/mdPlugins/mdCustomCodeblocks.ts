@@ -11,6 +11,7 @@ import vb from 'highlight.js/lib/languages/vbnet';
 import lisp from 'highlight.js/lib/languages/lisp';
 import sql from 'highlight.js/lib/languages/sql';
 import r from 'highlight.js/lib/languages/r';
+import prolog from "highlight.js/lib/languages/prolog";
 
 const sm213Asm = () => ({
   name: 'sm213',
@@ -55,6 +56,65 @@ const sm213Asm = () => ({
 });
 
 
+const datalog = () => ({
+  name: 'datalog',
+  case_insensitive: false,
+  keywords: {
+    $pattern: '[a-zA-Z_][a-zA-Z0-9_]*',
+    keyword: [
+      'not', 'in',
+    ],
+    built_in: [
+      'count', 'sum', 'max', 'min', 'mean',
+      'number', 'symbol', 'float', 'unsigned',
+      'true', 'false', 'nil',
+    ],
+  },
+  contains: [
+    // Block comments
+    hljs.C_BLOCK_COMMENT_MODE,
+    // Line comments: % and //
+    {
+      scope: 'comment',
+      begin: /%|\/\//,
+      end: /$/,
+    },
+    // Souffle-style directives: .decl, .type, .input, .output, etc.
+    {
+      scope: 'meta',
+      begin: /\.[a-zA-Z_][a-zA-Z0-9_]*/,
+    },
+    // String literals
+    hljs.QUOTE_STRING_MODE,
+    // Numbers
+    hljs.C_NUMBER_MODE,
+    // Rule neck operator :-
+    {
+      scope: 'operator',
+      begin: /:-/,
+      relevance: 10,
+    },
+    // Predicate / relation names: any identifier before '(' (upper or lower case)
+    {
+      scope: 'title.function',
+      begin: /\b[a-zA-Z_][a-zA-Z0-9_]*(?=\s*\()/,
+      relevance: 0,
+    },
+    // Anonymous variable: bare _ wildcard
+    {
+      scope: 'comment',
+      begin: /\b_\b/,
+      relevance: 5,
+    },
+    // Variables: uppercase-start or _Name style, NOT followed by '('
+    {
+      scope: 'variable',
+      begin: /\b(?:[A-Z][a-zA-Z0-9_]*|_[a-zA-Z0-9_]+)\b/,
+      relevance: 0,
+    },
+  ]
+});
+
 hljs.registerLanguage('java', java);
 hljs.registerLanguage('c', c);
 hljs.registerLanguage('cpp', cpp);
@@ -63,6 +123,7 @@ hljs.registerLanguage('python', python3);
 hljs.registerLanguage('lisp', lisp);
 hljs.registerLanguage('r', r);
 hljs.registerLanguage('sm213-asm', sm213Asm);
+hljs.registerLanguage('datalog', datalog);
 hljs.registerLanguage('sql', sql);
 
 type CustomCodeblocksOpts = {
@@ -144,7 +205,7 @@ const mdCustomCodeblocks = (md: MarkdownIt, opts: CustomCodeblocksOpts) => {
         { language: tokens[index].info }
       ).value
 
-      return `<pre><code>${highlightedCode}</code></pre>`;
+      return `<pre class="language-${tokens[index].info}"><code>${highlightedCode}</code></pre>`;
     }
 
     return renderer(tokens[index + 1].content);

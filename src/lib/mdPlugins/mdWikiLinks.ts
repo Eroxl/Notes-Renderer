@@ -15,7 +15,7 @@ const mdWikiLinks = (md: MarkdownIt, _: any) => {
         const link = cleanURL(portions[0]);
 
 
-        return `<a href="./${link}">${text}</a>`;
+        return `<a href="/${link}">${text}</a>`;
       }
     }
   )
