@@ -1,10 +1,15 @@
 import React from 'react';
+import fs from 'fs';
+import fm from 'front-matter';
 
 import './globals.css';
 import './desmosGraph.css';
 import './timeline.css';
 import './citations.css';
 import FileExplorer from 'src/components/FileExplorer';
+import SearchModal from 'src/components/SearchModal';
+import NavWrapper from 'src/components/NavWrapper';
+import getValidNotes from 'src/lib/getValidNotes';
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -12,6 +17,14 @@ interface RootLayoutProps {
 
 const RootLayout = async (props: RootLayoutProps) => {
   const { children } = props;
+
+  const notes = getValidNotes(process.env['INPUT_NOTES_ROOT_PATH'] as string)
+    .filter(({ path }) => path.endsWith('.md'))
+    .filter(({ path }) => {
+      const attributes = fm(fs.readFileSync(path).toString()).attributes as Record<string, unknown>;
+      return attributes['excalidraw-plugin'] === undefined;
+    })
+    .map(({ name, url }) => ({ name, url }));
 
   return (
     <html>
@@ -23,7 +36,10 @@ const RootLayout = async (props: RootLayoutProps) => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
       </head>
       <body className="bg-nord-0 flex flex-row">
-        <FileExplorer />
+        <NavWrapper>
+          <FileExplorer />
+          <SearchModal notes={notes} />
+        </NavWrapper>
         <div className="w-full h-screen overflow-hidden print:h-full print:overflow-visible">
           {children}
         </div>

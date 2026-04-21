@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 
 import createGraphForceSimulation from 'src/lib/graph/createGraphForceSimulation';
@@ -13,6 +13,13 @@ import drawConnectedNodes from 'src/lib/graph/drawConnectedNodes';
 import drawNodesLabel from 'src/lib/graph/drawNodesLabel';
 import { nodeRadius } from 'src/lib/graph/drawNodes';
 import { useRouter } from 'next/navigation';
+
+interface GraphPreviewState {
+  href: string;
+  x: number;
+  y: number;
+  key: number;
+}
 
 const TEXT_FADE_START = 3.5;
 const HOVER_EASE = 0.15;
@@ -31,6 +38,13 @@ const NodeGraph: React.FC<{
   const hoverAnimFrame = useRef<number | null>(null);
 
   const router = useRouter();
+  const [preview, setPreview] = useState<GraphPreviewState | null>(null);
+  const [previewLoaded, setPreviewLoaded] = useState(false);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const animateOutTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const animateToRef = useRef<(target: number) => void>(() => {});
+  const previewKey = useRef(0);
 
   useEffect(() => {
     if (!graph.current) return;
@@ -126,6 +140,8 @@ const NodeGraph: React.FC<{
       hoverAnimFrame.current = requestAnimationFrame(step);
     };
 
+    animateToRef.current = animateTo;
+
     // Single mousemove handler — registered once, reads live quadTree
     canvas.on('mousemove', (e: MouseEvent) => {
       const x = (e.offsetX - transform.current.x) / transform.current.k;
@@ -144,10 +160,20 @@ const NodeGraph: React.FC<{
       if (closestNode) {
         displayHoveredNode.current = closestNode;
         document.body.style.cursor = 'pointer';
+        if (animateOutTimer.current) { clearTimeout(animateOutTimer.current); animateOutTimer.current = null; }
         animateTo(1);
+
+        if (hideTimer.current) { clearTimeout(hideTimer.current); hideTimer.current = null; }
+        const canvasRect = canvas.node()!.getBoundingClientRect();
+        const screenX = (closestNode.x ?? 0) * transform.current.k + transform.current.x + canvasRect.left;
+        const screenY = (closestNode.y ?? 0) * transform.current.k + transform.current.y + canvasRect.top;
+        setPreviewLoaded(false);
+        setPreview({ href: `/${closestNode.id}`, x: screenX, y: screenY, key: ++previewKey.current });
       } else {
         document.body.style.cursor = '';
-        animateTo(0);
+        if (animateOutTimer.current) clearTimeout(animateOutTimer.current);
+        animateOutTimer.current = setTimeout(() => { animateTo(0); }, 120);
+        hideTimer.current = setTimeout(() => { setPreview(null); }, 150);
       }
     });
 
@@ -185,16 +211,55 @@ const NodeGraph: React.FC<{
     return () => {
       simulation.stop();
       if (hoverAnimFrame.current !== null) cancelAnimationFrame(hoverAnimFrame.current);
+      if (hideTimer.current !== null) clearTimeout(hideTimer.current);
+      if (animateOutTimer.current !== null) clearTimeout(animateOutTimer.current);
       document.body.style.cursor = '';
     };
   }, []);
 
+  const PREVIEW_W = 420;
+  const PREVIEW_H = 320;
+  const previewUrl = preview
+    ? (() => { const u = new URL(preview.href, window.location.href); u.searchParams.set('preview', '1'); return u.toString(); })()
+    : null;
+  const previewX = preview ? Math.min(preview.x - PREVIEW_W / 2, window.innerWidth - PREVIEW_W - 8) : 0;
+  const previewY = preview
+    ? (preview.y + 16 + PREVIEW_H > window.innerHeight ? preview.y - PREVIEW_H - 16 : preview.y + 16)
+    : 0;
+
   return (
-    <div
-      id="graph-view"
-      ref={graph}
-      className="w-full h-full p-0"
-    />
+    <>
+      <div
+        id="graph-view"
+        ref={graph}
+        className="w-full h-full p-0"
+      />
+
+      {preview && previewUrl && (
+        <div
+          className="fixed z-50 bg-nord-0 rounded-lg overflow-hidden shadow-2xl border border-white/10 px-3 transition-opacity duration-150"
+          style={{ left: previewX, top: previewY, width: PREVIEW_W, height: PREVIEW_H, opacity: previewLoaded ? 1 : 0 }}
+          onMouseEnter={() => {
+            if (animateOutTimer.current) { clearTimeout(animateOutTimer.current); animateOutTimer.current = null; }
+            if (hideTimer.current) { clearTimeout(hideTimer.current); hideTimer.current = null; }
+          }}
+          onMouseLeave={() => {
+            animateToRef.current(0);
+            hideTimer.current = setTimeout(() => { setPreview(null); }, 150);
+          }}
+        >
+          <iframe
+            ref={iframeRef}
+            key={preview.key}
+            src={previewUrl}
+            className="w-full h-full bg-nord-0"
+            style={{ overflow: 'hidden' }}
+            sandbox="allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+            onLoad={() => { iframeRef.current?.blur(); setPreviewLoaded(true); }}
+          />
+        </div>
+      )}
+    </>
   );
 };
 

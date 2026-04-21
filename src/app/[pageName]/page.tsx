@@ -1,4 +1,5 @@
 import React from 'react';
+import { notFound } from 'next/navigation';
 
 import getNoteMetadata from '../../lib/getNoteMetadata';
 import getNoteContent from '../../lib/getNoteContent';
@@ -6,11 +7,14 @@ import renderContent from '../../lib/renderContent';
 import getValidNotes from '../../lib/getValidNotes';
 import PageMetadata from '../../components/PageMetadata';
 import NoteContent from '../../components/NoteContent';
+import PageWrapper from '../../components/PageWrapper';
 
 const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   const { pageName } = await params;
 
   const pageMetadata = getNoteMetadata(decodeURIComponent(pageName));
+
+  if (!pageMetadata) notFound();
 
   const {
     content,
@@ -25,19 +29,11 @@ const Note = async ({ params }: { params: Promise<{ pageName: string }> }) => {
   } = renderContent(content);
 
   return (
-    <div className="overflow-y-scroll overflow-x-clib  print:h-full print:overflow-visible page h-screen max-w-2xl w-full mx-auto text-nord-4 no-scrollbar pb-48 print:pb-0">
-      <div
-        className="font-bold text-4xl pt-12"
-      >
-        {pageMetadata.name}
-      </div>
+    <PageWrapper name={pageMetadata.name}>
       <PageMetadata metadata={metadata} />
-
-      <style>
-        {style}
-      </style>
+      <style>{style}</style>
       <NoteContent html={html} />
-    </div>
+    </PageWrapper>
   )
 }
 
@@ -46,12 +42,11 @@ const generateStaticParams = (): { pageName: string }[] => {
 
   if (!notesPath) throw new Error("No notes path provided");
 
-
   return getValidNotes(notesPath)
     .filter((path) => path.path.endsWith('.md'))
     .flatMap((path) => {
       return [
-        { pageName: encodeURIComponent(path.url) },                          // Raw name
+        { pageName: encodeURIComponent(path.url) },
       ];
     });
 }
