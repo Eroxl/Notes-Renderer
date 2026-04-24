@@ -60,8 +60,8 @@ const getFolderTree = (
 const fileTree = getFolderTree(process.env['INPUT_NOTES_ROOT_PATH'] as string);
 
 const FileExplorer: React.FC = () => (
-  <div className="w-96 h-screen flex flex-col bg-nord-1 print:hidden">
-    <div className="flex flex-col gap-2 px-2 mt-5">
+  <div className="w-full flex flex-col">
+    <div className="hidden md:flex md:flex-col gap-2 px-2 mt-5">
       <Link href="/" >
         <span className="h-5 flex flex-col justify-center text-xl font-bold text-white/90 hover:bg-white/5 p-2 py-4 rounded">
           Eroxl's Notes

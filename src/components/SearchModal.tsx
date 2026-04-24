@@ -91,7 +91,7 @@ const SearchModal: React.FC<SearchModalProps> = ({ notes }) => {
       onClick={dismiss}
     >
       <div
-        className="w-[580px] bg-nord-1 rounded-2xl shadow-2xl border border-white/10 flex flex-col overflow-hidden"
+        className="w-[90vw] md:w-[580px] bg-nord-1 rounded-2xl shadow-2xl border border-white/10 flex flex-col overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center gap-3 px-4 py-3.5 bg-nord-0">
