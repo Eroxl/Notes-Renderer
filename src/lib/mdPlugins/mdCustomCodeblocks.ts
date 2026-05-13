@@ -13,6 +13,7 @@ import sql from 'highlight.js/lib/languages/sql';
 import r from 'highlight.js/lib/languages/r';
 import prolog from "highlight.js/lib/languages/prolog";
 import typescript from "highlight.js/lib/languages/typescript";
+import rust from "highlight.js/lib/languages/rust";
 
 const sm213Asm = () => ({
   name: 'sm213',
@@ -128,6 +129,7 @@ hljs.registerLanguage('datalog', datalog);
 hljs.registerLanguage('sql', sql);
 hljs.registerLanguage('prolog', prolog);
 hljs.registerLanguage('typescript', typescript);
+hljs.registerLanguage('rust', rust);
 
 type CustomCodeblocksOpts = {
   renderers: {
