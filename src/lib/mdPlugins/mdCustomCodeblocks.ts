@@ -12,6 +12,7 @@ import lisp from 'highlight.js/lib/languages/lisp';
 import sql from 'highlight.js/lib/languages/sql';
 import r from 'highlight.js/lib/languages/r';
 import prolog from "highlight.js/lib/languages/prolog";
+import typescript from "highlight.js/lib/languages/typescript";
 
 const sm213Asm = () => ({
   name: 'sm213',
@@ -125,6 +126,8 @@ hljs.registerLanguage('r', r);
 hljs.registerLanguage('sm213-asm', sm213Asm);
 hljs.registerLanguage('datalog', datalog);
 hljs.registerLanguage('sql', sql);
+hljs.registerLanguage('prolog', prolog);
+hljs.registerLanguage('typescript', typescript);
 
 type CustomCodeblocksOpts = {
   renderers: {
